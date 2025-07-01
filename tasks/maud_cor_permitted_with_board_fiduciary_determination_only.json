@@ -1,0 +1,90 @@
+{
+  "task_id": "maud_cor_permitted_with_board_fiduciary_determination_only",
+  "name": "maud_cor_permitted_with_board_fiduciary_determination_only",
+  "family": "LegalBench",
+  "short_description": "Evaluates if board can change recommendation to meet fiduciary duties in merger agreements.",
+  "long_description": "The task 'maud_cor_permitted_with_board_fiduciary_determination_only' measures the legal capability to interpret merger agreements, specifically regarding the permissibility of a board's change of recommendation based on fiduciary obligations. This task requires an understanding of corporate law principles, particularly the fiduciary duties of directors and the conditions under which they may alter their recommendations during a merger process. Participants must analyze a specific excerpt from a merger agreement and apply their legal reasoning to determine if the board's discretion is legally supported by its fiduciary responsibilities.\n\nThis task is crucial for evaluating legal AI systems as it tests their ability to navigate complex legal language and concepts inherent in corporate governance. Understanding fiduciary duty is fundamental in corporate law, as it governs the actions of directors and officers in making decisions that affect shareholders and other stakeholders. The ability to accurately interpret such provisions is essential for ensuring compliance with legal standards and protecting the interests of all parties involved in a merger. The task is part of a broader dataset designed to enhance the understanding of merger agreements, making it a valuable resource for training AI models in legal contexts.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 101,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "fiduciary duty",
+    "interpretation"
+  ],
+  "document_type": "merger agreement",
+  "min_input_length": 80,
+  "max_input_length": 1630,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

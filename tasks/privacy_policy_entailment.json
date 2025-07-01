@@ -1,0 +1,90 @@
+{
+  "task_id": "privacy_policy_entailment",
+  "name": "privacy_policy_entailment",
+  "family": "LegalBench",
+  "short_description": "Evaluates the correctness of descriptions of privacy policy clauses.",
+  "long_description": "The 'privacy_policy_entailment' task measures the capability to interpret and analyze privacy policy clauses in relation to their descriptions. This task specifically assesses whether a given description accurately reflects the content and intent of a clause within a privacy policy, which is crucial for understanding compliance with privacy regulations and user rights. Legal professionals and AI systems must possess the ability to discern subtle nuances in language to ensure that privacy policies are transparent and accurately represent the practices of organizations regarding user data.\n\nThis task requires legal reasoning focused on interpretation, where the AI must evaluate the alignment between the clause and its description. It necessitates a deep understanding of privacy law concepts, such as data collection practices, user consent, and the implications of non-compliance. Evaluating this task is vital for assessing the effectiveness of legal AI systems in real-world applications, as accurate interpretation of privacy policies is essential for protecting consumer rights and ensuring adherence to legal standards. The background knowledge of privacy laws and the ability to critically analyze legal language are fundamental skills that this task aims to measure.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 4343,
+  "tags": [
+    "LegalBench",
+    "data protection",
+    "interpretation",
+    "privacy law"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 5,
+  "max_input_length": 751,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[APP-350 Corpus](https://github.com/AbhilashaRavichander/PrivacyQA_EMNLP)",
+  "license": "[CC BY-NC 3.0](https://creativecommons.org/licenses/by-nc/3.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

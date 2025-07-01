@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_effective_date",
+  "name": "cuad_effective_date",
+  "family": "LegalBench",
+  "short_description": "Classifies if a clause specifies the agreement's effective date.",
+  "long_description": "The 'cuad_effective_date' task evaluates the ability to identify whether a contractual clause explicitly states the date on which an agreement becomes effective. This task measures the legal capability of interpreting contract language, focusing on the critical aspect of effective dates, which are essential for establishing when the obligations and rights under a contract commence. Understanding effective dates is fundamental in contract law, as they can significantly impact the enforcement and execution of contractual terms.\n\nThis task requires legal reasoning and analysis, specifically the interpretation of contractual language to determine if it meets the criteria for specifying an effective date. The model must discern relevant information from potentially complex legal text, distinguishing between clauses that do specify an effective date and those that do not. This task is vital for evaluating legal AI systems, as it tests their proficiency in understanding and processing legal documents, which is crucial for applications such as contract review, compliance checks, and legal research. The ability to accurately identify effective dates can prevent disputes and ensure that parties are aware of their rights and obligations from the outset of a contractual relationship.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 242,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "effective date",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 13,
+  "max_input_length": 662,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

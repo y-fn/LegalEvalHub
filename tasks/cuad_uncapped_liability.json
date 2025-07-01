@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_uncapped_liability",
+  "name": "cuad_uncapped_liability",
+  "family": "LegalBench",
+  "short_description": "Classifies if a contract clause specifies uncapped liability for breaches.",
+  "long_description": "The 'cuad_uncapped_liability' task evaluates the ability to identify contractual clauses that specify a party's liability is uncapped in the event of a breach. This includes specific breaches such as intellectual property infringement or violations of confidentiality obligations. The task measures the legal capability to interpret contractual language and discern the implications of liability limitations, which is crucial for understanding risk exposure in contractual agreements.\n\nThis task requires legal reasoning and analysis focused on interpretation, as it involves assessing the language of contracts to determine whether it explicitly states that liability is uncapped. Understanding these clauses is vital for legal professionals and AI systems alike, as uncapped liability can significantly impact the parties' obligations and potential financial exposure. Evaluating AI systems on this task is important to ensure they can accurately interpret and analyze complex legal texts, which is essential for effective legal practice and contract management.\n\nThe concept of uncapped liability is significant in contract law, as it pertains to how parties allocate risk and responsibility in their agreements. By accurately identifying such clauses, legal practitioners can better advise their clients on the implications of their contractual commitments and potential liabilities, making this task a fundamental aspect of legal contract review.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 300,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "liability"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 14,
+  "max_input_length": 475,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

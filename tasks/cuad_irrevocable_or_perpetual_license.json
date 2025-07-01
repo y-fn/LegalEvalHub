@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_irrevocable_or_perpetual_license",
+  "name": "cuad_irrevocable_or_perpetual_license",
+  "family": "LegalBench",
+  "short_description": "Classify if a clause specifies an irrevocable or perpetual license grant.",
+  "long_description": "The 'cuad_irrevocable_or_perpetual_license' task evaluates the capability to identify whether a contractual clause explicitly grants a license that is irrevocable or perpetual. This task measures the understanding of essential legal concepts related to licensing agreements, particularly the implications of irrevocability and perpetuity in contract law. It requires the ability to interpret legal language and discern the nuances that differentiate between various types of license grants, which is crucial for accurate legal analysis and contract review.\n\nLegal reasoning in this task involves careful interpretation of contractual language to determine the nature of the license being granted. The distinction between irrevocable and perpetual licenses can significantly impact the rights and obligations of the parties involved, making this task vital for assessing the performance of legal AI systems in real-world applications. Understanding these concepts is essential for legal practitioners, as it influences how contracts are negotiated and enforced, thereby affecting business operations and legal compliance.\n\nThis task is particularly important as it reflects the growing need for AI systems to assist in contract analysis, ensuring that legal professionals can efficiently identify critical terms and conditions in complex agreements. The ability to classify clauses accurately not only enhances the functionality of legal AI tools but also supports the broader goal of improving contract management and reducing legal risks in various industries.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 286,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "license grant"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 19,
+  "max_input_length": 732,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

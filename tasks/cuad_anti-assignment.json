@@ -1,0 +1,91 @@
+{
+  "task_id": "cuad_anti-assignment",
+  "name": "cuad_anti-assignment",
+  "family": "LegalBench",
+  "short_description": "Classifies if a contract clause requires consent for assignment to a third party.",
+  "long_description": "The 'cuad_anti-assignment' task evaluates the legal capability to identify whether a contractual clause mandates consent or notice from a party when a contract is assigned to a third party. This task focuses on the interpretation of anti-assignment clauses, which are critical in contract law as they dictate the conditions under which contractual rights and obligations can be transferred. Understanding these clauses is essential for ensuring that parties maintain control over who can assume their contractual responsibilities and rights, thereby protecting their interests in contractual relationships.\n\nThis task requires legal reasoning and analysis skills, particularly in the area of contract interpretation. Participants must discern the nuances of contractual language to determine if a clause explicitly requires consent or notice, which can significantly impact the enforceability of the contract. Evaluating such clauses is vital for legal AI systems, as it tests their ability to navigate complex legal texts and apply relevant legal principles accurately. The ability to classify these clauses correctly is essential for legal practitioners who rely on AI tools for contract review and compliance, making this task a key benchmark for assessing the effectiveness of AI in legal contexts.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1178,
+  "tags": [
+    "LegalBench",
+    "anti-assignment",
+    "contract law",
+    "interpretation",
+    "rule application"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 11,
+  "max_input_length": 988,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

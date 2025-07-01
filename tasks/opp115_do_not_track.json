@@ -1,0 +1,91 @@
+{
+  "task_id": "opp115_do_not_track",
+  "name": "opp115_do_not_track",
+  "family": "LegalBench",
+  "short_description": "Classifies privacy policy clauses on honoring Do Not Track signals.",
+  "long_description": "The 'opp115_do_not_track' task evaluates the capability of legal AI systems to interpret clauses from privacy policies specifically regarding the acknowledgment and handling of Do Not Track (DNT) signals in online tracking and advertising practices. This task measures the AI's understanding of privacy law and its application to digital consent mechanisms, which are crucial in the context of user privacy rights and data protection regulations. By determining whether a privacy policy clause explicitly states how DNT signals are honored, the task assesses the AI's ability to navigate complex legal language and concepts related to privacy protections.\n\nLegal reasoning required for this task involves interpretation, as the AI must discern the implications of the language used in privacy policies. This includes recognizing whether the clauses provide clear guidance on the company's practices regarding DNT signals, which can vary significantly across different organizations. The importance of this task lies in its relevance to ongoing discussions about consumer privacy, regulatory compliance, and the ethical use of personal data in the digital age. Understanding how well AI can classify these clauses is essential for ensuring that legal AI tools can effectively support compliance efforts and enhance transparency in privacy practices.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 118,
+  "tags": [
+    "Do Not Track",
+    "LegalBench",
+    "interpretation",
+    "privacy law",
+    "rule application"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 12,
+  "max_input_length": 335,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

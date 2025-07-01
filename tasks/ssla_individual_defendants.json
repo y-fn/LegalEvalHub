@@ -1,0 +1,91 @@
+{
+  "task_id": "ssla_individual_defendants",
+  "name": "ssla_plaintiff",
+  "family": "LegalBench",
+  "short_description": "Extract individual defendants from securities class action complaints.",
+  "long_description": "The 'ssla_individual_defendants' task evaluates the ability of legal AI systems to accurately extract the identities of individual defendants from excerpts of securities class action complaints. This task measures the AI's capability to interpret legal language and identify relevant parties involved in litigation, which is crucial for understanding the dynamics of securities fraud cases. The task focuses on the extraction of specific names, requiring the AI to discern context and relevance from potentially complex legal texts.\n\nLegal reasoning involved in this task primarily revolves around interpretation, as the AI must navigate through legal jargon and nuances to identify individual defendants accurately. This task is significant for evaluating legal AI systems because it tests their precision in handling real-world legal documents, which is essential for applications such as legal research, case preparation, and compliance monitoring. Understanding the identities of defendants in securities class actions is vital for assessing liability and accountability in financial markets, making this task not only a measure of technical capability but also of the AI's understanding of critical legal concepts in securities law.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1015,
+  "tags": [
+    "LegalBench",
+    "defendant identification",
+    "interpretation",
+    "rule application",
+    "securities law"
+  ],
+  "document_type": "legal text",
+  "min_input_length": 16,
+  "max_input_length": 1710,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[SSLA](https://sla.law.stanford.edu/)",
+  "license": "[CC by 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Extraction"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_price_restrictions",
+  "name": "cuad_price_restrictions",
+  "family": "LegalBench",
+  "short_description": "Classifies clauses that restrict pricing of goods, services, or technology.",
+  "long_description": "The 'cuad_price_restrictions' task evaluates the ability of legal AI systems to identify and classify contractual clauses that impose restrictions on the pricing of goods, services, or technology. This task specifically measures the AI's capability to interpret legal language and determine whether a clause limits a party's ability to raise or lower prices. Such analysis is crucial for understanding the implications of contractual agreements and ensuring compliance with relevant laws and regulations.\n\nLegal reasoning in this task involves the interpretation of contractual language, where the AI must discern the intent and effect of specific clauses. This requires a nuanced understanding of contract law principles, particularly those related to price control and market competition. Evaluating AI performance in this area is vital, as it reflects the system's proficiency in handling real-world legal documents, which can significantly impact business operations and legal compliance. The concepts of price restrictions are particularly relevant in contexts such as antitrust law and regulatory compliance, making this task a key benchmark for assessing the capabilities of legal AI systems in contract analysis.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 52,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "price restrictions"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 25,
+  "max_input_length": 280,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

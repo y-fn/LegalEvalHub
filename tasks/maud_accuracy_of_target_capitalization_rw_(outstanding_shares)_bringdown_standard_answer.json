@@ -1,0 +1,90 @@
+{
+  "task_id": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "name": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "family": "LegalBench",
+  "short_description": "Evaluates accuracy requirements for capitalization in merger agreements.",
+  "long_description": "This benchmark task measures the legal capability to interpret and analyze the accuracy of capitalization representations and warranties as stipulated in merger agreements. Specifically, it assesses the understanding of how these representations must align with the bring down provision, which is a critical aspect of ensuring that the parties involved in a merger are protected against inaccuracies in the stated capital structure. The task requires the legal reasoning skill of interpretation, as participants must discern the nuances between different accuracy standards presented in the multiple-choice options, such as 'accurate in all material respects' versus 'accurate in all respects'.\n\nEvaluating this task is essential for legal AI systems as it tests their ability to comprehend complex legal language and apply it to real-world scenarios, which is crucial for effective legal practice. The accuracy of capitalization representations is a fundamental component of merger agreements, impacting the valuation and risk assessment of the transaction. Understanding these concepts not only aids legal professionals in drafting and negotiating agreements but also enhances the reliability of AI systems in providing legal insights and recommendations.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 182,
+  "tags": [
+    "LegalBench",
+    "capitalization",
+    "corporate law",
+    "interpretation"
+  ],
+  "document_type": "merger agreement",
+  "min_input_length": 61,
+  "max_input_length": 675,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "4-way classification"
+}

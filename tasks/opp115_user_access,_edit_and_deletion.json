@@ -1,0 +1,90 @@
+{
+  "task_id": "opp115_user_access,_edit_and_deletion",
+  "name": "opp115_user_access,_edit_and_deletion",
+  "family": "LegalBench",
+  "short_description": "Evaluates user rights to access, edit, or delete information in privacy policies.",
+  "long_description": "The task 'opp115_user_access,_edit_and_deletion' measures the legal capability to interpret clauses within privacy policies that pertain to user rights regarding their personal information. Specifically, it assesses whether these clauses clearly articulate how users can access, edit, or delete their data. This evaluation is crucial for understanding compliance with privacy regulations, such as the GDPR or CCPA, which mandate transparency and user control over personal data. \n\nLegal reasoning required for this task involves careful interpretation of language and an understanding of privacy law principles. The ability to discern whether a clause adequately informs users of their rights is essential for ensuring that legal AI systems can effectively analyze and classify privacy policies. This task is important as it contributes to the broader goal of enhancing user awareness and protection in the digital landscape, ensuring that individuals are empowered to manage their personal information effectively. \n\nThe background of this task is rooted in the increasing emphasis on user privacy and data protection in legal frameworks worldwide. As organizations collect and process vast amounts of personal data, the clarity of privacy policies becomes paramount. This task not only aids in evaluating the effectiveness of legal AI systems but also supports ongoing efforts to improve privacy practices across various sectors.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 470,
+  "tags": [
+    "LegalBench",
+    "interpretation",
+    "privacy law",
+    "user rights"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 10,
+  "max_input_length": 284,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

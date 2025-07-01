@@ -1,0 +1,91 @@
+{
+  "task_id": "learned_hands_estates",
+  "name": "learned_hands_estates",
+  "family": "LegalBench",
+  "short_description": "Classifies user posts regarding legal issues related to estate planning.",
+  "long_description": "The 'learned_hands_estates' task evaluates the ability to identify legal issues concerning estate planning, including topics such as wills, powers of attorney, advance directives, trusts, and guardianships. This task measures the capability to spot relevant legal issues that arise when individuals prepare for end-of-life scenarios or potential incapacitation, which are critical aspects of estate law. The classification is binary, determining whether a user post implicates these legal concepts or not.\n\nThis task requires issue-spotting legal reasoning, where the AI must analyze user-generated content to discern whether it discusses pertinent estate planning matters. Evaluating AI systems on this task is crucial as it reflects their proficiency in understanding complex legal topics that affect individuals' rights and responsibilities regarding their property and health decisions. The legal concepts involved are foundational to estate law and are essential for ensuring that individuals can make informed decisions about their future and the management of their assets.\n\nBy effectively categorizing discussions related to estate planning, AI systems can provide better support to users seeking legal guidance, ultimately enhancing access to legal resources and improving the quality of assistance provided in sensitive situations involving estate management.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 184,
+  "tags": [
+    "LegalBench",
+    "estate law",
+    "issue spotting",
+    "issue-spotting",
+    "wills"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 40,
+  "max_input_length": 2341,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

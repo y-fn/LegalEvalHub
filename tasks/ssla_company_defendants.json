@@ -1,0 +1,91 @@
+{
+  "task_id": "ssla_company_defendants",
+  "name": "ssla_plaintiff",
+  "family": "LegalBench",
+  "short_description": "Extract company defendants from securities class action complaint excerpts.",
+  "long_description": "The 'ssla_company_defendants' task evaluates the ability of legal AI systems to accurately extract the identities of company defendants from excerpts of securities class action complaints. This task measures the AI's proficiency in interpreting legal texts and recognizing relevant entities within the context of securities litigation. It specifically focuses on the identification of corporate entities named as defendants, which is crucial for understanding the parties involved in legal actions related to securities fraud or violations of securities laws.\n\nEffective performance in this task requires advanced legal reasoning and analysis, particularly in the area of interpretation. The AI must discern the context of the complaint excerpts and accurately match the extracted names to the ground truth, employing techniques such as fuzzy string matching to ensure high accuracy. This task is significant for evaluating legal AI systems because it reflects their capability to handle complex legal documents, which is essential for tasks like legal research, case preparation, and compliance monitoring. Understanding the identities of defendants in securities class actions is vital for legal practitioners, as it informs strategy and potential outcomes in litigation.\n\nSecurities class actions are a critical aspect of corporate law, addressing issues of accountability and investor protection. By focusing on the extraction of company defendants, this task highlights the intersection of corporate law and securities regulation, emphasizing the importance of precise legal knowledge and the ability to interpret legal language effectively. The successful completion of this task demonstrates an AI system's readiness for practical applications in the legal field, particularly in areas involving corporate governance and compliance with securities laws.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1231,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "interpretation",
+    "rule application",
+    "securities law"
+  ],
+  "document_type": "legal text",
+  "min_input_length": 16,
+  "max_input_length": 1710,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[SSLA](https://sla.law.stanford.edu/)",
+  "license": "[CC by 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Extraction"
+}

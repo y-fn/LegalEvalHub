@@ -1,0 +1,91 @@
+{
+  "task_id": "jcrew_blocker",
+  "name": "jcrew_blocker",
+  "family": "LegalBench",
+  "short_description": "Classify clauses in loan agreements as J.Crew blocker provisions.",
+  "long_description": "The 'jcrew_blocker' task evaluates the ability to identify specific provisions in loan agreements that function as J.Crew blockers. These provisions are crucial in leveraged loan documents as they prevent borrowers from transferring valuable intellectual property (IP) to unrestricted subsidiaries, which could jeopardize the collateral pool for lenders. The task measures the legal knowledge necessary to interpret the language of these provisions and understand their implications for both borrowers and lenders in the context of secured financing.\n\nParticipants in this task must engage in legal reasoning and analysis, particularly focusing on the interpretation of contractual language and the application of specific legal concepts related to collateral and asset protection. The J.Crew Blocker provision emerged from a significant legal precedent involving the company J.Crew, which exploited loopholes in its credit facility to transfer IP, prompting lenders to adopt more stringent protective measures. This task is vital for assessing the effectiveness of legal AI systems in recognizing and classifying critical legal provisions that safeguard lender interests in complex financial transactions.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 60,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "intellectual property",
+    "interpretation",
+    "rule application"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 48,
+  "max_input_length": 1090,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Enam Hoque",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

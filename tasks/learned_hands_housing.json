@@ -1,0 +1,91 @@
+{
+  "task_id": "learned_hands_housing",
+  "name": "learned_hands_housing",
+  "family": "LegalBench",
+  "short_description": "Classifies user posts for legal issues related to housing matters.",
+  "long_description": "The 'learned_hands_housing' task evaluates the ability of AI systems to identify and classify user-generated content that implicates legal issues surrounding housing. This includes a range of topics such as rent or mortgage payment concerns, landlord-tenant disputes, housing subsidies, public housing, eviction processes, and various problems related to residential properties. The task specifically measures the AI's proficiency in issue-spotting, which is crucial for understanding the legal context of user inquiries and providing appropriate guidance or resources.\n\nThis task requires nuanced legal reasoning and analysis, as it involves distinguishing between posts that genuinely raise legal issues and those that do not. The AI must effectively parse through the language used in user posts to detect relevant legal terms and concepts, demonstrating its understanding of housing law. Evaluating AI systems through this task is vital, as it helps ensure that legal technology can accurately assist individuals facing housing-related challenges, thereby promoting access to justice and informed decision-making in legal matters.\n\nThe underlying legal concepts include landlord-tenant law, which governs the rights and responsibilities of both parties in a rental agreement, as well as broader housing law that encompasses issues like eviction processes and housing assistance programs. By focusing on these critical areas, the 'learned_hands_housing' task not only assesses technical capabilities but also contributes to the development of AI tools that can effectively support users in navigating complex legal landscapes related to housing.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 4500,
+  "tags": [
+    "LegalBench",
+    "housing law",
+    "issue spotting",
+    "issue-spotting",
+    "landlord-tenant issues"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 17,
+  "max_input_length": 4849,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

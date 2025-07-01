@@ -1,0 +1,90 @@
+{
+  "task_id": "opp115_data_security",
+  "name": "opp115_data_security",
+  "family": "LegalBench",
+  "short_description": "Classify privacy policy clauses on user information protection.",
+  "long_description": "The 'opp115_data_security' task evaluates the capability of legal AI systems to interpret and classify clauses from privacy policies, specifically determining whether these clauses adequately describe the protection of user information. This task measures the AI's understanding of privacy law concepts and its ability to discern the nuances in legal language that indicate compliance with data protection standards.\n\nTo successfully complete this task, the AI must engage in legal reasoning that involves interpretation of legal texts, focusing on the specific language used in privacy policies. The binary classification requires the AI to analyze whether the clauses provide clear information on how user data is safeguarded, which is crucial for ensuring transparency and accountability in data handling practices. This task is significant for evaluating legal AI systems as it addresses the growing importance of data security in the digital age, where users are increasingly concerned about their privacy rights.\n\nPrivacy policies are foundational documents that outline how organizations collect, use, and protect personal information. Understanding these clauses is essential not only for compliance with regulations such as the GDPR but also for fostering trust between users and organizations. By assessing the AI's performance on this task, developers can gauge its effectiveness in navigating complex legal frameworks surrounding data security and privacy.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1342,
+  "tags": [
+    "LegalBench",
+    "data protection",
+    "interpretation",
+    "privacy law"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 10,
+  "max_input_length": 406,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

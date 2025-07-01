@@ -1,0 +1,91 @@
+{
+  "task_id": "function_of_decision_section",
+  "name": "function_of_decision_section",
+  "family": "LegalBench",
+  "short_description": "Classifies sections of judicial opinions by their functional roles.",
+  "long_description": "The 'function_of_decision_section' task evaluates the ability to identify and classify the distinct functions of various sections within judicial opinions. This task measures a critical legal capability, specifically the understanding of how different parts of a court decision contribute to the overall reasoning and outcome of a case. It requires legal reasoning and analysis skills, particularly rhetorical analysis, as participants must discern the purpose of each paragraph in relation to the legal narrative being presented. This skill is essential for lawyers, especially those in training, as it enhances their comprehension of judicial reasoning and improves their ability to engage with case law effectively.\n\nUnderstanding the function of different sections—such as Facts, Procedural History, Issue, Rule, Analysis, Conclusion, and Decree—enables legal professionals to navigate complex legal texts and extract pertinent information efficiently. This task is vital for evaluating legal AI systems, as it tests their ability to replicate a fundamental aspect of legal analysis that practitioners must perform routinely. By training AI to classify these sections accurately, we can enhance its utility in legal research and case preparation, ultimately supporting lawyers in their work and improving access to legal information.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 374,
+  "tags": [
+    "LegalBench",
+    "judicial opinion",
+    "legal reasoning",
+    "rhetorical analysis",
+    "rhetorical understanding"
+  ],
+  "document_type": "judicial opinion",
+  "min_input_length": 6,
+  "max_input_length": 704,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Gregory M. Dickinson",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "7-way classification"
+}

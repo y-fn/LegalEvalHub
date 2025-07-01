@@ -1,0 +1,91 @@
+{
+  "task_id": "scalr",
+  "name": "scalr",
+  "family": "LegalBench",
+  "short_description": "Evaluates legal reasoning by identifying correct Supreme Court case holdings.",
+  "long_description": "The SCALR benchmark task assesses the ability of legal AI systems to comprehend and analyze legal language by presenting a legal question related to a Supreme Court case and requiring the identification of the correct holding statement from a set of candidates. This task specifically measures the understanding of legal reasoning and reading comprehension, focusing on the ability to discern the core holding of a case rather than merely recalling legal knowledge. It challenges AI models to engage in rhetorical analysis, evaluating how well they can interpret the nuances of legal language and apply that understanding to specific legal queries.\n\nThis task is crucial for evaluating the performance of legal AI systems, as it reflects their capability to navigate complex legal texts and extract relevant information. By focusing on Supreme Court cases from the 2001 Term onward, SCALR ensures that the questions presented are grounded in contemporary legal contexts. The task's design emphasizes the importance of understanding legal principles and the ability to apply them in practice, making it a valuable benchmark for assessing the effectiveness of AI in legal reasoning and analysis. The SCALR dataset, which includes 571 multiple-choice questions, provides a robust framework for testing and improving the capabilities of AI models in the legal domain.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 571,
+  "tags": [
+    "LegalBench",
+    "case law",
+    "constitutional law",
+    "legal reasoning",
+    "rhetorical understanding"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 20,
+  "max_input_length": 698,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[SCALR](https://github.com/lexeme-dev/scalr)",
+  "license": "[CC by 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "5-way classification"
+}

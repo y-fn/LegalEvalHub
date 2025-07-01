@@ -1,0 +1,91 @@
+{
+  "task_id": "learned_hands_benefits",
+  "name": "learned_hands_benefits",
+  "family": "LegalBench",
+  "short_description": "Classify user posts discussing legal issues related to public benefits.",
+  "long_description": "The 'learned_hands_benefits' task evaluates the ability to identify legal issues pertaining to public benefits and social services provided by the government. This includes a range of support mechanisms such as food assistance, disability benefits, housing aid, medical help, unemployment support, child care, and other social needs. The task requires the model to effectively spot these issues within user-generated content, determining whether the post relates to these specific legal topics or not.\n\nThis task is crucial for assessing the capabilities of legal AI systems in issue-spotting, a fundamental aspect of legal reasoning. By accurately classifying posts that discuss public benefits, AI models can assist legal practitioners and individuals seeking information about their rights and available services. Understanding the nuances of social welfare law is essential, as it encompasses various legal principles and regulations that govern access to these benefits. The ability to discern relevant legal discussions from unrelated topics enhances the effectiveness of AI in providing legal assistance and guidance.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 72,
+  "tags": [
+    "LegalBench",
+    "issue spotting",
+    "issue-spotting",
+    "public benefits",
+    "social services"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 56,
+  "max_input_length": 1110,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

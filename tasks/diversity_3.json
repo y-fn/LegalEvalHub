@@ -1,0 +1,91 @@
+{
+  "task_id": "diversity_3",
+  "name": "diversity_3",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of diversity jurisdiction in federal court cases.",
+  "long_description": "The 'diversity_3' task measures the legal capability to assess whether the criteria for diversity jurisdiction are satisfied in a federal court context. Specifically, it focuses on determining if there is complete diversity between the parties involved—plaintiffs and defendants—and whether the amount-in-controversy exceeds the statutory threshold of $75,000. This task requires a nuanced understanding of the legal principles surrounding diversity jurisdiction, including the definitions of citizenship, the aggregation of claims, and the implications of state law claims in federal court settings.\n\nLegal reasoning in this task involves rule application and rule conclusion, where the evaluator must analyze a provided fact pattern that includes the citizenships of the parties and the amounts associated with their claims. The importance of this task lies in its ability to evaluate legal AI systems on their proficiency in applying complex jurisdictional rules, which is critical for ensuring that cases are properly adjudicated in the appropriate court. Understanding diversity jurisdiction is fundamental for legal practitioners, as it affects the strategic decisions made in litigation, including the choice of forum and potential outcomes based on jurisdictional nuances.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 306,
+  "tags": [
+    "LegalBench",
+    "civil procedure",
+    "diversity jurisdiction",
+    "rule application",
+    "rule conclusion"
+  ],
+  "document_type": "fact pattern",
+  "min_input_length": 38,
+  "max_input_length": 54,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Neel Guha",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rule-application/Rule-conclusion",
+  "task_type": "Binary classification"
+}

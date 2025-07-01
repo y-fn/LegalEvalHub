@@ -1,0 +1,91 @@
+{
+  "task_id": "maud_fiduciary_exception_board_determination_trigger_(no_shop)",
+  "name": "maud_fiduciary_exception:_board_determination_trigger_(no_shop)",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of board actions under no-shop provisions in merger agreements.",
+  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on the board's ability to take actions regarding offers despite the presence of a no-shop provision. It requires knowledge of corporate law and fiduciary duties, particularly how these duties interact with contractual obligations in merger scenarios. The task assesses the ability to discern between different types of offers that may trigger board actions, such as distinguishing between a standard acquisition proposal and a superior offer that could lead to a more favorable outcome for shareholders.\n\nLegal reasoning in this task involves interpretation of contractual language and understanding of the implications of no-shop clauses, which typically prevent a company from soliciting other offers during a merger process. This task is crucial for evaluating legal AI systems as it tests their ability to navigate complex legal texts and apply relevant legal principles to specific scenarios. Understanding these nuances is vital for legal practitioners and AI systems alike, as it directly impacts decision-making in corporate transactions and the fiduciary responsibilities of boards of directors.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 180,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "fiduciary duty",
+    "interpretation",
+    "rule application"
+  ],
+  "document_type": "merger agreement",
+  "min_input_length": 142,
+  "max_input_length": 786,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

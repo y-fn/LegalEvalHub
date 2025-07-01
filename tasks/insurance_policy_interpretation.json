@@ -1,0 +1,91 @@
+{
+  "task_id": "insurance_policy_interpretation",
+  "name": "insurance_policy_interpretation",
+  "family": "LegalBench",
+  "short_description": "Evaluates interpretation of insurance policy coverage for claims.",
+  "long_description": "The 'insurance_policy_interpretation' task measures the capability to interpret and analyze insurance policies in relation to specific claims. This task requires legal reasoning focused on the interpretation of contractual language, assessing whether the terms of an insurance policy cover a given claim or if the coverage is ambiguous. Participants must apply their understanding of insurance law and policy language nuances to arrive at a conclusion, which can significantly impact the outcomes for claimants and insurers alike.\n\nThis task is crucial for evaluating legal AI systems as it tests their ability to navigate complex legal texts and apply relevant legal principles in a practical context. Understanding insurance policies involves familiarity with concepts such as coverage limits, exclusions, and conditions, which are essential for determining the validity of claims. By accurately interpreting these documents, AI systems can assist in automating claims processing, improving efficiency, and reducing disputes in the insurance industry.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 138,
+  "tags": [
+    "LegalBench",
+    "contract interpretation",
+    "insurance law",
+    "interpretation",
+    "rule application"
+  ],
+  "document_type": "legal text",
+  "min_input_length": 36,
+  "max_input_length": 128,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Vague Contracts](https://github.com/madiganbrodsky/vague_contracts)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "3-way classification"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "supply_chain_disclosure_disclosed_certification",
+  "name": "supply_chain_disclosure_disclosed_certification",
+  "family": "LegalBench",
+  "short_description": "Evaluates disclosure of supplier certification on slavery and human trafficking compliance.",
+  "long_description": "The 'supply_chain_disclosure_disclosed_certification' task measures the legal capability to interpret supply chain disclosures regarding compliance with laws on slavery and human trafficking. Specifically, it assesses whether a retail seller or manufacturer requires their direct suppliers to certify that the materials used in their products adhere to relevant legal standards in the jurisdictions where they operate. This task requires a nuanced understanding of corporate responsibility, supply chain management, and the legal frameworks governing human rights in business practices.\n\nLegal reasoning in this task involves the interpretation of statutory requirements and corporate disclosures, necessitating a careful analysis of the language used in the supply chain disclosure statements. Evaluating these disclosures is crucial for legal AI systems, as it tests their ability to comprehend and apply legal standards in real-world contexts, particularly in relation to ethical sourcing and compliance with anti-trafficking laws. This task reflects the growing importance of corporate transparency and accountability in supply chains, especially in light of increasing regulatory scrutiny and consumer demand for ethical business practices.\n\nUnderstanding the legal concepts involved, such as the obligations under anti-slavery laws and the implications of non-compliance, is essential for accurately assessing the disclosures. This task not only contributes to the development of AI systems capable of performing legal analysis but also promotes awareness of human rights issues within corporate supply chains.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 386,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "human trafficking",
+    "interpretation"
+  ],
+  "document_type": "disclosure statement",
+  "min_input_length": 107,
+  "max_input_length": 5764,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Adam Chilton & Galit Sarfaty",
+  "license": "[CC by 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

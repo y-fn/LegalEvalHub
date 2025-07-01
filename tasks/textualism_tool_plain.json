@@ -1,0 +1,91 @@
+{
+  "task_id": "textualism_tool_plain",
+  "name": "textualism_tool_plain",
+  "family": "LegalBench",
+  "short_description": "Evaluates the application of plain meaning in judicial opinions on statutes.",
+  "long_description": "The 'textualism_tool_plain' task measures the capability of legal AI systems to identify and classify judicial interpretations that utilize a textualist approach, specifically focusing on the ordinary or 'plain' meaning of statutory language. This task requires the AI to analyze excerpts from judicial opinions and determine whether they explicitly reference or apply the principle of plain meaning in their reasoning. By doing so, the task assesses the AI's understanding of how courts interpret statutes and the significance of textualism in legal analysis.\n\nLegal reasoning in this task involves rhetorical analysis, as the AI must discern not only the presence of plain meaning but also the context in which it is applied. This includes evaluating whether the judicial opinion cites plain meaning as a guiding principle or applies it directly to the facts of the case. The importance of this task lies in its ability to evaluate the effectiveness of legal AI systems in mimicking judicial reasoning, particularly in how they interpret statutory language—a fundamental aspect of legal practice that impacts case outcomes and legal certainty. Understanding textualism is crucial for legal practitioners, as it influences statutory interpretation and the application of law in various contexts.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 169,
+  "tags": [
+    "LegalBench",
+    "legal reasoning",
+    "rhetorical understanding",
+    "statutory interpretation",
+    "textualism"
+  ],
+  "document_type": "judicial opinion",
+  "min_input_length": 29,
+  "max_input_length": 874,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Austin Peters",
+  "license": "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "Binary classification"
+}

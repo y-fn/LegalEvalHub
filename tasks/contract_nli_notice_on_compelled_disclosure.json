@@ -1,0 +1,90 @@
+{
+  "task_id": "contract_nli_notice_on_compelled_disclosure",
+  "name": "contract_nli_Notice on compelled disclosure",
+  "family": "LegalBench",
+  "short_description": "Evaluates notification clauses in NDAs regarding compelled disclosure of information.",
+  "long_description": "The 'contract_nli_notice_on_compelled_disclosure' task measures the legal capability to interpret non-disclosure agreement (NDA) clauses that pertain to the obligation of the Receiving Party to notify the Disclosing Party when compelled by legal requirements to disclose Confidential Information. This task specifically focuses on understanding the implications of contractual language in the context of compliance with laws, regulations, or judicial processes, which is critical in maintaining the integrity of confidential relationships in legal and business settings.\n\nLegal reasoning required for this task involves interpretation and analysis of contract clauses to determine whether they explicitly state the obligation to notify the Disclosing Party. This binary classification task necessitates a nuanced understanding of contract law principles, particularly those related to confidentiality and disclosure obligations. Evaluating such clauses is essential for assessing the performance of legal AI systems, as it reflects their ability to comprehend and apply legal standards in real-world scenarios. The task underscores the importance of precise language in contracts and the potential legal ramifications of failing to adhere to notification requirements when compelled by external forces.\n\nIn the context of NDAs, compelled disclosure clauses are vital for protecting sensitive information while ensuring compliance with legal obligations. This task is part of the broader ContractNLI dataset, which aims to enhance the understanding of contractual language and its implications, thereby contributing to the development of AI systems capable of navigating complex legal documents effectively.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 150,
+  "tags": [
+    "LegalBench",
+    "confidentiality",
+    "contract law",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 16,
+  "max_input_length": 435,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[ContractNLI](https://stanfordnlp.github.io/contract-nli/)",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "learned_hands_domestic_violence",
+  "name": "learned_hands_domestic_violence",
+  "family": "LegalBench",
+  "short_description": "Classifies user posts related to domestic violence legal issues.",
+  "long_description": "The 'learned_hands_domestic_violence' task evaluates the capability of legal AI systems to identify and classify user-generated content that discusses legal issues surrounding domestic violence. This includes recognizing posts that mention topics such as protective orders, enforcement of these orders, understanding the nuances of abuse, reporting mechanisms, and available resources for victims. By focusing on these specific legal aspects, the task measures the AI's ability to apply legal knowledge in a practical context, ensuring that it can effectively assist users seeking legal guidance in sensitive situations.\n\nThis task requires issue-spotting legal reasoning, where the AI must discern whether a post implicates legal concerns related to domestic violence. This involves not only understanding the terminology and legal frameworks associated with domestic violence but also the emotional and psychological dimensions that may influence how individuals discuss their experiences online. Evaluating AI systems on this task is crucial, as it helps ensure that they can provide accurate and relevant support to users in distressing circumstances, ultimately contributing to better access to justice for victims of domestic violence. The underlying legal concepts include the rights of victims, the legal definitions of abuse, and the procedural aspects of obtaining protective measures, all of which are vital for effective legal assistance in this area.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 180,
+  "tags": [
+    "LegalBench",
+    "domestic violence",
+    "family law",
+    "issue spotting"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 20,
+  "max_input_length": 2283,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

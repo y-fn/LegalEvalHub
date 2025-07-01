@@ -1,0 +1,91 @@
+{
+  "task_id": "sara_entailment",
+  "name": "sara_entailment",
+  "family": "LegalBench",
+  "short_description": "Evaluates entailment between statutes and fact patterns in US federal tax law.",
+  "long_description": "The 'sara_entailment' task measures the ability to determine whether a specific assertion is logically entailed by a combination of a statute and a fact pattern, specifically within the context of US federal tax law. This task assesses the legal capability to interpret statutory language and apply it to factual scenarios, requiring a nuanced understanding of how legal principles are articulated in statutes and how they relate to real-world situations. Participants must analyze the provided legal text and fact summaries to ascertain the validity of assertions based on statutory provisions.\n\nThis task is crucial for evaluating legal AI systems as it tests their proficiency in statutory interpretation and reasoning, which are foundational skills for legal practitioners. By focusing on entailment, the task highlights the importance of logical reasoning in legal contexts, where the relationship between laws and facts can significantly impact legal outcomes. The SARA dataset, which serves as the basis for this task, presents a structured approach to statutory reasoning, enabling the assessment of AI models in their ability to navigate complex legal texts and apply them to specific cases effectively.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 276,
+  "tags": [
+    "LegalBench",
+    "interpretation",
+    "legal reasoning",
+    "statutory interpretation",
+    "tax law"
+  ],
+  "document_type": "legal text",
+  "min_input_length": 59,
+  "max_input_length": 314,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "<https://nlp.jhu.edu/law/>",
+  "license": "MIT",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

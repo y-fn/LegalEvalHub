@@ -1,0 +1,90 @@
+{
+  "task_id": "contract_nli_inclusion_of_verbally_conveyed_information",
+  "name": "contract_nli_inclusion_of_verbally_conveyed_information",
+  "family": "LegalBench",
+  "short_description": "Evaluates if NDA clauses include verbally conveyed Confidential Information.",
+  "long_description": "The task 'contract_nli_inclusion_of_verbally_conveyed_information' measures the capability to interpret legal clauses in Non-Disclosure Agreements (NDAs) regarding the inclusion of verbally conveyed information as Confidential Information. This task specifically assesses the understanding of how verbal communications are treated under contract law, particularly in the context of confidentiality obligations. It requires the evaluator to discern whether the language of a clause explicitly encompasses information conveyed verbally, which is critical for determining the scope of confidentiality protections in legal agreements.\n\nLegal reasoning involved in this task primarily revolves around interpretation. Evaluators must analyze the wording of contract clauses to ascertain whether they imply or explicitly state that verbally communicated information falls under the definition of Confidential Information. This task is important for evaluating legal AI systems because it tests their ability to understand nuanced legal language and apply legal principles accurately, which is essential for ensuring compliance and protecting sensitive information in legal practice. The task also highlights the significance of clear communication in contracts, as ambiguities can lead to disputes over the enforceability of confidentiality provisions.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 147,
+  "tags": [
+    "LegalBench",
+    "confidentiality",
+    "contract law",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 20,
+  "max_input_length": 401,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[ContractNLI](https://stanfordnlp.github.io/contract-nli/)",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

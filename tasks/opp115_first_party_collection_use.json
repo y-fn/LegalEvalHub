@@ -1,0 +1,90 @@
+{
+  "task_id": "opp115_first_party_collection_use",
+  "name": "opp115_first_party_collection_use",
+  "family": "LegalBench",
+  "short_description": "Classify clauses on how and why user information is collected in privacy policies.",
+  "long_description": "The 'opp115_first_party_collection_use' task evaluates the ability to interpret and classify clauses from privacy policies regarding the collection of user information by service providers. Specifically, it measures the legal capability to discern whether a given clause articulates the methods and reasons for information collection, which is critical for understanding compliance with privacy regulations and user rights. This task requires a nuanced understanding of privacy law principles and the implications of data collection practices on user privacy.\n\nLegal reasoning in this task involves interpretation, as participants must analyze the language of privacy policy clauses to determine their compliance with legal standards and user expectations. This task is significant for evaluating legal AI systems because it tests their ability to navigate complex legal texts and extract relevant information that impacts user privacy rights. Given the increasing importance of data protection laws, such as the GDPR and CCPA, this task reflects the necessity for legal AI to accurately assess privacy policies, ensuring that they align with legal obligations and ethical standards surrounding user data collection and usage.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 2094,
+  "tags": [
+    "LegalBench",
+    "data protection",
+    "interpretation",
+    "privacy law"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 10,
+  "max_input_length": 335,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

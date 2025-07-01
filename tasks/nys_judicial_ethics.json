@@ -1,0 +1,90 @@
+{
+  "task_id": "nys_judicial_ethics",
+  "name": "nys_judicial_ethics",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of judicial ethics through Yes/No questions.",
+  "long_description": "The 'nys_judicial_ethics' task measures the capability to apply ethical rules relevant to judicial conduct as outlined by the New York State Unified Court System Advisory Committee. This task specifically assesses the ability to recall and apply established ethical standards in various judicial scenarios, requiring participants to evaluate whether specific situations align with these standards. The task is structured as a binary classification, where respondents must determine the appropriateness of actions based on ethical guidelines, thus testing their comprehension of judicial ethics in practice.\n\nThis task is crucial for evaluating legal AI systems as it reflects the practical application of ethical reasoning in the judiciary, an area where adherence to ethical standards is paramount. By reformulating real ethical scenarios into Yes/No questions, the task not only assesses the AI's ability to recall rules but also its understanding of nuanced ethical dilemmas that judges may face. The dataset includes rulings from multiple years, ensuring a comprehensive evaluation of ethical standards over time, and highlights the importance of ongoing education and adherence to ethical principles within the legal profession.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 300,
+  "tags": [
+    "LegalBench",
+    "judicial ethics",
+    "legal knowledge",
+    "rule application"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 14,
+  "max_input_length": 97,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Peter Henderson",
+  "license": "MIT",
+  "legal_reasoning_type": "Rule-recall",
+  "task_type": "Binary classification"
+}

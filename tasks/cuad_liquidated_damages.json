@@ -1,0 +1,91 @@
+{
+  "task_id": "cuad_liquidated_damages",
+  "name": "cuad_liquidated_damages",
+  "family": "LegalBench",
+  "short_description": "Classifies clauses awarding liquidated damages or termination fees in contracts.",
+  "long_description": "The 'cuad_liquidated_damages' task evaluates the ability to identify and classify contractual clauses that specify the awarding of liquidated damages for breach of contract or a termination fee. This task measures the legal capability of interpreting contract language and understanding the implications of such clauses within the context of contract law. Liquidated damages are predetermined amounts agreed upon by the parties to a contract, intended to serve as compensation for potential breaches, while termination fees are penalties imposed when a contract is terminated early. Understanding these concepts is crucial for legal practitioners who must navigate contract negotiations and disputes effectively.\n\nThis binary classification task requires nuanced legal reasoning and analysis, as it involves distinguishing between clauses that explicitly provide for liquidated damages or termination fees and those that do not. The importance of this task lies in its relevance to evaluating legal AI systems, as it tests the system's ability to comprehend and interpret complex legal language, which is essential for automating contract review processes. As contracts often contain intricate provisions, the ability to accurately classify these clauses can significantly impact legal outcomes and business decisions.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 226,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "liquidated damages",
+    "rule application"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 16,
+  "max_input_length": 552,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_termination_for_convenience",
+  "name": "cuad_termination_for_convenience",
+  "family": "LegalBench",
+  "short_description": "Classifies clauses allowing termination of contracts without cause.",
+  "long_description": "The 'cuad_termination_for_convenience' task evaluates the ability to identify and classify contractual clauses that permit one party to terminate a contract without cause, simply by providing notice and allowing a waiting period to elapse. This task measures the legal capability of interpreting contract language, specifically focusing on the nuances of termination rights within contractual agreements. Understanding these clauses is crucial for legal practitioners, as they can significantly impact the rights and obligations of the parties involved in a contract.\n\nThis task requires legal reasoning and analysis, particularly in the interpretation of contract terms. Participants must discern whether the language used in a clause explicitly grants the right to terminate without cause, which involves a careful examination of the wording and context of the clause. Evaluating such clauses is important for assessing legal AI systems, as it reflects their ability to navigate complex legal texts and provide accurate interpretations that can influence decision-making in legal practice. The concept of 'termination for convenience' is a common feature in contracts, often included to provide flexibility to parties, making it essential for AI systems to accurately identify and classify these provisions to support effective contract management and compliance.\n\nThe task is grounded in the broader context of contract law, where termination rights can vary significantly based on the specific language used in agreements. By focusing on this particular aspect, the task contributes to the development of AI tools that can assist legal professionals in contract review and analysis, ultimately enhancing efficiency and accuracy in legal workflows.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 436,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "termination for convenience"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 15,
+  "max_input_length": 568,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

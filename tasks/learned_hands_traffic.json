@@ -1,0 +1,91 @@
+{
+  "task_id": "learned_hands_traffic",
+  "name": "learned_hands_traffic",
+  "family": "LegalBench",
+  "short_description": "Classifies user posts related to traffic and parking legal issues.",
+  "long_description": "The 'learned_hands_traffic' task evaluates the capability of legal AI systems to identify and classify user-generated content that implicates legal issues related to traffic. This includes problems with traffic and parking tickets, driver's licenses, and other interactions with the traffic system, as well as issues stemming from car accidents, injuries, vehicle quality, repairs, purchases, and related contracts. The task focuses on issue-spotting, requiring the AI to discern relevant legal topics from potentially unrelated content.\n\nThis task is critical for assessing the effectiveness of AI in legal contexts, particularly in understanding how well it can navigate the complexities of traffic law and related legal matters. By accurately classifying user posts, AI systems can assist in providing relevant legal information and resources, thereby enhancing access to justice for individuals facing traffic-related legal challenges. The background legal concepts involved include various aspects of traffic regulations, liability in accidents, and consumer rights related to vehicle transactions, all of which are essential for a comprehensive understanding of traffic law.\n\nThrough this binary classification task, legal AI systems can be evaluated on their ability to apply legal knowledge and reasoning to real-world scenarios, ensuring they can effectively support users in navigating legal issues that arise in everyday life.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 562,
+  "tags": [
+    "LegalBench",
+    "issue spotting",
+    "issue-spotting",
+    "legal knowledge",
+    "traffic law"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 31,
+  "max_input_length": 2700,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_third_party_beneficiary",
+  "name": "cuad_third_party_beneficiary",
+  "family": "LegalBench",
+  "short_description": "Classifies clauses identifying third-party beneficiaries in contracts.",
+  "long_description": "The 'cuad_third_party_beneficiary' task evaluates the legal capability to identify and classify clauses in contracts that specify the existence of non-contracting parties who are beneficiaries. This task requires an understanding of contract law, particularly the principles surrounding third-party beneficiaries, which allow individuals or entities not directly involved in a contract to enforce rights under that contract. Legal reasoning in this context involves interpreting the language of contractual clauses to determine whether they explicitly grant rights to third parties, thus impacting the enforceability of those rights against the contracting parties.\n\nThis task is crucial for assessing the effectiveness of legal AI systems in contract analysis, as it tests their ability to interpret nuanced legal language and apply relevant legal principles. The concept of third-party beneficiaries is significant in contract law, as it can influence the obligations and rights of the parties involved, and understanding this can help prevent disputes and ensure that the intentions of the contracting parties are honored. By accurately classifying these clauses, AI systems can enhance contract review processes, making them more efficient and reliable.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 74,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "third party beneficiary"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 17,
+  "max_input_length": 181,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

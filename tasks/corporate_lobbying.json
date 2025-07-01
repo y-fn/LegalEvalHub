@@ -1,0 +1,91 @@
+{
+  "task_id": "corporate_lobbying",
+  "name": "corporate_lobbying",
+  "family": "LegalBench",
+  "short_description": "Evaluates relevance of proposed bills to companies based on SEC filings.",
+  "long_description": "The Corporate Lobbying task measures the ability of legal AI systems to assess the relevance of proposed Congressional bills to specific companies by analyzing the companies' self-descriptions as provided in their SEC 10K filings. This task requires a nuanced understanding of corporate law and lobbying practices, as it involves identifying the intersection between legislative proposals and corporate interests. The AI must discern whether the content of a bill aligns with the operational and strategic objectives outlined by a company, which necessitates a strong grasp of both legal language and corporate terminology.\n\nThis task is crucial for evaluating legal AI systems because it simulates real-world scenarios where companies engage in lobbying efforts to influence legislation that may impact their business operations. The ability to accurately predict relevance not only reflects the AI's proficiency in issue-spotting but also its capacity for contextual analysis and interpretation of legal texts. Understanding the implications of legislative changes is vital for corporate compliance and strategic planning, making this task a valuable benchmark for assessing the effectiveness of AI in the legal domain.\n\nThe task is grounded in the principles of corporate law, particularly the regulatory framework governing lobbying and the disclosure requirements for publicly traded companies. By focusing on the relationship between legislative proposals and corporate strategies, this task highlights the importance of legal reasoning in corporate governance and the role of AI in enhancing decision-making processes in the legal field.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 500,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "issue spotting",
+    "issue-spotting",
+    "legislation"
+  ],
+  "document_type": "legal text",
+  "min_input_length": 30,
+  "max_input_length": 2880,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "John Nay",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

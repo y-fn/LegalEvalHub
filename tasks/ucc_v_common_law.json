@@ -1,0 +1,91 @@
+{
+  "task_id": "ucc_v_common_law",
+  "name": "ucc_v_common_law",
+  "family": "LegalBench",
+  "short_description": "Classify contracts as governed by UCC or common law.",
+  "long_description": "The 'ucc_v_common_law' task evaluates the ability to determine the governing legal framework of a contract, specifically whether it falls under the Uniform Commercial Code (UCC) or the common law of contracts. This task measures the understanding of the distinctions between these two legal regimes, particularly focusing on the UCC's application to the sale of goods versus the common law's application to contracts involving services or real estate. Legal practitioners must be adept at recognizing these distinctions to provide accurate legal advice and ensure compliance with the appropriate legal standards.\n\nTo successfully complete this task, participants must engage in analytical reasoning to classify contracts based on their descriptions. This involves applying legal principles to assess the nature of the contract and identifying whether it pertains to goods, which are governed by the UCC, or to services and real estate, which fall under common law. This task is crucial for evaluating legal AI systems as it tests their capability to navigate foundational contract law concepts, which are essential for effective legal reasoning and practice. Understanding the UCC and common law is vital for legal professionals, as it directly impacts contract formation, enforcement, and the rights and obligations of the parties involved.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 100,
+  "tags": [
+    "LegalBench",
+    "UCC",
+    "contract law",
+    "rule application",
+    "rule conclusion"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 22,
+  "max_input_length": 49,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Spencer Williams",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Application/conclusion",
+  "task_type": "Binary classification"
+}

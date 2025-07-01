@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_license_grant",
+  "name": "cuad_license_grant",
+  "family": "LegalBench",
+  "short_description": "Classify if a clause contains a license granted by one party to another.",
+  "long_description": "The 'cuad_license_grant' task evaluates the ability to identify and classify contractual clauses that grant a license from one party to another. This task measures the legal capability of interpreting contract language, specifically focusing on the presence of license grants, which are crucial components in various types of agreements. Understanding whether a clause constitutes a license grant requires familiarity with legal terminology and the implications of such grants within contractual relationships.\n\nLegal reasoning in this task involves interpretation, as it requires the model to discern the intent and meaning behind the language used in contract clauses. This is important for evaluating legal AI systems, as accurate classification of license grants can significantly impact the enforcement and understanding of contractual rights and obligations. The task is grounded in fundamental contract law principles, where a license grant allows one party to use certain rights or properties owned by another, making it essential for practitioners to identify these clauses correctly in legal documents.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1402,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "license grant"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 13,
+  "max_input_length": 746,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

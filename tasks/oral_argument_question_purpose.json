@@ -1,0 +1,91 @@
+{
+  "task_id": "oral_argument_question_purpose",
+  "name": "oral_argument_question_purpose",
+  "family": "LegalBench",
+  "short_description": "Classifies the purpose of questions asked during Supreme Court oral arguments.",
+  "long_description": "The 'oral_argument_question_purpose' task evaluates the ability to classify questions posed by Supreme Court justices during oral arguments into seven distinct categories. This task measures the legal capability of understanding the rhetorical function of questions, which is crucial for analyzing the dynamics of legal discourse in high-stakes judicial settings. By identifying whether a question seeks clarification, offers support, or critiques an advocate's position, the task assesses the nuanced understanding of legal communication and the strategic use of questioning in the courtroom.\n\nLegal reasoning in this task involves rhetorical analysis, requiring an understanding of the implications behind each question and its relevance to the case at hand. This type of analysis is essential for legal AI systems, as it helps them to interpret not just the legal content but also the context and intent behind judicial inquiries. The ability to accurately classify these questions can enhance the effectiveness of legal AI in providing insights into judicial behavior, improving legal research, and aiding advocates in preparing for oral arguments.\n\nThe task is rooted in the study of oral arguments, a critical aspect of the Supreme Court's decision-making process. Understanding the purpose of questions during these proceedings can illuminate how justices interact with advocates and how they navigate complex legal issues. This task is significant for developing AI systems that can engage with legal texts and dialogues in a manner that reflects the subtleties of human legal reasoning and communication.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 319,
+  "tags": [
+    "LegalBench",
+    "constitutional law",
+    "judicial process",
+    "rhetorical analysis",
+    "rhetorical understanding"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 2,
+  "max_input_length": 509,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Gregory M. Dickinson",
+  "license": "[CC by 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "7-way classification"
+}

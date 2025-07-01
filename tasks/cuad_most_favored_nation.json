@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_most_favored_nation",
+  "name": "Most Favored Nation",
+  "family": "LegalBench",
+  "short_description": "Evaluates if a contract clause grants better terms based on third-party agreements.",
+  "long_description": "The 'cuad_most_favored_nation' task measures the legal capability to identify and classify contractual clauses that embody the Most Favored Nation (MFN) principle. This principle ensures that a buyer is entitled to the best terms offered to any third party for similar goods or services, thereby promoting fairness and competitive pricing in contractual agreements. The task requires an understanding of contract law and the nuances of MFN clauses, which can significantly impact negotiations and the overall dynamics of contractual relationships.\n\nLegal reasoning for this task involves interpretation and analysis of the language within contractual clauses. Participants must discern whether specific wording indicates that the buyer will receive better terms if a third party negotiates more favorable conditions. This task is crucial for evaluating legal AI systems as it tests their ability to accurately interpret complex legal language and apply legal principles in real-world scenarios. Understanding MFN clauses is essential for legal practitioners, as these provisions can influence pricing strategies and contractual obligations across various industries, making this task relevant for both legal education and practical applications in contract review processes.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 70,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "most favored nation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 22,
+  "max_input_length": 368,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "definition_extraction",
+  "name": "definition_extraction",
+  "family": "LegalBench",
+  "short_description": "Extract defined legal terms from Supreme Court opinion sentences.",
+  "long_description": "The definition_extraction task evaluates the capability of legal AI systems to identify and extract specific legal terms from sentences in Supreme Court opinions that provide definitions. This task measures the AI's understanding of legal language and its ability to discern the nuances of definitions as presented in judicial contexts. It requires a keen eye for detail and the ability to recognize terms that may not be explicitly highlighted, as definitions can vary in presentation and structure across different opinions.\n\nThis task is crucial for assessing the performance of legal AI systems, as accurate term extraction is foundational for various applications, including legal research, document analysis, and automated legal reasoning. By effectively extracting defined terms, AI can enhance its ability to interpret legal texts and support practitioners in understanding complex legal concepts. The task also underscores the importance of precise language in legal settings, where definitions can significantly impact the interpretation of laws and legal arguments.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 695,
+  "tags": [
+    "LegalBench",
+    "interpretation",
+    "judicial opinion",
+    "legal definition",
+    "rhetorical understanding"
+  ],
+  "document_type": "judicial opinion",
+  "min_input_length": 6,
+  "max_input_length": 468,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Kevin Tobia",
+  "license": "[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "Extraction"
+}

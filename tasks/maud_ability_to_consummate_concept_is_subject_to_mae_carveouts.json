@@ -1,0 +1,90 @@
+{
+  "task_id": "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
+  "name": "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
+  "family": "LegalBench",
+  "short_description": "Evaluates if 'ability to consummate' in a merger agreement is subject to MAE carveouts.",
+  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on the concept of 'ability to consummate' and its relationship to Material Adverse Effect (MAE) carveouts. Participants are required to analyze excerpts from merger agreements and determine whether this ability is affected by MAE provisions, which are critical in assessing the conditions under which a merger can proceed. The task assesses the understanding of how these legal concepts interact within the context of corporate transactions.\n\nThe legal reasoning required for this task involves interpretation of contractual language and understanding the implications of MAE carveouts in merger agreements. This is essential for legal professionals, as it impacts the enforceability of the agreement and the obligations of the parties involved. Evaluating this task is important for assessing the capabilities of legal AI systems in accurately interpreting complex legal documents, which is a fundamental aspect of legal practice. The background knowledge of MAE carveouts is crucial, as these provisions can significantly alter the risk profile of a merger and influence the decision-making process of stakeholders involved in corporate transactions.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 70,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "interpretation",
+    "merger agreement"
+  ],
+  "document_type": "merger agreement",
+  "min_input_length": 639,
+  "max_input_length": 1388,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

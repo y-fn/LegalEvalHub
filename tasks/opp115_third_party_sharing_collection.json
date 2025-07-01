@@ -1,0 +1,91 @@
+{
+  "task_id": "opp115_third_party_sharing_collection",
+  "name": "opp115_third_party_sharing_collection",
+  "family": "LegalBench",
+  "short_description": "Classify privacy policy clauses on third-party information sharing.",
+  "long_description": "The 'opp115_third_party_sharing_collection' task evaluates the ability to interpret clauses from privacy policies specifically regarding the sharing and collection of user information by third parties. This task measures the legal capability to identify whether a given clause explicitly states how user data may be shared or collected, which is crucial for understanding compliance with privacy laws and regulations. Legal professionals must be adept at discerning these nuances to ensure that organizations adhere to legal standards and protect user privacy rights.\n\nThis task requires analytical reasoning and interpretation skills, as it involves assessing the language of privacy policy clauses to determine their implications for user data handling. Legal AI systems must be capable of accurately classifying these clauses to assist in compliance checks and risk assessments related to data privacy. Given the increasing scrutiny on data sharing practices, this task is vital for evaluating the effectiveness of AI in navigating complex legal texts and ensuring that organizations maintain transparency with users regarding their data practices.\n\nThe background of this task is rooted in privacy law, particularly the principles surrounding user consent and data protection. Understanding how information may be shared with third parties is essential for compliance with regulations such as the General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). This task not only tests legal knowledge but also the practical application of that knowledge in real-world scenarios involving user data privacy.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 1598,
+  "tags": [
+    "LegalBench",
+    "data protection",
+    "interpretation",
+    "privacy law",
+    "rule application"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 10,
+  "max_input_length": 442,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

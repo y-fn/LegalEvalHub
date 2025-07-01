@@ -1,0 +1,90 @@
+{
+  "task_id": "contract_nli_permissible_development_of_similar_information",
+  "name": "contract_nli_permissible_development_of_similar_information",
+  "family": "LegalBench",
+  "short_description": "Evaluates if an NDA clause allows independent development of similar information.",
+  "long_description": "The task 'contract_nli_permissible_development_of_similar_information' measures the legal capability to interpret clauses within Non-Disclosure Agreements (NDAs) specifically regarding the permissibility of independent development of information that is similar to confidential information. This involves understanding the nuances of confidentiality obligations and the implications of allowing or restricting the development of similar information by the Receiving Party. Legal professionals must be adept at discerning the specific language used in contract clauses to assess their legal effects accurately.\n\nThis task requires a high level of legal reasoning, particularly in the area of interpretation. Participants must analyze the language of the contract clauses to determine whether they explicitly permit or prohibit the independent development of similar information. This is crucial for evaluating legal AI systems, as it tests their ability to understand and apply complex legal concepts in real-world scenarios. The ability to interpret such clauses is essential for legal practitioners who draft, negotiate, or enforce NDAs, as it directly impacts the rights and responsibilities of the parties involved.\n\nUnderstanding the legal concepts surrounding confidentiality and the implications of independent development is vital for ensuring compliance with contractual obligations. This task not only contributes to the development of more sophisticated legal AI systems but also enhances the overall understanding of contract law and its practical applications in protecting sensitive information.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 144,
+  "tags": [
+    "LegalBench",
+    "confidentiality",
+    "contract law",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 24,
+  "max_input_length": 418,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[ContractNLI](https://stanfordnlp.github.io/contract-nli/)",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

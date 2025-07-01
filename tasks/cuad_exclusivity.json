@@ -1,0 +1,91 @@
+{
+  "task_id": "cuad_exclusivity",
+  "name": "cuad_exclusivity",
+  "family": "LegalBench",
+  "short_description": "Classifies contractual clauses for exclusive dealing commitments.",
+  "long_description": "The 'cuad_exclusivity' task evaluates the legal capability to identify and classify contractual clauses that specify exclusive dealing commitments between parties. This includes determining whether a clause mandates that one party procure all required goods, services, or technology exclusively from another party, or if it prohibits the contracting party from engaging with third parties in relevant transactions during or after the contract term. The task requires a nuanced understanding of contract law, particularly the implications of exclusivity in business relationships and the potential legal consequences of such commitments.\n\nLegal reasoning for this task involves interpretation of contractual language and the ability to discern the intent behind exclusivity clauses. This is crucial for legal AI systems, as accurately identifying exclusivity can significantly impact contract negotiations, compliance assessments, and risk management strategies. Understanding exclusivity is essential for legal practitioners to advise clients on the implications of such clauses, ensuring they are aware of their rights and obligations under the contract. The task is grounded in fundamental legal concepts related to contract law, including the enforceability of exclusivity agreements and their effects on competition and market dynamics.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 768,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "exclusivity",
+    "interpretation",
+    "rule application"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 14,
+  "max_input_length": 661,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

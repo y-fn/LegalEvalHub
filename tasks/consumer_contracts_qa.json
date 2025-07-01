@@ -1,0 +1,90 @@
+{
+  "task_id": "consumer_contracts_qa",
+  "name": "consumer_contracts_qa",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of rights and obligations in consumer contracts.",
+  "long_description": "The 'consumer_contracts_qa' task measures the legal capability of interpreting clauses within online terms of service agreements. Specifically, it focuses on the ability to answer yes/no questions regarding the rights and obligations that these clauses create for consumers. This task is essential for assessing how well legal AI systems can understand and analyze consumer contracts, which are prevalent in today's digital economy. As such, it reflects a critical aspect of contract law and consumer protection regulations.\n\nLegal reasoning in this task requires a nuanced understanding of contract interpretation, where one must discern the implications of specific language used in terms of service agreements. Participants must apply their knowledge of legal principles to determine whether certain rights or obligations are present based on the contractual language. This task is significant for evaluating legal AI systems as it highlights their ability to engage in practical legal analysis, ensuring that they can effectively assist consumers in understanding their rights in a complex legal landscape. The task is grounded in fundamental legal concepts related to contract law, emphasizing the importance of clarity and precision in consumer agreements.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 400,
+  "tags": [
+    "LegalBench",
+    "consumer protection",
+    "contract law",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 7,
+  "max_input_length": 51,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Noam Kolt",
+  "license": "[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Yes/No question-answer"
+}

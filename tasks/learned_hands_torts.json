@@ -1,0 +1,91 @@
+{
+  "task_id": "learned_hands_torts",
+  "name": "learned_hands_torts",
+  "family": "LegalBench",
+  "short_description": "Classify user posts for legal issues related to torts.",
+  "long_description": "The 'learned_hands_torts' task evaluates the ability to identify and classify legal issues pertaining to tort law within user-generated content. Specifically, it measures the capability to spot issues where one individual may have legal grievances against another, such as in cases of personal injury, property damage, or interpersonal conflicts. This task requires a nuanced understanding of tort concepts, including negligence, intentional infliction of harm, and liability, as well as the ability to discern relevant legal principles from informal language used in user posts.\n\nThis task is crucial for assessing the effectiveness of legal AI systems in real-world applications, as it simulates the process of issue-spotting that legal professionals engage in when evaluating potential tort claims. By accurately classifying posts that implicate tortious conduct, AI systems can assist users in identifying legal issues that may require further attention or legal advice. The task is grounded in fundamental tort law principles, making it an essential benchmark for evaluating AI's ability to navigate complex legal reasoning and provide meaningful insights into user inquiries.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 438,
+  "tags": [
+    "LegalBench",
+    "issue spotting",
+    "issue-spotting",
+    "negligence",
+    "tort law"
+  ],
+  "document_type": "legal question",
+  "min_input_length": 18,
+  "max_input_length": 3444,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Learned Hands](https://spot.suffolklitlab.org/data/#learnedhands)",
+  "license": "[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/)",
+  "legal_reasoning_type": "Issue-spotting",
+  "task_type": "Binary classification"
+}

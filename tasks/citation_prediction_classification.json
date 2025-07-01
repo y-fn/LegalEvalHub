@@ -1,0 +1,90 @@
+{
+  "task_id": "citation_prediction_classification",
+  "name": "citation_prediction_classification",
+  "family": "LegalBench",
+  "short_description": "Evaluate if a case citation supports a given legal statement.",
+  "long_description": "The 'citation_prediction_classification' task measures the ability of a legal AI system to determine whether a specific case citation is supportive of a legal statement derived from judicial opinions. This task requires the model to engage in rule-recall legal reasoning, where it must analyze the relationship between the cited case and the legal assertion made in the sentence. By assessing the relevance and applicability of the citation to the statement, the task evaluates the model's understanding of legal precedents and its ability to apply them correctly in context.\n\nThis task is crucial for evaluating legal AI systems as it reflects their capacity to perform nuanced legal analysis, which is essential for tasks such as legal research, case law analysis, and the preparation of legal documents. The ability to accurately predict whether a citation supports a statement not only demonstrates the model's comprehension of legal principles but also its proficiency in navigating complex legal texts. The task is grounded in the fundamental legal concept of citation, where judicial opinions often rely on previous cases to substantiate legal arguments, making this evaluation vital for the development of reliable legal AI tools.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 110,
+  "tags": [
+    "LegalBench",
+    "case citation",
+    "judicial opinion",
+    "rule application"
+  ],
+  "document_type": "judicial opinion",
+  "min_input_length": 20,
+  "max_input_length": 95,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Michael Livermore, Daniel N. Rockmore",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rule-recall",
+  "task_type": "Binary classification"
+}

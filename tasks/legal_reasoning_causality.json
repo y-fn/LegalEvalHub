@@ -1,0 +1,91 @@
+{
+  "task_id": "legal_reasoning_causality",
+  "name": "legal_reasoning_causality",
+  "family": "LegalBench",
+  "short_description": "Classifies reliance on statistical evidence in court opinions on causality.",
+  "long_description": "The 'legal_reasoning_causality' task evaluates the ability of legal AI systems to discern the nature of legal reasoning employed by judges in district court opinions, specifically in the context of labor discrimination cases. This task measures the capability to identify whether judges base their findings of causality on statistical evidence, such as regression analysis, or on direct evidence, like witness testimonies. By analyzing excerpts from judicial decisions, the task sheds light on the methodologies judges use to establish causal links between a plaintiff's characteristics and the contested employment decisions, which is crucial for understanding the foundations of legal reasoning in discrimination cases.\n\nThis task is significant for evaluating legal AI systems because it addresses a gap in empirical legal scholarship where the qualitative aspects of judicial reasoning are often overlooked. By categorizing the reliance on different types of evidence, the task not only enhances the interpretative capabilities of AI in legal contexts but also contributes to a more nuanced understanding of how causality is established in legal frameworks. Understanding these distinctions is vital for legal practitioners and scholars alike, as it influences the interpretation of judicial opinions and the application of legal principles in discrimination law.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 59,
+  "tags": [
+    "LegalBench",
+    "causation",
+    "labor law",
+    "rhetorical analysis",
+    "rhetorical understanding"
+  ],
+  "document_type": "judicial opinion",
+  "min_input_length": 141,
+  "max_input_length": 1018,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "Haggai Porat, Tom Zur",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Rhetorical-analysis",
+  "task_type": "Binary classification"
+}

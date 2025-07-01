@@ -1,0 +1,90 @@
+{
+  "task_id": "maud_accuracy_of_target_general_rw_bringdown_timing_answer",
+  "name": "maud_accuracy_of_target_\"general\"_r&w:_bringdown_timing_answer",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of representations and warranties in merger agreements.",
+  "long_description": "The task 'maud_accuracy_of_target_general_rw_bringdown_timing_answer' measures the ability to interpret and analyze the bring down provisions related to representations and warranties within merger agreements. Specifically, it assesses whether the respondent can accurately determine when these representations and warranties are required to be made, based on excerpts from the agreements. This capability is crucial for legal professionals who must navigate the complexities of merger agreements and ensure compliance with contractual obligations.\n\nThis task requires legal reasoning and interpretation skills, as participants must analyze the language of the merger agreement and apply their understanding of legal concepts related to representations and warranties. The binary classification format challenges the model to select the most appropriate answer from multiple choices, thereby testing its ability to discern subtle differences in contractual language. Evaluating AI systems with this task is vital, as it reflects their proficiency in understanding and applying legal principles that govern business transactions, which is essential for effective legal practice in corporate law.\n\nThe background of this task is rooted in the importance of representations and warranties in merger agreements, which serve to protect parties by ensuring that certain facts and conditions are true at specified times. The bring down provision specifically addresses the timing of these representations, making it a critical aspect of due diligence and risk management in mergers and acquisitions.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 182,
+  "tags": [
+    "LegalBench",
+    "corporate law",
+    "interpretation",
+    "merger agreement"
+  ],
+  "document_type": "merger agreement",
+  "min_input_length": 61,
+  "max_input_length": 675,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

@@ -1,0 +1,91 @@
+{
+  "task_id": "maud_definition_contains_knowledge_requirement_-_answer",
+  "name": "maud_definition_contains_knowledge_requirement_-_answer",
+  "family": "LegalBench",
+  "short_description": "Evaluates understanding of knowledge requirements in merger agreements.",
+  "long_description": "The task 'maud_definition_contains_knowledge_requirement_-_answer' measures the legal capability to interpret and analyze specific definitions within merger agreements, particularly focusing on the knowledge requirement associated with the term 'Intervening Event.' This task requires the evaluator to discern the nuances of legal language and the implications of knowledge at the time of signing, which is crucial for understanding the contractual obligations and rights of the parties involved. The task is structured as a multiple-choice question, where the model must select the most accurate characterization of the knowledge requirement from provided options.\n\nThis task is important for evaluating legal AI systems as it tests the model's ability to engage in legal reasoning and interpretation, which are essential skills in legal practice. The ability to accurately interpret contractual definitions can significantly impact the outcomes of legal negotiations and disputes. Understanding the knowledge requirement in the context of 'Intervening Event' is particularly relevant in merger agreements, where unforeseen events can affect the parties' obligations and the overall transaction. The task draws from a rich dataset of merger agreements, allowing for a comprehensive assessment of AI's interpretative capabilities in a real-world legal context.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 148,
+  "tags": [
+    "LegalBench",
+    "contract interpretation",
+    "interpretation",
+    "legal knowledge",
+    "merger law"
+  ],
+  "document_type": "legal definition",
+  "min_input_length": 50,
+  "max_input_length": 1128,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/maud)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "4-way classification"
+}

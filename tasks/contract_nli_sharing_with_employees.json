@@ -1,0 +1,90 @@
+{
+  "task_id": "contract_nli_sharing_with_employees",
+  "name": "contract_nli_sharing_with_employees",
+  "family": "LegalBench",
+  "short_description": "Evaluates if an NDA clause allows sharing confidential info with employees.",
+  "long_description": "This task is vital for evaluating legal AI systems as it tests their ability to comprehend and interpret complex legal language and implications within contracts. The ability to accurately classify clauses as allowing or prohibiting sharing of confidential information is essential for ensuring that legal AI tools can assist legal professionals in drafting, reviewing, and negotiating contracts effectively. Understanding these nuances is crucial in practice, as misinterpretation can lead to significant legal consequences, including breaches of contract and potential litigation. The task draws upon foundational legal concepts related to confidentiality and the obligations of parties under NDAs, making it a relevant benchmark for assessing AI's performance in legal interpretation tasks.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 178,
+  "tags": [
+    "LegalBench",
+    "confidentiality",
+    "contract law",
+    "interpretation"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 19,
+  "max_input_length": 505,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[ContractNLI](https://stanfordnlp.github.io/contract-nli/)",
+  "license": "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

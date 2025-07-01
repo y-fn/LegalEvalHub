@@ -1,0 +1,90 @@
+{
+  "task_id": "opp115_data_retention",
+  "name": "opp115_data_retention",
+  "family": "LegalBench",
+  "short_description": "Classifies privacy policy clauses on user data retention duration.",
+  "long_description": "The 'opp115_data_retention' task evaluates the capability of legal AI systems to interpret and classify clauses from privacy policies regarding the duration of user data retention. This task specifically measures the AI's ability to discern whether a given clause explicitly states how long user information is stored, which is a critical aspect of data privacy and protection laws. Understanding data retention periods is essential for compliance with regulations such as the GDPR and CCPA, which mandate transparency about data handling practices.\n\nTo successfully complete this task, the AI must engage in legal reasoning and interpretation, analyzing the language used in privacy policy clauses to determine if they provide clear information about data retention timelines. This requires not only a grasp of legal terminology but also an understanding of the implications of data retention practices on user privacy rights. Evaluating this task is vital for assessing the effectiveness of legal AI systems in navigating complex privacy regulations and ensuring that users are informed about how their data is managed.\n\nThe task is grounded in the legal concepts of data privacy and retention, which are increasingly important in the digital age as organizations collect and process vast amounts of personal information. By classifying these clauses accurately, legal AI systems can contribute to better compliance and transparency in data practices, thereby enhancing user trust and safeguarding privacy rights.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 96,
+  "tags": [
+    "LegalBench",
+    "data retention",
+    "interpretation",
+    "privacy law"
+  ],
+  "document_type": "privacy policy",
+  "min_input_length": 11,
+  "max_input_length": 280,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[OPP-115](https://usableprivacy.org/data)",
+  "license": "Creative Commons Attribution-NonCommercial License",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}

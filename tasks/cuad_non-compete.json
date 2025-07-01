@@ -1,0 +1,90 @@
+{
+  "task_id": "cuad_non-compete",
+  "name": "cuad_non-compete",
+  "family": "LegalBench",
+  "short_description": "Classifies clauses that restrict competition in contracts.",
+  "long_description": "The 'cuad_non-compete' task evaluates the ability of legal AI systems to identify and classify non-compete clauses within contractual agreements. Specifically, it measures the system's capability to discern whether a given clause imposes restrictions on a party's ability to compete with another party or to operate within specific geographical, business, or technological sectors. This task requires a nuanced understanding of contract law and the implications of non-compete agreements, which are often subject to varying interpretations based on jurisdiction and context.\n\nLegal reasoning for this task involves interpretation, as the AI must analyze the language of the clause and determine its restrictive nature. Non-compete clauses are critical in protecting business interests, but they must also comply with legal standards to avoid being deemed unenforceable. Evaluating such clauses is essential for legal AI systems, as it reflects their ability to assist in contract review and compliance, ensuring that businesses can navigate legal frameworks effectively. The task draws from the CUAD dataset, which provides a rich source of annotated contract clauses, enhancing the training and evaluation of AI models in the legal domain.",
+  "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
+  "num_samples": 448,
+  "tags": [
+    "LegalBench",
+    "contract law",
+    "interpretation",
+    "non-compete"
+  ],
+  "document_type": "contract clause",
+  "min_input_length": 15,
+  "max_input_length": 662,
+  "metrics": [
+    {
+      "name": "accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "balanced_accuracy",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_macro",
+      "direction": "maximize"
+    },
+    {
+      "name": "f1_micro",
+      "direction": "maximize"
+    },
+    {
+      "name": "valid_predictions_ratio",
+      "direction": "maximize"
+    }
+  ],
+  "contributed_by_name": "Neel Guha",
+  "contributed_by_email": "nguha@cs.stanford.edu",
+  "paper_url": "https://arxiv.org/abs/2308.11462",
+  "paper_title": "LegalBench: A Collaboratively Built Benchmark for Measuring Legal Reasoning in Large Language Models",
+  "paper_authors": [
+    "Neel Guha",
+    "Julian Nyarko",
+    "Daniel E. Ho",
+    "Christopher Ré",
+    "Adam Chilton",
+    "Aditya Narayana",
+    "Alex Chohlas-Wood",
+    "Austin Peters",
+    "Brandon Waldon",
+    "Daniel N. Rockmore",
+    "Diego Zambrano",
+    "Dmitry Talisman",
+    "Enam Hoque",
+    "Faiz Surani",
+    "Frank Fagan",
+    "Galit Sarfaty",
+    "Gregory M. Dickinson",
+    "Haggai Porat",
+    "Jason Hegland",
+    "Jessica Wu",
+    "Joe Nudell",
+    "Joel Niklaus",
+    "John Nay",
+    "Jonathan H. Choi",
+    "Kevin Tobia",
+    "Margaret Hagan",
+    "Megan Ma",
+    "Michael Livermore",
+    "Nikon Rasumov-Rahe",
+    "Nils Holzenberger",
+    "Noam Kolt",
+    "Peter Henderson",
+    "Sean Rehaag",
+    "Sharad Goel",
+    "Shang Gao",
+    "Spencer Williams",
+    "Sunny Gandhi",
+    "Tom Zur",
+    "Varun Iyer",
+    "Zehua Li"
+  ],
+  "source": "[Atticus Project](https://www.atticusprojectai.org/cuad>)",
+  "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+  "legal_reasoning_type": "Interpretation",
+  "task_type": "Binary classification"
+}
