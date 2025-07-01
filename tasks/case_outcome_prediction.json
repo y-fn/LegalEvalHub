@@ -1,0 +1,23 @@
+{
+  "task_id": "case_outcome_prediction",
+  "name": "Case Outcome Prediction",
+  "family": "LegalBench",
+  "short_description": "Predict binary outcomes of federal court cases based on case facts.",
+  "long_description": "Given the factual background and procedural history of a case, predict whether the plaintiff or defendant will prevail. This dataset focuses on federal district court decisions across various civil litigation areas including employment law, intellectual property, and contract disputes.",
+  "dataset_url": "https://example.com/case_outcomes_dataset.csv",
+  "num_samples": 2500,
+  "tags": ["case prediction", "binary classification", "litigation analysis"],
+  "document_type": "judicial opinion",
+  "min_input_length": 800,
+  "max_input_length": 5000,
+  "metrics": [
+    {"name": "accuracy", "direction": "maximize"},
+    {"name": "auc_roc", "direction": "maximize"},
+    {"name": "f1", "direction": "maximize"}
+  ],
+  "contributed_by_name": "Computational Law Lab",
+  "contributed_by_email": "complaw@lawschool.edu",
+  "paper_url": "https://example.com/case_prediction_paper.pdf",
+  "paper_title": "Predicting Case Outcomes with Transformer Models",
+  "paper_authors": ["Robert Chen", "Sarah Williams", "Michael Brown"]
+}

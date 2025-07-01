@@ -1,0 +1,15 @@
+{
+  "submission_id": "gpt4_run_2024_01_15",
+  "task_id": "contract_clause_extraction",
+  "model_name": "gpt-4",
+  "prompt_id": "zero_shot_extract",
+  "submitter": "stanford-nlp-lab",
+  "submission_time": "2024-01-15T14:30:00Z",
+  "metrics": {
+    "accuracy": 0.89,
+    "f1": 0.87,
+    "precision": 0.91,
+    "recall": 0.83
+  },
+  "predictions_url": "https://legal-eval-bucket.s3.amazonaws.com/submissions/contract_clause_extraction/gpt4_run_2024_01_15.json"
+}

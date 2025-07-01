@@ -1,0 +1,155 @@
+{% extends "base.html" %}
+
+{% block title %}Tasks - LegalEvalHub{% endblock %}
+
+{% block content %}
+
+<br>
+
+
+<div class="controls-bar">
+    <div class="search-box">
+        <input type="search" id="searchInput" placeholder="Search tasks..." class="search-input">
+    </div>
+    
+    <div class="filter-section">
+        <div class="family-filters">
+            <strong>Family:</strong>
+            <button class="family-filter active" data-family="all">All ({{ tasks|length }})</button>
+            {% for family in all_families %}
+            <button class="family-filter" data-family="{{ family }}">{{ family }}</button>
+            {% endfor %}
+        </div>
+        
+        <div class="tag-filters">
+            <strong>Tags:</strong>
+            <button class="tag-filter active" data-tag="all">All</button>
+            {% for tag in all_tags %}
+            <button class="tag-filter" data-tag="{{ tag }}">{{ tag }}</button>
+            {% endfor %}
+        </div>
+        
+        <div class="doc-type-filters">
+            <strong>Document Type:</strong>
+            <button class="doc-type-filter active" data-doc-type="all">All</button>
+            {% for doc_type in all_doc_types %}
+            <button class="doc-type-filter" data-doc-type="{{ doc_type }}">{{ doc_type }}</button>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Task Name</th>
+            <th>Family</th>
+            <th>Description</th>
+            <th>Document Type</th>
+            <th>Samples</th>
+            <th>Submissions</th>
+            <th>Tags</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for task in tasks %}
+        <tr class="task-row" data-family="{{ task.family or 'none' }}" data-tags="{{ task.tags|join(' ') }}" data-doc-type="{{ task.document_type or 'none' }}" data-search="{{ task.name|lower }} {{ task.short_description|lower }}">
+            <td>
+                <a href="{{ url_for('task_detail', task_id=task.task_id) }}">{{ task.name }}</a>
+            </td>
+            <td>{{ task.family or '-' }}</td>
+            <td class="small">{{ task.short_description }}</td>
+            <td>{{ task.document_type }}</td>
+            <td>{{ task.num_samples }}</td>
+            <td>{{ task.submission_count }}</td>
+            <td>{{ task.tags|join(', ') }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<script>
+let activeFamily = 'all';
+let activeTag = 'all';
+let activeDocType = 'all';
+let searchTerm = '';
+
+function filterTasks() {
+    const rows = document.querySelectorAll('.task-row');
+    
+    rows.forEach(row => {
+        let show = true;
+        
+        // Check search term
+        if (searchTerm && !row.getAttribute('data-search').includes(searchTerm)) {
+            show = false;
+        }
+        
+        // Check family filter
+        if (show && activeFamily !== 'all') {
+            const rowFamily = row.getAttribute('data-family');
+            if (rowFamily !== activeFamily) {
+                show = false;
+            }
+        }
+        
+        // Check tag filter
+        if (show && activeTag !== 'all') {
+            const rowTags = row.getAttribute('data-tags');
+            if (!rowTags.includes(activeTag)) {
+                show = false;
+            }
+        }
+        
+        // Check document type filter
+        if (show && activeDocType !== 'all') {
+            const rowDocType = row.getAttribute('data-doc-type');
+            if (rowDocType !== activeDocType) {
+                show = false;
+            }
+        }
+        
+        row.style.display = show ? '' : 'none';
+    });
+}
+
+// Search functionality
+document.getElementById('searchInput').addEventListener('keyup', function(e) {
+    searchTerm = e.target.value.toLowerCase();
+    filterTasks();
+});
+
+// Family filtering
+const familyButtons = document.querySelectorAll('.family-filter');
+familyButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        familyButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        activeFamily = this.getAttribute('data-family');
+        filterTasks();
+    });
+});
+
+// Tag filtering
+const tagButtons = document.querySelectorAll('.tag-filter');
+tagButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        tagButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        activeTag = this.getAttribute('data-tag');
+        filterTasks();
+    });
+});
+
+// Document type filtering
+const docTypeButtons = document.querySelectorAll('.doc-type-filter');
+docTypeButtons.forEach(button => {
+    button.addEventListener('click', function() {
+        docTypeButtons.forEach(btn => btn.classList.remove('active'));
+        this.classList.add('active');
+        activeDocType = this.getAttribute('data-doc-type');
+        filterTasks();
+    });
+});
+</script>
+{% endblock %}

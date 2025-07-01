@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}{{ task.name }} - LegalEvalHub{% endblock %}
+
+{% block content %}
+<article class="documentation">
+    <h2>{{ task.name }}</h2>
+    
+    {{ task.long_description }}
+    <br>
+
+    
+    <h2>Task Details</h2>
+    
+    <table style="width: auto; margin-bottom: 2rem;">
+        <tr>
+            <th>Document Type</th>
+            <td>{{ task.document_type }}</td>
+        </tr>
+        <tr>
+            <th>Number of Samples</th>
+            <td>{{ task.num_samples }}</td>
+        </tr>
+        <tr>
+            <th>Input Length Range</th>
+            <td>{{ task.min_input_length }}-{{ task.max_input_length }} tokens</td>
+        </tr>
+        <tr>
+            <th>Evaluation Metrics</th>
+            <td>
+                {% for metric in task.metrics %}
+                {{ metric.name }} ({{ metric.direction }}){% if not loop.last %}, {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+        <tr>
+            <th>Tags</th>
+            <td>{{ task.tags|join(', ') }}</td>
+        </tr>
+        <tr>
+            <th>Paper</th>
+            <td><a href="{{ task.paper_url }}" target="_blank">{{ task.paper_title }}</a></td>
+        </tr>
+        <tr>
+            <th>Dataset Download</th>
+            <td><a href="{{ task.dataset_url }}" target="_blank">Download</a></td>
+        </tr>
+    </table>
+
+    
+    <h2>Leaderboard</h2>
+    <p class="text-muted">{{ total_submissions }} submissions</p>
+
+    {% if leaderboard %}
+    <table>
+        <thead>
+            <tr>
+                <th>Rank</th>
+                <th>Model</th>
+                <th>Submitter</th>
+                {% for metric in task.metrics %}
+                <th>{{ metric.name }}</th>
+                {% endfor %}
+                <th>Date</th>
+                <th>Results</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for run in leaderboard %}
+            <tr>
+                <td class="rank">{{ run.rank }}</td>
+                <td>{{ run.model_name }}</td>
+                <td>{{ run.submitter }}</td>
+                {% for metric in task.metrics %}
+                <td class="metric-value">{{ "%.3f"|format(run.metrics.get(metric.name, 0)) }}</td>
+                {% endfor %}
+                <td>{{ run.submission_time[:10] }}</td>
+                <td><a href="{{ run.predictions_url }}" target="_blank">View</a></td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No submissions yet. Be the first to submit results for this task! See our <a href="https://github.com/yourusername/LegalEvalHub/blob/main/CONTRIBUTING.md#submitting-an-evaluation-run">contribution guide</a> for details.</p>
+    {% endif %}
+    
+</article>
+{% endblock %}

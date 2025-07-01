@@ -1,0 +1,14 @@
+{
+  "submission_id": "llama3_70b_run_2024_01_20",
+  "task_id": "case_outcome_prediction",
+  "model_name": "llama-3-70b",
+  "prompt_id": "structured_prediction",
+  "submitter": "harvard-law-lab",
+  "submission_time": "2024-01-20T16:45:00Z",
+  "metrics": {
+    "accuracy": 0.73,
+    "auc_roc": 0.81,
+    "f1": 0.71
+  },
+  "predictions_url": "https://legal-eval-bucket.s3.amazonaws.com/submissions/case_outcome_prediction/llama3_70b_run_2024_01_20.json"
+}
