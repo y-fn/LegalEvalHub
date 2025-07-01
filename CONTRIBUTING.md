@@ -6,7 +6,7 @@ You can contribute in two primary ways:
 1. Submitting a **new task**
 2. Submitting an **evaluation run** for an existing task
 
-All contributions are made via pull requests to this GitHub repository.
+All contributions are made via pull requests to this GitHub repository. If you would like to contribute via alternative means, please reach out to <a href="mailto:nguha@cs.stanford.edu">nguha@cs.stanford.edu</a>.
 
 
 ## 🧩 Submitting a New Task
