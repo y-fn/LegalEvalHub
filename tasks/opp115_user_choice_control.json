@@ -2,15 +2,12 @@
   "task_id": "opp115_user_choice_control",
   "name": "opp115_user_choice_control",
   "family": "LegalBench",
-  "short_description": "Evaluates user choice and control options in privacy policy clauses.",
-  "long_description": "The 'opp115_user_choice_control' task measures the capability of legal AI systems to interpret clauses from privacy policies specifically regarding the choices and control options available to users. This task requires a nuanced understanding of privacy law and the obligations of organizations to inform users about their rights and options concerning personal data. The AI must classify whether a given clause effectively communicates these choices, which is critical for ensuring compliance with legal standards and enhancing user trust in data handling practices.\n\nLegal reasoning in this task involves interpretation, as the AI must discern the intent and clarity of language used in privacy policy clauses. This analysis is vital for evaluating legal AI systems because it assesses their ability to navigate complex regulatory environments and provide accurate assessments of legal texts. As privacy regulations evolve, understanding user choice and control is increasingly important, making this task a key benchmark for AI systems that aim to support legal professionals and organizations in maintaining compliance with privacy laws.",
+  "description": "Classify if a clause from a privacy policy describes the choices and control options available to users.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1554,
   "tags": [
-    "LegalBench",
     "interpretation",
-    "privacy law",
-    "user consent"
+    "privacy law"
   ],
   "document_type": "privacy policy",
   "min_input_length": 10,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

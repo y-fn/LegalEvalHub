@@ -1,120 +1,32 @@
 {% extends "base.html" %}
 
-{% block title %}Aggregate Leaderboard - LegalEvalHub{% endblock %}
+{% block title %}Benchmarks - LegalEvalHub{% endblock %}
 
 {% block content %}
 <article class="documentation">
-    
+    <h1>Legal Benchmarks</h1>
 
-    <br>
-    Compare model performance across multiple legal tasks. The aggregate score represents the 
-        average normalized performance across selected benchmarks. <br>
-    <br>
-    <h2>Task Selection</h2>
+    <p>
+        Explore pre-configured benchmark suites or create custom task combinations to evaluate model performance across different areas of legal reasoning.
+    </p>
     
-    <div style="margin-bottom: 2rem;">
-        <div style="margin-bottom: 1.5rem;">
-            <p><strong>Quick selection by family:</strong></p>
-            <p>
-                <a href="{{ url_for('aggregate_leaderboard') }}" class="btn {% if not selected_family and not selected_tag and not selected_doc_type %}btn-primary{% endif %}">All Tasks</a>
-                {% for family in all_families %}
-                <a href="{{ url_for('aggregate_leaderboard', family=family) }}" 
-                   class="btn {% if selected_family == family %}btn-primary{% endif %}">{{ family }}</a>
-                {% endfor %}
-            </p>
-        </div>
-        
-        <div style="margin-bottom: 1.5rem;">
-            <p><strong>Quick selection by tag:</strong></p>
-            <p>
-                {% for tag in all_tags %}
-                <a href="{{ url_for('aggregate_leaderboard', tag=tag) }}" 
-                   class="btn {% if selected_tag == tag %}btn-primary{% endif %}">{{ tag }}</a>
-                {% endfor %}
-            </p>
-        </div>
-        
-        <div style="margin-bottom: 1.5rem;">
-            <p><strong>Quick selection by document type:</strong></p>
-            <p>
-                {% for doc_type in all_doc_types %}
-                <a href="{{ url_for('aggregate_leaderboard', doc_type=doc_type) }}" 
-                   class="btn {% if selected_doc_type == doc_type %}btn-primary{% endif %}">{{ doc_type }}</a>
-                {% endfor %}
-            </p>
-        </div>
-    </div>
+    <h2>Pre-configured Benchmarks</h2>
     
-    <form method="get" action="{{ url_for('aggregate_leaderboard') }}" id="taskForm">
-        <p>Or select individual tasks:</p>
-        <div style="columns: 2; margin: 1rem 0;">
-            {% for task in tasks %}
-            <div style="break-inside: avoid; margin-bottom: 0.5rem;">
-                <label>
-                    <input type="checkbox" name="tasks" value="{{ task.task_id }}" 
-                           {% if task.task_id in selected_task_ids %}checked{% endif %}>
-                    {{ task.name }} {% if task.family %}({{ task.family }}){% endif %}
-                </label>
+    <div style="margin-bottom: 1.5rem;">
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin-bottom: 1rem;">
+            {% for preset_id, preset_data in presets.items() %}
+            <div style="border: 1px solid #ddd; border-radius: 5px; padding: 0.75rem; {% if selected_preset == preset_id %}background-color: #e6f2ff; border-color: #0066cc;{% endif %}">
+                <a href="{{ url_for('preset_leaderboard', preset_id=preset_id) }}" 
+                   class="btn" 
+                   style="display: block; margin-bottom: 0.5rem;">{{ preset_data.name }} →</a>
+                <p style="margin: 0; font-size: 0.85em; color: #666; line-height: 1.4;">
+                    {{ preset_data.description }}<br>
+                    <span style="color: #999;">({{ preset_data.tasks|length }} tasks)</span>
+                </p>
             </div>
             {% endfor %}
         </div>
-        <p>
-            <button type="submit" class="btn">Update Leaderboard</button>
-        </p>
-    </form>
-
-    <h2>Results</h2>
-    
-    <p class="text-muted">
-        {% if selected_family %}
-        Showing aggregate scores for <strong>{{ selected_family }}</strong> family ({{ selected_tasks|length }} tasks)
-        {% elif selected_tag %}
-        Showing aggregate scores for tasks tagged with <strong>{{ selected_tag }}</strong> ({{ selected_tasks|length }} tasks)
-        {% elif selected_doc_type %}
-        Showing aggregate scores for tasks with <strong>{{ selected_doc_type }}</strong> document type ({{ selected_tasks|length }} tasks)
-        {% else %}
-        Showing scores for {{ selected_tasks|length }} task(s): 
-        {{ selected_tasks|map(attribute='name')|join(', ') }}
-        {% endif %}
-    </p>
-    
-    {% if leaderboard %}
-    <table>
-        <thead>
-            <tr>
-                <th>Rank</th>
-                <th>Model</th>
-                <th>Average Score</th>
-                <th>Tasks Completed</th>
-                <th>Details</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for entry in leaderboard %}
-            <tr>
-                <td class="rank">{{ entry.rank }}</td>
-                <td>{{ entry.model_name }}</td>
-                <td class="metric-value">{{ "%.1f"|format(entry.avg_score * 100) }}%</td>
-                <td>{{ entry.task_count }} / {{ entry.total_tasks }}</td>
-                <td>
-                    <a href="#" onclick="toggleDetails('details-{{ loop.index }}'); return false;">Show breakdown</a>
-                </td>
-            </tr>
-            <tr id="details-{{ loop.index }}" style="display: none;">
-                <td colspan="5" style="padding: 1rem; background: #f8f9fa;">
-                    <strong>Performance breakdown:</strong><br>
-                    {% for run in entry.runs %}
-                    {{ run.task_name }}: {{ run.metric }} = {{ "%.3f"|format(run.score) }} 
-                    (normalized: {{ "%.1f"|format(run.normalized_score * 100) }}%)<br>
-                    {% endfor %}
-                </td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
-    {% else %}
-    <p>No evaluation runs found for the selected tasks.</p>
-    {% endif %}
+    </div>
     
     <h2>Methodology</h2>
     

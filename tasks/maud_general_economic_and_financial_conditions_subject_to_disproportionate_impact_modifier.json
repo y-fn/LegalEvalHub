@@ -2,13 +2,10 @@
   "task_id": "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
   "name": "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
   "family": "LegalBench",
-  "short_description": "Evaluates the interpretation of economic impacts on Material Adverse Effect in mergers.",
-  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on how general economic and financial conditions that disproportionately impact a party may qualify as a Material Adverse Effect (MAE). It requires the legal reasoning skill of interpretation, as participants must analyze specific excerpts from merger agreements and apply their understanding of legal definitions and implications regarding MAE. The task is designed to assess the ability of legal AI systems to navigate complex legal language and concepts within the context of corporate law.\n\nUnderstanding the nuances of MAE is crucial in merger agreements, as it can significantly affect the parties' obligations and rights during the transaction. The task is important for evaluating legal AI systems because it tests their ability to discern subtle distinctions in legal language and apply relevant legal standards to specific scenarios. This capability is essential for ensuring that AI systems can assist legal professionals in making informed decisions based on accurate interpretations of contractual terms and conditions.",
+  "description": "The model must determine whether changes caused by general economic and financial conditions that have a disproportionate impact qualify for Material Adverse Effect (MAE) based on an excerpt from a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 99,
   "tags": [
-    "LegalBench",
-    "Material Adverse Effect",
     "corporate law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

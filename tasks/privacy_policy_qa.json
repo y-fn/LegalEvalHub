@@ -2,13 +2,10 @@
   "task_id": "privacy_policy_qa",
   "name": "privacy_policy_qa",
   "family": "LegalBench",
-  "short_description": "Evaluates if privacy policy clauses answer specific questions.",
-  "long_description": "The 'privacy_policy_qa' task measures the capability of legal AI systems to interpret and analyze privacy policy clauses in relation to specific user inquiries. It assesses whether a given clause contains sufficient information to answer a question about data practices, such as data publication or user rights. This task requires an understanding of privacy law principles, the ability to extract relevant information, and the capacity to classify the relevance of the clause in a binary format—either as 'Relevant' or 'Irrelevant'.\n\nLegal reasoning in this context involves interpretation of the language used in privacy policies, which can often be complex and nuanced. The task is crucial for evaluating legal AI systems because it directly relates to how well these systems can assist users in understanding their rights and the obligations of organizations regarding personal data. Given the increasing importance of data privacy in today's digital landscape, this task provides insights into the effectiveness of AI in navigating legal texts and ensuring compliance with privacy regulations.",
+  "description": "Determine if a clause from a privacy policy contains enough information to answer a given question.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 10931,
   "tags": [
-    "LegalBench",
-    "data protection",
     "interpretation",
     "privacy law"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

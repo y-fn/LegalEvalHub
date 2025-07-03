@@ -2,15 +2,12 @@
   "task_id": "international_citizenship_questions",
   "name": "international_citizenship_questions",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of global citizenship law through Yes/No questions.",
-  "long_description": "The 'international_citizenship_questions' task measures the legal capability to recall and apply citizenship laws from various jurisdictions around the world. It focuses on the ability to accurately interpret statutory provisions related to citizenship, requiring participants to answer binary questions based on the GLOBALCIT Citizenship Law Dataset. This task emphasizes rule-recall legal reasoning, where the correct application of legal rules is essential for determining citizenship eligibility and related rights in different countries.\n\nThis task is crucial for evaluating legal AI systems as it tests their proficiency in navigating complex legal frameworks that vary significantly across jurisdictions. Understanding citizenship law is vital not only for legal practitioners but also for individuals seeking to understand their rights and obligations in a global context. The task highlights the importance of precise legal knowledge and the ability to synthesize information from diverse legal sources, making it a valuable benchmark for assessing the capabilities of AI in legal reasoning and statutory interpretation.",
+  "description": "Answer questions about citizenship law from across the world.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 9310,
   "tags": [
-    "LegalBench",
-    "citizenship law",
-    "rule application",
-    "statutory interpretation"
+    "international law",
+    "legal knowledge"
   ],
   "document_type": "legal question",
   "min_input_length": 20,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

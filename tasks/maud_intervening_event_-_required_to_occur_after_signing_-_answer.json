@@ -2,18 +2,14 @@
   "task_id": "maud_intervening_event_-_required_to_occur_after_signing_-_answer",
   "name": "maud_intervening_event_-_required_to_occur_after_signing_-_answer",
   "family": "LegalBench",
-  "short_description": "Evaluates if an 'Intervening Event' is required post-signing in merger agreements.",
-  "long_description": "This task measures the legal capability to interpret specific clauses within merger agreements, particularly focusing on the concept of 'Intervening Events.' It assesses the understanding of contractual obligations and the timing of events that may affect the terms of a merger. Participants must analyze a provided excerpt from a merger agreement to determine whether such an event is mandated to occur after the signing of the agreement, which requires a nuanced understanding of contract law and the implications of timing in legal agreements.\n\nLegal reasoning in this task involves careful interpretation of contractual language and the ability to apply legal principles to specific scenarios. This task is crucial for evaluating legal AI systems as it tests their ability to comprehend and analyze complex legal documents, ensuring they can assist legal professionals in making informed decisions based on contractual stipulations. Understanding 'Intervening Events' is vital in merger agreements, as these events can significantly impact the rights and obligations of the parties involved, influencing the overall success of the transaction.",
+  "description": "This task requires the model to determine whether an 'Intervening Event' is mandated to occur after the signing of a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 148,
   "tags": [
-    "LegalBench",
-    "contract interpretation",
     "interpretation",
-    "merger law",
-    "rule application"
+    "merger agreement"
   ],
-  "document_type": "contract clause",
+  "document_type": "merger agreement",
   "min_input_length": 50,
   "max_input_length": 1128,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

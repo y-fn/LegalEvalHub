@@ -2,15 +2,12 @@
   "task_id": "nys_judicial_ethics",
   "name": "nys_judicial_ethics",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of judicial ethics through Yes/No questions.",
-  "long_description": "The 'nys_judicial_ethics' task measures the capability to apply ethical rules relevant to judicial conduct as outlined by the New York State Unified Court System Advisory Committee. This task specifically assesses the ability to recall and apply established ethical standards in various judicial scenarios, requiring participants to evaluate whether specific situations align with these standards. The task is structured as a binary classification, where respondents must determine the appropriateness of actions based on ethical guidelines, thus testing their comprehension of judicial ethics in practice.\n\nThis task is crucial for evaluating legal AI systems as it reflects the practical application of ethical reasoning in the judiciary, an area where adherence to ethical standards is paramount. By reformulating real ethical scenarios into Yes/No questions, the task not only assesses the AI's ability to recall rules but also its understanding of nuanced ethical dilemmas that judges may face. The dataset includes rulings from multiple years, ensuring a comprehensive evaluation of ethical standards over time, and highlights the importance of ongoing education and adherence to ethical principles within the legal profession.",
+  "description": "Answer questions on judicial ethics from the New York State Unified Court System Advisory Committee.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 300,
   "tags": [
-    "LegalBench",
     "judicial ethics",
-    "legal knowledge",
-    "rule application"
+    "legal knowledge"
   ],
   "document_type": "legal question",
   "min_input_length": 14,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,12 @@
   "task_id": "learned_hands_immigration",
   "name": "learned_hands_immigration",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to immigration.",
-  "long_description": "The 'learned_hands_immigration' task evaluates the capability of legal AI systems to identify and classify user-generated content that pertains to immigration-related legal issues. This includes topics such as visas, asylum, green cards, citizenship, and migrant work benefits. By focusing on these specific areas, the task measures the AI's ability to spot relevant legal issues that may arise in everyday discussions, which is crucial for providing accurate legal information and assistance to users seeking help with immigration matters.\n\nThe task requires issue-spotting legal reasoning, where the AI must analyze the context and content of user posts to determine whether they implicate immigration law. This involves understanding nuanced legal concepts and the ability to differentiate between posts that are relevant to immigration and those that are not. Evaluating AI systems on this task is important because it helps ensure that legal technology can effectively support individuals navigating complex immigration processes, thereby improving access to justice and legal resources for non-citizens in the U.S.\n\nImmigration law encompasses a wide range of issues that affect individuals' rights and statuses, making it a critical area of legal practice. The ability to accurately identify these issues in user communications is essential for legal practitioners and AI systems alike, as it can lead to timely and appropriate legal responses, ultimately aiding in the resolution of immigration-related challenges.",
+  "description": "Classify if a user post implicates legal issues related to immigration.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 140,
   "tags": [
-    "LegalBench",
     "immigration law",
-    "issue spotting",
-    "issue-spotting",
-    "visa"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 41,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

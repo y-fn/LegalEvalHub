@@ -2,13 +2,10 @@
   "task_id": "opp115_international_and_specific_audiences",
   "name": "opp115_international_and_specific_audiences",
   "family": "LegalBench",
-  "short_description": "Classify privacy policy clauses for specific user group applicability.",
-  "long_description": "The 'opp115_international_and_specific_audiences' task evaluates the ability of legal AI systems to interpret clauses from privacy policies, specifically determining whether these clauses pertain exclusively to certain groups of users, such as children, Europeans, or California residents. This task measures the AI's capability to understand nuanced legal language and the implications of privacy regulations that vary by jurisdiction or demographic, reflecting the importance of tailored legal compliance in privacy practices.\n\nThe required legal reasoning involves interpretation of legal texts, where the AI must discern the applicability of specific clauses to defined user groups based on the language used in the privacy policy. This task is crucial for assessing the performance of legal AI systems in real-world applications, as it directly relates to compliance with privacy laws and regulations, which often mandate different standards of protection for different populations. Understanding these distinctions is essential for organizations to avoid legal pitfalls and ensure they meet their obligations under various legal frameworks, such as the GDPR for European users or CCPA for California residents.",
+  "description": "Classify whether a clause from a privacy policy describes practices that pertain only to a specific group of users.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 988,
   "tags": [
-    "LegalBench",
-    "data protection",
     "interpretation",
     "privacy law"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

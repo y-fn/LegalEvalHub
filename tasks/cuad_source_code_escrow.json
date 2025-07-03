@@ -2,16 +2,12 @@
   "task_id": "cuad_source_code_escrow",
   "name": "cuad_source_code_escrow",
   "family": "LegalBench",
-  "short_description": "Classifies clauses requiring source code escrow in contracts.",
-  "long_description": "The 'cuad_source_code_escrow' task evaluates the ability to identify contractual clauses that mandate one party to deposit its source code into escrow with a third party. This task specifically measures the legal capability to interpret and analyze the implications of source code escrow agreements, which are crucial in protecting intellectual property rights and ensuring business continuity in the event of a party's bankruptcy or insolvency. Understanding these clauses is essential for legal practitioners who draft, review, or negotiate technology-related contracts, as they can significantly affect the rights and obligations of the parties involved.\n\nThe reasoning required for this task involves careful interpretation of the language used in contractual clauses, necessitating a nuanced understanding of legal terminology and the context in which these clauses operate. Legal AI systems must demonstrate proficiency in discerning whether a clause meets the criteria for source code escrow, which is vital for assessing the risk management strategies of technology companies. This task is important for evaluating legal AI systems because it reflects their capability to perform tasks that require specialized legal knowledge and reasoning, ultimately contributing to more efficient contract management and compliance in the tech industry.",
+  "description": "Classify if the clause requires one party to deposit its source code into escrow with a third party, which can be released to the counterparty upon the occurrence of certain events.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 124,
   "tags": [
-    "LegalBench",
     "contract law",
-    "intellectual property",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 18,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,13 +2,10 @@
   "task_id": "maud_change_in_law__subject_to_disproportionate_impact_modifier",
   "name": "maud_change_in_law__subject_to_disproportionate_impact_modifier",
   "family": "LegalBench",
-  "short_description": "Evaluates if disproportionate legal changes qualify as Material Adverse Effect in mergers.",
-  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on the implications of changes in law that may have a disproportionate impact on the parties involved. It requires an understanding of the concept of Material Adverse Effect (MAE) within the context of merger agreements, as well as the ability to analyze how specific legal changes could affect the overall transaction. The task challenges the evaluator to apply legal reasoning to determine whether such changes qualify under the defined terms of the agreement, showcasing the nuanced understanding required in corporate law contexts.\n\nThe importance of this task lies in its relevance to evaluating legal AI systems, particularly in their ability to navigate complex legal language and concepts. As mergers and acquisitions are critical to business operations, understanding the implications of legal changes is essential for risk assessment and decision-making. This task not only tests the AI's interpretative skills but also its capacity to apply legal knowledge in a practical scenario, reflecting the real-world challenges faced by legal professionals when drafting and negotiating merger agreements.",
+  "description": "The model must determine whether changes in law that have a disproportionate impact qualify for Material Adverse Effect (MAE) based on an excerpt from a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 100,
   "tags": [
-    "LegalBench",
-    "Material Adverse Effect",
     "corporate law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

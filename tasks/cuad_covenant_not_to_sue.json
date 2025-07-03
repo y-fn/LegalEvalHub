@@ -2,16 +2,12 @@
   "task_id": "cuad_covenant_not_to_sue",
   "name": "cuad_covenant_not_to_sue",
   "family": "LegalBench",
-  "short_description": "Evaluates if a clause restricts contesting ownership of intellectual property.",
-  "long_description": "The 'cuad_covenant_not_to_sue' task measures the legal capability to identify and classify contractual clauses that impose restrictions on a party's ability to contest the validity of the counterparty's ownership of intellectual property or to bring claims unrelated to the contract. This task specifically assesses the understanding of covenants not to sue, which are critical in contract law as they delineate the boundaries of legal recourse available to the parties involved. By determining whether a clause qualifies as a covenant not to sue, the task evaluates the model's ability to interpret nuanced legal language within contracts.\n\nThis task requires a sophisticated level of legal reasoning and analysis, as it involves interpreting the language of contractual clauses to ascertain their implications on the parties' rights and obligations. Legal practitioners must be adept at recognizing how such clauses can impact the enforceability of claims and the overall legal strategy in disputes. Evaluating AI systems through this task is vital, as it helps ensure that legal technology can accurately interpret and apply complex legal concepts, which is essential for effective contract review and risk management in legal practice. Understanding covenants not to sue is crucial for parties entering into contracts, as these provisions can significantly limit future litigation options and influence the negotiation dynamics between parties.",
+  "description": "Classify if the clause specifies that a party is restricted from contesting the validity of the counterparty\u2019s ownership of intellectual property or otherwise bringing a claim against the counterparty for matters unrelated to the contract.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 314,
   "tags": [
-    "LegalBench",
     "contract law",
-    "intellectual property",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 15,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

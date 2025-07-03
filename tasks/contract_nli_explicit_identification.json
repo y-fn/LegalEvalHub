@@ -2,13 +2,10 @@
   "task_id": "contract_nli_explicit_identification",
   "name": "contract_nli_explicit_identification",
   "family": "LegalBench",
-  "short_description": "Evaluates identification of Confidential Information in NDA clauses.",
-  "long_description": "The 'contract_nli_explicit_identification' task measures the capability to determine whether a specific clause in a Non-Disclosure Agreement (NDA) explicitly states that all Confidential Information must be identified by the Disclosing Party. This task focuses on the interpretation of legal language and the implications of contractual obligations, which are crucial in ensuring that parties understand their rights and responsibilities regarding confidential information. By assessing the clarity and explicitness of such clauses, this task highlights the importance of precise legal drafting in contract law.\n\nLegal reasoning required for this task involves careful analysis and interpretation of contractual language to ascertain whether the clause meets the specified legal criterion. It necessitates a nuanced understanding of contract law principles, particularly those related to confidentiality and the obligations of parties in a contract. This task is vital for evaluating legal AI systems as it tests their ability to comprehend and analyze legal texts accurately, ensuring that they can assist legal professionals in drafting, reviewing, and interpreting contracts effectively. The ability to identify explicit requirements in legal documents is fundamental for risk management and compliance in legal practice.",
+  "description": "Determine whether a clause from an NDA specifies that all Confidential Information shall be expressly identified by the Disclosing Party.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 117,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

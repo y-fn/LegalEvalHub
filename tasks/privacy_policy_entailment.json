@@ -2,13 +2,10 @@
   "task_id": "privacy_policy_entailment",
   "name": "privacy_policy_entailment",
   "family": "LegalBench",
-  "short_description": "Evaluates the correctness of descriptions of privacy policy clauses.",
-  "long_description": "The 'privacy_policy_entailment' task measures the capability to interpret and analyze privacy policy clauses in relation to their descriptions. This task specifically assesses whether a given description accurately reflects the content and intent of a clause within a privacy policy, which is crucial for understanding compliance with privacy regulations and user rights. Legal professionals and AI systems must possess the ability to discern subtle nuances in language to ensure that privacy policies are transparent and accurately represent the practices of organizations regarding user data.\n\nThis task requires legal reasoning focused on interpretation, where the AI must evaluate the alignment between the clause and its description. It necessitates a deep understanding of privacy law concepts, such as data collection practices, user consent, and the implications of non-compliance. Evaluating this task is vital for assessing the effectiveness of legal AI systems in real-world applications, as accurate interpretation of privacy policies is essential for protecting consumer rights and ensuring adherence to legal standards. The background knowledge of privacy laws and the ability to critically analyze legal language are fundamental skills that this task aims to measure.",
+  "description": "Determine if the description of a privacy policy clause is correct.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 4343,
   "tags": [
-    "LegalBench",
-    "data protection",
     "interpretation",
     "privacy law"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

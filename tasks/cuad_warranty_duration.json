@@ -2,15 +2,12 @@
   "task_id": "cuad_warranty_duration",
   "name": "cuad_warranty_duration",
   "family": "LegalBench",
-  "short_description": "Classifies clauses specifying warranty duration in contracts for technology and services.",
-  "long_description": "The 'cuad_warranty_duration' task evaluates the capability of legal AI systems to identify and classify contractual clauses that specify the duration of warranties against defects or errors in technology, products, or services. This task measures the system's understanding of warranty provisions, which are critical components of contracts that define the obligations of parties regarding the quality and reliability of the goods or services provided. By accurately identifying these clauses, the AI demonstrates its ability to interpret contractual language and assess the implications of warranty durations in legal agreements.\n\nLegal reasoning in this task requires interpretation skills, as it involves distinguishing between clauses that explicitly state warranty durations and those that do not. This task is significant for evaluating legal AI systems because warranties play a vital role in consumer protection and risk management in contractual relationships. Understanding warranty durations can affect liability, enforceability, and the rights of the parties involved. The task is grounded in fundamental legal concepts related to contract law, particularly the obligations and rights that arise from warranties, which are essential for both legal practitioners and businesses engaged in contractual agreements.",
+  "description": "Classify if the clause specifies a duration of any warranty against defects or errors in technology, products, or services provided under the contract.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 326,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "warranty"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

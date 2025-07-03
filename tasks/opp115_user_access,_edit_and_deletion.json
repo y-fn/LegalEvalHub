@@ -2,15 +2,12 @@
   "task_id": "opp115_user_access,_edit_and_deletion",
   "name": "opp115_user_access,_edit_and_deletion",
   "family": "LegalBench",
-  "short_description": "Evaluates user rights to access, edit, or delete information in privacy policies.",
-  "long_description": "The task 'opp115_user_access,_edit_and_deletion' measures the legal capability to interpret clauses within privacy policies that pertain to user rights regarding their personal information. Specifically, it assesses whether these clauses clearly articulate how users can access, edit, or delete their data. This evaluation is crucial for understanding compliance with privacy regulations, such as the GDPR or CCPA, which mandate transparency and user control over personal data. \n\nLegal reasoning required for this task involves careful interpretation of language and an understanding of privacy law principles. The ability to discern whether a clause adequately informs users of their rights is essential for ensuring that legal AI systems can effectively analyze and classify privacy policies. This task is important as it contributes to the broader goal of enhancing user awareness and protection in the digital landscape, ensuring that individuals are empowered to manage their personal information effectively. \n\nThe background of this task is rooted in the increasing emphasis on user privacy and data protection in legal frameworks worldwide. As organizations collect and process vast amounts of personal data, the clarity of privacy policies becomes paramount. This task not only aids in evaluating the effectiveness of legal AI systems but also supports ongoing efforts to improve privacy practices across various sectors.",
+  "description": "Classify if a clause from a privacy policy describes if and how users may access, edit, or delete their information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 470,
   "tags": [
-    "LegalBench",
     "interpretation",
-    "privacy law",
-    "user rights"
+    "privacy law"
   ],
   "document_type": "privacy policy",
   "min_input_length": 10,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

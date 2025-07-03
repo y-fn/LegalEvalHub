@@ -2,13 +2,10 @@
   "task_id": "contract_nli_permissible_post-agreement_possession",
   "name": "contract_nli_permissible_post-agreement_possession",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause allows retention of Confidential Information post-agreement.",
-  "long_description": "The task 'contract_nli_permissible_post-agreement_possession' measures the legal capability to interpret clauses within Non-Disclosure Agreements (NDAs), specifically focusing on whether such clauses permit the Receiving Party to retain Confidential Information after the return or destruction of that information. This evaluation requires an understanding of contract law principles, particularly those related to confidentiality and the obligations of parties under an NDA. Legal professionals must discern the nuances of language used in these agreements to determine the implications of retention rights, which can significantly affect the handling of sensitive information post-agreement.\n\nThis task is crucial for assessing the performance of legal AI systems in interpreting contractual language and understanding the legal ramifications of specific clauses. Accurate interpretation is vital for ensuring compliance with confidentiality obligations and protecting proprietary information. The background legal concepts involved include the principles of confidentiality, the enforceability of contract terms, and the rights and duties of parties in contractual relationships. By evaluating the AI's ability to classify these clauses correctly, stakeholders can gauge the reliability and effectiveness of AI tools in legal practice, particularly in contract analysis and risk assessment.",
+  "description": "Determine if a clause from an NDA allows the Receiving Party to retain some Confidential Information after its return or destruction.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 119,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

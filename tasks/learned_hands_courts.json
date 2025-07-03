@@ -2,16 +2,12 @@
   "task_id": "learned_hands_courts",
   "name": "learned_hands_courts",
   "family": "LegalBench",
-  "short_description": "Classifies user posts related to legal issues involving courts.",
-  "long_description": "The 'learned_hands_courts' task evaluates the capability of legal AI systems to identify and classify user-generated content that pertains to legal issues associated with courts. Specifically, it measures the ability to spot issues related to procedural matters, such as how individuals can interact with the legal system, including hiring lawyers, filing lawsuits, and representing oneself in court. This task requires a nuanced understanding of legal procedures and the ability to discern relevant legal topics from general discussions, making it a critical evaluation of an AI's legal reasoning capabilities.\n\nThe reasoning required for this task is primarily issue-spotting, where the AI must analyze the context of user posts to determine if they implicate legal issues. This involves recognizing keywords, phrases, and the overall context that indicate a discussion about court logistics. Evaluating AI systems through this task is vital as it reflects their practical application in real-world scenarios where individuals seek legal guidance. By ensuring that AI can accurately classify such posts, we can enhance its utility in providing accessible legal information and support to users navigating the complexities of the legal system.\n\nThis task is grounded in fundamental legal concepts related to court procedures and user interactions with the legal system. Understanding these concepts is essential for developing AI tools that can assist users effectively, ensuring that they receive accurate and relevant information when they need it most.",
+  "description": "Classify if a user post implicates legal issues related to courts.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 198,
   "tags": [
-    "LegalBench",
-    "court procedures",
-    "issue spotting",
-    "issue-spotting",
-    "legal issues"
+    "court law",
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 54,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

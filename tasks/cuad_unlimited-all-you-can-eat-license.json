@@ -2,15 +2,12 @@
   "task_id": "cuad_unlimited-all-you-can-eat-license",
   "name": "cuad_unlimited-all-you-can-eat-license",
   "family": "LegalBench",
-  "short_description": "Classifies clauses granting unlimited usage licenses in contracts.",
-  "long_description": "The 'cuad_unlimited-all-you-can-eat-license' task evaluates the ability of legal AI systems to identify and classify contractual clauses that grant an 'enterprise,' 'all you can eat,' or unlimited usage license. This task specifically measures the AI's capability to interpret legal language and discern the implications of such licenses within contracts. Understanding these clauses is crucial as they define the extent of usage rights granted to one party, which can significantly impact the contractual relationship and obligations between the parties involved.\n\nTo successfully complete this task, the AI must engage in legal reasoning that involves interpretation of contract language, recognizing the nuances of licensing terms, and distinguishing between clauses that provide unlimited rights versus those that do not. This task is essential for evaluating legal AI systems, as it reflects their proficiency in handling real-world legal documents and their ability to assist legal professionals in contract review processes. The background legal concepts involved include contract law principles, particularly those related to licensing agreements and the rights and responsibilities they entail.",
+  "description": "Classify if the clause grants one party an 'enterprise,' 'all you can eat' or unlimited usage license.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 54,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "licensing"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 13,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

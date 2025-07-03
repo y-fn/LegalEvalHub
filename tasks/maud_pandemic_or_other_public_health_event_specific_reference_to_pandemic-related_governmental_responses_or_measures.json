@@ -2,15 +2,12 @@
   "task_id": "maud_pandemic_or_other_public_health_event_specific_reference_to_pandemic-related_governmental_responses_or_measures",
   "name": "maud_pandemic_or_other_public_health_event_specific_reference_to_pandemic-related_governmental_responses_or_measures",
   "family": "LegalBench",
-  "short_description": "Evaluates references to pandemic-related measures in merger agreements.",
-  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on identifying whether there are references to governmental responses or measures related to pandemics or other public health events that qualify as Material Adverse Effects (MAE). It requires an understanding of how such references can impact the contractual obligations and risk assessments of the parties involved in a merger. Legal professionals must be adept at analyzing contract language to determine the implications of these references on the transaction's viability and the parties' liabilities.\n\nThe task necessitates a nuanced legal reasoning process, as it involves binary classification based on the interpretation of specific clauses within merger agreements. Evaluating the presence or absence of pandemic-related references is crucial, especially in the context of the ongoing legal and economic ramifications of public health events. This task is important for evaluating legal AI systems because it tests their ability to understand complex legal language and context, which is essential for providing accurate legal insights and supporting decision-making in corporate transactions. Understanding these legal concepts is vital for practitioners, as they navigate the evolving landscape of merger agreements in light of unprecedented public health challenges.",
+  "description": "The model must determine if there is a specific reference to pandemic-related governmental responses or measures in a merger agreement clause that qualifies pandemics or other public health events for Material Adverse Effect (MAE).",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 99,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "material adverse effect"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 623,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

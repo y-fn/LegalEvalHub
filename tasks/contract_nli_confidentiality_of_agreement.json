@@ -2,13 +2,10 @@
   "task_id": "contract_nli_confidentiality_of_agreement",
   "name": "contract_nli_confidentiality_of_agreement",
   "family": "LegalBench",
-  "short_description": "Evaluates if a clause prohibits disclosing the existence of an agreement.",
-  "long_description": "The 'contract_nli_confidentiality_of_agreement' task measures the legal capability to interpret confidentiality clauses within Non-Disclosure Agreements (NDAs). Specifically, it assesses whether a given clause stipulates that the Receiving Party is prohibited from disclosing the fact that the agreement was negotiated or agreed upon. This task requires nuanced legal reasoning and analysis, as it involves understanding the implications of contractual language and the legal effects of confidentiality obligations.\n\nThis task is crucial for evaluating legal AI systems because it tests their ability to comprehend and analyze specific legal provisions that are fundamental to maintaining confidentiality in business transactions. The ability to accurately interpret such clauses is essential for legal practitioners and businesses alike, as breaches of confidentiality can lead to significant legal repercussions. Understanding the subtleties of contract language is vital for ensuring compliance with legal standards and protecting sensitive information, making this task a valuable benchmark for AI systems designed to assist in legal contexts.",
+  "description": "Identify if the clause provides that the Receiving Party shall not disclose the fact that Agreement was agreed or negotiated.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 90,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

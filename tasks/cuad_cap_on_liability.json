@@ -2,15 +2,12 @@
   "task_id": "cuad_cap_on_liability",
   "name": "cuad_cap_on_liability",
   "family": "LegalBench",
-  "short_description": "Classifies clauses specifying caps on liability in contracts.",
-  "long_description": "The 'cuad_cap_on_liability' task evaluates the ability to identify contractual clauses that specify limitations on liability, particularly in the context of breaches of obligations. This includes determining whether a clause sets a maximum amount for recovery or imposes a time limitation for a counterparty to bring claims. By focusing on these specific elements, the task measures the legal capability to interpret and analyze contractual language related to liability caps, which is crucial for understanding the extent of legal obligations and protections in contractual agreements.\n\nLegal reasoning in this task requires careful interpretation of contract clauses, as the implications of liability caps can significantly affect the rights and responsibilities of the parties involved. Misinterpretation can lead to substantial legal and financial consequences. Evaluating AI systems on this task is essential because it tests their proficiency in understanding complex legal language and their ability to apply legal principles accurately. Given the prevalence of liability caps in various contracts, this task is vital for ensuring that AI tools can assist legal professionals in contract review and risk assessment effectively.\n\nThe task is grounded in fundamental legal concepts related to contract law, particularly the principles governing liability and the enforceability of contractual terms. Understanding these concepts is essential for legal practitioners who must navigate the intricacies of liability clauses in their work, making this task a valuable benchmark for assessing the capabilities of legal AI systems.",
+  "description": "Classify if the clause specifies a cap on liability upon the breach of a party\u2019s obligation.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1252,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "liability"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 11,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

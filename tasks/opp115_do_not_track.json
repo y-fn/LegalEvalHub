@@ -2,16 +2,12 @@
   "task_id": "opp115_do_not_track",
   "name": "opp115_do_not_track",
   "family": "LegalBench",
-  "short_description": "Classifies privacy policy clauses on honoring Do Not Track signals.",
-  "long_description": "The 'opp115_do_not_track' task evaluates the capability of legal AI systems to interpret clauses from privacy policies specifically regarding the acknowledgment and handling of Do Not Track (DNT) signals in online tracking and advertising practices. This task measures the AI's understanding of privacy law and its application to digital consent mechanisms, which are crucial in the context of user privacy rights and data protection regulations. By determining whether a privacy policy clause explicitly states how DNT signals are honored, the task assesses the AI's ability to navigate complex legal language and concepts related to privacy protections.\n\nLegal reasoning required for this task involves interpretation, as the AI must discern the implications of the language used in privacy policies. This includes recognizing whether the clauses provide clear guidance on the company's practices regarding DNT signals, which can vary significantly across different organizations. The importance of this task lies in its relevance to ongoing discussions about consumer privacy, regulatory compliance, and the ethical use of personal data in the digital age. Understanding how well AI can classify these clauses is essential for ensuring that legal AI tools can effectively support compliance efforts and enhance transparency in privacy practices.",
+  "description": "Classify if a clause from a privacy policy describes if and how Do Not Track signals for online tracking and advertising are honored.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 118,
   "tags": [
-    "Do Not Track",
-    "LegalBench",
     "interpretation",
-    "privacy law",
-    "rule application"
+    "privacy law"
   ],
   "document_type": "privacy policy",
   "min_input_length": 12,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

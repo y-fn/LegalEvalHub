@@ -2,16 +2,13 @@
   "task_id": "diversity_6",
   "name": "diversity_6",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of diversity jurisdiction criteria in legal claims.",
-  "long_description": "The 'diversity_6' task measures the legal capability to assess whether the criteria for diversity jurisdiction are satisfied in a given set of facts. Specifically, it evaluates the understanding of complete diversity between plaintiffs and defendants, as well as the amount-in-controversy requirement, which must exceed $75,000. Participants must analyze fact patterns involving two plaintiffs and two defendants, each asserting multiple claims, to determine if the legal standards for federal jurisdiction are met.\n\nThis task requires rule application and legal reasoning to correctly interpret the nuances of diversity jurisdiction. Participants must discern whether the citizenships of the parties involved meet the complete diversity requirement and whether the aggregated claims exceed the stipulated amount-in-controversy. The importance of this task lies in its ability to evaluate legal AI systems' proficiency in applying complex jurisdictional rules, which are critical for determining the appropriate venue for legal disputes. Understanding these concepts is fundamental for practitioners in navigating federal and state court systems effectively.\n\nDiversity jurisdiction is a key principle in U.S. federal law, allowing federal courts to hear cases involving state law when parties are from different states. This task is particularly relevant in contexts where jurisdictional issues can significantly impact the outcome of legal proceedings, making it essential for legal AI systems to demonstrate accuracy in such evaluations.",
+  "description": "Determine if the criteria for diversity jurisdiction have been met based on the citizenships of plaintiffs and defendants and the amounts associated with claims.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 306,
   "tags": [
-    "LegalBench",
-    "diversity jurisdiction",
-    "jurisdiction",
+    "civil procedure",
     "rule application",
-    "rule conclusion"
+    "quantitative reasoning"
   ],
   "document_type": "fact pattern",
   "min_input_length": 85,
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

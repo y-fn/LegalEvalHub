@@ -2,17 +2,14 @@
   "task_id": "maud_additional_matching_rights_period_for_modifications_(cor)",
   "name": "maud_additional_matching_rights_period_for_modifications_(cor)",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of additional matching rights in merger agreements.",
-  "long_description": "The task measures the legal capability to interpret specific provisions within merger agreements, particularly focusing on the additional matching rights period for modifications if the board changes its recommendation. This requires a nuanced understanding of merger agreement language and the implications of such provisions on the transaction process. Legal professionals must be adept at identifying and analyzing these clauses to ensure compliance and protect the interests of their clients.\n\nLegal reasoning in this task involves careful interpretation of contractual language, necessitating a grasp of both the specific terms used in the agreement and the broader context of merger law. This task is crucial for evaluating legal AI systems as it tests their ability to discern and apply legal concepts accurately, reflecting the complexities of real-world legal documents. Understanding additional matching rights is essential for parties involved in mergers and acquisitions, as it can significantly impact the negotiation dynamics and outcomes of such transactions.\n\nThe legal concepts involved include the interpretation of contractual obligations and rights, which are foundational to contract law. The ability to analyze and respond to questions about these rights is vital for legal practitioners, as it directly influences their strategic decisions in M&A scenarios.",
+  "description": "This is a multiple-choice task in which the model must select the answer that best characterizes the merger agreement regarding the duration of the additional matching rights period for modifications if the board changes its recommendation.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 159,
   "tags": [
-    "LegalBench",
-    "contract law",
-    "interpretation",
-    "merger agreement"
+    "corporate law",
+    "interpretation"
   ],
-  "document_type": "contract clause",
+  "document_type": "merger agreement",
   "min_input_length": 90,
   "max_input_length": 1630,
   "metrics": [
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,13 +2,10 @@
   "task_id": "contract_nli_return_of_confidential_information",
   "name": "contract_nli_return_of_confidential_information",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause mandates return or destruction of confidential information.",
-  "long_description": "The 'contract_nli_return_of_confidential_information' task measures the legal capability to interpret clauses within Non-Disclosure Agreements (NDAs) regarding the handling of confidential information upon termination of the agreement. Specifically, it assesses whether a clause explicitly states that the Receiving Party must either return or destroy confidential information, which is a critical aspect of confidentiality obligations in legal contracts. This task requires nuanced legal reasoning and analysis, as it involves understanding the implications of contractual language and the legal consequences of failing to comply with such obligations.\n\nThis task is vital for evaluating legal AI systems as it tests their ability to accurately interpret and classify legal clauses, which is essential for ensuring compliance with confidentiality requirements in various legal contexts. The ability to discern the specific obligations imposed by NDAs not only reflects a system's understanding of contract law but also its capability to assist legal professionals in drafting, reviewing, and enforcing such agreements. Given the increasing reliance on automated systems in legal practice, ensuring that AI can effectively interpret these critical legal concepts is paramount for maintaining the integrity of legal processes and protecting sensitive information.",
+  "description": "Identify if the clause provides that the Receiving Party shall destroy or return some Confidential Information upon the termination of Agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 74,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

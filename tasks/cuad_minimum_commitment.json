@@ -2,16 +2,12 @@
   "task_id": "cuad_minimum_commitment",
   "name": "cuad_minimum_commitment",
   "family": "LegalBench",
-  "short_description": "Evaluates identification of minimum order commitments in contractual clauses.",
-  "long_description": "The 'cuad_minimum_commitment' task measures the ability to identify contractual clauses that specify a minimum order size or minimum amount that one party must purchase from another. This task is crucial for understanding the obligations and commitments parties undertake in contractual agreements, which can significantly impact business operations and legal compliance. By accurately classifying these clauses, legal AI systems can assist in contract review processes, ensuring that parties are aware of their minimum purchasing obligations and can negotiate terms effectively.\n\nThis task requires legal reasoning and interpretation skills, as it involves analyzing the language of contractual clauses to determine whether they meet the criteria for minimum commitment. The ability to discern these specific commitments is essential for legal practitioners, as it can influence negotiations, enforceability, and the overall understanding of contractual obligations. Evaluating AI systems on this task is important because it ensures that they can effectively support legal professionals in identifying key terms that govern business relationships and contractual performance.",
+  "description": "Classify if the clause specifies a minimum order size or minimum amount or units per time period that one party must buy from the counterparty.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 778,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "minimum commitment",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 17,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

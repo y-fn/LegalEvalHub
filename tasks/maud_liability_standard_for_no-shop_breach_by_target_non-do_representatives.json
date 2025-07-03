@@ -2,16 +2,12 @@
   "task_id": "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
   "name": "maud_liability_standard_for_no-shop_breach_by_target_non-d&o_representatives",
   "family": "LegalBench",
-  "short_description": "Evaluates the liability standard for no-shop breaches in merger agreements.",
-  "long_description": "This task measures the legal capability to interpret and analyze liability standards specifically related to no-shop provisions in merger agreements. It focuses on understanding the nuances of contractual language and the implications of different liability standards, such as reasonable standard versus strict liability, as they apply to Target Non-D&O Representatives. Legal professionals must possess a strong grasp of contract law and the specific terms used in merger agreements to accurately determine the liability standard in question.\n\nThe task requires legal reasoning that involves careful interpretation of contractual excerpts and the ability to apply legal knowledge to select the correct liability standard from provided options. This is crucial for evaluating legal AI systems, as it tests their ability to comprehend complex legal texts and make informed decisions based on that understanding. The concepts involved are fundamental to corporate law, particularly in the context of mergers and acquisitions, where the terms of agreements can significantly impact the responsibilities and potential liabilities of the parties involved.",
+  "description": "The model must select the answer that best characterizes the liability standard for no-shop breach by Target Non-D&O Representatives in a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 157,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreement",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 35,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

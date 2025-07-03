@@ -2,16 +2,12 @@
   "task_id": "learned_hands_consumer",
   "name": "learned_hands_consumer",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to consumer matters.",
-  "long_description": "The 'learned_hands_consumer' task evaluates the capability of legal AI systems to identify and classify user-generated content that implicates legal issues concerning consumer matters. This includes a range of topics such as money, insurance, consumer goods, contracts, taxes, and small claims regarding service quality. By analyzing whether a post discusses these issues, the task measures the AI's ability to recognize relevant legal contexts and concerns that consumers may face in everyday situations.\n\nThis task requires issue-spotting legal reasoning, where the AI must discern whether the content of a user post relates to specific legal challenges faced by consumers. The importance of this task lies in its potential to enhance the effectiveness of legal AI systems in providing accurate and relevant legal guidance to users. By accurately classifying posts, these systems can better assist individuals in navigating consumer-related legal issues, thereby improving access to justice and legal resources. The task is grounded in fundamental legal concepts that govern consumer rights and protections, making it a critical component in the development of responsive and responsible legal AI applications.",
+  "description": "Classify if a user post implicates legal issues related to consumer.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 620,
   "tags": [
-    "LegalBench",
     "consumer law",
-    "contract law",
-    "issue spotting",
-    "issue-spotting"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 39,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

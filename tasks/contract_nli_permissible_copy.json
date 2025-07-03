@@ -2,13 +2,10 @@
   "task_id": "contract_nli_permissible_copy",
   "name": "contract_nli_permissible_copy",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause allows the Receiving Party to copy Confidential Information.",
-  "long_description": "The 'contract_nli_permissible_copy' task specifically measures the ability to interpret clauses within Non-Disclosure Agreements (NDAs) regarding the permissibility of copying Confidential Information by the Receiving Party. This task requires legal reasoning and analysis to determine whether the language of the clause explicitly allows for such actions under certain circumstances, which is crucial for understanding the legal implications of confidentiality obligations in contractual relationships.\n\nLegal reasoning in this context involves careful interpretation of contract language, where nuances in wording can significantly affect the rights and responsibilities of the parties involved. By assessing whether a clause permits copying, this task highlights the importance of precise language in contracts and the potential consequences of ambiguous terms. Evaluating this capability is vital for legal AI systems, as it reflects their ability to navigate complex legal texts and provide accurate interpretations that can influence legal outcomes.\n\nUnderstanding the legal concepts surrounding NDAs is essential, as these agreements are foundational in protecting sensitive information in various business contexts. The task draws from a dataset that categorizes clauses based on their legal effects, emphasizing the significance of clarity and specificity in legal drafting. This evaluation not only aids in the development of more sophisticated legal AI tools but also enhances the reliability of automated systems in legal practice, ensuring they can effectively support legal professionals in their work.",
+  "description": "Determine whether a clause from an NDA allows the Receiving Party to create a copy of Confidential Information under certain circumstances.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 95,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

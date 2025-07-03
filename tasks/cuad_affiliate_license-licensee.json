@@ -2,15 +2,12 @@
   "task_id": "cuad_affiliate_license-licensee",
   "name": "cuad_affiliate_license-licensee",
   "family": "LegalBench",
-  "short_description": "Classifies clauses that describe license grants to licensees and their affiliates.",
-  "long_description": "The 'cuad_affiliate_license-licensee' task evaluates the ability to identify contractual clauses that specifically grant licenses to licensees, including sublicensors and their affiliates. This task measures the legal capability of interpreting contractual language and understanding the implications of licensing agreements within the context of affiliate relationships. It is crucial for legal AI systems to accurately discern these clauses to ensure compliance and proper application of licensing terms in various legal scenarios.\n\nThis task requires nuanced legal reasoning and analysis, as it involves distinguishing between clauses that explicitly grant licenses and those that do not. The importance of this task lies in its relevance to contract law, particularly in the context of intellectual property and business transactions where licensing agreements are common. Understanding the scope of a license grant is essential for assessing rights and obligations under the contract, making this task a vital benchmark for evaluating the performance of legal AI systems in real-world applications.",
+  "description": "Classify if a clause describes a license grant to a licensee (incl. sublicensor) and the affiliates of such licensee/sublicensor.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 204,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "license grant"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 13,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

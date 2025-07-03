@@ -1,16 +1,13 @@
 {
   "task_id": "cuad_most_favored_nation",
-  "name": "Most Favored Nation",
+  "name": "cuad_most_favored_nation",
   "family": "LegalBench",
-  "short_description": "Evaluates if a contract clause grants better terms based on third-party agreements.",
-  "long_description": "The 'cuad_most_favored_nation' task measures the legal capability to identify and classify contractual clauses that embody the Most Favored Nation (MFN) principle. This principle ensures that a buyer is entitled to the best terms offered to any third party for similar goods or services, thereby promoting fairness and competitive pricing in contractual agreements. The task requires an understanding of contract law and the nuances of MFN clauses, which can significantly impact negotiations and the overall dynamics of contractual relationships.\n\nLegal reasoning for this task involves interpretation and analysis of the language within contractual clauses. Participants must discern whether specific wording indicates that the buyer will receive better terms if a third party negotiates more favorable conditions. This task is crucial for evaluating legal AI systems as it tests their ability to accurately interpret complex legal language and apply legal principles in real-world scenarios. Understanding MFN clauses is essential for legal practitioners, as these provisions can influence pricing strategies and contractual obligations across various industries, making this task relevant for both legal education and practical applications in contract review processes.",
+  "description": "The model must determine if a contractual clause qualifies as a 'Most Favored Nation' clause based on specified criteria.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 70,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "most favored nation"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 22,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

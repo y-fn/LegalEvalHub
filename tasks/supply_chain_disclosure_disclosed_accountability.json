@@ -2,17 +2,14 @@
   "task_id": "supply_chain_disclosure_disclosed_accountability",
   "name": "supply_chain_disclosure_disclosed_accountability",
   "family": "LegalBench",
-  "short_description": "Evaluates disclosure of accountability standards in supply chain statements.",
-  "long_description": "The task measures the legal capability to interpret supply chain disclosures, specifically assessing whether these disclosures articulate the extent to which retail sellers or manufacturers have established internal accountability standards and procedures for addressing issues related to slavery and trafficking among their employees or contractors. This involves understanding the legal implications of such disclosures and the obligations companies may have under relevant laws and regulations aimed at combating human trafficking and ensuring ethical labor practices.\n\nLegal reasoning required for this task includes the ability to analyze and interpret the language used in supply chain disclosures, determining if they adequately address the accountability measures in place for non-compliance with company standards. This task is crucial for evaluating legal AI systems because it tests their ability to discern nuanced legal obligations and ethical considerations in corporate disclosures, which are increasingly important in today's regulatory environment. The background of this task is rooted in the legal frameworks surrounding corporate responsibility and human rights, highlighting the importance of transparency in supply chains to combat modern slavery and trafficking.\n",
+  "description": "Determine whether a supply chain disclosure reveals the extent of internal accountability standards and procedures related to slavery and trafficking for employees or contractors.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 386,
   "tags": [
-    "LegalBench",
-    "accountability",
     "corporate law",
     "interpretation"
   ],
-  "document_type": "disclosure statement",
+  "document_type": "corporate disclosure",
   "min_input_length": 107,
   "max_input_length": 5764,
   "metrics": [
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

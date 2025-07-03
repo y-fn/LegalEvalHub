@@ -2,16 +2,12 @@
   "task_id": "learned_hands_family",
   "name": "learned_hands_family",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to family matters.",
-  "long_description": "The 'learned_hands_family' task evaluates the capability of a legal AI system to identify and classify user-generated content that discusses legal issues pertaining to family law. This includes a range of topics such as divorce, adoption, child custody, domestic violence, and guardianship. The task requires the AI to engage in issue-spotting, a critical aspect of legal reasoning that involves recognizing and categorizing legal problems based on the information provided in the user's post.\n\nThis task is essential for assessing the effectiveness of legal AI systems in real-world applications, particularly in providing accessible legal assistance to individuals facing family-related legal challenges. By accurately identifying relevant legal issues, AI can help direct users to appropriate resources or legal advice, thereby enhancing the overall efficiency of legal support services. The underlying legal concepts are foundational to family law, which governs the legal responsibilities and rights of individuals within familial relationships, making this task a vital component in evaluating AI's understanding of complex legal frameworks.",
+  "description": "Classify if a user post implicates legal issues related to family.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 2271,
   "tags": [
-    "LegalBench",
-    "child custody",
     "family law",
-    "issue spotting",
-    "issue-spotting"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 20,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

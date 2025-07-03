@@ -2,13 +2,10 @@
   "task_id": "cuad_joint_ip_ownership",
   "name": "cuad_joint_ip_ownership",
   "family": "LegalBench",
-  "short_description": "Classifies clauses for joint ownership of intellectual property in contracts.",
-  "long_description": "The 'cuad_joint_ip_ownership' task evaluates the ability of legal AI systems to identify and classify contractual clauses that stipulate joint or shared ownership of intellectual property (IP) between parties. This task measures the AI's understanding of specific legal concepts related to IP ownership, which is crucial in determining the rights and responsibilities of parties involved in a contract. By accurately identifying such clauses, the AI demonstrates its capability to navigate complex legal language and implications surrounding intellectual property rights.\n\nThis task requires a nuanced interpretation of legal language, as it involves distinguishing between clauses that explicitly provide for joint ownership and those that do not. Legal reasoning in this context is essential, as it involves understanding the implications of ownership rights, potential disputes, and the overall impact on the parties' interests. Evaluating AI systems on this task is vital, as it reflects their proficiency in handling real-world legal scenarios where IP ownership can significantly affect business operations and innovation. The background knowledge of intellectual property law, including concepts such as copyright, patents, and trademarks, is integral to successfully completing this task.",
+  "description": "Classify if the clause provides for joint or shared ownership of intellectual property between the parties to the contract.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 198,
   "tags": [
-    "LegalBench",
-    "contract law",
     "intellectual property",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

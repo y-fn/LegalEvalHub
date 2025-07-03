@@ -2,16 +2,13 @@
   "task_id": "diversity_2",
   "name": "diversity_2",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of diversity jurisdiction criteria in legal claims.",
-  "long_description": "The 'diversity_2' benchmark task measures the legal capability to determine whether the criteria for diversity jurisdiction are satisfied in a given set of facts involving plaintiffs and defendants. Specifically, it assesses the ability to identify complete diversity between parties and the adequacy of the amount-in-controversy (AiC) threshold of over $75,000. This task requires legal reasoning that involves rule application and conclusion drawing based on the principles of federal jurisdiction as outlined in the U.S. legal framework.\n\nIn this task, participants analyze fact patterns that present one plaintiff with claims against two defendants, focusing on their respective citizenships and the monetary amounts involved. The importance of this task lies in its role in evaluating legal AI systems' proficiency in understanding and applying jurisdictional rules, which are critical for determining the appropriate venue for legal disputes. Mastery of diversity jurisdiction principles is essential for legal practitioners, as it influences strategic decisions regarding case filings and jurisdictional challenges. The task not only tests knowledge of legal concepts but also enhances the ability to navigate complex jurisdictional issues that arise in federal court litigation.",
+  "description": "Determine if the criteria for diversity jurisdiction have been met based on the citizenships of plaintiffs and defendants and the amounts associated with claims.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 306,
   "tags": [
-    "LegalBench",
-    "diversity jurisdiction",
-    "jurisdiction",
+    "civil procedure",
     "rule application",
-    "rule conclusion"
+    "quantitative reasoning"
   ],
   "document_type": "fact pattern",
   "min_input_length": 36,
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

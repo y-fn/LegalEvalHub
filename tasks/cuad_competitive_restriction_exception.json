@@ -2,13 +2,10 @@
   "task_id": "cuad_competitive_restriction_exception",
   "name": "cuad_competitive_restriction_exception",
   "family": "LegalBench",
-  "short_description": "Classify clauses mentioning exceptions to competitive restrictions in contracts.",
-  "long_description": "The 'cuad_competitive_restriction_exception' task evaluates the ability to identify and classify contractual clauses that specify exceptions or carveouts to competitive restrictions, such as non-compete agreements, exclusivity provisions, and no-solicitation clauses. This task measures the legal capability to interpret complex contractual language and discern nuances in legal obligations and rights, which is crucial for effective contract analysis and compliance assessment in legal practice.\n\nLegal reasoning required for this task involves careful interpretation of contract language to determine whether a clause explicitly mentions exceptions to competitive restrictions. This requires a nuanced understanding of contract law principles and the ability to analyze the implications of such exceptions on the enforceability of the clauses. Evaluating this task is vital for assessing the performance of legal AI systems, as it reflects their capability to handle real-world legal documents and provide accurate insights that can influence business decisions and legal strategies.\n\nThe concepts of non-compete agreements, exclusivity, and no-solicitation clauses are fundamental in corporate law, particularly in employment contracts and business transactions. These clauses are designed to protect business interests and trade secrets, but exceptions can significantly alter their enforceability and implications. Understanding these exceptions is essential for legal professionals who must navigate the complexities of contract negotiations and litigation, making this task a key benchmark for evaluating AI's proficiency in legal reasoning and contract analysis.",
+  "description": "Classify if the clause mentions exceptions or carveouts to Non-Compete, Exclusivity and No-Solicit of Customers.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 226,
   "tags": [
-    "LegalBench",
-    "competitive restriction",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

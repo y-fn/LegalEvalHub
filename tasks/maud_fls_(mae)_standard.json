@@ -2,15 +2,12 @@
   "task_id": "maud_fls_(mae)_standard",
   "name": "maud_fls_(mae)_standard",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of Forward Looking Standard in merger agreements.",
-  "long_description": "The 'maud_fls_(mae)_standard' task measures the ability to interpret and analyze specific provisions related to the Forward Looking Standard (FLS) in the context of Material Adverse Effect (MAE) within merger agreements. This task requires the participant to read an excerpt from a merger agreement and accurately identify how the FLS is characterized, which is crucial for understanding the implications of MAE clauses in corporate transactions. The task involves interpreting legal language and selecting the most appropriate answer from multiple choices, reflecting the nuances of contractual obligations and expectations in mergers and acquisitions.\n\nThis task is significant for evaluating legal AI systems as it tests their capability to comprehend complex legal texts and apply legal reasoning to real-world scenarios. Understanding the FLS in relation to MAE is vital for legal practitioners, as it influences risk assessments and decision-making processes in mergers. The task is constructed from a rich dataset of merger agreements, ensuring that the evaluation is grounded in practical legal contexts and reflects the standards used by professionals in the field.",
+  "description": "The model must select the answer that best characterizes the Forward Looking Standard (FLS) with respect to Material Adverse Effect (MAE) from an excerpt of a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 78,
   "tags": [
-    "LegalBench",
-    "Material Adverse Effect",
-    "corporate law",
-    "interpretation"
+    "interpretation",
+    "merger agreement"
   ],
   "document_type": "merger agreement",
   "min_input_length": 623,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,13 @@
   "task_id": "diversity_1",
   "name": "diversity_1",
   "family": "LegalBench",
-  "short_description": "Evaluates the criteria for diversity jurisdiction in federal court cases.",
-  "long_description": "The 'diversity_1' task measures the legal capability to assess diversity jurisdiction based on specific criteria outlined in federal law. This task requires an understanding of the principles of complete diversity and the amount-in-controversy (AiC) threshold, which are essential for determining whether a federal court can exercise jurisdiction over state law claims. Participants must analyze a fact pattern that includes the citizenships of the parties involved and the amount being claimed, applying the relevant legal rules to conclude whether diversity jurisdiction is satisfied.\n\nThe legal reasoning involved in this task is primarily rule-application, where the evaluator must apply the legal standards for diversity jurisdiction to the provided facts. This includes recognizing that complete diversity means no plaintiff shares citizenship with any defendant and that the AiC must exceed $75,000. The importance of this task lies in its ability to evaluate the effectiveness of legal AI systems in accurately interpreting and applying jurisdictional rules, which is crucial for ensuring proper legal proceedings. Understanding diversity jurisdiction is fundamental in federal court practice, as it influences the venue and procedural aspects of litigation, making this task a vital benchmark for legal AI assessment.",
+  "description": "Determine if the criteria for diversity jurisdiction have been met based on the citizenships of plaintiffs and defendants and the amounts associated with claims.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 306,
   "tags": [
-    "LegalBench",
-    "diversity jurisdiction",
-    "jurisdiction",
+    "civil procedure",
     "rule application",
-    "rule conclusion"
+    "quantitative reasoning"
   ],
   "document_type": "fact pattern",
   "min_input_length": 25,
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

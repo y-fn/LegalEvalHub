@@ -2,15 +2,12 @@
   "task_id": "cuad_irrevocable_or_perpetual_license",
   "name": "cuad_irrevocable_or_perpetual_license",
   "family": "LegalBench",
-  "short_description": "Classify if a clause specifies an irrevocable or perpetual license grant.",
-  "long_description": "The 'cuad_irrevocable_or_perpetual_license' task evaluates the capability to identify whether a contractual clause explicitly grants a license that is irrevocable or perpetual. This task measures the understanding of essential legal concepts related to licensing agreements, particularly the implications of irrevocability and perpetuity in contract law. It requires the ability to interpret legal language and discern the nuances that differentiate between various types of license grants, which is crucial for accurate legal analysis and contract review.\n\nLegal reasoning in this task involves careful interpretation of contractual language to determine the nature of the license being granted. The distinction between irrevocable and perpetual licenses can significantly impact the rights and obligations of the parties involved, making this task vital for assessing the performance of legal AI systems in real-world applications. Understanding these concepts is essential for legal practitioners, as it influences how contracts are negotiated and enforced, thereby affecting business operations and legal compliance.\n\nThis task is particularly important as it reflects the growing need for AI systems to assist in contract analysis, ensuring that legal professionals can efficiently identify critical terms and conditions in complex agreements. The ability to classify clauses accurately not only enhances the functionality of legal AI tools but also supports the broader goal of improving contract management and reducing legal risks in various industries.",
+  "description": "Classify if the clause specifies a license grant that is irrevocable or perpetual.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 286,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "license grant"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 19,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

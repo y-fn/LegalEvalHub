@@ -2,16 +2,12 @@
   "task_id": "learned_hands_education",
   "name": "learned_hands_education",
   "family": "LegalBench",
-  "short_description": "Evaluates classification of legal issues related to education in user posts.",
-  "long_description": "The 'learned_hands_education' task measures the ability of a legal AI system to identify and classify user-generated content that implicates legal issues within the realm of education. This includes topics such as accommodations for special needs students, discrimination in educational settings, student debt concerns, and disciplinary actions taken by schools. By focusing on these specific areas, the task assesses the AI's capability to recognize relevant legal concepts and issues that may require legal expertise or intervention.\n\nThe task requires issue-spotting legal reasoning, where the AI must analyze the context of user posts and determine whether they pertain to legal matters in education. This involves not only understanding the language used but also interpreting the nuances of educational law and policy. Evaluating this task is crucial for legal AI systems as it helps ensure that they can effectively assist users in navigating complex legal landscapes, particularly in sensitive areas like education, where legal implications can significantly impact individuals' lives. The background of this task is rooted in the need for accessible legal information and support for individuals facing educational challenges, making it a vital component of legal AI evaluation.",
+  "description": "Classify if a user post implicates legal issues related to education.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 62,
   "tags": [
-    "LegalBench",
-    "discrimination",
     "education law",
-    "issue spotting",
-    "issue-spotting"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 56,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

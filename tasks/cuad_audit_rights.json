@@ -2,13 +2,10 @@
   "task_id": "cuad_audit_rights",
   "name": "cuad_audit_rights",
   "family": "LegalBench",
-  "short_description": "Classifies if a clause grants audit rights for compliance verification.",
-  "long_description": "The 'cuad_audit_rights' task evaluates the ability to identify whether a contractual clause provides a party the right to audit the books, records, or physical locations of the counterparty. This task measures the legal capability to interpret contract language specifically related to audit rights, which are crucial for ensuring compliance with contractual obligations. The task involves binary classification, requiring the model to discern between clauses that explicitly grant such rights and those that do not, thereby assessing the model's understanding of legal terminology and implications in contractual contexts.\n\nThis task is significant for evaluating legal AI systems as it tests their proficiency in interpreting complex legal documents, which is essential for tasks such as contract review and compliance monitoring. Understanding audit rights is vital in various legal scenarios, including corporate governance and risk management, where parties need assurance that contractual terms are being adhered to. The 'cuad_audit_rights' task is constructed from the CUAD dataset, which consists of expert-annotated clauses, ensuring that the evaluation is grounded in real-world legal practices and standards.",
+  "description": "Classify if the clause gives a party the right to audit the books, records, or physical locations of the counterparty to ensure compliance with the contract.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1222,
   "tags": [
-    "LegalBench",
-    "audit rights",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

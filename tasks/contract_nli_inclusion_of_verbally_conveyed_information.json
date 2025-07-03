@@ -2,13 +2,10 @@
   "task_id": "contract_nli_inclusion_of_verbally_conveyed_information",
   "name": "contract_nli_inclusion_of_verbally_conveyed_information",
   "family": "LegalBench",
-  "short_description": "Evaluates if NDA clauses include verbally conveyed Confidential Information.",
-  "long_description": "The task 'contract_nli_inclusion_of_verbally_conveyed_information' measures the capability to interpret legal clauses in Non-Disclosure Agreements (NDAs) regarding the inclusion of verbally conveyed information as Confidential Information. This task specifically assesses the understanding of how verbal communications are treated under contract law, particularly in the context of confidentiality obligations. It requires the evaluator to discern whether the language of a clause explicitly encompasses information conveyed verbally, which is critical for determining the scope of confidentiality protections in legal agreements.\n\nLegal reasoning involved in this task primarily revolves around interpretation. Evaluators must analyze the wording of contract clauses to ascertain whether they imply or explicitly state that verbally communicated information falls under the definition of Confidential Information. This task is important for evaluating legal AI systems because it tests their ability to understand nuanced legal language and apply legal principles accurately, which is essential for ensuring compliance and protecting sensitive information in legal practice. The task also highlights the significance of clear communication in contracts, as ambiguities can lead to disputes over the enforceability of confidentiality provisions.",
+  "description": "Identify if the clause provides that Confidential Information may include verbally conveyed information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 147,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,12 @@
   "task_id": "learned_hands_employment",
   "name": "learned_hands_employment",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to employment matters.",
-  "long_description": "The 'learned_hands_employment' task evaluates the ability of legal AI systems to identify and classify user-generated content that implicates legal issues concerning employment. This includes a wide range of topics such as discrimination, harassment, workers' compensation, employee rights, union activities, wage disputes, pension issues, and wrongful termination. By focusing on these specific employment-related legal issues, the task assesses the AI's capability to recognize relevant legal concepts and their implications in real-world scenarios.\n\nThe task requires issue-spotting legal reasoning, where the AI must discern whether a given user post contains discussions that could lead to legal action or require legal advice. This type of analysis is crucial for developing AI systems that can assist individuals in navigating complex employment law matters, ensuring that they receive appropriate guidance based on the content of their inquiries. Evaluating AI performance on this task is vital for enhancing the reliability and accuracy of legal technology tools, ultimately contributing to better access to justice for individuals facing employment-related legal challenges.\n\nThe task is grounded in fundamental employment law principles, which govern the rights and responsibilities of both employers and employees. Understanding these principles is essential for the AI to effectively classify posts and provide meaningful insights or recommendations. By focusing on a diverse array of employment issues, this benchmark task plays a significant role in advancing the capabilities of legal AI systems in real-world applications.",
+  "description": "Classify if a user post implicates legal issues related to employment.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 716,
   "tags": [
-    "LegalBench",
-    "discrimination",
     "employment law",
-    "issue spotting",
-    "issue-spotting"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 23,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

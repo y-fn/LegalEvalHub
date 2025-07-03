@@ -2,13 +2,10 @@
   "task_id": "contract_nli_limited_use",
   "name": "contract_nli_limited_use",
   "family": "LegalBench",
-  "short_description": "Evaluates if NDA clauses restrict use of Confidential Information to specified purposes.",
-  "long_description": "The 'contract_nli_limited_use' task measures the legal capability to interpret non-disclosure agreement (NDA) clauses, specifically assessing whether a clause restricts the Receiving Party's use of Confidential Information to the purposes explicitly stated in the agreement. This task requires a nuanced understanding of contract law and the ability to analyze the implications of contractual language, focusing on the interpretation of terms and their legal effect. Participants must discern between clauses that affirmatively restrict use and those that do not, which is critical for ensuring compliance with confidentiality obligations in legal agreements.\n\nThis task is vital for evaluating legal AI systems as it tests their ability to perform binary classification on legal texts, a fundamental skill in legal analysis. By determining whether a clause entails or contradicts the specified hypothesis, the task highlights the importance of precise language in legal documents and the potential consequences of misinterpretation. Understanding these concepts is essential for legal professionals, as it directly impacts the enforceability of NDAs and the protection of sensitive information in business contexts.",
+  "description": "Determine whether a clause from a Non-Disclosure Agreement (NDA) restricts the Receiving Party's use of Confidential Information to the purposes stated in the Agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 216,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

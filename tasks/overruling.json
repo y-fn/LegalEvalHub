@@ -2,18 +2,14 @@
   "task_id": "overruling",
   "name": "overruling",
   "family": "LegalBench",
-  "short_description": "Classify if a judicial opinion sentence overrules a prior case.",
-  "long_description": "The 'overruling' task evaluates the capability to determine whether a specific sentence from a judicial opinion effectively overturns the decision of a previous case. This task measures legal reasoning and analysis skills, particularly in the context of understanding the implications of judicial language and the hierarchy of case law. It requires a nuanced understanding of legal precedent and the ability to interpret the rhetorical structure of judicial opinions, which is critical for legal practitioners who must navigate complex legal landscapes and apply relevant case law accurately.\n\nThis task is essential for evaluating legal AI systems as it tests their ability to comprehend and analyze legal texts in a manner similar to human legal professionals. The ability to identify when a court decision overrules a prior ruling is fundamental to legal practice, as it directly impacts the application of law and the predictability of legal outcomes. Understanding the concept of overruling is rooted in the doctrine of precedent, where higher court decisions can alter or negate the legal standing of previous cases, making this task vital for ensuring that AI systems can assist in legal research and decision-making processes effectively.",
+  "description": "Classify whether a sentence from a judicial opinion overrules a previous case.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 2400,
   "tags": [
-    "LegalBench",
-    "judicial opinion",
-    "precedent",
-    "rhetorical understanding",
-    "rule application"
+    "judicial text",
+    "rhetorical understanding"
   ],
-  "document_type": "judicial opinion",
+  "document_type": "judicial text",
   "min_input_length": 1,
   "max_input_length": 300,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,17 +2,14 @@
   "task_id": "supply_chain_disclosure_best_practice_audits",
   "name": "supply_chain_disclosure_best_practice_audits",
   "family": "LegalBench",
-  "short_description": "Evaluates if supply chain disclosures mention audit practices by sellers or manufacturers.",
-  "long_description": "This task measures the legal capability to interpret supply chain disclosures, specifically focusing on whether these disclosures indicate that a retail seller or manufacturer conducts audits or reserves the right to perform audits. It requires an understanding of corporate compliance and transparency obligations, as well as the legal implications of audit rights in supply chain management. Participants must analyze the language used in disclosures to determine if they meet the specified criteria, showcasing their ability to interpret legal texts accurately.\n\nThe importance of this task lies in its relevance to corporate governance and accountability in supply chains. As businesses face increasing scrutiny regarding ethical sourcing and operational transparency, understanding the nuances of audit disclosures becomes crucial. This task not only tests the legal reasoning skills of AI systems but also reflects on broader issues of corporate responsibility and regulatory compliance. By evaluating how well AI can interpret these disclosures, we can assess its effectiveness in supporting legal professionals in ensuring adherence to best practices in supply chain management.",
+  "description": "Given a supply chain disclosure, determine if the statement discloses whether the retail seller or manufacturer performs any type of audit, or reserves the right to audit.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 387,
   "tags": [
-    "LegalBench",
-    "audit rights",
     "corporate law",
     "interpretation"
   ],
-  "document_type": "disclosure statement",
+  "document_type": "corporate disclosure",
   "min_input_length": 107,
   "max_input_length": 5764,
   "metrics": [
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,12 @@
   "task_id": "maud_fiduciary_exception_board_determination_trigger_(no_shop)",
   "name": "maud_fiduciary_exception:_board_determination_trigger_(no_shop)",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of board actions under no-shop provisions in merger agreements.",
-  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on the board's ability to take actions regarding offers despite the presence of a no-shop provision. It requires knowledge of corporate law and fiduciary duties, particularly how these duties interact with contractual obligations in merger scenarios. The task assesses the ability to discern between different types of offers that may trigger board actions, such as distinguishing between a standard acquisition proposal and a superior offer that could lead to a more favorable outcome for shareholders.\n\nLegal reasoning in this task involves interpretation of contractual language and understanding of the implications of no-shop clauses, which typically prevent a company from soliciting other offers during a merger process. This task is crucial for evaluating legal AI systems as it tests their ability to navigate complex legal texts and apply relevant legal principles to specific scenarios. Understanding these nuances is vital for legal practitioners and AI systems alike, as it directly impacts decision-making in corporate transactions and the fiduciary responsibilities of boards of directors.",
+  "description": "This is a multiple-choice task in which the model must select the answer that best characterizes the merger agreement regarding the type of offer the Board could act on despite the no-shop provision.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 180,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "fiduciary duty",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 142,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

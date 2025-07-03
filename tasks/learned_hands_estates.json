@@ -2,16 +2,12 @@
   "task_id": "learned_hands_estates",
   "name": "learned_hands_estates",
   "family": "LegalBench",
-  "short_description": "Classifies user posts regarding legal issues related to estate planning.",
-  "long_description": "The 'learned_hands_estates' task evaluates the ability to identify legal issues concerning estate planning, including topics such as wills, powers of attorney, advance directives, trusts, and guardianships. This task measures the capability to spot relevant legal issues that arise when individuals prepare for end-of-life scenarios or potential incapacitation, which are critical aspects of estate law. The classification is binary, determining whether a user post implicates these legal concepts or not.\n\nThis task requires issue-spotting legal reasoning, where the AI must analyze user-generated content to discern whether it discusses pertinent estate planning matters. Evaluating AI systems on this task is crucial as it reflects their proficiency in understanding complex legal topics that affect individuals' rights and responsibilities regarding their property and health decisions. The legal concepts involved are foundational to estate law and are essential for ensuring that individuals can make informed decisions about their future and the management of their assets.\n\nBy effectively categorizing discussions related to estate planning, AI systems can provide better support to users seeking legal guidance, ultimately enhancing access to legal resources and improving the quality of assistance provided in sensitive situations involving estate management.",
+  "description": "Classify if a user post implicates legal issues related to estates.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 184,
   "tags": [
-    "LegalBench",
     "estate law",
-    "issue spotting",
-    "issue-spotting",
-    "wills"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 40,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block title %}FAQ - LegalEvalHub{% endblock %}
+
+{% block content %}
+<article class="documentation">
+    
+    <div class="faq-section">
+        
+        <div class="faq-item">
+            <h3>What is LegalEvalHub?</h3>
+            LegalEvalHub is meant to be a platform for sharing and tracking LLM performance on different legal tasks and benchmarks.
+        </div>
+        
+        <div class="faq-item">
+            <h3>Who maintains LegalEvalHub?</h3>
+            LegalEvalHub is maintained by <a href="https://neelguha.github.io/">Neel Guha</a>. For questions, comments, or suggestions, please reach out to <a href="mailto:nguha@cs.stanford.edu">neelguha@stanford.edu</a> or leave an issue on the <a href="https://github.com/neelguha/LegalEvalHub">GitHub repository</a>.
+        </div>
+        
+        
+        <div class="faq-item">
+            <h3>How do I evaluate my model on LegalEvalHub tasks?</h3>
+            We've created <a href="https://github.com/neelguha/legal-eval-harness">legal-eval-harness</a>, which is a harness for evaluating LLMs on legal tasks. It's very much a work in progress, but it's a good starting point. We'd encourage contributions to the harness in the form of new tasks and model support.
+        </div>
+        
+        <div class="faq-item">
+            <h3>How can I get involved?</h3>
+            We'd love contributions of tasks, leaderboards, and evaluation runs. Please see the <a href="https://github.com/neelguha/LegalEvalHub/blob/main/CONTRIBUTING.md">contribution guide</a> for more details.
+        </div>
+    </div>
+</article>
+
+<style>
+.faq-section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.faq-section h2 {
+    color: var(--text-primary);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.faq-item {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.faq-item:last-child {
+    border-bottom: none;
+}
+
+.faq-item h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+}
+
+.faq-item p {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+}
+
+.faq-item ul,
+.faq-item ol {
+    margin-bottom: 0.75rem;
+    margin-left: 1.5rem;
+}
+
+.faq-item li {
+    margin-bottom: 0.5rem;
+}
+
+.citation {
+    background-color: var(--bg-secondary);
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 3px;
+    font-family: var(--font-mono);
+    font-size: 0.9rem;
+    overflow-x: auto;
+    white-space: pre;
+}
+</style>
+{% endblock %}

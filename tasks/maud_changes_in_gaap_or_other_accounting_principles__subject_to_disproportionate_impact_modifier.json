@@ -2,13 +2,10 @@
   "task_id": "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
   "name": "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
   "family": "LegalBench",
-  "short_description": "Evaluates the impact of GAAP changes on Material Adverse Effect in merger agreements.",
-  "long_description": "This task measures the legal capability to interpret and analyze merger agreements, specifically focusing on how changes in Generally Accepted Accounting Principles (GAAP) or other accounting principles may qualify as a Material Adverse Effect (MAE). Legal professionals must assess whether such changes, particularly those that have a disproportionate impact, can trigger specific contractual provisions related to MAE. This requires a nuanced understanding of both the language of the merger agreement and the implications of accounting standards on the financial health of the involved entities.\n\nThe task necessitates critical legal reasoning and interpretation skills, as participants must navigate complex legal and financial concepts to arrive at a binary classification. Understanding the intersection of accounting principles and legal definitions of materiality is crucial, as it directly affects the risk assessment and valuation in merger transactions. Evaluating this task is vital for assessing the capabilities of legal AI systems, as it reflects their ability to interpret intricate legal documents and apply relevant legal standards accurately. This is particularly important in corporate law, where the stakes are high, and precise interpretations can significantly influence business decisions and outcomes.\n\nThe background of this task lies in the legal framework surrounding merger agreements, where MAE clauses are critical for protecting parties from unforeseen adverse changes. The task draws from a rich dataset of merger agreements, providing a robust foundation for evaluating AI's performance in legal reasoning and interpretation in the context of corporate transactions.",
+  "description": "The model must determine whether changes in GAAP or other accounting principles that have a disproportionate impact qualify for Material Adverse Effect (MAE) based on an excerpt from a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 99,
   "tags": [
-    "LegalBench",
-    "Material Adverse Effect",
     "corporate law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

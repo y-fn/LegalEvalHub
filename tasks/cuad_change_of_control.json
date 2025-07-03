@@ -2,13 +2,10 @@
   "task_id": "cuad_change_of_control",
   "name": "cuad_change_of_control",
   "family": "LegalBench",
-  "short_description": "Evaluates if a clause allows termination or requires consent upon change of control.",
-  "long_description": "The 'cuad_change_of_control' task measures the legal capability to interpret contractual clauses related to changes in control, such as mergers or asset transfers. Specifically, it assesses whether a clause grants one party the right to terminate the contract or necessitates consent or notice from the counterparty in the event of a change of control. This task requires nuanced legal reasoning, as it involves understanding the implications of contractual language and the legal consequences of such changes on the parties involved.\n\nThis task is crucial for evaluating legal AI systems, as it directly relates to the interpretation of contract law, which is foundational in corporate transactions. Understanding change of control clauses is essential for parties involved in mergers and acquisitions, as these clauses can significantly impact the rights and obligations of the parties. By accurately classifying these clauses, AI systems can assist legal professionals in contract review, ensuring that critical terms are identified and understood, thereby facilitating informed decision-making in corporate governance and compliance matters.",
+  "description": "Classify if the clause gives one party the right to terminate or if consent or notice is required of the counterparty in the event of a change of control.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 422,
   "tags": [
-    "LegalBench",
-    "change of control",
     "corporate law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

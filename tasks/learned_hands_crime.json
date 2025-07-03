@@ -2,16 +2,12 @@
   "task_id": "learned_hands_crime",
   "name": "learned_hands_crime",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to crime.",
-  "long_description": "The 'learned_hands_crime' task evaluates the capability of a legal AI system to identify and classify user-generated content that implicates issues within the criminal justice system. This includes recognizing discussions about criminal charges, trials, imprisonment, or victimization. The task requires the AI to engage in issue-spotting, a critical legal reasoning skill that involves discerning relevant legal issues from a broader context of information. By determining whether a post discusses criminal law matters, the AI demonstrates its understanding of legal concepts and the nuances of criminal liability and victim rights.\n\nThis task is essential for assessing the effectiveness of legal AI systems in real-world applications, particularly in environments where individuals seek legal guidance online. By accurately classifying posts related to crime, the AI can help direct users to appropriate legal resources or professionals, thereby enhancing access to justice. The 'learned_hands_crime' task is grounded in foundational legal principles surrounding criminal law, including the definitions of crimes, the rights of defendants, and the protections afforded to victims, making it a vital benchmark for evaluating AI's performance in legal contexts.",
+  "description": "Classify if a user post implicates legal issues related to crime.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 694,
   "tags": [
-    "LegalBench",
     "criminal law",
-    "issue spotting",
-    "issue-spotting",
-    "legal knowledge"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 30,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

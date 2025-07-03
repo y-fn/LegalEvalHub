@@ -2,13 +2,10 @@
   "task_id": "maud_type_of_consideration",
   "name": "maud_type_of_consideration",
   "family": "LegalBench",
-  "short_description": "Classify the type of consideration in a merger agreement excerpt.",
-  "long_description": "The 'maud_type_of_consideration' task evaluates the ability to interpret and classify the type of consideration specified in merger agreements. This task measures a legal AI system's capability to understand complex contractual language and identify whether the consideration is all cash, all stock, or a mixed form involving both cash and stock. Such classification is crucial for understanding the financial structure of mergers and acquisitions, which can significantly impact stakeholders' interests and the overall success of the transaction.\n\nTo successfully complete this task, legal reasoning and analysis are required, particularly in the realm of interpretation. The AI must discern nuances in the language of the agreement and apply knowledge of legal concepts related to consideration in contracts. This task is important for evaluating legal AI systems because it tests their ability to navigate and interpret specific contractual provisions, which is a fundamental skill for legal practitioners. Understanding the type of consideration in a merger agreement is essential for assessing the implications of the deal, including valuation and negotiation strategies, making this task a vital component of legal education and practice in corporate law.",
+  "description": "The model must select the answer that best characterizes the type of consideration specified in a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 173,
   "tags": [
-    "LegalBench",
-    "consideration",
     "corporate law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

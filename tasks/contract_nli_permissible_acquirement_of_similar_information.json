@@ -2,13 +2,10 @@
   "task_id": "contract_nli_permissible_acquirement_of_similar_information",
   "name": "contract_nli_Permissible acquirement of similar information",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause allows acquiring similar information from third parties.",
-  "long_description": "The task 'contract_nli_permissible_acquirement_of_similar_information' measures the legal capability to interpret clauses within Non-Disclosure Agreements (NDAs), specifically focusing on whether such clauses permit the Receiving Party to acquire information that is similar to the Confidential Information from third parties. This evaluation is crucial for understanding the implications of confidentiality obligations and the boundaries of permissible information sharing in contractual relationships. Legal professionals must be adept at discerning these nuances to ensure compliance and protect sensitive information effectively.\n\nThis task requires legal reasoning and analysis, particularly in the realm of interpretation. Participants must assess the language of the contract clauses to determine if they explicitly or implicitly allow for the acquisition of similar information from external sources. This is significant not only for the parties involved in the NDA but also for evaluating the capabilities of legal AI systems in accurately interpreting complex legal texts. A thorough understanding of the legal concepts surrounding confidentiality and information sharing is essential, as these principles underpin many business transactions and legal agreements.",
+  "description": "Identify if the clause provides that the Receiving Party may acquire information similar to Confidential Information from a third party.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 186,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

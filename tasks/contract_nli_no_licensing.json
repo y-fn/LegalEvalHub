@@ -2,13 +2,10 @@
   "task_id": "contract_nli_no_licensing",
   "name": "contract_nli_no_licensing",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause denies rights to Confidential Information.",
-  "long_description": "The 'contract_nli_no_licensing' task specifically measures the ability to interpret clauses within Non-Disclosure Agreements (NDAs) regarding the rights conferred to the Receiving Party concerning Confidential Information. It focuses on determining whether a given clause explicitly states that the Agreement does not grant the Receiving Party any rights to such information. This task requires a nuanced understanding of contract language and the implications of confidentiality provisions, which are critical in legal practice to protect sensitive information during business transactions.\n\nLegal reasoning in this task involves binary classification, where participants must analyze the text of the clause and assess its alignment with the hypothesis regarding the rights to Confidential Information. This evaluation is crucial for legal AI systems, as it tests their capability to accurately interpret legal documents, which is fundamental for ensuring compliance and safeguarding proprietary information in various legal contexts. Understanding the implications of confidentiality clauses is essential for legal practitioners, as these provisions play a pivotal role in maintaining the integrity of sensitive business information and preventing unauthorized disclosures.",
+  "description": "Determine whether a clause from a non-disclosure agreement (NDA) grants the Receiving Party any rights to Confidential Information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 170,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,15 +2,12 @@
   "task_id": "maud_tail_period_length",
   "name": "maud_tail_period_length",
   "family": "LegalBench",
-  "short_description": "Evaluates the identification of Tail Period length in merger agreements.",
-  "long_description": "The 'maud_tail_period_length' task measures the ability to interpret and analyze specific provisions within merger agreements, particularly focusing on the Tail Period, which is a critical component in the context of mergers and acquisitions. This task requires legal reasoning skills to accurately identify the duration specified in the agreement, which can vary significantly depending on the terms negotiated by the parties involved. Understanding the Tail Period is essential, as it can impact post-merger obligations and the timing of various rights and responsibilities that arise after the merger is completed.\n\nThis task is important for evaluating legal AI systems because it tests the model's capability to comprehend and apply legal concepts within a practical context. The interpretation of contractual terms like the Tail Period is fundamental in corporate law, where precise language can have substantial implications for the parties involved. By analyzing excerpts from actual merger agreements, the task not only assesses the AI's understanding of legal language but also its ability to navigate the complexities of corporate transactions, making it a valuable benchmark for legal AI performance.",
+  "description": "The model must read an excerpt from a merger agreement and determine the duration of the Tail Period by selecting the best answer from multiple-choice options.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 180,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreements"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 49,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

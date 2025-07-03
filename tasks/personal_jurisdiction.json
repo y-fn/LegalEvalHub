@@ -2,16 +2,12 @@
   "task_id": "personal_jurisdiction",
   "name": "personal_jurisdiction",
   "family": "LegalBench",
-  "short_description": "Evaluates the determination of personal jurisdiction in legal disputes.",
-  "long_description": "The 'personal_jurisdiction' task measures the ability to apply legal principles governing personal jurisdiction, specifically in the context of federal law. This task requires legal reasoning that involves analyzing a set of facts to determine whether a court has the authority to exercise jurisdiction over a defendant based on their contacts with the forum state or their domicile. Participants must assess whether the defendant's actions are sufficient to establish a connection with the forum and whether the claims arise from that connection, which are critical components of personal jurisdiction analysis.\n\nThis task is vital for evaluating legal AI systems because personal jurisdiction is a foundational aspect of civil procedure that affects the fairness and efficiency of legal proceedings. Understanding jurisdictional issues is crucial for practitioners, as improper jurisdiction can lead to dismissals or unfavorable outcomes for clients. The task focuses on simplified fact patterns to test the application of jurisdictional rules, providing insights into how well AI systems can interpret and apply complex legal doctrines in practical scenarios. By honing in on the nuances of domicile and sufficient contacts, this benchmark helps ensure that AI tools can assist legal professionals in navigating jurisdictional challenges effectively.",
+  "description": "Determine if a court in a given forum can exercise personal jurisdiction over a defendant based on their contacts with that forum.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 54,
   "tags": [
-    "LegalBench",
     "civil procedure",
-    "jurisdiction",
-    "rule application",
-    "rule conclusion"
+    "rule application"
   ],
   "document_type": "fact pattern",
   "min_input_length": 71,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,13 +2,10 @@
   "task_id": "maud_accuracy_of_target_general_rw_bringdown_timing_answer",
   "name": "maud_accuracy_of_target_\"general\"_r&w:_bringdown_timing_answer",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of representations and warranties in merger agreements.",
-  "long_description": "The task 'maud_accuracy_of_target_general_rw_bringdown_timing_answer' measures the ability to interpret and analyze the bring down provisions related to representations and warranties within merger agreements. Specifically, it assesses whether the respondent can accurately determine when these representations and warranties are required to be made, based on excerpts from the agreements. This capability is crucial for legal professionals who must navigate the complexities of merger agreements and ensure compliance with contractual obligations.\n\nThis task requires legal reasoning and interpretation skills, as participants must analyze the language of the merger agreement and apply their understanding of legal concepts related to representations and warranties. The binary classification format challenges the model to select the most appropriate answer from multiple choices, thereby testing its ability to discern subtle differences in contractual language. Evaluating AI systems with this task is vital, as it reflects their proficiency in understanding and applying legal principles that govern business transactions, which is essential for effective legal practice in corporate law.\n\nThe background of this task is rooted in the importance of representations and warranties in merger agreements, which serve to protect parties by ensuring that certain facts and conditions are true at specified times. The bring down provision specifically addresses the timing of these representations, making it a critical aspect of due diligence and risk management in mergers and acquisitions.",
+  "description": "The LLM must read an excerpt from a merger agreement and select the correct timing for when representations and warranties are required according to the bring down provision.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 182,
   "tags": [
-    "LegalBench",
-    "corporate law",
     "interpretation",
     "merger agreement"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

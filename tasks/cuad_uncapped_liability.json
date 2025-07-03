@@ -2,15 +2,12 @@
   "task_id": "cuad_uncapped_liability",
   "name": "cuad_uncapped_liability",
   "family": "LegalBench",
-  "short_description": "Classifies if a contract clause specifies uncapped liability for breaches.",
-  "long_description": "The 'cuad_uncapped_liability' task evaluates the ability to identify contractual clauses that specify a party's liability is uncapped in the event of a breach. This includes specific breaches such as intellectual property infringement or violations of confidentiality obligations. The task measures the legal capability to interpret contractual language and discern the implications of liability limitations, which is crucial for understanding risk exposure in contractual agreements.\n\nThis task requires legal reasoning and analysis focused on interpretation, as it involves assessing the language of contracts to determine whether it explicitly states that liability is uncapped. Understanding these clauses is vital for legal professionals and AI systems alike, as uncapped liability can significantly impact the parties' obligations and potential financial exposure. Evaluating AI systems on this task is important to ensure they can accurately interpret and analyze complex legal texts, which is essential for effective legal practice and contract management.\n\nThe concept of uncapped liability is significant in contract law, as it pertains to how parties allocate risk and responsibility in their agreements. By accurately identifying such clauses, legal practitioners can better advise their clients on the implications of their contractual commitments and potential liabilities, making this task a fundamental aspect of legal contract review.",
+  "description": "Classify if the clause specifies that a party\u2019s liability is uncapped upon the breach of its obligation in the contract.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 300,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "liability"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

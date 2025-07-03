@@ -2,15 +2,12 @@
   "task_id": "cuad_non-disparagement",
   "name": "cuad_non-disparagement",
   "family": "LegalBench",
-  "short_description": "Classifies clauses requiring parties not to disparage each other.",
-  "long_description": "The 'cuad_non-disparagement' task evaluates the ability to identify contractual clauses that impose a non-disparagement obligation on parties involved in an agreement. This task specifically measures the legal capability to interpret contract language and discern whether a clause explicitly restricts one party from making disparaging remarks about the other. It requires a nuanced understanding of legal terminology and the implications of non-disparagement clauses within the context of contract law.\n\nLegal reasoning in this task involves careful analysis and interpretation of the language used in contractual clauses. Participants must assess whether the wording of a clause aligns with the definition of non-disparagement, which typically prohibits parties from speaking negatively about each other in a manner that could harm reputations or business interests. This task is crucial for evaluating legal AI systems, as it tests their ability to accurately interpret and classify legal documents, which is essential for tasks such as contract review, compliance checks, and risk management in legal practice. Understanding non-disparagement clauses is important because they play a significant role in protecting the interests of parties in various agreements, including employment contracts, settlement agreements, and business partnerships.",
+  "description": "Classify if the clause requires a party not to disparage the counterparty.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 106,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "non-disparagement"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 18,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

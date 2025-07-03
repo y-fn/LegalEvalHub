@@ -2,15 +2,12 @@
   "task_id": "maud_definition_includes_asset_deals",
   "name": "maud_definition_includes_asset_deals",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of superior offers in asset deals within merger agreements.",
-  "long_description": "The task 'maud_definition_includes_asset_deals' measures the legal capability to interpret and analyze specific provisions within merger agreements, particularly in relation to what constitutes a 'superior offer' in asset deals. This involves understanding the nuances of contractual language and the implications of various thresholds for asset acquisition, which are critical in the context of mergers and acquisitions. The task requires the ability to discern between different classifications of offers based on the language used in the agreement, showcasing a deep understanding of corporate law principles and contractual obligations.\n\nLegal reasoning in this task focuses on interpretation, as participants must evaluate excerpts from merger agreements and apply their knowledge of deal structures to select the most accurate characterization of a superior offer. This task is essential for evaluating legal AI systems because it tests their ability to navigate complex legal texts, which is a fundamental skill for legal practitioners. The background concepts involved, such as asset deals and the criteria for superior offers, are pivotal in corporate transactions, making this task relevant for ensuring that AI systems can support legal professionals in real-world scenarios.",
+  "description": "The model must select the answer that best characterizes what qualifies as a superior offer in terms of asset deals from a merger agreement excerpt.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 147,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreement"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 90,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

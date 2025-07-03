@@ -2,13 +2,10 @@
   "task_id": "contract_nli_sharing_with_employees",
   "name": "contract_nli_sharing_with_employees",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause allows sharing confidential info with employees.",
-  "long_description": "This task is vital for evaluating legal AI systems as it tests their ability to comprehend and interpret complex legal language and implications within contracts. The ability to accurately classify clauses as allowing or prohibiting sharing of confidential information is essential for ensuring that legal AI tools can assist legal professionals in drafting, reviewing, and negotiating contracts effectively. Understanding these nuances is crucial in practice, as misinterpretation can lead to significant legal consequences, including breaches of contract and potential litigation. The task draws upon foundational legal concepts related to confidentiality and the obligations of parties under NDAs, making it a relevant benchmark for assessing AI's performance in legal interpretation tasks.",
+  "description": "Determine whether a clause from an NDA allows the Receiving Party to share Confidential Information with its employees.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 178,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

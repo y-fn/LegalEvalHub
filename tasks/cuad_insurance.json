@@ -2,16 +2,12 @@
   "task_id": "cuad_insurance",
   "name": "cuad_insurance",
   "family": "LegalBench",
-  "short_description": "Classifies clauses requiring insurance for one party's benefit in contracts.",
-  "long_description": "The 'cuad_insurance' task evaluates the ability to identify contractual clauses that impose a requirement for insurance to be maintained by one party for the benefit of the counterparty. This task specifically measures the legal capability of interpreting contract language and understanding the implications of insurance requirements within contractual agreements. It requires the model to discern whether a clause explicitly states that one party must hold insurance that protects the other party, which is a critical aspect of risk management in contractual relationships.\n\nLegal reasoning in this task involves interpretation of contract clauses, where the model must analyze the language used and determine the presence of specific insurance obligations. This type of analysis is essential for legal AI systems, as it reflects the practical application of contract law principles and the importance of insurance in mitigating potential liabilities. Understanding these requirements is vital for parties entering contracts, as it ensures that they are adequately protected against unforeseen events that could lead to financial loss.\n\nThe task is significant for evaluating legal AI systems because it tests their ability to handle nuanced legal language and make determinations that could impact the enforcement of contractual obligations. The background legal concepts involve contract law, specifically the obligations and rights that arise from contractual agreements, and the role of insurance as a protective measure in business transactions. By assessing AI's performance in this area, we can better understand its readiness for real-world legal applications.",
+  "description": "Classify if a clause creates a requirement for insurance that must be maintained by one party for the benefit of the counterparty.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1036,
   "tags": [
-    "LegalBench",
     "contract law",
-    "insurance requirement",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 12,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,12 @@
   "task_id": "cuad_notice_period_to_terminate_renewal",
   "name": "cuad_notice_period_to_terminate_renewal",
   "family": "LegalBench",
-  "short_description": "Classifies clauses specifying notice periods for terminating contract renewals.",
-  "long_description": "The 'cuad_notice_period_to_terminate_renewal' task evaluates the ability of legal AI systems to identify and classify contractual clauses that specify a notice period required for terminating the renewal of a contract. This task measures the AI's understanding of contract law, particularly the nuances of renewal terms and the implications of notice periods in contractual agreements. It requires the model to interpret legal language and discern whether a clause meets the criteria of specifying a notice period, which is crucial for ensuring compliance and clarity in contractual relationships.\n\nLegal reasoning involved in this task includes interpretation and analysis of contractual language, as the AI must accurately determine the presence or absence of specific terms related to notice periods. This capability is vital for legal professionals who need to review contracts efficiently and ensure that all necessary provisions are included to protect their interests. The importance of this task lies in its potential to enhance the efficiency of legal document review processes, thereby reducing the risk of oversight in critical contractual obligations. Understanding notice periods is essential in contract law, as they dictate the timeframe within which parties must communicate their intent to terminate a renewal, impacting the rights and responsibilities of the involved parties.",
+  "description": "Classify if the clause specifies a notice period required to terminate renewal.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 228,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "notice period",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

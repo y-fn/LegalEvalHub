@@ -2,13 +2,10 @@
   "task_id": "opp115_first_party_collection_use",
   "name": "opp115_first_party_collection_use",
   "family": "LegalBench",
-  "short_description": "Classify clauses on how and why user information is collected in privacy policies.",
-  "long_description": "The 'opp115_first_party_collection_use' task evaluates the ability to interpret and classify clauses from privacy policies regarding the collection of user information by service providers. Specifically, it measures the legal capability to discern whether a given clause articulates the methods and reasons for information collection, which is critical for understanding compliance with privacy regulations and user rights. This task requires a nuanced understanding of privacy law principles and the implications of data collection practices on user privacy.\n\nLegal reasoning in this task involves interpretation, as participants must analyze the language of privacy policy clauses to determine their compliance with legal standards and user expectations. This task is significant for evaluating legal AI systems because it tests their ability to navigate complex legal texts and extract relevant information that impacts user privacy rights. Given the increasing importance of data protection laws, such as the GDPR and CCPA, this task reflects the necessity for legal AI to accurately assess privacy policies, ensuring that they align with legal obligations and ethical standards surrounding user data collection and usage.",
+  "description": "Classify whether a clause from a privacy policy describes how and why a service provider collects user information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 2094,
   "tags": [
-    "LegalBench",
-    "data protection",
     "interpretation",
     "privacy law"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

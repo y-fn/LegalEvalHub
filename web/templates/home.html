@@ -48,21 +48,19 @@
             <th>Document Type</th>
             <th>Samples</th>
             <th>Submissions</th>
-            <th>Tags</th>
         </tr>
     </thead>
     <tbody>
         {% for task in tasks %}
-        <tr class="task-row" data-family="{{ task.family or 'none' }}" data-tags="{{ task.tags|join(' ') }}" data-doc-type="{{ task.document_type or 'none' }}" data-search="{{ task.name|lower }} {{ task.short_description|lower }}">
+        <tr class="task-row" data-family="{{ task.family or 'none' }}" data-tags="{{ task.tags|join(' ') }}" data-doc-type="{{ task.document_type or 'none' }}" data-search="{{ task.name|lower }} {{ task.description|lower }}">
             <td>
                 <a href="{{ url_for('task_detail', task_id=task.task_id) }}">{{ task.name }}</a>
             </td>
             <td>{{ task.family or '-' }}</td>
-            <td class="small">{{ task.short_description }}</td>
+            <td class="small">{{ task.description }}</td>
             <td>{{ task.document_type }}</td>
             <td>{{ task.num_samples }}</td>
             <td>{{ task.submission_count }}</td>
-            <td>{{ task.tags|join(', ') }}</td>
         </tr>
         {% endfor %}
     </tbody>

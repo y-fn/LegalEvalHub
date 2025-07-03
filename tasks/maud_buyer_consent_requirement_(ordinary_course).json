@@ -2,15 +2,12 @@
   "task_id": "maud_buyer_consent_requirement_(ordinary_course)",
   "name": "maud_buyer_consent_requirement_(ordinary_course)",
   "family": "LegalBench",
-  "short_description": "Evaluates the Buyer's consent limitations in merger agreements for ordinary operations.",
-  "long_description": "The task measures the legal capability to interpret and analyze consent requirements within merger agreements, specifically focusing on the conditions under which a Buyer can withhold or delay consent for the acquired company's ordinary business operations. It assesses the understanding of contractual language and the implications of consent limitations, which are crucial in merger negotiations and compliance with legal standards.\n\nThis task requires legal reasoning that involves interpreting specific clauses in merger agreements and applying knowledge of corporate law principles. The analysis must consider the balance between the Buyer's rights and the operational needs of the acquired company, highlighting the importance of clear contractual terms to prevent disputes. Evaluating this task is vital for legal AI systems as it reflects their ability to navigate complex legal texts and provide accurate interpretations that can influence significant business decisions.\n\nUnderstanding the consent requirement in merger agreements is essential, as it can affect the operational continuity of the acquired entity and the overall success of the merger. The nuances of how consent can be conditioned, withheld, or delayed are critical for legal practitioners and AI systems alike, ensuring that they can effectively support legal decision-making processes in corporate transactions.",
+  "description": "The model must determine if there are any limitations on the Buyer\u2019s right to condition, withhold, or delay their consent regarding the acquired company\u2019s ordinary business operations based on an excerpt from a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 182,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreement"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 33,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

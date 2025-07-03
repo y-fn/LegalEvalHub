@@ -2,15 +2,12 @@
   "task_id": "maud_cor_permitted_in_response_to_intervening_event",
   "name": "maud_cor_permitted_in_response_to_intervening_event",
   "family": "LegalBench",
-  "short_description": "Evaluates if a Change of Recommendation is allowed after an intervening event in mergers.",
-  "long_description": "The task 'maud_cor_permitted_in_response_to_intervening_event' measures the legal capability to interpret merger agreements, specifically focusing on whether a Change of Recommendation is permissible in response to an intervening event. This involves analyzing specific clauses within a merger agreement to determine the conditions under which such a change may occur, reflecting an understanding of contractual obligations and the nuances of corporate law. The task requires the application of legal reasoning to assess the implications of the language used in the agreement and the context of the intervening event.\n\nThis task is crucial for evaluating legal AI systems as it tests their ability to comprehend complex legal documents and apply legal principles accurately. Understanding the permissibility of actions like a Change of Recommendation is vital for parties involved in mergers and acquisitions, as it can significantly impact negotiations and strategic decisions. The background legal concepts include the interpretation of contractual terms and the implications of intervening events, which are common in corporate transactions and can affect the obligations and rights of the parties involved.",
+  "description": "The model must determine whether a Change of Recommendation is permitted in response to an intervening event based on an excerpt from a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 101,
   "tags": [
-    "LegalBench",
-    "corporate law",
     "interpretation",
-    "merger agreements"
+    "merger agreement"
   ],
   "document_type": "merger agreement",
   "min_input_length": 80,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,13 +2,10 @@
   "task_id": "contract_nli_permissible_development_of_similar_information",
   "name": "contract_nli_permissible_development_of_similar_information",
   "family": "LegalBench",
-  "short_description": "Evaluates if an NDA clause allows independent development of similar information.",
-  "long_description": "The task 'contract_nli_permissible_development_of_similar_information' measures the legal capability to interpret clauses within Non-Disclosure Agreements (NDAs) specifically regarding the permissibility of independent development of information that is similar to confidential information. This involves understanding the nuances of confidentiality obligations and the implications of allowing or restricting the development of similar information by the Receiving Party. Legal professionals must be adept at discerning the specific language used in contract clauses to assess their legal effects accurately.\n\nThis task requires a high level of legal reasoning, particularly in the area of interpretation. Participants must analyze the language of the contract clauses to determine whether they explicitly permit or prohibit the independent development of similar information. This is crucial for evaluating legal AI systems, as it tests their ability to understand and apply complex legal concepts in real-world scenarios. The ability to interpret such clauses is essential for legal practitioners who draft, negotiate, or enforce NDAs, as it directly impacts the rights and responsibilities of the parties involved.\n\nUnderstanding the legal concepts surrounding confidentiality and the implications of independent development is vital for ensuring compliance with contractual obligations. This task not only contributes to the development of more sophisticated legal AI systems but also enhances the overall understanding of contract law and its practical applications in protecting sensitive information.",
+  "description": "Identify if the clause provides that the Receiving Party may independently develop information similar to Confidential Information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 144,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

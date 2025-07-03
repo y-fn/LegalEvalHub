@@ -2,15 +2,12 @@
   "task_id": "cuad_renewal_term",
   "name": "cuad_renewal_term",
   "family": "LegalBench",
-  "short_description": "Classifies if a contractual clause specifies a renewal term.",
-  "long_description": "The 'cuad_renewal_term' task evaluates the ability of legal AI systems to identify and classify contractual clauses that explicitly specify a renewal term. This task measures the AI's understanding of contract law, particularly the nuances involved in renewal provisions, which are critical for determining the longevity and terms of contractual agreements. By accurately identifying these clauses, the AI demonstrates its capability to interpret legal language and assess the implications of renewal terms within contracts.\n\nThis task requires a high level of legal reasoning and interpretation, as it involves distinguishing between clauses that genuinely specify renewal terms and those that do not. The binary classification nature of the task means that the AI must not only recognize relevant keywords and phrases but also understand the context in which they are used. This capability is essential for legal practitioners who rely on AI tools to streamline contract review processes, ensuring that critical terms are not overlooked. Evaluating AI systems on this task is vital, as it reflects their readiness to assist in real-world legal scenarios where precise contract interpretation can significantly impact business operations and legal compliance.\n\nRenewal terms are a fundamental aspect of contract law, allowing parties to extend their agreements under specified conditions. Understanding these terms is crucial for parties entering into contracts, as they can affect obligations, rights, and the overall relationship between the contracting parties. Therefore, this task not only tests the AI's legal knowledge but also its practical application in real-world legal contexts.",
+  "description": "The model must determine if a contractual clause specifies a renewal term.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 392,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "renewal term"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

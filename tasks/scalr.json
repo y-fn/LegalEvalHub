@@ -2,16 +2,13 @@
   "task_id": "scalr",
   "name": "scalr",
   "family": "LegalBench",
-  "short_description": "Evaluates legal reasoning by identifying correct Supreme Court case holdings.",
-  "long_description": "The SCALR benchmark task assesses the ability of legal AI systems to comprehend and analyze legal language by presenting a legal question related to a Supreme Court case and requiring the identification of the correct holding statement from a set of candidates. This task specifically measures the understanding of legal reasoning and reading comprehension, focusing on the ability to discern the core holding of a case rather than merely recalling legal knowledge. It challenges AI models to engage in rhetorical analysis, evaluating how well they can interpret the nuances of legal language and apply that understanding to specific legal queries.\n\nThis task is crucial for evaluating the performance of legal AI systems, as it reflects their capability to navigate complex legal texts and extract relevant information. By focusing on Supreme Court cases from the 2001 Term onward, SCALR ensures that the questions presented are grounded in contemporary legal contexts. The task's design emphasizes the importance of understanding legal principles and the ability to apply them in practice, making it a valuable benchmark for assessing the effectiveness of AI in legal reasoning and analysis. The SCALR dataset, which includes 571 multiple-choice questions, provides a robust framework for testing and improving the capabilities of AI models in the legal domain.",
+  "description": "Given a legal question, identify the holding statement (amongst a set of candidates) that best answers a particular legal question.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 571,
   "tags": [
-    "LegalBench",
-    "case law",
     "constitutional law",
-    "legal reasoning",
-    "rhetorical understanding"
+    "rhetorical understanding",
+    "rhetorical-analysis"
   ],
   "document_type": "legal question",
   "min_input_length": 20,
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

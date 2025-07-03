@@ -2,15 +2,12 @@
   "task_id": "learned_hands_business",
   "name": "learned_hands_business",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to business operations.",
-  "long_description": "The 'learned_hands_business' task evaluates the ability to identify and classify legal issues that arise in the context of small businesses and nonprofits. This includes a range of topics such as incorporation, licensing, taxation, and regulatory compliance, as well as challenges related to disasters and bankruptcies. By focusing on these specific areas, the task measures the model's understanding of the legal landscape that business owners navigate, which is crucial for providing accurate legal guidance and support.\n\nThe task requires issue-spotting legal reasoning, where the model must discern whether a user’s inquiry implicates relevant legal concerns. This type of analysis is essential for legal AI systems, as it helps ensure that users receive appropriate advice and resources tailored to their business-related legal questions. Understanding these legal concepts is vital for developing AI tools that can assist individuals and organizations in making informed decisions, thereby enhancing access to legal information and support in the business sector.\n\nGiven the complexities of business law and the variety of issues that can arise, this task serves as an important benchmark for evaluating the effectiveness of legal AI systems. It highlights the necessity for AI to not only recognize legal terminology but also to contextualize it within the specific challenges faced by businesses, ensuring that the technology can adequately support users in real-world scenarios.",
+  "description": "Classify if a user post implicates legal issues related to business.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 180,
   "tags": [
-    "LegalBench",
-    "business law",
-    "issue spotting",
-    "regulatory compliance"
+    "corporate law",
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 43,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

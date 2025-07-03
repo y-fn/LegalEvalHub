@@ -2,18 +2,14 @@
   "task_id": "telemarketing_sales_rule",
   "name": "telemarketing_sales_rule",
   "family": "LegalBench",
-  "short_description": "Evaluates application of telemarketing sales regulations to fact patterns.",
-  "long_description": "The 'telemarketing_sales_rule' benchmark task measures the ability to apply specific provisions of the Telemarketing Sales Rule (16 C.F.R. § 310.3(a)(1) and 16 C.F.R. § 310.3(a)(2)) to various fact patterns. This task focuses on identifying whether certain telemarketing practices constitute violations of the regulations that protect consumers from deceptive and abusive practices. Participants are required to analyze fact patterns and determine if the outlined requirements for disclosure and misrepresentation have been met, thus assessing their understanding of consumer protection laws in telemarketing contexts.\n\nThis task requires legal reasoning that involves the application of regulatory standards to hypothetical scenarios. Participants must interpret the legal language of the regulations and apply it to specific situations, making conclusions about compliance or violations. This task is crucial for evaluating legal AI systems, as it tests their capability to navigate complex regulatory frameworks and their ability to understand the nuances of consumer protection laws. Given the prevalence of telemarketing and the potential for consumer fraud, proficiency in applying these regulations is essential for ensuring compliance and protecting consumer rights.",
+  "description": "Determine how 16 C.F.R. \u00a7 310.3(a)(1) and 16 C.F.R. \u00a7 310.3(a)(2) apply to different fact patterns.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 51,
   "tags": [
-    "LegalBench",
     "consumer protection",
-    "deceptive practices",
-    "rule application",
-    "rule conclusion"
+    "rule application"
   ],
-  "document_type": "legal question",
+  "document_type": "fact pattern",
   "min_input_length": 57,
   "max_input_length": 142,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

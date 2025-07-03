@@ -2,18 +2,15 @@
   "task_id": "textualism_tool_plain",
   "name": "textualism_tool_plain",
   "family": "LegalBench",
-  "short_description": "Evaluates the application of plain meaning in judicial opinions on statutes.",
-  "long_description": "The 'textualism_tool_plain' task measures the capability of legal AI systems to identify and classify judicial interpretations that utilize a textualist approach, specifically focusing on the ordinary or 'plain' meaning of statutory language. This task requires the AI to analyze excerpts from judicial opinions and determine whether they explicitly reference or apply the principle of plain meaning in their reasoning. By doing so, the task assesses the AI's understanding of how courts interpret statutes and the significance of textualism in legal analysis.\n\nLegal reasoning in this task involves rhetorical analysis, as the AI must discern not only the presence of plain meaning but also the context in which it is applied. This includes evaluating whether the judicial opinion cites plain meaning as a guiding principle or applies it directly to the facts of the case. The importance of this task lies in its ability to evaluate the effectiveness of legal AI systems in mimicking judicial reasoning, particularly in how they interpret statutory language—a fundamental aspect of legal practice that impacts case outcomes and legal certainty. Understanding textualism is crucial for legal practitioners, as it influences statutory interpretation and the application of law in various contexts.",
+  "description": "Determine if a paragraph from a judicial opinion is applying a form of textualism that relies on the ordinary ('plain') meaning of terms.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 169,
   "tags": [
-    "LegalBench",
-    "legal reasoning",
     "rhetorical understanding",
-    "statutory interpretation",
-    "textualism"
+    "rhetorical-analysis",
+    "statute"
   ],
-  "document_type": "judicial opinion",
+  "document_type": "judicial text",
   "min_input_length": 29,
   "max_input_length": 874,
   "metrics": [
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -6,49 +6,26 @@
 <article class="documentation">
     <h2>{{ task.name }}</h2>
     
-    {{ task.long_description }}
+    
     <br>
 
-    
-    <h2>Task Details</h2>
-    
-    <table style="width: auto; margin-bottom: 2rem;">
-        <tr>
-            <th>Document Type</th>
-            <td>{{ task.document_type }}</td>
-        </tr>
-        <tr>
-            <th>Number of Samples</th>
-            <td>{{ task.num_samples }}</td>
-        </tr>
-        <tr>
-            <th>Input Length Range</th>
-            <td>{{ task.min_input_length }}-{{ task.max_input_length }} tokens</td>
-        </tr>
-        <tr>
-            <th>Evaluation Metrics</th>
-            <td>
-                {% for metric in task.metrics %}
-                {{ metric.name }} ({{ metric.direction }}){% if not loop.last %}, {% endif %}
-                {% endfor %}
-            </td>
-        </tr>
-        <tr>
-            <th>Tags</th>
-            <td>{{ task.tags|join(', ') }}</td>
-        </tr>
-        <tr>
-            <th>Paper</th>
-            <td><a href="{{ task.paper_url }}" target="_blank">{{ task.paper_title }}</a></td>
-        </tr>
-        <tr>
-            <th>Dataset Download</th>
-            <td><a href="{{ task.dataset_url }}" target="_blank">Download</a></td>
-        </tr>
-    </table>
+    <ul style="list-style-type: disc; margin-bottom: 2rem;">
+        <li><strong>Task Description:</strong> {{ task.description }}</li>
+        <li><strong>Task Type:</strong> {{ task.task_type }}</li>
+        <li><strong>Document Type:</strong> {{ task.document_type }}</li>
+        <li><strong>Number of Samples:</strong> {{ task.num_samples }}</li>
+        <li><strong>Input Length Range:</strong> {{ task.min_input_length }}-{{ task.max_input_length }} tokens</li>
+        <li><strong>Evaluation Metrics:</strong> 
+            {% for metric in task.metrics %}
+            {{ metric.name }} ({{ metric.direction }}){% if not loop.last %}, {% endif %}
+            {% endfor %}
+        </li>
+        <li><strong>Tags:</strong> {{ task.tags|join(', ') }}</li>
+        <li><strong>Paper:</strong> <a href="{{ task.paper_url }}" target="_blank">{{ task.paper_title }}</a></li>
+        <li><strong>Dataset Download:</strong> <a href="{{ task.dataset_url }}" target="_blank">{{ task.dataset_url }}</a></li>
+    </ul>
 
     
-    <h2>Leaderboard</h2>
     <p class="text-muted">{{ total_submissions }} submissions</p>
 
     {% if leaderboard %}
@@ -57,7 +34,6 @@
             <tr>
                 <th>Rank</th>
                 <th>Model</th>
-                <th>Submitter</th>
                 {% for metric in task.metrics %}
                 <th>{{ metric.name }}</th>
                 {% endfor %}
@@ -69,8 +45,7 @@
             {% for run in leaderboard %}
             <tr>
                 <td class="rank">{{ run.rank }}</td>
-                <td>{{ run.model_name }}</td>
-                <td>{{ run.submitter }}</td>
+                <td>{{ run.model_name }}</td> 
                 {% for metric in task.metrics %}
                 <td class="metric-value">{{ "%.3f"|format(run.metrics.get(metric.name, 0)) }}</td>
                 {% endfor %}

@@ -2,16 +2,12 @@
   "task_id": "cuad_post-termination_services",
   "name": "cuad_post-termination_services",
   "family": "LegalBench",
-  "short_description": "Classifies contractual clauses for post-termination obligations.",
-  "long_description": "The 'cuad_post-termination_services' task evaluates the ability to identify and classify contractual clauses that impose obligations on parties after the termination or expiration of a contract. This includes various commitments such as post-termination transition, payment responsibilities, intellectual property transfers, and other similar obligations. The task specifically measures the legal capability to interpret contractual language and determine whether a clause fits within the defined category of post-termination services.\n\nTo successfully complete this task, legal reasoning and analysis are required to interpret the nuances of contractual language. The model must discern whether the obligations outlined in a clause extend beyond the contract's termination, which is critical for understanding the ongoing responsibilities of the parties involved. This task is significant for evaluating legal AI systems as it tests their proficiency in contract interpretation, a fundamental aspect of legal practice. Accurate classification of post-termination obligations is essential for legal professionals to ensure compliance and mitigate risks associated with contract termination.\n\nThe background of this task is rooted in contract law, where post-termination clauses play a vital role in defining the rights and responsibilities of the parties involved after a contract ends. Understanding these obligations is crucial for effective legal counsel and contract management, making this task a valuable benchmark for assessing the capabilities of AI in legal contexts.",
+  "description": "Classify if the clause subjects a party to obligations after the termination or expiration of a contract, including any post-termination transition, payment, transfer of IP, wind-down, last-buy, or similar commitments.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 814,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "post-termination obligations",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 13,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

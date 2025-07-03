@@ -2,13 +2,10 @@
   "task_id": "consumer_contracts_qa",
   "name": "consumer_contracts_qa",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of rights and obligations in consumer contracts.",
-  "long_description": "The 'consumer_contracts_qa' task measures the legal capability of interpreting clauses within online terms of service agreements. Specifically, it focuses on the ability to answer yes/no questions regarding the rights and obligations that these clauses create for consumers. This task is essential for assessing how well legal AI systems can understand and analyze consumer contracts, which are prevalent in today's digital economy. As such, it reflects a critical aspect of contract law and consumer protection regulations.\n\nLegal reasoning in this task requires a nuanced understanding of contract interpretation, where one must discern the implications of specific language used in terms of service agreements. Participants must apply their knowledge of legal principles to determine whether certain rights or obligations are present based on the contractual language. This task is significant for evaluating legal AI systems as it highlights their ability to engage in practical legal analysis, ensuring that they can effectively assist consumers in understanding their rights in a complex legal landscape. The task is grounded in fundamental legal concepts related to contract law, emphasizing the importance of clarity and precision in consumer agreements.",
+  "description": "Answer yes/no questions on the rights and obligations created by clauses in terms of services agreements.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 400,
   "tags": [
-    "LegalBench",
-    "consumer protection",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

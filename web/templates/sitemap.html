@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Sitemap - LegalEvalHub{% endblock %}
+
+{% block content %}
+<article class="documentation">
+    <h1>Sitemap</h1>
+    
+    <p>Complete list of all pages on LegalEvalHub.</p>
+    
+    {% for section, links in pages.items() %}
+    <h2>{{ section }}</h2>
+    <ul>
+        {% for name, url in links %}
+        <li><a href="{{ url }}">{{ name }}</a></li>
+        {% endfor %}
+        {% if section == 'Individual Tasks' and num_tasks > 10 %}
+        <li><em>... and {{ num_tasks - 10 }} more tasks</em></li>
+        {% endif %}
+    </ul>
+    {% endfor %}
+</article>
+{% endblock %}

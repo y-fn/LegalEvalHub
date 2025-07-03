@@ -2,13 +2,10 @@
   "task_id": "opp115_data_retention",
   "name": "opp115_data_retention",
   "family": "LegalBench",
-  "short_description": "Classifies privacy policy clauses on user data retention duration.",
-  "long_description": "The 'opp115_data_retention' task evaluates the capability of legal AI systems to interpret and classify clauses from privacy policies regarding the duration of user data retention. This task specifically measures the AI's ability to discern whether a given clause explicitly states how long user information is stored, which is a critical aspect of data privacy and protection laws. Understanding data retention periods is essential for compliance with regulations such as the GDPR and CCPA, which mandate transparency about data handling practices.\n\nTo successfully complete this task, the AI must engage in legal reasoning and interpretation, analyzing the language used in privacy policy clauses to determine if they provide clear information about data retention timelines. This requires not only a grasp of legal terminology but also an understanding of the implications of data retention practices on user privacy rights. Evaluating this task is vital for assessing the effectiveness of legal AI systems in navigating complex privacy regulations and ensuring that users are informed about how their data is managed.\n\nThe task is grounded in the legal concepts of data privacy and retention, which are increasingly important in the digital age as organizations collect and process vast amounts of personal information. By classifying these clauses accurately, legal AI systems can contribute to better compliance and transparency in data practices, thereby enhancing user trust and safeguarding privacy rights.",
+  "description": "Classify whether a clause from a privacy policy describes how long user information is stored.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 96,
   "tags": [
-    "LegalBench",
-    "data retention",
     "interpretation",
     "privacy law"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

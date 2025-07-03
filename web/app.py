@@ -1,4 +1,4 @@
-from flask import Flask, render_template, jsonify, request
+from flask import Flask, render_template, jsonify, request, redirect, url_for
 import json
 import os
 from datetime import datetime
@@ -6,6 +6,11 @@ from collections import defaultdict
 import statistics
 
 app = Flask(__name__)
+
+@app.context_processor
+def inject_presets():
+    """Inject presets into all templates for the dropdown menu"""
+    return dict(presets=get_task_presets())
 
 def get_tasks():
     """Load all tasks from the tasks directory"""
@@ -15,9 +20,17 @@ def get_tasks():
     if os.path.exists(tasks_dir):
         for filename in os.listdir(tasks_dir):
             if filename.endswith('.json'):
-                with open(os.path.join(tasks_dir, filename), 'r') as f:
-                    task = json.load(f)
-                    tasks.append(task)
+                filepath = os.path.join(tasks_dir, filename)
+                try:
+                    with open(filepath, 'r') as f:
+                        task = json.load(f)
+                        tasks.append(task)
+                except json.JSONDecodeError as e:
+                    print(f"Error parsing JSON in {filename}: {e}")
+                    continue
+                except Exception as e:
+                    print(f"Error loading {filename}: {e}")
+                    continue
     
     return sorted(tasks, key=lambda x: x.get('name', ''))
 
@@ -48,6 +61,17 @@ def get_all_document_types():
         if doc_type:
             doc_types.add(doc_type)
     return sorted(list(doc_types))
+
+def get_task_presets():
+    """Load task presets from configuration file"""
+    presets_path = os.path.join(os.path.dirname(__file__), 'task_presets.json')
+    
+    if os.path.exists(presets_path):
+        with open(presets_path, 'r') as f:
+            data = json.load(f)
+            return data.get('presets', {})
+    
+    return {}
 
 def get_tasks_by_family(family):
     """Get all tasks belonging to a specific family"""
@@ -98,7 +122,15 @@ def calculate_leaderboard(task, eval_runs):
 
 def calculate_aggregate_scores(task_ids):
     """Calculate aggregate scores across multiple tasks"""
-    model_scores = defaultdict(lambda: {'scores': [], 'task_count': 0, 'runs': []})
+    model_scores = defaultdict(lambda: {
+        'scores': [], 
+        'task_count': 0, 
+        'runs': [], 
+        'submitters': set(), 
+        'submission_ids': set(),
+        'ranks': [],
+        'raw_metrics': []
+    })
     
     for task_id in task_ids:
         task = get_task_by_id(task_id)
@@ -109,10 +141,21 @@ def calculate_aggregate_scores(task_ids):
         if not eval_runs:
             continue
             
-        # Normalize scores for this task (0-1 scale based on best/worst)
+        # Get primary metric info
         primary_metric = task['metrics'][0]['name']
         direction = task['metrics'][0]['direction']
         
+        # Sort runs by primary metric to determine ranks
+        sorted_runs = sorted(eval_runs, 
+                           key=lambda x: x.get('metrics', {}).get(primary_metric, 0),
+                           reverse=(direction == 'maximize'))
+        
+        # Create a rank mapping
+        rank_map = {}
+        for rank, run in enumerate(sorted_runs, 1):
+            rank_map[run.get('model_name', 'Unknown')] = rank
+        
+        # Calculate normalized scores
         metric_values = [run.get('metrics', {}).get(primary_metric, 0) for run in eval_runs]
         if not metric_values:
             continue
@@ -122,6 +165,8 @@ def calculate_aggregate_scores(task_ids):
         
         for run in eval_runs:
             model_name = run.get('model_name', 'Unknown')
+            submitter = run.get('submitter', 'Unknown')
+            submission_id = run.get('submission_id', '')
             score = run.get('metrics', {}).get(primary_metric, 0)
             
             # Normalize score to 0-1
@@ -135,12 +180,18 @@ def calculate_aggregate_scores(task_ids):
                 
             model_scores[model_name]['scores'].append(normalized)
             model_scores[model_name]['task_count'] += 1
+            model_scores[model_name]['submitters'].add(submitter)
+            model_scores[model_name]['submission_ids'].add(submission_id)
+            model_scores[model_name]['ranks'].append(rank_map[model_name])
+            model_scores[model_name]['raw_metrics'].append(score)
             model_scores[model_name]['runs'].append({
                 'task_id': task_id,
                 'task_name': task['name'],
                 'score': score,
                 'normalized_score': normalized,
-                'metric': primary_metric
+                'metric': primary_metric,
+                'submitter': submitter,
+                'rank': rank_map[model_name]
             })
     
     # Calculate average scores
@@ -148,18 +199,29 @@ def calculate_aggregate_scores(task_ids):
     for model_name, data in model_scores.items():
         if data['scores']:
             avg_score = statistics.mean(data['scores'])
+            avg_rank = statistics.mean(data['ranks'])
+            avg_raw_metric = statistics.mean(data['raw_metrics'])
+            
+            # Get the most common submitter (in case there are multiple)
+            submitters_list = list(data['submitters'])
+            submitter = submitters_list[0] if len(submitters_list) == 1 else ', '.join(sorted(submitters_list))
+            
             leaderboard.append({
-                'model_name': model_name,
+                'model': model_name,
+                'submitter': submitter,
                 'avg_score': avg_score,
-                'task_count': data['task_count'],
+                'avg_rank': avg_rank,
+                'avg_raw_metric': avg_raw_metric,
+                'num_tasks': data['task_count'],
                 'total_tasks': len(task_ids),
+                'num_submissions': len(data['submission_ids']),
                 'runs': data['runs']
             })
     
-    # Sort by average score
+    # Sort by average score (primary sort key)
     leaderboard.sort(key=lambda x: x['avg_score'], reverse=True)
     
-    # Add ranks
+    # Add final ranks
     for i, entry in enumerate(leaderboard):
         entry['rank'] = i + 1
     
@@ -228,51 +290,40 @@ def task_detail(task_id):
 
 @app.route('/aggregate')
 def aggregate_leaderboard():
-    """Aggregate leaderboard page"""
+    """Redirect to the benchmarks page"""
+    return redirect(url_for('benchmarks'))
+
+@app.route('/benchmarks')
+def benchmarks():
+    """Aggregate leaderboards landing page"""
+    presets = get_task_presets()
+    return render_template('benchmarks.html', presets=presets)
+
+@app.route('/leaderboard/<preset_id>')
+def preset_leaderboard(preset_id):
+    """Dedicated page for a specific preset leaderboard"""
+    presets = get_task_presets()
+    
+    # Check if preset exists
+    if preset_id not in presets:
+        return "Preset not found", 404
+    
+    preset_data = presets[preset_id]
     tasks = get_tasks()
-    all_families = get_all_families()
-    all_tags = get_all_tags()
-    all_doc_types = get_all_document_types()
     
-    # Check if family, tag, or document type filter is applied
-    selected_family = request.args.get('family')
-    selected_tag = request.args.get('tag')
-    selected_doc_type = request.args.get('doc_type')
-    selected_task_ids = request.args.getlist('tasks')
-    
-    # If family is selected, get tasks from that family
-    if selected_family:
-        family_tasks = get_tasks_by_family(selected_family)
-        selected_task_ids = [task['task_id'] for task in family_tasks]
-    # If tag is selected, get tasks with that tag
-    elif selected_tag:
-        tag_tasks = [task for task in tasks if selected_tag in task.get('tags', [])]
-        selected_task_ids = [task['task_id'] for task in tag_tasks]
-    # If document type is selected, get tasks with that document type
-    elif selected_doc_type:
-        doc_type_tasks = [task for task in tasks if task.get('document_type') == selected_doc_type]
-        selected_task_ids = [task['task_id'] for task in doc_type_tasks]
-    # If no tasks selected and no filters, use all tasks
-    elif not selected_task_ids:
-        selected_task_ids = [task['task_id'] for task in tasks]
-    
-    # Get selected tasks info
+    # Get tasks for this preset
+    selected_task_ids = preset_data['tasks']
     selected_tasks = [task for task in tasks if task['task_id'] in selected_task_ids]
     
-    # Calculate aggregate leaderboard
+    # Calculate leaderboard
     leaderboard = calculate_aggregate_scores(selected_task_ids)
     
-    return render_template('aggregate.html',
-                         tasks=tasks,
-                         all_families=all_families,
-                         all_tags=all_tags,
-                         all_doc_types=all_doc_types,
-                         selected_family=selected_family,
-                         selected_tag=selected_tag,
-                         selected_doc_type=selected_doc_type,
+    return render_template('preset_leaderboard.html',
+                         preset_id=preset_id,
+                         preset_data=preset_data,
                          selected_tasks=selected_tasks,
-                         selected_task_ids=selected_task_ids,
-                         leaderboard=leaderboard)
+                         leaderboard=leaderboard,
+                         all_presets=presets)
 
 @app.route('/api/tasks')
 def api_tasks():
@@ -307,6 +358,42 @@ def api_aggregate():
         'task_ids': task_ids,
         'leaderboard': leaderboard
     })
+
+@app.route('/faq')
+def faq():
+    """FAQ page"""
+    return render_template('faq.html')
+
+@app.route('/resources')
+def resources():
+    """Resources page"""
+    return render_template('resources.html')
+
+@app.route('/sitemap')
+def sitemap():
+    """Simple sitemap page listing all available pages"""
+    presets = get_task_presets()
+    tasks = get_tasks()
+    
+    pages = {
+        'Main Pages': [
+            ('Home', url_for('home')),
+            ('Tasks', url_for('tasks')),
+            ('Aggregate Leaderboards', url_for('benchmarks')),
+            ('Resources', url_for('resources')),
+            ('FAQ', url_for('faq')),
+        ],
+        'Individual Leaderboards': [
+            (preset_data['name'], url_for('preset_leaderboard', preset_id=preset_id))
+            for preset_id, preset_data in presets.items()
+        ],
+        'Individual Tasks': [
+            (task['name'], url_for('task_detail', task_id=task['task_id']))
+            for task in tasks[:10]  # Show first 10 tasks
+        ]
+    }
+    
+    return render_template('sitemap.html', pages=pages, num_tasks=len(tasks))
 
 if __name__ == '__main__':
     app.run(debug=True, port=5000)

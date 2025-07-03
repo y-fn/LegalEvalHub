@@ -2,15 +2,12 @@
   "task_id": "maud_includes_consistent_with_past_practice",
   "name": "maud_includes_consistent_with_past_practice",
   "family": "LegalBench",
-  "short_description": "Evaluates if a merger agreement's Efforts Covenant includes 'consistent with past practice'.",
-  "long_description": "The task 'maud_includes_consistent_with_past_practice' measures the legal capability to interpret specific clauses within merger agreements, particularly focusing on the Efforts Covenant. This task requires the ability to analyze legal language and determine whether it aligns with established practices in past agreements. The legal reasoning involved is primarily interpretative, necessitating a nuanced understanding of contractual language and its implications in the context of merger agreements.\n\nThis task is crucial for evaluating legal AI systems as it tests their capacity to accurately discern and classify contractual language, which is fundamental in legal practice. Understanding phrases like 'consistent with past practice' is essential for legal professionals, as such language can significantly influence the obligations and expectations of parties involved in a merger. The task draws on the MAUD dataset, which provides a rich source of annotated merger agreements, allowing for a thorough assessment of AI models in understanding complex legal documents.",
+  "description": "The model must determine if the Efforts Covenant clause in a merger agreement includes the phrase 'consistent with past practice'.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 182,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreement"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 33,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

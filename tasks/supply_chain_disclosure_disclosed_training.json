@@ -2,18 +2,14 @@
   "task_id": "supply_chain_disclosure_disclosed_training",
   "name": "supply_chain_disclosure_disclosed_training",
   "family": "LegalBench",
-  "short_description": "Evaluates disclosure of training on human trafficking in supply chain management.",
-  "long_description": "The 'supply_chain_disclosure_disclosed_training' task measures the legal capability to interpret and evaluate supply chain disclosures specifically regarding the training provided to employees and management on human trafficking and slavery. This task requires the application of legal reasoning to determine whether the disclosures adequately inform stakeholders about the extent of training aimed at mitigating risks associated with human trafficking within the supply chains of products. It assesses the clarity and completeness of such disclosures in relation to legal compliance and ethical standards in corporate governance.\n\nThis task is critical for evaluating legal AI systems as it focuses on the intersection of corporate law, ethical business practices, and human rights. Understanding how well companies disclose their training efforts on such significant issues is essential for promoting transparency and accountability in supply chains. The legal concepts involved include corporate responsibility, compliance with anti-trafficking laws, and the ethical obligations of businesses to prevent human rights abuses. By effectively analyzing these disclosures, AI systems can support better regulatory compliance and foster corporate accountability in supply chain practices.",
+  "description": "Determine if a supply chain disclosure indicates whether training on human trafficking and slavery is provided to employees and management responsible for supply chain management.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 387,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "human trafficking",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
-  "document_type": "disclosure statement",
+  "document_type": "corporate disclosure",
   "min_input_length": 107,
   "max_input_length": 5764,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

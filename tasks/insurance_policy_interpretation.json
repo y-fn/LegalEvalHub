@@ -2,16 +2,12 @@
   "task_id": "insurance_policy_interpretation",
   "name": "insurance_policy_interpretation",
   "family": "LegalBench",
-  "short_description": "Evaluates interpretation of insurance policy coverage for claims.",
-  "long_description": "The 'insurance_policy_interpretation' task measures the capability to interpret and analyze insurance policies in relation to specific claims. This task requires legal reasoning focused on the interpretation of contractual language, assessing whether the terms of an insurance policy cover a given claim or if the coverage is ambiguous. Participants must apply their understanding of insurance law and policy language nuances to arrive at a conclusion, which can significantly impact the outcomes for claimants and insurers alike.\n\nThis task is crucial for evaluating legal AI systems as it tests their ability to navigate complex legal texts and apply relevant legal principles in a practical context. Understanding insurance policies involves familiarity with concepts such as coverage limits, exclusions, and conditions, which are essential for determining the validity of claims. By accurately interpreting these documents, AI systems can assist in automating claims processing, improving efficiency, and reducing disputes in the insurance industry.",
+  "description": "Given an insurance claim and policy, determine whether the claim is covered by the policy.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 138,
   "tags": [
-    "LegalBench",
-    "contract interpretation",
     "insurance law",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "legal text",
   "min_input_length": 36,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

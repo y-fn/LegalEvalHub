@@ -2,15 +2,12 @@
   "task_id": "opp115_policy_change",
   "name": "opp115_policy_change",
   "family": "LegalBench",
-  "short_description": "Classifies clauses on user notification regarding privacy policy changes.",
-  "long_description": "The 'opp115_policy_change' task evaluates the capability of legal AI systems to interpret clauses from privacy policies specifically concerning user notifications about changes to those policies. This task measures the AI's understanding of privacy law principles, particularly how transparency and user consent are addressed in legal texts. By classifying whether a clause indicates if and how users will be informed about changes, the task assesses the AI's ability to navigate the complexities of privacy regulations and user rights.\n\nLegal reasoning in this task involves interpretation, as the AI must discern the intent and clarity of the language used in the privacy policy clauses. This requires not only a grasp of legal terminology but also an understanding of the broader context of privacy laws, such as the General Data Protection Regulation (GDPR) and other relevant frameworks that mandate clear communication with users regarding their data rights. Evaluating this task is crucial for assessing the effectiveness of legal AI systems in providing accurate and reliable interpretations of legal documents, which can ultimately influence compliance and user trust in digital platforms.\n\nThe task is grounded in the principles of privacy law, which emphasize the importance of informing users about how their personal information is handled. As privacy policies are often dense and filled with legal jargon, the ability to accurately classify clauses regarding policy changes is vital for ensuring that users are adequately informed, thereby promoting transparency and accountability in data practices.",
+  "description": "Classify if a clause from a privacy policy describes if and how users will be informed about changes to the privacy policy.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 439,
   "tags": [
-    "LegalBench",
     "interpretation",
-    "privacy law",
-    "user notification"
+    "privacy law"
   ],
   "document_type": "privacy policy",
   "min_input_length": 10,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

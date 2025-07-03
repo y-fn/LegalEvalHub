@@ -2,15 +2,12 @@
   "task_id": "cuad_license_grant",
   "name": "cuad_license_grant",
   "family": "LegalBench",
-  "short_description": "Classify if a clause contains a license granted by one party to another.",
-  "long_description": "The 'cuad_license_grant' task evaluates the ability to identify and classify contractual clauses that grant a license from one party to another. This task measures the legal capability of interpreting contract language, specifically focusing on the presence of license grants, which are crucial components in various types of agreements. Understanding whether a clause constitutes a license grant requires familiarity with legal terminology and the implications of such grants within contractual relationships.\n\nLegal reasoning in this task involves interpretation, as it requires the model to discern the intent and meaning behind the language used in contract clauses. This is important for evaluating legal AI systems, as accurate classification of license grants can significantly impact the enforcement and understanding of contractual rights and obligations. The task is grounded in fundamental contract law principles, where a license grant allows one party to use certain rights or properties owned by another, making it essential for practitioners to identify these clauses correctly in legal documents.",
+  "description": "Classify if the clause contains a license granted by one party to its counterparty.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1402,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "license grant"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 13,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

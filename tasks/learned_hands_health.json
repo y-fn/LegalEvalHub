@@ -2,13 +2,10 @@
   "task_id": "learned_hands_health",
   "name": "learned_hands_health",
   "family": "LegalBench",
-  "short_description": "Classifies user posts for legal issues related to health services.",
-  "long_description": "The 'learned_hands_health' task evaluates the ability of legal AI systems to identify and classify user-generated content that implicates legal issues surrounding health services. This includes determining whether posts discuss access to health services, payment for medical care, public health benefits, and rights protection within medical contexts. By focusing on these specific legal capabilities, the task measures the AI's proficiency in recognizing relevant legal concerns that may arise in everyday health-related scenarios.\n\nThis task requires issue-spotting legal reasoning, where the AI must discern subtle cues within user posts that indicate potential legal issues. The binary classification nature of the task means that the AI must accurately categorize posts as either implicating legal issues (Yes) or not (No). This capability is crucial for evaluating legal AI systems, as it reflects their ability to assist users in navigating complex health law matters, which can significantly impact individuals' access to necessary services and their rights in medical environments. Understanding these legal concepts is vital for ensuring that AI tools can effectively support users in making informed decisions regarding their health care rights and obligations.",
+  "description": "Classify if a user post implicates legal issues related to health.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 232,
   "tags": [
-    "LegalBench",
-    "access to care",
     "health law",
     "issue spotting"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

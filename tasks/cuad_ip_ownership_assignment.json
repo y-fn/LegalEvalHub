@@ -2,16 +2,12 @@
   "task_id": "cuad_ip_ownership_assignment",
   "name": "cuad_ip_ownership_assignment",
   "family": "LegalBench",
-  "short_description": "Classifies clauses on intellectual property ownership in contracts.",
-  "long_description": "The 'cuad_ip_ownership_assignment' task evaluates the ability to identify and classify contractual clauses that specify whether intellectual property (IP) created by one party is assigned to another party. This task measures the legal capability to interpret contract language concerning IP ownership, which is a critical aspect of contract law. The focus is on determining if the terms of the contract or specific events dictate the transfer of IP rights, which requires a nuanced understanding of legal terminology and implications surrounding ownership assignments.\n\nThis task necessitates a form of legal reasoning that involves careful analysis and interpretation of contractual language. Legal practitioners must be adept at discerning the implications of ownership clauses, as these can significantly affect the rights and obligations of the parties involved. Evaluating AI systems using this task is essential, as it tests the systems' proficiency in understanding complex legal concepts and their ability to apply legal reasoning in real-world scenarios. The importance of accurately classifying IP ownership clauses cannot be overstated, as it plays a vital role in protecting intellectual property rights and ensuring compliance with contractual obligations.",
+  "description": "The LLM must classify whether a contractual clause specifies that intellectual property created by one party becomes the property of the counterparty.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 582,
   "tags": [
-    "LegalBench",
-    "contract law",
     "intellectual property",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

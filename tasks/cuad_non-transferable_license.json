@@ -2,15 +2,12 @@
   "task_id": "cuad_non-transferable_license",
   "name": "cuad_non-transferable_license",
   "family": "LegalBench",
-  "short_description": "Classifies clauses limiting license transferability in contracts.",
-  "long_description": "The 'cuad_non-transferable_license' task evaluates the ability of legal AI systems to identify and classify contractual clauses that restrict a party's ability to transfer a license to a third party. This task specifically measures the AI's understanding of contract law, focusing on the interpretation of language within legal documents. By determining whether a clause is non-transferable, the AI must demonstrate knowledge of the implications of such restrictions on the rights and obligations of the parties involved in the contract.\n\nLegal reasoning required for this task involves careful analysis and interpretation of the language used in contractual clauses. The AI must discern nuances in wording that indicate transferability limitations, which can significantly affect the enforceability and utility of the license in question. This task is crucial for evaluating legal AI systems, as it reflects their capability to assist legal professionals in contract review and compliance checks, ensuring that licenses are appropriately managed according to the parties' intentions and legal standards.\n\nUnderstanding non-transferable licenses is essential in various legal contexts, including intellectual property and commercial agreements, where the ability to assign rights can impact business operations and legal relationships. By focusing on this specific aspect of contract law, the task contributes to the broader goal of enhancing the accuracy and reliability of AI tools in legal practice, ultimately aiding lawyers in making informed decisions based on precise legal interpretations.",
+  "description": "Classify if the clause limits the ability of a party to transfer the license being granted to a third party.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 548,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "license transfer"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 14,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

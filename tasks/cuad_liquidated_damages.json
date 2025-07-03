@@ -2,16 +2,12 @@
   "task_id": "cuad_liquidated_damages",
   "name": "cuad_liquidated_damages",
   "family": "LegalBench",
-  "short_description": "Classifies clauses awarding liquidated damages or termination fees in contracts.",
-  "long_description": "The 'cuad_liquidated_damages' task evaluates the ability to identify and classify contractual clauses that specify the awarding of liquidated damages for breach of contract or a termination fee. This task measures the legal capability of interpreting contract language and understanding the implications of such clauses within the context of contract law. Liquidated damages are predetermined amounts agreed upon by the parties to a contract, intended to serve as compensation for potential breaches, while termination fees are penalties imposed when a contract is terminated early. Understanding these concepts is crucial for legal practitioners who must navigate contract negotiations and disputes effectively.\n\nThis binary classification task requires nuanced legal reasoning and analysis, as it involves distinguishing between clauses that explicitly provide for liquidated damages or termination fees and those that do not. The importance of this task lies in its relevance to evaluating legal AI systems, as it tests the system's ability to comprehend and interpret complex legal language, which is essential for automating contract review processes. As contracts often contain intricate provisions, the ability to accurately classify these clauses can significantly impact legal outcomes and business decisions.",
+  "description": "Classify if the clause awards either party liquidated damages for breach or a fee upon the termination of a contract (termination fee).",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 226,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "liquidated damages",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 16,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

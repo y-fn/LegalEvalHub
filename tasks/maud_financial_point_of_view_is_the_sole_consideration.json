@@ -2,13 +2,10 @@
   "task_id": "maud_financial_point_of_view_is_the_sole_consideration",
   "name": "maud_financial_point_of_view_is_the_sole_consideration",
   "family": "LegalBench",
-  "short_description": "Evaluates if 'financial point of view' is the sole consideration in merger offers.",
-  "long_description": "This task measures the legal capability to interpret merger agreements, specifically focusing on the consideration of financial perspectives in determining the superiority of offers. It requires the ability to analyze contractual language and assess whether financial considerations are the exclusive factor in evaluating offers, which is a critical aspect of merger negotiations. The task involves binary classification, where the model must choose between two options based on the provided excerpt from a merger agreement.\n\nThe importance of this task lies in its relevance to legal AI systems that assist in contract analysis and negotiation strategies. Understanding whether financial considerations are paramount can significantly impact the decision-making process in mergers and acquisitions. This task is grounded in the legal concepts of contract law and the principles governing merger agreements, where the interpretation of terms can lead to different strategic outcomes for the parties involved. As such, it serves as a benchmark for evaluating the interpretative capabilities of AI in the context of complex legal documents.",
+  "description": "The model must determine if 'financial point of view' is the sole consideration in assessing the superiority of an offer in a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 113,
   "tags": [
-    "LegalBench",
-    "corporate law",
     "interpretation",
     "merger agreement"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

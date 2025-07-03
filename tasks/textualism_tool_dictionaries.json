@@ -2,18 +2,15 @@
   "task_id": "textualism_tool_dictionaries",
   "name": "textualism_tool_dictionaries",
   "family": "LegalBench",
-  "short_description": "Evaluates if judicial opinions apply textualism using dictionary definitions.",
-  "long_description": "The 'textualism_tool_dictionaries' task measures the ability of legal AI systems to identify and classify instances where judicial opinions explicitly rely on dictionary definitions for statutory interpretation. This task specifically assesses the AI's understanding of textualism, a legal philosophy that emphasizes the importance of the ordinary meaning of words as defined in dictionaries. By analyzing paragraphs from judicial opinions, the task evaluates whether the text refers to a dictionary as a guiding tool in the interpretation process, thereby highlighting the AI's capability to discern nuanced legal reasoning based on textualist principles.\n\nIn this binary classification task, the AI must determine if a given paragraph not only references a dictionary but also demonstrates its application in the context of the legal interpretation of statutes. This requires a sophisticated level of rhetorical analysis, as the AI must evaluate both explicit mentions of dictionary reliance and implicit applications of dictionary definitions to the facts presented. The importance of this task lies in its ability to enhance the evaluation of legal AI systems, ensuring they can accurately interpret and apply legal texts in a manner consistent with established legal doctrines. Understanding the role of textualism and dictionary definitions is crucial for legal practitioners, as it shapes how laws are interpreted and applied in real-world scenarios.",
+  "description": "Determine if a paragraph from a judicial opinion is applying a form of textualism that relies on the dictionary meaning of terms.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 111,
   "tags": [
-    "LegalBench",
-    "legal reasoning",
     "rhetorical understanding",
-    "statutory interpretation",
-    "textualism"
+    "rhetorical-analysis",
+    "statute"
   ],
-  "document_type": "judicial opinion",
+  "document_type": "judicial text",
   "min_input_length": 25,
   "max_input_length": 888,
   "metrics": [
@@ -46,7 +43,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

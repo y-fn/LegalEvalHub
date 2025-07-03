@@ -2,16 +2,12 @@
   "task_id": "cuad_anti-assignment",
   "name": "cuad_anti-assignment",
   "family": "LegalBench",
-  "short_description": "Classifies if a contract clause requires consent for assignment to a third party.",
-  "long_description": "The 'cuad_anti-assignment' task evaluates the legal capability to identify whether a contractual clause mandates consent or notice from a party when a contract is assigned to a third party. This task focuses on the interpretation of anti-assignment clauses, which are critical in contract law as they dictate the conditions under which contractual rights and obligations can be transferred. Understanding these clauses is essential for ensuring that parties maintain control over who can assume their contractual responsibilities and rights, thereby protecting their interests in contractual relationships.\n\nThis task requires legal reasoning and analysis skills, particularly in the area of contract interpretation. Participants must discern the nuances of contractual language to determine if a clause explicitly requires consent or notice, which can significantly impact the enforceability of the contract. Evaluating such clauses is vital for legal AI systems, as it tests their ability to navigate complex legal texts and apply relevant legal principles accurately. The ability to classify these clauses correctly is essential for legal practitioners who rely on AI tools for contract review and compliance, making this task a key benchmark for assessing the effectiveness of AI in legal contexts.",
+  "description": "Classify if the clause requires consent or notice of a party if the contract is assigned to a third party.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 1178,
   "tags": [
-    "LegalBench",
-    "anti-assignment",
     "contract law",
-    "interpretation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 11,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

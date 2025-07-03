@@ -2,15 +2,12 @@
   "task_id": "maud_knowledge_definition",
   "name": "maud_knowledge_definition",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of knowledge definitions in merger agreements.",
-  "long_description": "The 'maud_knowledge_definition' task measures the ability to interpret and classify legal knowledge concepts as they pertain to merger agreements. Specifically, it focuses on distinguishing between types of knowledge, such as 'actual knowledge' and 'constructive knowledge', within the context of legal documents. This task requires nuanced legal reasoning and analysis, as it involves understanding how these definitions impact the obligations and liabilities of parties involved in a merger.\n\nThis task is crucial for evaluating legal AI systems because it tests their capability to comprehend and apply legal definitions accurately, which is fundamental in legal practice. The ability to interpret such terms correctly can significantly influence the outcome of legal negotiations and disputes. The task is grounded in the complexities of merger agreements, which are intricate legal documents that require precise understanding of various legal concepts to ensure compliance and mitigate risks associated with corporate transactions.",
+  "description": "The model must select the answer that best characterizes the concept of Knowledge in a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 168,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "knowledge definition"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 11,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

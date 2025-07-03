@@ -2,15 +2,12 @@
   "task_id": "unfair_tos",
   "name": "unfair_tos",
   "family": "LegalBench",
-  "short_description": "Classify clauses in terms-of-service contracts to identify potentially unfair provisions.",
-  "long_description": "The 'unfair_tos' task evaluates the ability to classify clauses from terms-of-service agreements into specific categories, particularly focusing on identifying potentially unfair terms. This task measures the legal capability of interpreting contractual language and understanding the implications of various clauses that may affect consumer rights and obligations. The categories include 'Arbitration', 'Unilateral change', 'Content removal', 'Jurisdiction', 'Choice of law', 'Limitation of liability', 'Unilateral termination', 'Contract by using', and 'Other', with the first eight being of particular concern for fairness in contractual agreements.\n\nLegal reasoning in this task requires a nuanced understanding of contract law and the ability to analyze how specific clauses can impact the balance of power between service providers and users. Evaluating these clauses is crucial for assessing the fairness and transparency of terms-of-service agreements, which are often lengthy and complex, making it challenging for consumers to understand their rights. This task is important for evaluating legal AI systems as it tests their ability to interpret legal texts and apply legal principles in a practical context, ultimately contributing to the development of tools that can assist consumers in navigating digital contracts more effectively.",
+  "description": "Given a clause from a terms-of-service contract, determine the category the clause belongs to.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 3822,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "unilateral change"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 7,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

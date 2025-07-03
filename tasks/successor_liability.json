@@ -2,16 +2,12 @@
   "task_id": "successor_liability",
   "name": "successor_liability",
   "family": "LegalBench",
-  "short_description": "Identify types of successor liability in asset purchase scenarios.",
-  "long_description": "The 'successor_liability' task evaluates the understanding of the legal principles surrounding successor liability in corporate transactions, particularly when one company acquires the assets of another. This task measures the ability to recognize and classify different types of successor liability that may arise, including express agreement, fraudulent conveyance, de facto merger, and mere continuation. Legal practitioners must be adept at applying these doctrines to various fact patterns to determine potential liabilities that a purchaser may inherit from a seller's debts and obligations.\n\nTo successfully complete this task, legal reasoning and analytical skills are required, as participants must dissect complex fact patterns and apply relevant legal doctrines to arrive at a conclusion. This involves understanding not only the definitions and applications of each type of successor liability but also the nuances of how courts interpret these doctrines in practice. Evaluating this task is crucial for assessing the capabilities of legal AI systems, as it reflects their proficiency in navigating intricate legal concepts and their ability to provide accurate legal analyses in real-world scenarios. The task is grounded in common law principles that govern corporate asset transactions, making it essential for legal professionals to comprehend the implications of successor liability in their practice.",
+  "description": "Given a fact pattern, identify the type of successor liability present.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 50,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "rule application",
-    "rule conclusion",
-    "successor liability"
+    "rule application"
   ],
   "document_type": "fact pattern",
   "min_input_length": 51,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

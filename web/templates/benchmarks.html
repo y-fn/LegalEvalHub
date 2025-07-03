@@ -1,0 +1,171 @@
+{% extends "base.html" %}
+
+{% block title %}Aggregate Leaderboards - LegalEvalHub{% endblock %}
+
+{% block content %}
+<article class="documentation">
+    
+    <br>
+    LegalEvalHub offers curated leaderboards that aggregate performance across multiple tasks. Aggregated leaderboards may encompass tasks from the same benchmark, on the same type of document, or on the same type of legal reasoning.
+    
+    <br>
+    <br>
+    Models are evaluated on each individual task, then scores are aggregated to produce overall leaderboard performance. We calculate three metrics:
+    <ul>
+        <li> Average Score: Normalized performance (0-100%) across all tasks, allowing fair comparison despite different metric scales.</li>
+        <li> Average Rank: Mean ranking position across tasks, showing consistency of performance.</li>
+        <li> Raw Metric Average: Average of actual metric values (e.g., accuracy, F1), preserving the original scale. The metric we use is the first one listed in the task's metrics field. You can see the task configs <a href="https://github.com/neelguha/LegalEvalHub/tree/main/LegalEvalHub/tasks">here</a>.</li>
+    </ul>
+        
+    To appear on an aggregate leaderboard, models must be evaluated on all tasks within that leaderboard. This ensures fair comparison and prevents selective reporting.
+    
+    <h2>Available Aggregate Leaderboards</h2>
+    
+    <div class="benchmark-grid">
+        {% for preset_id, preset_data in presets.items() %}
+        <div class="benchmark-card">
+            <h3><a href="{{ url_for('preset_leaderboard', preset_id=preset_id) }}">{{ preset_data.name }}</a></h3>
+            <p>{{ preset_data.description }}</p>
+            <div class="benchmark-meta">
+                <span class="task-count">{{ preset_data.tasks|length }} tasks</span>
+                <a href="{{ url_for('preset_leaderboard', preset_id=preset_id) }}" class="view-link">View Leaderboard →</a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+    
+    
+</article>
+
+<style>
+.benchmark-explanation {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+
+.benchmark-explanation h2 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.benchmark-explanation ul {
+    margin-left: 1.5rem;
+}
+
+.benchmark-explanation li {
+    margin-bottom: 0.75rem;
+}
+
+.info-box {
+    background-color: #e8f4f8;
+    border-left: 4px solid #0066cc;
+    padding: 1rem;
+    margin: 1.5rem 0;
+}
+
+.benchmark-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0;
+}
+
+.benchmark-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    transition: box-shadow 0.2s;
+}
+
+.benchmark-card:hover {
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.benchmark-card h3 {
+    margin: 0 0 0.75rem 0;
+}
+
+.benchmark-card h3 a {
+    text-decoration: none;
+    color: var(--text-primary);
+}
+
+.benchmark-card h3 a:hover {
+    color: var(--link-color);
+}
+
+.benchmark-card p {
+    margin: 0 0 1rem 0;
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.benchmark-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.task-count {
+    color: #666;
+    font-weight: 500;
+}
+
+.view-link {
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.view-link:hover {
+    text-decoration: underline;
+}
+
+.benchmark-details {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #ddd;
+}
+
+.benchmark-detail {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #eee;
+}
+
+.benchmark-detail:last-child {
+    border-bottom: none;
+}
+
+.benchmark-detail h3 {
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+}
+
+.cta-section {
+    margin-top: 3rem;
+    padding: 2rem;
+    background-color: #f0f7ff;
+    border: 1px solid #0066cc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cta-section h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.cta-section p {
+    margin-bottom: 1rem;
+}
+
+.cta-section .btn {
+    margin: 0 0.5rem;
+}
+</style>
+{% endblock %}

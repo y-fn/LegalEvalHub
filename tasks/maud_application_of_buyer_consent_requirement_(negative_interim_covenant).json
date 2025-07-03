@@ -2,18 +2,14 @@
   "task_id": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
   "name": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of buyer consent in negative covenants of merger agreements.",
-  "long_description": "This task measures the legal capability to interpret and analyze the application of buyer consent requirements within negative covenants in merger agreements. Specifically, it assesses the ability to discern whether the consent requirement applies to all negative covenants or only to specified ones, which is crucial for understanding the implications of such clauses in corporate transactions. The task requires nuanced legal reasoning and interpretation skills, as it involves evaluating contractual language and its potential effects on the parties involved in a merger.\n\nThe importance of this task lies in its relevance to legal AI systems that aim to assist practitioners in navigating complex merger agreements. By accurately identifying the scope of buyer consent in negative covenants, AI models can provide valuable insights that enhance decision-making processes in corporate law. This task is grounded in fundamental concepts of contract law, particularly regarding covenants and the obligations they impose on parties during mergers and acquisitions. Understanding these concepts is vital for legal professionals who must ensure compliance with contractual terms and mitigate risks associated with corporate transactions.",
+  "description": "The model must select the answer that best characterizes the negative covenants to which the requirement of Buyer consent applies in a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 181,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "negative covenants",
-    "rule application"
+    "interpretation"
   ],
-  "document_type": "contract clause",
+  "document_type": "merger agreement",
   "min_input_length": 39,
   "max_input_length": 507,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,18 +2,14 @@
   "task_id": "jcrew_blocker",
   "name": "jcrew_blocker",
   "family": "LegalBench",
-  "short_description": "Classify clauses in loan agreements as J.Crew blocker provisions.",
-  "long_description": "The 'jcrew_blocker' task evaluates the ability to identify specific provisions in loan agreements that function as J.Crew blockers. These provisions are crucial in leveraged loan documents as they prevent borrowers from transferring valuable intellectual property (IP) to unrestricted subsidiaries, which could jeopardize the collateral pool for lenders. The task measures the legal knowledge necessary to interpret the language of these provisions and understand their implications for both borrowers and lenders in the context of secured financing.\n\nParticipants in this task must engage in legal reasoning and analysis, particularly focusing on the interpretation of contractual language and the application of specific legal concepts related to collateral and asset protection. The J.Crew Blocker provision emerged from a significant legal precedent involving the company J.Crew, which exploited loopholes in its credit facility to transfer IP, prompting lenders to adopt more stringent protective measures. This task is vital for assessing the effectiveness of legal AI systems in recognizing and classifying critical legal provisions that safeguard lender interests in complex financial transactions.",
+  "description": "Classify if a clause in a loan agreement is a J.Crew blocker provision.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 60,
   "tags": [
-    "LegalBench",
-    "contract law",
-    "intellectual property",
-    "interpretation",
-    "rule application"
+    "corporate law",
+    "interpretation"
   ],
-  "document_type": "contract clause",
+  "document_type": "legal text",
   "min_input_length": 48,
   "max_input_length": 1090,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

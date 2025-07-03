@@ -2,18 +2,15 @@
   "task_id": "citation_prediction_open",
   "name": "citation_prediction_open",
   "family": "LegalBench",
-  "short_description": "Predict the best case citation supporting a given legal statement.",
-  "long_description": "The 'citation_prediction_open' task evaluates the ability of legal AI systems to identify the most appropriate case citation that supports a specific legal statement. This task measures the AI's capability to recall relevant legal precedents, which is a crucial aspect of legal reasoning. By focusing on sentences from federal circuit court opinions that are directly cited, the task emphasizes the importance of precise legal knowledge and the ability to connect legal principles with authoritative sources. The task is framed around the concept of 'best' citation, which refers to the case a court has chosen to support its legal reasoning, thereby testing the AI's understanding of judicial hierarchy and citation norms.\n\nThis task requires a nuanced understanding of legal reasoning, particularly the ability to analyze a statement and determine which case law best aligns with the legal principles expressed. Legal practitioners often rely on case law to substantiate their arguments, making this task vital for assessing the effectiveness of AI systems in legal research and citation practices. By evaluating how well an AI can predict case citations, stakeholders can better understand its potential applications in legal education, practice, and research, ultimately enhancing the efficiency and accuracy of legal work. The task draws on recent circuit court opinions, ensuring relevance to current legal standards and practices.",
+  "description": "Given a legal statement, predict the name of the case which best supports the statement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 55,
   "tags": [
-    "LegalBench",
-    "case law",
-    "judicial opinion",
-    "rule application",
-    "rule-recall"
+    "judicial text",
+    "open generation",
+    "legal knowledge"
   ],
-  "document_type": "judicial opinion",
+  "document_type": "judicial text",
   "min_input_length": 20,
   "max_input_length": 95,
   "metrics": [
@@ -30,7 +27,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

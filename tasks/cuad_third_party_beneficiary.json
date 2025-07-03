@@ -2,15 +2,12 @@
   "task_id": "cuad_third_party_beneficiary",
   "name": "cuad_third_party_beneficiary",
   "family": "LegalBench",
-  "short_description": "Classifies clauses identifying third-party beneficiaries in contracts.",
-  "long_description": "The 'cuad_third_party_beneficiary' task evaluates the legal capability to identify and classify clauses in contracts that specify the existence of non-contracting parties who are beneficiaries. This task requires an understanding of contract law, particularly the principles surrounding third-party beneficiaries, which allow individuals or entities not directly involved in a contract to enforce rights under that contract. Legal reasoning in this context involves interpreting the language of contractual clauses to determine whether they explicitly grant rights to third parties, thus impacting the enforceability of those rights against the contracting parties.\n\nThis task is crucial for assessing the effectiveness of legal AI systems in contract analysis, as it tests their ability to interpret nuanced legal language and apply relevant legal principles. The concept of third-party beneficiaries is significant in contract law, as it can influence the obligations and rights of the parties involved, and understanding this can help prevent disputes and ensure that the intentions of the contracting parties are honored. By accurately classifying these clauses, AI systems can enhance contract review processes, making them more efficient and reliable.",
+  "description": "Classify if the clause specifies that there is a non-contracting party who is a beneficiary to some or all of the clauses in the contract and therefore can enforce its rights against a contracting party.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 74,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "third party beneficiary"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 17,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

@@ -2,16 +2,12 @@
   "task_id": "learned_hands_divorce",
   "name": "learned_hands_divorce",
   "family": "LegalBench",
-  "short_description": "Classify user posts for legal issues related to divorce and separation.",
-  "long_description": "The 'learned_hands_divorce' task evaluates the capability of legal AI systems to identify and classify user-generated content that pertains to divorce-related legal issues. This includes topics such as filing for divorce, separation, annulment, spousal support, and the division of assets. By focusing on these specific legal matters, the task measures the AI's understanding of family law and its ability to recognize relevant legal concepts within informal communication contexts.\n\nThe required legal reasoning for this task is primarily issue-spotting, where the AI must discern whether a post implicates legal issues related to divorce. This involves analyzing the language and context of the user's post to determine if it falls within the scope of family law. The importance of this task lies in its potential to enhance the accuracy and reliability of legal AI systems, ensuring they can effectively assist users seeking legal information or guidance. By accurately classifying posts, these systems can provide more relevant responses, ultimately improving access to legal resources for individuals navigating complex family law situations.\n\nThe task is grounded in fundamental legal concepts surrounding divorce, including the legal processes involved and the rights and obligations of parties in a divorce scenario. Understanding these concepts is crucial for the AI to perform effectively, as it must not only identify the presence of legal issues but also appreciate the nuances of family law that may influence the classification outcome.",
+  "description": "Classify if a user post implicates legal issues related to divorce.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 156,
   "tags": [
-    "LegalBench",
-    "divorce",
     "family law",
-    "issue spotting",
-    "issue-spotting"
+    "issue spotting"
   ],
   "document_type": "legal question",
   "min_input_length": 29,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

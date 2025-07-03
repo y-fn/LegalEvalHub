@@ -2,13 +2,10 @@
   "task_id": "contract_nli_notice_on_compelled_disclosure",
   "name": "contract_nli_Notice on compelled disclosure",
   "family": "LegalBench",
-  "short_description": "Evaluates notification clauses in NDAs regarding compelled disclosure of information.",
-  "long_description": "The 'contract_nli_notice_on_compelled_disclosure' task measures the legal capability to interpret non-disclosure agreement (NDA) clauses that pertain to the obligation of the Receiving Party to notify the Disclosing Party when compelled by legal requirements to disclose Confidential Information. This task specifically focuses on understanding the implications of contractual language in the context of compliance with laws, regulations, or judicial processes, which is critical in maintaining the integrity of confidential relationships in legal and business settings.\n\nLegal reasoning required for this task involves interpretation and analysis of contract clauses to determine whether they explicitly state the obligation to notify the Disclosing Party. This binary classification task necessitates a nuanced understanding of contract law principles, particularly those related to confidentiality and disclosure obligations. Evaluating such clauses is essential for assessing the performance of legal AI systems, as it reflects their ability to comprehend and apply legal standards in real-world scenarios. The task underscores the importance of precise language in contracts and the potential legal ramifications of failing to adhere to notification requirements when compelled by external forces.\n\nIn the context of NDAs, compelled disclosure clauses are vital for protecting sensitive information while ensuring compliance with legal obligations. This task is part of the broader ContractNLI dataset, which aims to enhance the understanding of contractual language and its implications, thereby contributing to the development of AI systems capable of navigating complex legal documents effectively.",
+  "description": "Identify if the clause provides that the Receiving Party shall notify Disclosing Party in case Receiving Party is required by law, regulation or judicial process to disclose any Confidential Information.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 150,
   "tags": [
-    "LegalBench",
-    "confidentiality",
     "contract law",
     "interpretation"
   ],
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

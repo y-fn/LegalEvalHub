@@ -2,18 +2,14 @@
   "task_id": "maud_definition_contains_knowledge_requirement_-_answer",
   "name": "maud_definition_contains_knowledge_requirement_-_answer",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of knowledge requirements in merger agreements.",
-  "long_description": "The task 'maud_definition_contains_knowledge_requirement_-_answer' measures the legal capability to interpret and analyze specific definitions within merger agreements, particularly focusing on the knowledge requirement associated with the term 'Intervening Event.' This task requires the evaluator to discern the nuances of legal language and the implications of knowledge at the time of signing, which is crucial for understanding the contractual obligations and rights of the parties involved. The task is structured as a multiple-choice question, where the model must select the most accurate characterization of the knowledge requirement from provided options.\n\nThis task is important for evaluating legal AI systems as it tests the model's ability to engage in legal reasoning and interpretation, which are essential skills in legal practice. The ability to accurately interpret contractual definitions can significantly impact the outcomes of legal negotiations and disputes. Understanding the knowledge requirement in the context of 'Intervening Event' is particularly relevant in merger agreements, where unforeseen events can affect the parties' obligations and the overall transaction. The task draws from a rich dataset of merger agreements, allowing for a comprehensive assessment of AI's interpretative capabilities in a real-world legal context.",
+  "description": "The model must select the answer that best characterizes the knowledge requirement in the definition of 'Intervening Event' from a segment of a merger agreement.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 148,
   "tags": [
-    "LegalBench",
-    "contract interpretation",
     "interpretation",
-    "legal knowledge",
-    "merger law"
+    "merger agreement"
   ],
-  "document_type": "legal definition",
+  "document_type": "merger agreement",
   "min_input_length": 50,
   "max_input_length": 1128,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

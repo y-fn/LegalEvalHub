@@ -2,15 +2,12 @@
   "task_id": "maud_specific_performance",
   "name": "maud_specific_performance",
   "family": "LegalBench",
-  "short_description": "Evaluates understanding of Specific Performance clauses in merger agreements.",
-  "long_description": "The 'maud_specific_performance' task measures the ability to interpret and analyze Specific Performance clauses within merger agreements. This task specifically assesses the legal knowledge surrounding contractual obligations and the remedies available in the event of a breach. Participants must demonstrate their understanding of the precise wording and implications of these clauses, which are critical in determining the rights and entitlements of parties involved in a merger or acquisition when faced with non-compliance by one party.\n\nThis task requires legal reasoning and interpretation skills, as it involves selecting the most appropriate characterization of a Specific Performance clause from a set of options based on an excerpt from a merger agreement. Understanding these clauses is vital for evaluating legal AI systems because they play a significant role in corporate law and transactional practice, influencing how parties can enforce their rights. The ability to accurately identify and interpret such legal language is essential for ensuring that AI systems can assist legal professionals effectively in real-world scenarios.\n\nThe task is grounded in the principles of contract law, particularly focusing on the enforceability of agreements and the legal remedies available for breaches. Specific Performance is a remedy that compels a party to fulfill their contractual obligations, making it a crucial concept in merger agreements where parties often seek assurance of compliance to protect their interests.",
+  "description": "This task requires the model to read an excerpt from a merger agreement and select the correct wording of the Specific Performance clause regarding the parties\u2019 entitlement in the event of a contractual breach.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 179,
   "tags": [
-    "LegalBench",
-    "corporate law",
     "interpretation",
-    "specific performance"
+    "merger agreement"
   ],
   "document_type": "merger agreement",
   "min_input_length": 38,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

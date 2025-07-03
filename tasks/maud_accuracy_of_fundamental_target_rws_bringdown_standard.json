@@ -2,16 +2,12 @@
   "task_id": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
   "name": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
   "family": "LegalBench",
-  "short_description": "Evaluates accuracy requirements for representations in merger agreements.",
-  "long_description": "The task 'maud_accuracy_of_fundamental_target_rws_bringdown_standard' measures the legal capability to interpret the accuracy standards for fundamental representations and warranties as stipulated in merger agreements. Specifically, it assesses the understanding of how these standards are articulated in the bring down provision of such agreements, which is crucial for determining the obligations of parties involved in a merger. This task requires the ability to analyze legal language and discern the nuances of materiality standards, which can significantly impact the rights and liabilities of the parties post-closing.\n\nLegal reasoning in this task involves interpretation of contractual language and the application of legal principles related to merger agreements. Participants must evaluate excerpts from merger agreements and select the most accurate characterization of the accuracy requirements based on the options provided. This task is vital for evaluating legal AI systems as it tests their ability to navigate complex legal texts and apply relevant legal standards, ensuring that AI can assist legal professionals in accurately interpreting and negotiating merger agreements. Understanding these concepts is essential for practitioners in corporate law, as they directly influence deal structures and risk assessments in mergers and acquisitions.",
+  "description": "This is a multiple-choice task in which the model must select the answer that best characterizes the accuracy required for fundamental representations and warranties in a merger agreement according to the bring down provision.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 176,
   "tags": [
-    "LegalBench",
     "corporate law",
-    "interpretation",
-    "merger agreement",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "merger agreement",
   "min_input_length": 61,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

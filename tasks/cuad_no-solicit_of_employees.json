@@ -2,15 +2,12 @@
   "task_id": "cuad_no-solicit_of_employees",
   "name": "cuad_no-solicit_of_employees",
   "family": "LegalBench",
-  "short_description": "Classifies clauses restricting employee solicitation in contracts.",
-  "long_description": "The 'cuad_no-solicit_of_employees' task evaluates the legal capability to identify and classify contractual clauses that restrict a party from soliciting or hiring employees and/or contractors from the counterparty, both during and after the contract's duration. This task specifically measures the ability to interpret legal language and understand the implications of non-solicitation clauses within the context of contract law. It is essential for legal practitioners and AI systems to accurately recognize these clauses, as they play a critical role in protecting business interests and ensuring compliance with contractual obligations.\n\nLegal reasoning required for this task involves interpretation, as the model must discern the intent and scope of the clause in question. This includes analyzing the language used and determining whether it meets the criteria for a non-solicitation agreement. Evaluating such clauses is vital for legal AI systems, as it helps ensure that they can assist in contract review and compliance checks effectively. Understanding the nuances of non-solicitation clauses is important for businesses to mitigate risks related to employee poaching and to uphold the integrity of contractual relationships.",
+  "description": "Classify if the clause restricts a party\u2019s soliciting or hiring employees and/or contractors from the counterparty, whether during the contract or after the contract ends (or both).",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 148,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "non-solicitation"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 15,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

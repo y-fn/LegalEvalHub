@@ -2,18 +2,14 @@
   "task_id": "hearsay",
   "name": "hearsay",
   "family": "LegalBench",
-  "short_description": "Classify evidence as hearsay based on legal definitions and criteria.",
-  "long_description": "The 'hearsay' task evaluates the ability to determine whether a specific piece of evidence qualifies as hearsay under the Federal Rules of Evidence. This task measures the legal capability to apply the hearsay rule, which defines hearsay as an out-of-court statement introduced to prove the truth of the matter asserted. Participants must analyze fact patterns to identify if the evidence presented meets the criteria of a statement, whether it was made outside of court, and if it is being introduced to prove the truth of the assertion made. This requires a nuanced understanding of legal definitions and the ability to distinguish between various types of statements and their relevance to the case at hand.\n\nLegal reasoning in this task involves rule application and conclusion drawing, as practitioners must navigate complex scenarios where the admissibility of evidence is at stake. The importance of this task lies in its relevance to legal AI systems, which must accurately interpret and apply legal standards to assist in real-world litigation. Understanding hearsay is critical for legal practitioners, as it directly impacts the integrity of evidence presented in court and the overall fairness of the judicial process. By evaluating AI systems on this task, we can assess their proficiency in handling foundational legal concepts that are essential for effective legal reasoning and argumentation.",
+  "description": "Classify if a particular piece of evidence qualifies as hearsay.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 99,
   "tags": [
-    "LegalBench",
     "evidence law",
-    "hearsay",
-    "rule application",
-    "rule conclusion"
+    "rule application"
   ],
-  "document_type": "legal question",
+  "document_type": "fact pattern",
   "min_input_length": 20,
   "max_input_length": 69,
   "metrics": [
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

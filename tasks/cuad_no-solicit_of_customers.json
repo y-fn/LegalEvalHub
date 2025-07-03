@@ -2,16 +2,12 @@
   "task_id": "cuad_no-solicit_of_customers",
   "name": "cuad_no-solicit_of_customers",
   "family": "LegalBench",
-  "short_description": "Evaluates clauses restricting solicitation of customers in contracts.",
-  "long_description": "The 'cuad_no-solicit_of_customers' task measures the ability to identify and classify contractual clauses that impose restrictions on a party's ability to solicit customers or partners of the counterparty. This task specifically focuses on determining whether such restrictions apply during the term of the contract or extend beyond its termination. By analyzing these clauses, the task assesses the understanding of non-solicitation agreements, which are critical in protecting business interests and maintaining competitive advantages in various industries.\n\nLegal reasoning required for this task involves interpretation of contractual language and the implications of non-solicitation clauses. Participants must discern the nuances of the text to accurately classify whether a clause meets the criteria of restricting solicitation. This task is vital for evaluating legal AI systems, as it reflects the systems' capability to comprehend and analyze complex legal documents, ensuring compliance with contractual obligations and protecting against potential legal disputes. Understanding non-solicitation clauses is essential in contract law, as they play a significant role in safeguarding business relationships and intellectual property rights.",
+  "description": "Classify if the clause restricts a party from contracting or soliciting customers or partners of the counterparty, whether during the contract or after the contract ends (or both).",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 90,
   "tags": [
-    "LegalBench",
     "contract law",
-    "interpretation",
-    "non-solicitation",
-    "rule application"
+    "interpretation"
   ],
   "document_type": "contract clause",
   "min_input_length": 19,
@@ -46,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",

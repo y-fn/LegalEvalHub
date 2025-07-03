@@ -2,15 +2,12 @@
   "task_id": "maud_initial_matching_rights_period_(ftr)",
   "name": "maud_initial_matching_rights_period_(ftr)",
   "family": "LegalBench",
-  "short_description": "Evaluates identification of initial matching rights period in merger agreements.",
-  "long_description": "The 'maud_initial_matching_rights_period_(ftr)' task measures the legal capability to interpret and analyze specific provisions within merger agreements, particularly concerning the duration of the initial matching rights period linked to the Fiduciary Termination Right (FTR). This task requires a nuanced understanding of merger agreement clauses and the ability to discern the implications of various timeframes stipulated in the contract. Participants must demonstrate proficiency in legal reasoning by selecting the correct duration from multiple-choice options based on the provided excerpt from the agreement.\n\nThis task is crucial for evaluating legal AI systems as it assesses their ability to accurately interpret complex legal documents, which is a fundamental skill in legal practice. Understanding the initial matching rights period is significant in the context of mergers and acquisitions, as it directly impacts the rights and obligations of the parties involved during the negotiation phase. The task draws from a rich dataset of merger agreements, ensuring that the evaluation reflects real-world legal scenarios and challenges faced by practitioners in the field.",
+  "description": "The model must select the answer that best characterizes the duration of the initial matching rights period in connection with the Fiduciary Termination Right (FTR) from a merger agreement excerpt.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
   "num_samples": 133,
   "tags": [
-    "LegalBench",
-    "corporate law",
-    "fiduciary duty",
-    "interpretation"
+    "interpretation",
+    "merger agreement"
   ],
   "document_type": "merger agreement",
   "min_input_length": 129,
@@ -45,7 +42,7 @@
     "Neel Guha",
     "Julian Nyarko",
     "Daniel E. Ho",
-    "Christopher Ré",
+    "Christopher R\u00e9",
     "Adam Chilton",
     "Aditya Narayana",
     "Alex Chohlas-Wood",
