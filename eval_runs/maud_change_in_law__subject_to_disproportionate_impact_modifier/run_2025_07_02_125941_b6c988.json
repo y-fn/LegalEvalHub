@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125941_b6c988",
+  "task_id": "maud_change_in_law__subject_to_disproportionate_impact_modifier",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:59:42.986904Z",
+  "metrics": {
+    "accuracy": 0.8686868686868687,
+    "balanced_accuracy": 0.4942528735632184,
+    "f1_macro": 0.4648648648648649,
+    "f1_micro": 0.8686868686868687,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 99
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_change_in_law__subject_to_disproportionate_impact_modifier/gpt-4o-mini/base/run_2025_07_02_125941_b6c988_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fcc07308190a14ab4d0ed0e34f3",
+    "submitted_at": "2025-07-02T07:18:52.153946",
+    "completed_at": "2025-07-02T12:59:41.909746",
+    "batch_api": true
+  }
+}

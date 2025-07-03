@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_125533_e1bef8",
+  "task_id": "textualism_tool_plain",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:55:34.516169Z",
+  "metrics": {
+    "accuracy": 0.8424242424242424,
+    "balanced_accuracy": 0.8224946695095949,
+    "f1_macro": 0.8309426229508197,
+    "f1_micro": 0.8424242424242424,
+    "f1": 0.7868852459016393,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 165
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/textualism_tool_plain/gpt-4o-mini/base/run_2025_07_02_125533_e1bef8_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6865414bdf8c8190877bf99d640ac036",
+    "submitted_at": "2025-07-02T07:25:16.034131",
+    "completed_at": "2025-07-02T12:55:33.479561",
+    "batch_api": true
+  }
+}

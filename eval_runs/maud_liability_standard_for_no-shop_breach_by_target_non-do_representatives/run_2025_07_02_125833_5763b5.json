@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125833_5763b5",
+  "task_id": "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:34.487993Z",
+  "metrics": {
+    "accuracy": 0.6025641025641025,
+    "balanced_accuracy": 0.6025641025641025,
+    "f1_macro": 0.5827437446074202,
+    "f1_micro": 0.6025641025641025,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 156
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives/gpt-4o-mini/base/run_2025_07_02_125833_5763b5_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6865402fe62c8190a5c906aa2c7da3a1",
+    "submitted_at": "2025-07-02T07:20:32.085447",
+    "completed_at": "2025-07-02T12:58:33.538700",
+    "batch_api": true
+  }
+}

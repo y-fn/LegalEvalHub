@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130101_a1a7ae",
+  "task_id": "learned_hands_crime",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:01:02.787760Z",
+  "metrics": {
+    "accuracy": 0.5058139534883721,
+    "balanced_accuracy": 0.5058139534883721,
+    "f1_macro": 0.34859370648844334,
+    "f1_micro": 0.5058139534883721,
+    "f1": 0.6686159844054581,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 688
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/learned_hands_crime/gpt-4o-mini/base/run_2025_07_02_130101_a1a7ae_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f3907ac8190810a44f4bf85a4a8",
+    "submitted_at": "2025-07-02T07:16:25.151791",
+    "completed_at": "2025-07-02T13:01:01.435635",
+    "batch_api": true
+  }
+}

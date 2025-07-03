@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_125800_0c976e",
+  "task_id": "opp115_data_retention",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:01.559530Z",
+  "metrics": {
+    "accuracy": 0.4431818181818182,
+    "balanced_accuracy": 0.4431818181818182,
+    "f1_macro": 0.3236078431372549,
+    "f1_micro": 0.4431818181818182,
+    "f1": 0.608,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 88
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/opp115_data_retention/gpt-4o-mini/base/run_2025_07_02_125800_0c976e_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68654060c7548190bd96454f01197c0c",
+    "submitted_at": "2025-07-02T07:21:20.904938",
+    "completed_at": "2025-07-02T12:58:00.551491",
+    "batch_api": true
+  }
+}

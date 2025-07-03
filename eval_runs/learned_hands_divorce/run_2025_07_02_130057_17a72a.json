@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130057_17a72a",
+  "task_id": "learned_hands_divorce",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:58.805598Z",
+  "metrics": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.3333333333333333,
+    "f1_micro": 0.5,
+    "f1": 0.6666666666666666,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 150
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/learned_hands_divorce/gpt-4o-mini/base/run_2025_07_02_130057_17a72a_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f3eb0bc81909bc8a9d062e94e4e",
+    "submitted_at": "2025-07-02T07:16:30.827792",
+    "completed_at": "2025-07-02T13:00:57.665990",
+    "batch_api": true
+  }
+}

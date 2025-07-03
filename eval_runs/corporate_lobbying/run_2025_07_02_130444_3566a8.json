@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130444_3566a8",
+  "task_id": "corporate_lobbying",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:04:45.564376Z",
+  "metrics": {
+    "accuracy": 0.810204081632653,
+    "balanced_accuracy": 0.7972513743128435,
+    "f1_macro": 0.7824561403508772,
+    "f1_micro": 0.810204081632653,
+    "f1": 0.7047619047619048,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 490
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/corporate_lobbying/gpt-4o-mini/base/run_2025_07_02_130444_3566a8_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653de1c2448190820472bbe9ddd7a4",
+    "submitted_at": "2025-07-02T07:10:42.151760",
+    "completed_at": "2025-07-02T13:04:44.253662",
+    "batch_api": true
+  }
+}

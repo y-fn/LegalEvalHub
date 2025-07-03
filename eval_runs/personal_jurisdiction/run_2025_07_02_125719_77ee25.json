@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_125719_77ee25",
+  "task_id": "personal_jurisdiction",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:57:20.572983Z",
+  "metrics": {
+    "accuracy": 0.76,
+    "balanced_accuracy": 0.7536945812807883,
+    "f1_macro": 0.7536945812807883,
+    "f1_micro": 0.76,
+    "f1": 0.7142857142857143,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 50
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/personal_jurisdiction/gpt-4o-mini/base/run_2025_07_02_125719_77ee25_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686540ae8a388190b179cb2c7b4e0973",
+    "submitted_at": "2025-07-02T07:22:38.789782",
+    "completed_at": "2025-07-02T12:57:19.527071",
+    "batch_api": true
+  }
+}

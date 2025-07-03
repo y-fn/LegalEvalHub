@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130153_26901d",
+  "task_id": "diversity_2",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:01:54.106532Z",
+  "metrics": {
+    "accuracy": 0.9766666666666667,
+    "balanced_accuracy": 0.9800281954887218,
+    "f1_macro": 0.9698063291685238,
+    "f1_micro": 0.9766666666666667,
+    "f1": 0.9554140127388535,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/diversity_2/gpt-4o-mini/base/run_2025_07_02_130153_26901d_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653edab2a08190a52393b35a9d0bc8",
+    "submitted_at": "2025-07-02T07:14:50.910156",
+    "completed_at": "2025-07-02T13:01:53.083958",
+    "batch_api": true
+  }
+}

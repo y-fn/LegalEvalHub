@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130307_22e24b",
+  "task_id": "cuad_no-solicit_of_employees",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:03:08.612765Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 142
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_no-solicit_of_employees/gpt-4o-mini/base/run_2025_07_02_130307_22e24b_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e67f34481909a141899d35fddf6",
+    "submitted_at": "2025-07-02T07:12:56.129495",
+    "completed_at": "2025-07-02T13:03:07.527073",
+    "batch_api": true
+  }
+}

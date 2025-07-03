@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_130555_26c53e",
+  "task_id": "canada_tax_court_outcomes",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:05:56.162711Z",
+  "metrics": {
+    "accuracy": 0.9795081967213115,
+    "balanced_accuracy": 0.9360550558872681,
+    "f1_macro": 0.9458275552655192,
+    "f1_micro": 0.9795081967213115,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 244
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/canada_tax_court_outcomes/gpt-4o-mini/base/run_2025_07_02_130555_26c53e_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653d79177c8190b2c47d17a4493175",
+    "submitted_at": "2025-07-02T07:08:57.309657",
+    "completed_at": "2025-07-02T13:05:55.119604",
+    "batch_api": true
+  }
+}

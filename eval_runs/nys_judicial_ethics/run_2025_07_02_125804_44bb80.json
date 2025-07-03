@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_125804_44bb80",
+  "task_id": "nys_judicial_ethics",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:05.287504Z",
+  "metrics": {
+    "accuracy": 0.678082191780822,
+    "balanced_accuracy": 0.6834586466165413,
+    "f1_macro": 0.6746479541036461,
+    "f1_micro": 0.678082191780822,
+    "f1": 0.6412213740458015,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 292
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/nys_judicial_ethics/gpt-4o-mini/base/run_2025_07_02_125804_44bb80_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6865405af7008190a061beb81b712f13",
+    "submitted_at": "2025-07-02T07:21:15.231788",
+    "completed_at": "2025-07-02T12:58:04.188925",
+    "batch_api": true
+  }
+}

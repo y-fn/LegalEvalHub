@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130513_399ede",
+  "task_id": "contract_nli_permissible_copy",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:05:14.582908Z",
+  "metrics": {
+    "accuracy": 0.896551724137931,
+    "balanced_accuracy": 0.8321256038647342,
+    "f1_macro": 0.839054470709147,
+    "f1_micro": 0.896551724137931,
+    "f1": 0.7428571428571429,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 87
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/contract_nli_permissible_copy/gpt-4o-mini/base/run_2025_07_02_130513_399ede_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653db686c48190bfa8580425a626d1",
+    "submitted_at": "2025-07-02T07:09:58.857106",
+    "completed_at": "2025-07-02T13:05:13.562811",
+    "batch_api": true
+  }
+}

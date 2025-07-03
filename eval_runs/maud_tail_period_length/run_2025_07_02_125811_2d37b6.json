@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125811_2d37b6",
+  "task_id": "maud_tail_period_length",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:12.698317Z",
+  "metrics": {
+    "accuracy": 0.36312849162011174,
+    "balanced_accuracy": 0.5858895705521472,
+    "f1_macro": 0.4409497716894977,
+    "f1_micro": 0.36312849162011174,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 179
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_tail_period_length/gpt-4o-mini/base/run_2025_07_02_125811_2d37b6_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686540505cac8190bdb3662a19867c11",
+    "submitted_at": "2025-07-02T07:21:04.482768",
+    "completed_at": "2025-07-02T12:58:11.664953",
+    "batch_api": true
+  }
+}

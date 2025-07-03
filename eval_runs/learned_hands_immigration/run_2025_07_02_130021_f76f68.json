@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130021_f76f68",
+  "task_id": "learned_hands_immigration",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:22.277570Z",
+  "metrics": {
+    "accuracy": 0.835820895522388,
+    "balanced_accuracy": 0.835820895522388,
+    "f1_macro": 0.8357843137254902,
+    "f1_micro": 0.835820895522388,
+    "f1": 0.8333333333333334,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 134
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/learned_hands_immigration/gpt-4o-mini/base/run_2025_07_02_130021_f76f68_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f84e7848190bc20c648809c44ed",
+    "submitted_at": "2025-07-02T07:17:41.066506",
+    "completed_at": "2025-07-02T13:00:21.213692",
+    "batch_api": true
+  }
+}

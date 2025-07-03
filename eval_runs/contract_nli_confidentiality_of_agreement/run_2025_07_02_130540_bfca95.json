@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130540_bfca95",
+  "task_id": "contract_nli_confidentiality_of_agreement",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:05:41.666690Z",
+  "metrics": {
+    "accuracy": 0.7682926829268293,
+    "balanced_accuracy": 0.7682926829268293,
+    "f1_macro": 0.7602708108939837,
+    "f1_micro": 0.7682926829268293,
+    "f1": 0.8041237113402062,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 82
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/contract_nli_confidentiality_of_agreement/gpt-4o-mini/base/run_2025_07_02_130540_bfca95_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653d8ea95081909fc0810d124bed88",
+    "submitted_at": "2025-07-02T07:09:18.807527",
+    "completed_at": "2025-07-02T13:05:40.678885",
+    "batch_api": true
+  }
+}

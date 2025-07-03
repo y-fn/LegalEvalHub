@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130314_9b48df",
+  "task_id": "cuad_most_favored_nation",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:03:15.249229Z",
+  "metrics": {
+    "accuracy": 0.96875,
+    "balanced_accuracy": 0.96875,
+    "f1_macro": 0.9687194525904204,
+    "f1_micro": 0.96875,
+    "f1": 0.967741935483871,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 64
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_most_favored_nation/gpt-4o-mini/base/run_2025_07_02_130314_9b48df_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e5c47988190a7925f7565caddfc",
+    "submitted_at": "2025-07-02T07:12:44.700292",
+    "completed_at": "2025-07-02T13:03:14.257455",
+    "batch_api": true
+  }
+}

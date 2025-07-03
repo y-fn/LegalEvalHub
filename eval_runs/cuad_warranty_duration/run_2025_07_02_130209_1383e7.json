@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130209_1383e7",
+  "task_id": "cuad_warranty_duration",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:02:10.306074Z",
+  "metrics": {
+    "accuracy": 0.8125,
+    "balanced_accuracy": 0.8125,
+    "f1_macro": 0.8070041413694664,
+    "f1_micro": 0.8125,
+    "f1": 0.7744360902255639,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 320
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_warranty_duration/gpt-4o-mini/base/run_2025_07_02_130209_1383e7_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653ec19cac8190982b9d452f17e9c8",
+    "submitted_at": "2025-07-02T07:14:25.773672",
+    "completed_at": "2025-07-02T13:02:09.279320",
+    "batch_api": true
+  }
+}

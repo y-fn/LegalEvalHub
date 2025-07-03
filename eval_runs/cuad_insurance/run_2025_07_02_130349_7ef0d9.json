@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130349_7ef0d9",
+  "task_id": "cuad_insurance",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:03:50.340104Z",
+  "metrics": {
+    "accuracy": 0.9796116504854369,
+    "balanced_accuracy": 0.9796116504854369,
+    "f1_macro": 0.9796073255238409,
+    "f1_micro": 0.9796116504854369,
+    "f1": 0.9793103448275862,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 1030
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_insurance/gpt-4o-mini/base/run_2025_07_02_130349_7ef0d9_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e342f5c81909b0820bd93fad5bb",
+    "submitted_at": "2025-07-02T07:12:04.367566",
+    "completed_at": "2025-07-02T13:03:49.042817",
+    "batch_api": true
+  }
+}

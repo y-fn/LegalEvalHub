@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125855_940f80",
+  "task_id": "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:57.072677Z",
+  "metrics": {
+    "accuracy": 0.6938775510204082,
+    "balanced_accuracy": 0.40476190476190477,
+    "f1_macro": 0.40963855421686746,
+    "f1_micro": 0.6938775510204082,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier/gpt-4o-mini/base/run_2025_07_02_125855_940f80_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68654010f2cc8190836db43c8390c20a",
+    "submitted_at": "2025-07-02T07:20:01.133799",
+    "completed_at": "2025-07-02T12:58:55.907323",
+    "batch_api": true
+  }
+}

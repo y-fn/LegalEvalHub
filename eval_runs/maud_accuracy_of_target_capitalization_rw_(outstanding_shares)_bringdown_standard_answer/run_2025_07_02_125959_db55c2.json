@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125959_db55c2",
+  "task_id": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:00.823640Z",
+  "metrics": {
+    "accuracy": 0.049723756906077346,
+    "balanced_accuracy": 0.21755368814192344,
+    "f1_macro": 0.047981667548034554,
+    "f1_micro": 0.049723756906077346,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer/gpt-4o-mini/base/run_2025_07_02_125959_db55c2_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fa7d294819094eb557ff6aaa7f8",
+    "submitted_at": "2025-07-02T07:18:15.968959",
+    "completed_at": "2025-07-02T12:59:59.769015",
+    "batch_api": true
+  }
+}

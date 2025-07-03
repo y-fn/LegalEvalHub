@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130533_620bbe",
+  "task_id": "contract_nli_inclusion_of_verbally_conveyed_information",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:05:34.133580Z",
+  "metrics": {
+    "accuracy": 0.6906474820143885,
+    "balanced_accuracy": 0.6962510356255178,
+    "f1_macro": 0.6709606385906963,
+    "f1_micro": 0.6906474820143885,
+    "f1": 0.7514450867052023,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 139
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/contract_nli_inclusion_of_verbally_conveyed_information/gpt-4o-mini/base/run_2025_07_02_130533_620bbe_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653d99013c8190856c77f327c2f98d",
+    "submitted_at": "2025-07-02T07:09:29.161695",
+    "completed_at": "2025-07-02T13:05:33.050671",
+    "batch_api": true
+  }
+}

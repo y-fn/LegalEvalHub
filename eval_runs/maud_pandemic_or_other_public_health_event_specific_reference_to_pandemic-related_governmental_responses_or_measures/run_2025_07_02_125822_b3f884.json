@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125822_b3f884",
+  "task_id": "maud_pandemic_or_other_public_health_event_specific_reference_to_pandemic-related_governmental_responses_or_measures",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:58:23.440740Z",
+  "metrics": {
+    "accuracy": 0.7346938775510204,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4235294117647059,
+    "f1_micro": 0.7346938775510204,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_pandemic_or_other_public_health_event_specific_reference_to_pandemic-related_governmental_responses_or_measures/gpt-4o-mini/base/run_2025_07_02_125822_b3f884_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6865404064e081908ec6227a42f481a5",
+    "submitted_at": "2025-07-02T07:20:48.537700",
+    "completed_at": "2025-07-02T12:58:22.386787",
+    "batch_api": true
+  }
+}

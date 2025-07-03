@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125923_6e35c3",
+  "task_id": "maud_cor_standard_(superior_offer)",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:59:24.932586Z",
+  "metrics": {
+    "accuracy": 0.02,
+    "balanced_accuracy": 0.006756756756756757,
+    "f1_macro": 0.011396011396011395,
+    "f1_micro": 0.02,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 100
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_cor_standard_(superior_offer)/gpt-4o-mini/base/run_2025_07_02_125923_6e35c3_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fe64e2c8190951e69ee4f77d649",
+    "submitted_at": "2025-07-02T07:19:18.556862",
+    "completed_at": "2025-07-02T12:59:23.879109",
+    "batch_api": true
+  }
+}

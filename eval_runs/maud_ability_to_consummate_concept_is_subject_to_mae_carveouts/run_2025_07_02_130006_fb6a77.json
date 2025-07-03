@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_130006_fb6a77",
+  "task_id": "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:07.906574Z",
+  "metrics": {
+    "accuracy": 0.2028985507246377,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.1686746987951807,
+    "f1_micro": 0.2028985507246377,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 69
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_ability_to_consummate_concept_is_subject_to_mae_carveouts/gpt-4o-mini/base/run_2025_07_02_130006_fb6a77_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f9d25448190bd11cfab85d83321",
+    "submitted_at": "2025-07-02T07:18:05.362286",
+    "completed_at": "2025-07-02T13:00:06.852292",
+    "batch_api": true
+  }
+}

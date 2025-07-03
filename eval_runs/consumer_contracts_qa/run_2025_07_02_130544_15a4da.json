@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130544_15a4da",
+  "task_id": "consumer_contracts_qa",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:05:45.650689Z",
+  "metrics": {
+    "accuracy": 0.9217171717171717,
+    "balanced_accuracy": 0.9232295639624781,
+    "f1_macro": 0.92123448076738,
+    "f1_micro": 0.9217171717171717,
+    "f1": 0.915068493150685,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 396
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/consumer_contracts_qa/gpt-4o-mini/base/run_2025_07_02_130544_15a4da_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653d895bd48190875791e562acdf2e",
+    "submitted_at": "2025-07-02T07:09:13.494670",
+    "completed_at": "2025-07-02T13:05:44.423350",
+    "batch_api": true
+  }
+}

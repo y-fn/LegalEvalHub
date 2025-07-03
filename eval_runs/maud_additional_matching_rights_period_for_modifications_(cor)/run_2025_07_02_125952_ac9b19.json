@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125952_ac9b19",
+  "task_id": "maud_additional_matching_rights_period_for_modifications_(cor)",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:59:53.741716Z",
+  "metrics": {
+    "accuracy": 0.5316455696202531,
+    "balanced_accuracy": 0.41653301256348574,
+    "f1_macro": 0.3621865260827775,
+    "f1_micro": 0.5316455696202531,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 158
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_additional_matching_rights_period_for_modifications_(cor)/gpt-4o-mini/base/run_2025_07_02_125952_ac9b19_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fb384c88190be963de00d815c24",
+    "submitted_at": "2025-07-02T07:18:27.793064",
+    "completed_at": "2025-07-02T12:59:52.655891",
+    "batch_api": true
+  }
+}

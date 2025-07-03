@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130238_6b1f9b",
+  "task_id": "cuad_revenue-profit_sharing",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:02:39.409426Z",
+  "metrics": {
+    "accuracy": 0.9366925064599483,
+    "balanced_accuracy": 0.9366925064599483,
+    "f1_macro": 0.9365475057176844,
+    "f1_micro": 0.9366925064599483,
+    "f1": 0.9335142469470827,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 774
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_revenue-profit_sharing/gpt-4o-mini/base/run_2025_07_02_130238_6b1f9b_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e9606108190ae0ccf265634285c",
+    "submitted_at": "2025-07-02T07:13:42.406222",
+    "completed_at": "2025-07-02T13:02:38.216097",
+    "batch_api": true
+  }
+}

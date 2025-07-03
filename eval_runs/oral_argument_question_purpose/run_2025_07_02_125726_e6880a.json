@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125726_e6880a",
+  "task_id": "oral_argument_question_purpose",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:57:27.134913Z",
+  "metrics": {
+    "accuracy": 0.3108974358974359,
+    "balanced_accuracy": 0.22051422145628805,
+    "f1_macro": 0.20340191643176642,
+    "f1_micro": 0.3108974358974359,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 312
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/oral_argument_question_purpose/gpt-4o-mini/base/run_2025_07_02_125726_e6880a_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6865409f947c819093a9a1cbc9101c70",
+    "submitted_at": "2025-07-02T07:22:23.708655",
+    "completed_at": "2025-07-02T12:57:26.017819",
+    "batch_api": true
+  }
+}

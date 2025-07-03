@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130109_3a7f95",
+  "task_id": "learned_hands_consumer",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:01:10.332587Z",
+  "metrics": {
+    "accuracy": 0.511400651465798,
+    "balanced_accuracy": 0.511400651465798,
+    "f1_macro": 0.36084277148567623,
+    "f1_micro": 0.511400651465798,
+    "f1": 0.6710526315789473,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 614
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/learned_hands_consumer/gpt-4o-mini/base/run_2025_07_02_130109_3a7f95_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f2c7fe48190ad45af5486c3727f",
+    "submitted_at": "2025-07-02T07:16:12.864215",
+    "completed_at": "2025-07-02T13:01:09.055266",
+    "batch_api": true
+  }
+}

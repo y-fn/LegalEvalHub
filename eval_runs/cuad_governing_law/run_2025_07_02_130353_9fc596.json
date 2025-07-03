@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130353_9fc596",
+  "task_id": "cuad_governing_law",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:03:54.535773Z",
+  "metrics": {
+    "accuracy": 0.9908675799086758,
+    "balanced_accuracy": 0.9908675799086758,
+    "f1_macro": 0.9908668181912964,
+    "f1_micro": 0.9908675799086758,
+    "f1": 0.9907834101382489,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 876
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_governing_law/gpt-4o-mini/base/run_2025_07_02_130353_9fc596_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e2d94988190b0f91c1489268325",
+    "submitted_at": "2025-07-02T07:11:57.771845",
+    "completed_at": "2025-07-02T13:03:53.325134",
+    "batch_api": true
+  }
+}

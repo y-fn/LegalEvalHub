@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130010_e0643f",
+  "task_id": "legal_reasoning_causality",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:11.250453Z",
+  "metrics": {
+    "accuracy": 0.8727272727272727,
+    "balanced_accuracy": 0.8823924731182795,
+    "f1_macro": 0.8725587553790135,
+    "f1_micro": 0.8727272727272727,
+    "f1": 0.8771929824561403,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 55
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/legal_reasoning_causality/gpt-4o-mini/base/run_2025_07_02_130010_e0643f_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f9755a88190a3c62747a692815c",
+    "submitted_at": "2025-07-02T07:17:59.730606",
+    "completed_at": "2025-07-02T13:00:10.246807",
+    "batch_api": true
+  }
+}

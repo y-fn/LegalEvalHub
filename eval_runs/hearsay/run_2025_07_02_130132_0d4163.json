@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130132_0d4163",
+  "task_id": "hearsay",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:01:33.259630Z",
+  "metrics": {
+    "accuracy": 0.7340425531914894,
+    "balanced_accuracy": 0.722733548090198,
+    "f1_macro": 0.725049725049725,
+    "f1_micro": 0.7340425531914894,
+    "f1": 0.6753246753246753,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/hearsay/gpt-4o-mini/base/run_2025_07_02_130132_0d4163_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653f093f7c8190b4ea93d5c277bd72",
+    "submitted_at": "2025-07-02T07:15:37.382050",
+    "completed_at": "2025-07-02T13:01:32.293632",
+    "batch_api": true
+  }
+}

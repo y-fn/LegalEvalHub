@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_130003_958cef",
+  "task_id": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:00:04.415410Z",
+  "metrics": {
+    "accuracy": 0.24,
+    "balanced_accuracy": 0.24875192012288785,
+    "f1_macro": 0.21541924183433617,
+    "f1_micro": 0.24,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 175
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_accuracy_of_fundamental_target_rws_bringdown_standard/gpt-4o-mini/base/run_2025_07_02_130003_958cef_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fa2273481908ba9ca7a36c8a936",
+    "submitted_at": "2025-07-02T07:18:10.385070",
+    "completed_at": "2025-07-02T13:00:03.388184",
+    "batch_api": true
+  }
+}

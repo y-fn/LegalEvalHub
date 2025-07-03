@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_125608_5105ae",
+  "task_id": "supply_chain_disclosure_disclosed_accountability",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:56:09.551552Z",
+  "metrics": {
+    "accuracy": 0.7380952380952381,
+    "balanced_accuracy": 0.8165266106442577,
+    "f1_macro": 0.5587184415645673,
+    "f1_micro": 0.7380952380952381,
+    "f1": 0.840064620355412,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 378
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/supply_chain_disclosure_disclosed_accountability/gpt-4o-mini/base/run_2025_07_02_125608_5105ae_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686541210d4081908f021789b22e3080",
+    "submitted_at": "2025-07-02T07:24:33.274215",
+    "completed_at": "2025-07-02T12:56:08.374194",
+    "batch_api": true
+  }
+}

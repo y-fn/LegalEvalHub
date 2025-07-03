@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130245_9902c2",
+  "task_id": "cuad_price_restrictions",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:02:46.278434Z",
+  "metrics": {
+    "accuracy": 0.9782608695652174,
+    "balanced_accuracy": 0.9782608695652174,
+    "f1_macro": 0.9782505910165484,
+    "f1_micro": 0.9782608695652174,
+    "f1": 0.9777777777777777,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 46
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_price_restrictions/gpt-4o-mini/base/run_2025_07_02_130245_9902c2_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e8a7ac08190a41c46d95015fb48",
+    "submitted_at": "2025-07-02T07:13:30.605136",
+    "completed_at": "2025-07-02T13:02:45.273933",
+    "batch_api": true
+  }
+}

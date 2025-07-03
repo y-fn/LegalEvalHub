@@ -1,0 +1,23 @@
+{
+  "submission_id": "run_2025_07_02_125948_8e9058",
+  "task_id": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T12:59:50.030744Z",
+  "metrics": {
+    "accuracy": 0.12222222222222222,
+    "balanced_accuracy": 0.50625,
+    "f1_macro": 0.11335578002244669,
+    "f1_micro": 0.12222222222222222,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 180
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_application_of_buyer_consent_requirement_(negative_interim_covenant)/gpt-4o-mini/base/run_2025_07_02_125948_8e9058_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653fb8d7a081908d9a638eb18f391f",
+    "submitted_at": "2025-07-02T07:18:33.215599",
+    "completed_at": "2025-07-02T12:59:48.947877",
+    "batch_api": true
+  }
+}

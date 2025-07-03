@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130216_a4b673",
+  "task_id": "cuad_unlimited-all-you-can-eat-license",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:02:17.551739Z",
+  "metrics": {
+    "accuracy": 0.9375,
+    "balanced_accuracy": 0.9375,
+    "f1_macro": 0.9372549019607843,
+    "f1_micro": 0.9375,
+    "f1": 0.9333333333333333,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 48
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_unlimited-all-you-can-eat-license/gpt-4o-mini/base/run_2025_07_02_130216_a4b673_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653eb6c1ac819097ea8addef269314",
+    "submitted_at": "2025-07-02T07:14:14.897405",
+    "completed_at": "2025-07-02T13:02:16.387663",
+    "batch_api": true
+  }
+}

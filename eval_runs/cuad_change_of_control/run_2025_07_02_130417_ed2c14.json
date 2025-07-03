@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_02_130417_ed2c14",
+  "task_id": "cuad_change_of_control",
+  "model_name": "gpt-4o-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-02T13:04:18.165635Z",
+  "metrics": {
+    "accuracy": 0.8461538461538461,
+    "balanced_accuracy": 0.8461538461538463,
+    "f1_macro": 0.8457974237790751,
+    "f1_micro": 0.8461538461538461,
+    "f1": 0.8383838383838383,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 416
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/cuad_change_of_control/gpt-4o-mini/base/run_2025_07_02_130417_ed2c14_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68653e0616808190b31b20e71a73028b",
+    "submitted_at": "2025-07-02T07:11:18.248294",
+    "completed_at": "2025-07-02T13:04:17.134540",
+    "batch_api": true
+  }
+}
