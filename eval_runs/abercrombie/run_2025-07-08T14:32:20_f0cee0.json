@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-08T14:32:20_f0cee0",
+  "task_id": "abercrombie",
+  "model_name": "o4-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T15:43:40.299427Z",
+  "metrics": {
+    "accuracy": 0.8631578947368421,
+    "balanced_accuracy": 0.8631578947368419,
+    "f1_macro": 0.8560939510939513,
+    "f1_micro": 0.8631578947368421,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/o4-mini/base/run_2025-07-08T14:32:20_f0cee0_predictions.json"
+}

@@ -20,5 +20,15 @@
     "submitted_at": "2025-07-02T07:14:45.065019",
     "completed_at": "2025-07-02T13:01:56.839484",
     "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:55.378608",
+  "original_metrics": {
+    "accuracy": 0.9433333333333334,
+    "balanced_accuracy": 0.962882096069869,
+    "f1_macro": 0.9272665040859112,
+    "f1_micro": 0.9433333333333334,
+    "f1": 0.8930817610062893,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
   }
 }

@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_055446_437d71",
+  "task_id": "canada_tax_court_outcomes",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:54:47.401643Z",
+  "metrics": {
+    "accuracy": 0.9795081967213115,
+    "balanced_accuracy": 0.9605325036320426,
+    "f1_macro": 0.9601806239737275,
+    "f1_micro": 0.9795081967213115,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 244
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/canada_tax_court_outcomes/gpt-4.1-nano/base/run_2025_07_03_055446_437d71_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686602aa5b7081908bebdcc9af528df0",
+    "submitted_at": "2025-07-02T21:10:18.782253",
+    "completed_at": "2025-07-03T05:54:46.302697",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:53.538592",
+  "original_metrics": {
+    "accuracy": 0.9795081967213115,
+    "balanced_accuracy": 0.9605325036320426,
+    "f1_macro": 0.9601806239737275,
+    "f1_micro": 0.9795081967213115,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 244
+  }
+}

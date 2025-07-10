@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T18:41:39_a9fd34",
+  "task_id": "hearsay",
+  "model_name": "o3",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T20:32:20.112072Z",
+  "metrics": {
+    "accuracy": 0.7978723404255319,
+    "balanced_accuracy": 0.7765761619880349,
+    "f1_macro": 0.7824869078066009,
+    "f1_micro": 0.7978723404255319,
+    "f1": 0.7246376811594203,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/o3/base/run_2025-07-08T18:41:39_a9fd34_predictions.json"
+}

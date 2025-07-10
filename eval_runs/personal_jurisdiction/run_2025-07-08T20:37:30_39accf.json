@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T20:37:30_39accf",
+  "task_id": "personal_jurisdiction",
+  "model_name": "o3-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-09T07:46:41.684734Z",
+  "metrics": {
+    "accuracy": 0.96,
+    "balanced_accuracy": 0.9589490968801313,
+    "f1_macro": 0.9589490968801313,
+    "f1_micro": 0.96,
+    "f1": 0.9523809523809523,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 50
+  },
+  "predictions_url": "results/personal_jurisdiction/o3-mini/base/run_2025-07-08T20:37:30_39accf_predictions.json"
+}

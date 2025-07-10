@@ -197,7 +197,8 @@ def calculate_aggregate_scores(task_ids):
     # Calculate average scores
     leaderboard = []
     for model_name, data in model_scores.items():
-        if data['scores']:
+        # Only include models that have been evaluated on ALL tasks in the preset
+        if data['scores'] and data['task_count'] == len(task_ids):
             avg_score = statistics.mean(data['scores'])
             avg_rank = statistics.mean(data['ranks'])
             avg_raw_metric = statistics.mean(data['raw_metrics'])

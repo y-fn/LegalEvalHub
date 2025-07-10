@@ -1,0 +1,26 @@
+{
+  "submission_id": "run_2025_07_03_054510_a24288",
+  "task_id": "sara_numeric",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:45:12.444321Z",
+  "metrics": {
+    "accuracy": 0.03125,
+    "accuracy_within_10_percent": 0.03125,
+    "n_samples": 96
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/sara_numeric/gpt-4.1-nano/base/run_2025_07_03_054510_a24288_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686605c737b481908d5b1bfca356cd50",
+    "submitted_at": "2025-07-02T21:23:35.459887",
+    "completed_at": "2025-07-03T05:45:10.851381",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:45:01.066069",
+  "original_metrics": {
+    "accuracy": 0.03125,
+    "accuracy_within_10_percent": 0.03125,
+    "n_samples": 96
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_055451_584040",
+  "task_id": "abercrombie",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:54:52.160780Z",
+  "metrics": {
+    "accuracy": 0.6210526315789474,
+    "balanced_accuracy": 0.6210526315789473,
+    "f1_macro": 0.60196003996004,
+    "f1_micro": 0.6210526315789474,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/abercrombie/gpt-4.1-nano/base/run_2025_07_03_055451_584040_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686602a469a8819094524fa2695f36d0",
+    "submitted_at": "2025-07-02T21:10:12.638222",
+    "completed_at": "2025-07-03T05:54:51.154604",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:53.518039",
+  "original_metrics": {
+    "accuracy": 0.6210526315789474,
+    "balanced_accuracy": 0.6210526315789473,
+    "f1_macro": 0.60196003996004,
+    "f1_micro": 0.6210526315789474,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  }
+}

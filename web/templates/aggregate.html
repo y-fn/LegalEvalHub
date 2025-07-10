@@ -33,14 +33,14 @@
     <p>
         The aggregate score is calculated by normalizing each model's performance on individual tasks 
         to a 0-1 scale, where 1 represents the best performance and 0 represents the worst performance 
-        for that task. These normalized scores are then averaged across all tasks where the model has 
-        submissions. This approach allows for fair comparison across tasks with different metrics and scales.
+        for that task. These normalized scores are then averaged across all tasks in the benchmark. 
+        This approach allows for fair comparison across tasks with different metrics and scales.
     </p>
     
     <p>
-        Models must have submissions for at least one of the selected tasks to appear in the aggregate 
-        leaderboard. The "Tasks Completed" column shows how many of the selected tasks each model has 
-        been evaluated on.
+        <strong>Important:</strong> To ensure fair comparison, only models that have been evaluated on 
+        <em>all</em> tasks in a benchmark preset are included in that benchmark's leaderboard. This 
+        prevents models from achieving high scores by selectively participating in easier tasks.
     </p>
 </article>
 

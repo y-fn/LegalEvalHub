@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-08T20:37:34_842751",
+  "task_id": "successor_liability",
+  "model_name": "o3-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-09T07:46:36.378286Z",
+  "metrics": {
+    "f1": 0.14047410008779632,
+    "precision": 0.07568590350047304,
+    "recall": 0.975609756097561,
+    "accuracy": 0.14047410008779632,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/o3-mini/base/run_2025-07-08T20:37:34_842751_predictions.json"
+}

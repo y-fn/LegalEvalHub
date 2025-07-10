@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054813_9b579e",
+  "task_id": "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:48:14.740472Z",
+  "metrics": {
+    "accuracy": 0.8673469387755102,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4644808743169399,
+    "f1_micro": 0.8673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier/gpt-4.1-nano/base/run_2025_07_03_054813_9b579e_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686604cf810c819096fe8859582b8d7c",
+    "submitted_at": "2025-07-02T21:19:27.652042",
+    "completed_at": "2025-07-03T05:48:13.515982",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:57.311506",
+  "original_metrics": {
+    "accuracy": 0.8673469387755102,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4644808743169399,
+    "f1_micro": 0.8673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  }
+}

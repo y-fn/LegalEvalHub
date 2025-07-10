@@ -1,0 +1,34 @@
+{
+  "submission_id": "run_2025_07_03_055012_9f84ed",
+  "task_id": "international_citizenship_questions",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:50:14.065744Z",
+  "metrics": {
+    "accuracy": 0.5325596389426177,
+    "balanced_accuracy": 0.5607005512769374,
+    "f1_macro": 0.5285896549668159,
+    "f1_micro": 0.5325596389426177,
+    "f1": 0.5718503937007874,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 9306
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/international_citizenship_questions/gpt-4.1-nano/base/run_2025_07_03_055012_9f84ed_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6866042745f881909c352fe5c94abaee",
+    "submitted_at": "2025-07-02T21:16:39.562181",
+    "completed_at": "2025-07-03T05:50:12.245975",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:55.718178",
+  "original_metrics": {
+    "accuracy": 0.5325596389426177,
+    "balanced_accuracy": 0.5607005512769374,
+    "f1_macro": 0.5285896549668159,
+    "f1_micro": 0.5325596389426177,
+    "f1": 0.5718503937007874,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 9306
+  }
+}

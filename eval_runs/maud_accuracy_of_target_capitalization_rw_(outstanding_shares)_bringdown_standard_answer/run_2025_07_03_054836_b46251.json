@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054836_b46251",
+  "task_id": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:48:37.997971Z",
+  "metrics": {
+    "accuracy": 0.18232044198895028,
+    "balanced_accuracy": 0.24457282913165265,
+    "f1_macro": 0.11488408072259004,
+    "f1_micro": 0.18232044198895028,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer/gpt-4.1-nano/base/run_2025_07_03_054836_b46251_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686604af38548190a864b61b505e0b98",
+    "submitted_at": "2025-07-02T21:18:55.345394",
+    "completed_at": "2025-07-03T05:48:36.691347",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:57.161832",
+  "original_metrics": {
+    "accuracy": 0.18232044198895028,
+    "balanced_accuracy": 0.24457282913165265,
+    "f1_macro": 0.11488408072259004,
+    "f1_micro": 0.18232044198895028,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  }
+}

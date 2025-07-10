@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054717_98a7c9",
+  "task_id": "maud_initial_matching_rights_period_(ftr)",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:47:18.849688Z",
+  "metrics": {
+    "accuracy": 0.26515151515151514,
+    "balanced_accuracy": 0.15333333333333332,
+    "f1_macro": 0.18261416003351486,
+    "f1_micro": 0.26515151515151514,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 132
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_initial_matching_rights_period_(ftr)/gpt-4.1-nano/base/run_2025_07_03_054717_98a7c9_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6866051e27408190b5219c63d3050621",
+    "submitted_at": "2025-07-02T21:20:46.296166",
+    "completed_at": "2025-07-03T05:47:17.698047",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:57.830155",
+  "original_metrics": {
+    "accuracy": 0.26515151515151514,
+    "balanced_accuracy": 0.15333333333333332,
+    "f1_macro": 0.18261416003351486,
+    "f1_micro": 0.26515151515151514,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 132
+  }
+}

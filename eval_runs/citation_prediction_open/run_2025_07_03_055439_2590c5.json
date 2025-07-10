@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_03_055439_2590c5",
+  "task_id": "citation_prediction_open",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:54:40.072258Z",
+  "metrics": {
+    "accuracy": 0.03773584905660377,
+    "n_samples": 53
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/citation_prediction_open/gpt-4.1-nano/base/run_2025_07_03_055439_2590c5_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686602b5c5c08190937b4e05ec0e37d0",
+    "submitted_at": "2025-07-02T21:10:29.912256",
+    "completed_at": "2025-07-03T05:54:39.125355",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:53.563758",
+  "original_metrics": {
+    "accuracy": 0.03773584905660377,
+    "n_samples": 53
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T18:41:12_307eba",
+  "task_id": "diversity_1",
+  "model_name": "o3",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T20:32:45.425258Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_1/o3/base/run_2025-07-08T18:41:12_307eba_predictions.json"
+}

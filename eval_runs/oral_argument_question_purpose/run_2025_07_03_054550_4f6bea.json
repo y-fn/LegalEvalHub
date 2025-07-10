@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054550_4f6bea",
+  "task_id": "oral_argument_question_purpose",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:45:51.952966Z",
+  "metrics": {
+    "accuracy": 0.27564102564102566,
+    "balanced_accuracy": 0.24809602808367023,
+    "f1_macro": 0.20827618622551158,
+    "f1_micro": 0.27564102564102566,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 312
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/oral_argument_question_purpose/gpt-4.1-nano/base/run_2025_07_03_054550_4f6bea_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6866059210f48190bf73cb186693c92e",
+    "submitted_at": "2025-07-02T21:22:42.196314",
+    "completed_at": "2025-07-03T05:45:50.819293",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:58.684497",
+  "original_metrics": {
+    "accuracy": 0.27564102564102566,
+    "balanced_accuracy": 0.24809602808367023,
+    "f1_macro": 0.20827618622551158,
+    "f1_micro": 0.27564102564102566,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 312
+  }
+}

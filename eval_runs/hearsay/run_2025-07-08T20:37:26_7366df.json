@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T20:37:26_7366df",
+  "task_id": "hearsay",
+  "model_name": "o3-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-09T07:46:46.023892Z",
+  "metrics": {
+    "accuracy": 0.723404255319149,
+    "balanced_accuracy": 0.6994937873907041,
+    "f1_macro": 0.7004901960784313,
+    "f1_micro": 0.723404255319149,
+    "f1": 0.6176470588235294,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/o3-mini/base/run_2025-07-08T20:37:26_7366df_predictions.json"
+}

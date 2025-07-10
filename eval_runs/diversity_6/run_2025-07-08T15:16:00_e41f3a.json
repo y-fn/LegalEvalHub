@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T15:16:00_e41f3a",
+  "task_id": "diversity_6",
+  "model_name": "o4-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T15:51:40.039450Z",
+  "metrics": {
+    "accuracy": 0.9933333333333333,
+    "balanced_accuracy": 0.9933092466211695,
+    "f1_macro": 0.9933092466211695,
+    "f1_micro": 0.9933333333333333,
+    "f1": 0.9937106918238994,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_6/o4-mini/base/run_2025-07-08T15:16:00_e41f3a_predictions.json"
+}

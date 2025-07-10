@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-08T15:16:13_ca6c27",
+  "task_id": "successor_liability",
+  "model_name": "o4-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T15:51:28.316492Z",
+  "metrics": {
+    "f1": 0.34285714285714286,
+    "precision": 0.22388059701492538,
+    "recall": 0.7317073170731707,
+    "accuracy": 0.34285714285714286,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/o4-mini/base/run_2025-07-08T15:16:13_ca6c27_predictions.json"
+}

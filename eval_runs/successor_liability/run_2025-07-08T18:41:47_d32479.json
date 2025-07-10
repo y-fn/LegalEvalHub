@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-08T18:41:47_d32479",
+  "task_id": "successor_liability",
+  "model_name": "o3",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T20:32:11.897993Z",
+  "metrics": {
+    "f1": 0.5025125628140704,
+    "precision": 0.42735042735042733,
+    "recall": 0.6097560975609756,
+    "accuracy": 0.5025125628140704,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/o3/base/run_2025-07-08T18:41:47_d32479_predictions.json"
+}

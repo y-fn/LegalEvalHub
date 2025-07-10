@@ -1,0 +1,24 @@
+{
+  "submission_id": "run_2025_07_03_055053_5cd802",
+  "task_id": "definition_extraction",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:50:54.324766Z",
+  "metrics": {
+    "accuracy": 0.7467248908296943,
+    "n_samples": 687
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/definition_extraction/gpt-4.1-nano/base/run_2025_07_03_055053_5cd802_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686603f0ff708190ae455dd3fbfb5cac",
+    "submitted_at": "2025-07-02T21:15:45.233181",
+    "completed_at": "2025-07-03T05:50:53.035262",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:55.328219",
+  "original_metrics": {
+    "accuracy": 0.7467248908296943,
+    "n_samples": 687
+  }
+}

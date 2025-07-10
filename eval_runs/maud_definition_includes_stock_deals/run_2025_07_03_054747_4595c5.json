@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054747_4595c5",
+  "task_id": "maud_definition_includes_stock_deals",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:47:48.929266Z",
+  "metrics": {
+    "accuracy": 0.05405405405405406,
+    "balanced_accuracy": 0.3333333333333333,
+    "f1_macro": 0.034188034188034185,
+    "f1_micro": 0.05405405405405406,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 148
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_definition_includes_stock_deals/gpt-4.1-nano/base/run_2025_07_03_054747_4595c5_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_686604f2fca08190a0ea93519e9e2697",
+    "submitted_at": "2025-07-02T21:20:03.117238",
+    "completed_at": "2025-07-03T05:47:47.832717",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:57.563672",
+  "original_metrics": {
+    "accuracy": 0.05405405405405406,
+    "balanced_accuracy": 0.3333333333333333,
+    "f1_macro": 0.034188034188034185,
+    "f1_micro": 0.05405405405405406,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 148
+  }
+}

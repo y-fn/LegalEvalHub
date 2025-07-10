@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-08T20:37:39_80e774",
+  "task_id": "ucc_v_common_law",
+  "model_name": "o3-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-09T07:46:31.775136Z",
+  "metrics": {
+    "accuracy": 0.8617021276595744,
+    "balanced_accuracy": 0.8375,
+    "f1_macro": 0.8492660663624029,
+    "f1_micro": 0.8617021276595744,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/o3-mini/base/run_2025-07-08T20:37:39_80e774_predictions.json"
+}

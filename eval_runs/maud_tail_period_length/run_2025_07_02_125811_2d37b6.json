@@ -6,10 +6,10 @@
   "submitter": "unknown",
   "submission_time": "2025-07-02T12:58:12.698317Z",
   "metrics": {
-    "accuracy": 0.36312849162011174,
-    "balanced_accuracy": 0.5858895705521472,
-    "f1_macro": 0.4409497716894977,
-    "f1_micro": 0.36312849162011174,
+    "accuracy": 0.3854748603351955,
+    "balanced_accuracy": 0.5920245398773006,
+    "f1_macro": 0.4462899850523169,
+    "f1_micro": 0.3854748603351955,
     "valid_predictions_ratio": 1.0,
     "n_samples": 179
   },
@@ -19,5 +19,14 @@
     "submitted_at": "2025-07-02T07:21:04.482768",
     "completed_at": "2025-07-02T12:58:11.664953",
     "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:58.106340",
+  "original_metrics": {
+    "accuracy": 0.3854748603351955,
+    "balanced_accuracy": 0.5920245398773006,
+    "f1_macro": 0.4462899850523169,
+    "f1_micro": 0.3854748603351955,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 179
   }
 }

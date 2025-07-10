@@ -1,0 +1,32 @@
+{
+  "submission_id": "run_2025_07_03_054706_b049b4",
+  "task_id": "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:47:07.564128Z",
+  "metrics": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4131944444444444,
+    "f1_micro": 0.5,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 156
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives/gpt-4.1-nano/base/run_2025_07_03_054706_b049b4_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_6866052de778819094da193adbecdf26",
+    "submitted_at": "2025-07-02T21:21:02.318547",
+    "completed_at": "2025-07-03T05:47:06.573215",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:57.939338",
+  "original_metrics": {
+    "accuracy": 0.5,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4131944444444444,
+    "f1_micro": 0.5,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 156
+  }
+}

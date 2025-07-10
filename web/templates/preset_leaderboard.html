@@ -9,6 +9,8 @@
     {{ preset_data.description }}
     <br>
     <br>
+    <p class="note"><em>Note: Only models that have been evaluated on all {{ selected_tasks|length }} tasks in this preset are included in the leaderboard.</em></p>
+    <br>
     {% if leaderboard %}
     <table>
         <thead>
@@ -46,6 +48,14 @@
 </article>
 
 <style>
+.note {
+    background-color: #e8f4f8;
+    border-left: 4px solid #0066cc;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    font-size: 0.95rem;
+}
+
 .lead {
     font-size: 1.2em;
     color: #333;

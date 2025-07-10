@@ -1,0 +1,34 @@
+{
+  "submission_id": "run_2025_07_03_055002_86f255",
+  "task_id": "learned_hands_benefits",
+  "model_name": "gpt-4.1-nano",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-03T05:50:04.067473Z",
+  "metrics": {
+    "accuracy": 0.5151515151515151,
+    "balanced_accuracy": 0.5151515151515151,
+    "f1_macro": 0.36614645858343337,
+    "f1_micro": 0.5151515151515151,
+    "f1": 0.673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 66
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/learned_hands_benefits/gpt-4.1-nano/base/run_2025_07_03_055002_86f255_predictions.json",
+  "batch_info": {
+    "batch_id": "batch_68660431ea988190954bcbc59c123d76",
+    "submitted_at": "2025-07-02T21:16:50.091934",
+    "completed_at": "2025-07-03T05:50:02.990813",
+    "batch_api": true
+  },
+  "reevaluated_at": "2025-07-03T06:44:55.850544",
+  "original_metrics": {
+    "accuracy": 0.5151515151515151,
+    "balanced_accuracy": 0.5151515151515151,
+    "f1_macro": 0.36614645858343337,
+    "f1_micro": 0.5151515151515151,
+    "f1": 0.673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 66
+  }
+}

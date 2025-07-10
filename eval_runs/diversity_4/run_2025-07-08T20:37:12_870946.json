@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-08T20:37:12_870946",
+  "task_id": "diversity_4",
+  "model_name": "o3-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-09T07:47:02.177737Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_4/o3-mini/base/run_2025-07-08T20:37:12_870946_predictions.json"
+}

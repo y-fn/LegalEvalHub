@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-08T18:41:51_9b987f",
+  "task_id": "ucc_v_common_law",
+  "model_name": "o3",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-08T20:32:07.595160Z",
+  "metrics": {
+    "accuracy": 0.9893617021276596,
+    "balanced_accuracy": 0.9907407407407407,
+    "f1_macro": 0.9891542632975654,
+    "f1_micro": 0.9893617021276596,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/o3/base/run_2025-07-08T18:41:51_9b987f_predictions.json"
+}
