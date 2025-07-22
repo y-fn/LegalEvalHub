@@ -14,23 +14,7 @@
   "max_input_length": 177,
   "metrics": [
     {
-      "name": "accuracy",
-      "direction": "maximize"
-    },
-    {
-      "name": "balanced_accuracy",
-      "direction": "maximize"
-    },
-    {
-      "name": "f1_macro",
-      "direction": "maximize"
-    },
-    {
-      "name": "f1_micro",
-      "direction": "maximize"
-    },
-    {
-      "name": "valid_predictions_ratio",
+      "name": "f1",
       "direction": "maximize"
     }
   ],

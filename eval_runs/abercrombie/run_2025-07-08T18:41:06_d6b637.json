@@ -13,5 +13,14 @@
     "valid_predictions_ratio": 1.0,
     "n_samples": 95
   },
-  "predictions_url": "results/abercrombie/o3/base/run_2025-07-08T18:41:06_d6b637_predictions.json"
+  "predictions_url": "results/abercrombie/o3/base/run_2025-07-08T18:41:06_d6b637_predictions.json",
+  "reevaluated_at": "2025-07-11T13:22:14.938678",
+  "original_metrics": {
+    "accuracy": 0.8210526315789474,
+    "balanced_accuracy": 0.8210526315789475,
+    "f1_macro": 0.816958594852333,
+    "f1_micro": 0.8210526315789474,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  }
 }

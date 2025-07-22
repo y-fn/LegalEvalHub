@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-11T20:23:51.932142+00:00_90f93c",
+  "task_id": "abercrombie",
+  "model_name": "deepseek-ai/DeepSeek-R1",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-11T14:20:51.691636Z",
+  "metrics": {
+    "accuracy": 0.5833333333333334,
+    "balanced_accuracy": 0.6346749226006192,
+    "f1_macro": 0.5874074074074074,
+    "f1_micro": 0.5833333333333334,
+    "valid_predictions_ratio": 0.8780487804878049,
+    "n_samples": 82
+  },
+  "predictions_url": "results/abercrombie/deepseek-ai_DeepSeek-R1/base/run_2025-07-11T20:23:51.932142+00:00_90f93c_predictions.json"
+}

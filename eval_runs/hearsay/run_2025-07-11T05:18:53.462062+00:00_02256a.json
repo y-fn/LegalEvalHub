@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-11T05:18:53.462062+00:00_02256a",
+  "task_id": "hearsay",
+  "model_name": "deepseek-ai/DeepSeek-V3",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-10T23:03:45.548433Z",
+  "metrics": {
+    "accuracy": 0.7553191489361702,
+    "balanced_accuracy": 0.7333179935572941,
+    "f1_macro": 0.7366946778711485,
+    "f1_micro": 0.7553191489361702,
+    "f1": 0.6666666666666666,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/deepseek-ai_DeepSeek-V3/base/run_2025-07-11T05:18:53.462062+00:00_02256a_predictions.json"
+}

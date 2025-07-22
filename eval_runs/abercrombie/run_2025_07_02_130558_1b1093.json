@@ -20,7 +20,7 @@
     "completed_at": "2025-07-02T13:05:58.562447",
     "batch_api": true
   },
-  "reevaluated_at": "2025-07-03T06:44:53.527509",
+  "reevaluated_at": "2025-07-11T13:22:14.564166",
   "original_metrics": {
     "accuracy": 0.7473684210526316,
     "balanced_accuracy": 0.7473684210526315,

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-11T15:19:33.421451+00:00_14dd66",
+  "task_id": "ucc_v_common_law",
+  "model_name": "deepseek-ai/DeepSeek-R1",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-11T09:32:13.404662Z",
+  "metrics": {
+    "accuracy": 0.574468085106383,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.36486486486486486,
+    "f1_micro": 0.574468085106383,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/deepseek-ai_DeepSeek-R1/base/run_2025-07-11T15:19:33.421451+00:00_14dd66_predictions.json"
+}

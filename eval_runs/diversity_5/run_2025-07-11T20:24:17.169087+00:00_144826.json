@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-11T20:24:17.169087+00:00_144826",
+  "task_id": "diversity_5",
+  "model_name": "deepseek-ai/DeepSeek-R1",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-11T14:20:28.612069Z",
+  "metrics": {
+    "accuracy": 0.4881889763779528,
+    "balanced_accuracy": 0.4671086180520143,
+    "f1_macro": 0.4657995211285834,
+    "f1_micro": 0.4881889763779528,
+    "f1": 0.5751633986928104,
+    "valid_predictions_ratio": 0.4568345323741007,
+    "n_samples": 278
+  },
+  "predictions_url": "results/diversity_5/deepseek-ai_DeepSeek-R1/base/run_2025-07-11T20:24:17.169087+00:00_144826_predictions.json"
+}

@@ -1,6 +1,6 @@
 {
   "task_id": "ssla_company_defendants",
-  "name": "ssla_plaintiff",
+  "name": "ssla_company_defendants",
   "family": "LegalBench",
   "description": "This task requires the LLM to extract the identities of company defendants from excerpts of securities class action complaints.",
   "dataset_url": "https://hazyresearch.stanford.edu/legalbench/",
@@ -15,23 +15,7 @@
   "max_input_length": 1710,
   "metrics": [
     {
-      "name": "accuracy",
-      "direction": "maximize"
-    },
-    {
-      "name": "balanced_accuracy",
-      "direction": "maximize"
-    },
-    {
-      "name": "f1_macro",
-      "direction": "maximize"
-    },
-    {
-      "name": "f1_micro",
-      "direction": "maximize"
-    },
-    {
-      "name": "valid_predictions_ratio",
+      "name": "f1",
       "direction": "maximize"
     }
   ],

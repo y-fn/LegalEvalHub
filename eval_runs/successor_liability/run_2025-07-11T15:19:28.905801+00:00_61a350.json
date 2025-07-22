@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-11T15:19:28.905801+00:00_61a350",
+  "task_id": "successor_liability",
+  "model_name": "deepseek-ai/DeepSeek-R1",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-11T09:32:17.783476Z",
+  "metrics": {
+    "f1": 0.04282315622521808,
+    "precision": 0.021885976763037017,
+    "recall": 0.9878048780487805,
+    "accuracy": 0.04282315622521808,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/deepseek-ai_DeepSeek-R1/base/run_2025-07-11T15:19:28.905801+00:00_61a350_predictions.json"
+}
