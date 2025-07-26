@@ -1,0 +1,13 @@
+{
+  "submission_id": "run_2025_07_24_024125_19e791",
+  "task_id": "citation_prediction_open",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T02:41:25.581776Z",
+  "metrics": {
+    "accuracy": 0.018867924528301886,
+    "n_samples": 53
+  },
+  "predictions_url": "results/citation_prediction_open/google_gemma-2-27b-it/base/run_2025_07_24_024125_19e791_predictions.json"
+}

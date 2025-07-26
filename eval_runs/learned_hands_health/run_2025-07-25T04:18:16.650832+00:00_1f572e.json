@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:18:16.650832+00:00_1f572e",
+  "task_id": "learned_hands_health",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:41:08.139643Z",
+  "metrics": {
+    "accuracy": 0.5377777777777778,
+    "balanced_accuracy": 0.5361488621997471,
+    "f1_macro": 0.4649716480702396,
+    "f1_micro": 0.5377777777777778,
+    "f1": 0.6623376623376623,
+    "valid_predictions_ratio": 0.995575221238938,
+    "n_samples": 226
+  },
+  "predictions_url": "results/learned_hands_health/claude-3-haiku-20240307/base/run_2025-07-25T04:18:16.650832+00:00_1f572e_predictions.json"
+}

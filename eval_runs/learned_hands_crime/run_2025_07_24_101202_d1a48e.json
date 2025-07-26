@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_101202_d1a48e",
+  "task_id": "learned_hands_crime",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:12:02.735415Z",
+  "metrics": {
+    "accuracy": 0.5174418604651163,
+    "balanced_accuracy": 0.5174418604651163,
+    "f1_macro": 0.3755030621172354,
+    "f1_micro": 0.5174418604651163,
+    "f1": 0.6732283464566929,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 688
+  },
+  "predictions_url": "results/learned_hands_crime/google_gemma-2-27b-it/base/run_2025_07_24_101202_d1a48e_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_042232_e155f1",
+  "task_id": "cuad_covenant_not_to_sue",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T04:22:32.910730Z",
+  "metrics": {
+    "accuracy": 0.8928571428571429,
+    "balanced_accuracy": 0.8928571428571429,
+    "f1_macro": 0.8922563205597074,
+    "f1_micro": 0.8928571428571429,
+    "f1": 0.9003021148036254,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 308
+  },
+  "predictions_url": "results/cuad_covenant_not_to_sue/google_gemma-2-27b-it/base/run_2025_07_24_042232_e155f1_predictions.json"
+}

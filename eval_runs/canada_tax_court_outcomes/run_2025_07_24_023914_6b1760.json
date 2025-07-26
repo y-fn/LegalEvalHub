@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_023914_6b1760",
+  "task_id": "canada_tax_court_outcomes",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T02:39:14.561262Z",
+  "metrics": {
+    "accuracy": 0.9711934156378601,
+    "balanced_accuracy": 0.8797241262587797,
+    "f1_macro": 0.8964217939827696,
+    "f1_micro": 0.9711934156378601,
+    "valid_predictions_ratio": 0.9959016393442623,
+    "n_samples": 244
+  },
+  "predictions_url": "results/canada_tax_court_outcomes/google_gemma-2-27b-it/base/run_2025_07_24_023914_6b1760_predictions.json"
+}

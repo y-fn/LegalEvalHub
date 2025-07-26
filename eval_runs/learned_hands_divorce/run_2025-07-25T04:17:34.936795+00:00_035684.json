@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:17:34.936795+00:00_035684",
+  "task_id": "learned_hands_divorce",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:41:40.085149Z",
+  "metrics": {
+    "accuracy": 0.6382978723404256,
+    "balanced_accuracy": 0.6352657004830918,
+    "f1_macro": 0.6292725679228747,
+    "f1_micro": 0.6382978723404256,
+    "f1": 0.6871165644171779,
+    "valid_predictions_ratio": 0.94,
+    "n_samples": 150
+  },
+  "predictions_url": "results/learned_hands_divorce/claude-3-haiku-20240307/base/run_2025-07-25T04:17:34.936795+00:00_035684_predictions.json"
+}

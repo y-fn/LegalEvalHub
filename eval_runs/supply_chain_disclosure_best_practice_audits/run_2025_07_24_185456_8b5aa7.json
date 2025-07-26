@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_185456_8b5aa7",
+  "task_id": "supply_chain_disclosure_best_practice_audits",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T18:54:56.963922Z",
+  "metrics": {
+    "accuracy": 0.8073878627968337,
+    "balanced_accuracy": 0.7023917259211377,
+    "f1_macro": 0.7266241786473,
+    "f1_micro": 0.8073878627968337,
+    "f1": 0.8752136752136752,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_best_practice_audits/google_gemma-2-27b-it/base/run_2025_07_24_185456_8b5aa7_predictions.json"
+}

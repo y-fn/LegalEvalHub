@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T04:12:13.764036+00:00_97a672",
+  "task_id": "contract_nli_no_licensing",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:47:26.779982Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/contract_nli_no_licensing/claude-3-haiku-20240307/base/run_2025-07-25T04:12:13.764036+00:00_97a672_predictions.json"
+}

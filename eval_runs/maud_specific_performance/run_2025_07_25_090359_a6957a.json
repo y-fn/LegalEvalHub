@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_090359_a6957a",
+  "task_id": "maud_specific_performance",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T09:03:59.071069Z",
+  "metrics": {
+    "accuracy": 0.9044943820224719,
+    "balanced_accuracy": 0.9484848484848485,
+    "f1_macro": 0.7751690318745821,
+    "f1_micro": 0.9044943820224719,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 178
+  },
+  "predictions_url": "results/maud_specific_performance/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_090359_a6957a_predictions.json"
+}

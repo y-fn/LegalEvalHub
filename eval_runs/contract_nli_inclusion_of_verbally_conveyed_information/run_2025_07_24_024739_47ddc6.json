@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_024739_47ddc6",
+  "task_id": "contract_nli_inclusion_of_verbally_conveyed_information",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T02:47:39.026743Z",
+  "metrics": {
+    "accuracy": 0.5373134328358209,
+    "balanced_accuracy": 0.5373134328358209,
+    "f1_macro": 0.41128117913832196,
+    "f1_micro": 0.5373134328358209,
+    "f1": 0.6836734693877551,
+    "valid_predictions_ratio": 0.9640287769784173,
+    "n_samples": 139
+  },
+  "predictions_url": "results/contract_nli_inclusion_of_verbally_conveyed_information/google_gemma-2-27b-it/base/run_2025_07_24_024739_47ddc6_predictions.json"
+}

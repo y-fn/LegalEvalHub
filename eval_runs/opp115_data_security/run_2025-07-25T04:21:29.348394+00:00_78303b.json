@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:21:29.348394+00:00_78303b",
+  "task_id": "opp115_data_security",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:39:14.289350Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 0.0029985007496251873,
+    "n_samples": 1334
+  },
+  "predictions_url": "results/opp115_data_security/claude-3-haiku-20240307/base/run_2025-07-25T04:21:29.348394+00:00_78303b_predictions.json"
+}

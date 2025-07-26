@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:17:12.429856+00:00_d61a32",
+  "task_id": "learned_hands_business",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:41:59.976796Z",
+  "metrics": {
+    "accuracy": 0.6724137931034483,
+    "balanced_accuracy": 0.6724137931034483,
+    "f1_macro": 0.6630541871921183,
+    "f1_micro": 0.6724137931034483,
+    "f1": 0.6068965517241379,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 174
+  },
+  "predictions_url": "results/learned_hands_business/claude-3-haiku-20240307/base/run_2025-07-25T04:17:12.429856+00:00_d61a32_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_114119_47545e",
+  "task_id": "legal_reasoning_causality",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:41:19.493423Z",
+  "metrics": {
+    "accuracy": 0.8666666666666667,
+    "balanced_accuracy": 0.8642533936651584,
+    "f1_macro": 0.8642533936651584,
+    "f1_micro": 0.8666666666666667,
+    "f1": 0.8823529411764706,
+    "valid_predictions_ratio": 0.5454545454545454,
+    "n_samples": 55
+  },
+  "predictions_url": "results/legal_reasoning_causality/google_gemma-2-27b-it/base/run_2025_07_24_114119_47545e_predictions.json"
+}

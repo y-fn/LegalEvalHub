@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_173544_724884",
+  "task_id": "scalr",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T17:35:44.349343Z",
+  "metrics": {
+    "accuracy": 0.6296296296296297,
+    "balanced_accuracy": 0.627529078285959,
+    "f1_macro": 0.6315156547215574,
+    "f1_micro": 0.6296296296296297,
+    "valid_predictions_ratio": 0.9929947460595446,
+    "n_samples": 571
+  },
+  "predictions_url": "results/scalr/google_gemma-2-27b-it/base/run_2025_07_24_173544_724884_predictions.json"
+}

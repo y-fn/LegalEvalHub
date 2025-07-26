@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T17:29:39.752161+00:00_d81974",
+  "task_id": "abercrombie",
+  "model_name": "claude-sonnet-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T16:10:49.856564Z",
+  "metrics": {
+    "accuracy": 0.7789473684210526,
+    "balanced_accuracy": 0.7789473684210526,
+    "f1_macro": 0.7767472910698718,
+    "f1_micro": 0.7789473684210526,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/claude-sonnet-4-20250514/base/run_2025-07-25T17:29:39.752161+00:00_d81974_predictions.json"
+}

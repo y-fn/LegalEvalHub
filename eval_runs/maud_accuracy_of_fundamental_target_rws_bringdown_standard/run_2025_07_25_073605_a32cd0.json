@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_073605_a32cd0",
+  "task_id": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:36:05.394871Z",
+  "metrics": {
+    "accuracy": 0.2342857142857143,
+    "balanced_accuracy": 0.21332565284178187,
+    "f1_macro": 0.21028611703730307,
+    "f1_micro": 0.2342857142857143,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 175
+  },
+  "predictions_url": "results/maud_accuracy_of_fundamental_target_rws_bringdown_standard/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_073605_a32cd0_predictions.json"
+}

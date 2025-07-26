@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_050840_f15cc3",
+  "task_id": "cuad_insurance",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T05:08:40.473441Z",
+  "metrics": {
+    "accuracy": 0.5271844660194175,
+    "balanced_accuracy": 0.5271844660194175,
+    "f1_macro": 0.3910512048229337,
+    "f1_micro": 0.5271844660194175,
+    "f1": 0.6789716545814107,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 1030
+  },
+  "predictions_url": "results/cuad_insurance/google_gemma-2-27b-it/base/run_2025_07_24_050840_f15cc3_predictions.json"
+}

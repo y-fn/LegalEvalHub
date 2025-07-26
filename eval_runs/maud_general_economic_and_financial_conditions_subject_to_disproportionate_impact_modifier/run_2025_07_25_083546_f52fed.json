@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_083546_f52fed",
+  "task_id": "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T08:35:46.137618Z",
+  "metrics": {
+    "accuracy": 0.19387755102040816,
+    "balanced_accuracy": 0.47023809523809523,
+    "f1_macro": 0.1917736715732331,
+    "f1_micro": 0.19387755102040816,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_083546_f52fed_predictions.json"
+}

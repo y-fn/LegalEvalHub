@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_115659_d839b1",
+  "task_id": "maud_additional_matching_rights_period_for_modifications_(cor)",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:56:59.191050Z",
+  "metrics": {
+    "accuracy": 0.47468354430379744,
+    "balanced_accuracy": 0.3075113605987704,
+    "f1_macro": 0.2612804386389292,
+    "f1_micro": 0.47468354430379744,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 158
+  },
+  "predictions_url": "results/maud_additional_matching_rights_period_for_modifications_(cor)/google_gemma-2-27b-it/base/run_2025_07_24_115659_d839b1_predictions.json"
+}

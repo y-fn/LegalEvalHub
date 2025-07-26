@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_100323_c8d7d2",
+  "task_id": "learned_hands_consumer",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:03:23.757802Z",
+  "metrics": {
+    "accuracy": 0.5439739413680782,
+    "balanced_accuracy": 0.5439739413680782,
+    "f1_macro": 0.44433670764974337,
+    "f1_micro": 0.5439739413680782,
+    "f1": 0.6796338672768879,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 614
+  },
+  "predictions_url": "results/learned_hands_consumer/google_gemma-2-27b-it/base/run_2025_07_24_100323_c8d7d2_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_114639_cec73e",
+  "task_id": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:46:39.013614Z",
+  "metrics": {
+    "accuracy": 0.21142857142857144,
+    "balanced_accuracy": 0.3197484639016897,
+    "f1_macro": 0.17355479818753997,
+    "f1_micro": 0.21142857142857144,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 175
+  },
+  "predictions_url": "results/maud_accuracy_of_fundamental_target_rws_bringdown_standard/google_gemma-2-27b-it/base/run_2025_07_24_114639_cec73e_predictions.json"
+}

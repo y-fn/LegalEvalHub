@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T17:30:11.613924+00:00_d1b3af",
+  "task_id": "hearsay",
+  "model_name": "claude-sonnet-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T14:02:09.308096Z",
+  "metrics": {
+    "accuracy": 0.8620689655172413,
+    "balanced_accuracy": 0.8706043956043956,
+    "f1_macro": 0.8598281417830289,
+    "f1_micro": 0.8620689655172413,
+    "f1": 0.8421052631578947,
+    "valid_predictions_ratio": 0.925531914893617,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/claude-sonnet-4-20250514/base/run_2025-07-25T17:30:11.613924+00:00_d1b3af_predictions.json"
+}

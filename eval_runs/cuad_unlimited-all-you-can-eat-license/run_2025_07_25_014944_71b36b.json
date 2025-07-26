@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_25_014944_71b36b",
+  "task_id": "cuad_unlimited-all-you-can-eat-license",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T01:49:44.758665Z",
+  "metrics": {
+    "accuracy": 0.9782608695652174,
+    "balanced_accuracy": 0.9791666666666667,
+    "f1_macro": 0.9782505910165484,
+    "f1_micro": 0.9782608695652174,
+    "f1": 0.9787234042553191,
+    "valid_predictions_ratio": 0.9583333333333334,
+    "n_samples": 48
+  },
+  "predictions_url": "results/cuad_unlimited-all-you-can-eat-license/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_014944_71b36b_predictions.json"
+}

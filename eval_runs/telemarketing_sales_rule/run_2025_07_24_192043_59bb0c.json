@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_192043_59bb0c",
+  "task_id": "telemarketing_sales_rule",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T19:20:43.956311Z",
+  "metrics": {
+    "accuracy": 0.7021276595744681,
+    "balanced_accuracy": 0.6400375939849624,
+    "f1_macro": 0.6278280542986425,
+    "f1_micro": 0.7021276595744681,
+    "f1": 0.7941176470588235,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 47
+  },
+  "predictions_url": "results/telemarketing_sales_rule/google_gemma-2-27b-it/base/run_2025_07_24_192043_59bb0c_predictions.json"
+}

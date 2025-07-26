@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_25_000826_949af1",
+  "task_id": "cuad_irrevocable_or_perpetual_license",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T00:08:26.540014Z",
+  "metrics": {
+    "accuracy": 0.9354838709677419,
+    "balanced_accuracy": 0.9355087358684482,
+    "f1_macro": 0.9354830421377184,
+    "f1_micro": 0.9354838709677419,
+    "f1": 0.935251798561151,
+    "valid_predictions_ratio": 0.9964285714285714,
+    "n_samples": 280
+  },
+  "predictions_url": "results/cuad_irrevocable_or_perpetual_license/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_000826_949af1_predictions.json"
+}

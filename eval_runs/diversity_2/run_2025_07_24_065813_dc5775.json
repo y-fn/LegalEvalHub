@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_065813_dc5775",
+  "task_id": "diversity_2",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T06:58:13.752644Z",
+  "metrics": {
+    "accuracy": 0.99,
+    "balanced_accuracy": 0.9933035714285714,
+    "f1_macro": 0.9869517941283074,
+    "f1_micro": 0.99,
+    "f1": 0.9806451612903225,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_2/google_gemma-2-27b-it/base/run_2025_07_24_065813_dc5775_predictions.json"
+}

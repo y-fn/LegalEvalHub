@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_213958_c8047e",
+  "task_id": "consumer_contracts_qa",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T21:39:58.466472Z",
+  "metrics": {
+    "accuracy": 0.9747474747474747,
+    "balanced_accuracy": 0.9744871662715184,
+    "f1_macro": 0.9744871662715184,
+    "f1_micro": 0.9747474747474747,
+    "f1": 0.9719101123595506,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 396
+  },
+  "predictions_url": "results/consumer_contracts_qa/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_24_213958_c8047e_predictions.json"
+}

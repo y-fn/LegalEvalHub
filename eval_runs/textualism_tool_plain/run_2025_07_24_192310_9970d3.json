@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_192310_9970d3",
+  "task_id": "textualism_tool_plain",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T19:23:10.976706Z",
+  "metrics": {
+    "accuracy": 0.7515151515151515,
+    "balanced_accuracy": 0.7672098690222358,
+    "f1_macro": 0.7505990783410138,
+    "f1_micro": 0.7515151515151515,
+    "f1": 0.7354838709677419,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 165
+  },
+  "predictions_url": "results/textualism_tool_plain/google_gemma-2-27b-it/base/run_2025_07_24_192310_9970d3_predictions.json"
+}

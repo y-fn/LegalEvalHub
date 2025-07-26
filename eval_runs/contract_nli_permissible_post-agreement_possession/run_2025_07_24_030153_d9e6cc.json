@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_030153_d9e6cc",
+  "task_id": "contract_nli_permissible_post-agreement_possession",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T03:01:53.545499Z",
+  "metrics": {
+    "accuracy": 0.43243243243243246,
+    "balanced_accuracy": 0.6086488812392427,
+    "f1_macro": 0.4307692307692308,
+    "f1_micro": 0.43243243243243246,
+    "f1": 0.46153846153846156,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 111
+  },
+  "predictions_url": "results/contract_nli_permissible_post-agreement_possession/google_gemma-2-27b-it/base/run_2025_07_24_030153_d9e6cc_predictions.json"
+}

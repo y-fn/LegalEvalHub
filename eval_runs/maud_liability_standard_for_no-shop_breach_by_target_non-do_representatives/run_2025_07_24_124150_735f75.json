@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_124150_735f75",
+  "task_id": "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:41:50.744834Z",
+  "metrics": {
+    "accuracy": 0.4935897435897436,
+    "balanced_accuracy": 0.4935897435897436,
+    "f1_macro": 0.3704214559386973,
+    "f1_micro": 0.4935897435897436,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 156
+  },
+  "predictions_url": "results/maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives/google_gemma-2-27b-it/base/run_2025_07_24_124150_735f75_predictions.json"
+}

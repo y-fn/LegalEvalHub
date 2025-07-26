@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:19:07.618327+00:00_b017a3",
+  "task_id": "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:40:32.229209Z",
+  "metrics": {
+    "accuracy": 0.3485714285714286,
+    "balanced_accuracy": 0.27486559139784944,
+    "f1_macro": 0.2544747526734145,
+    "f1_micro": 0.3485714285714286,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 175
+  },
+  "predictions_url": "results/maud_accuracy_of_fundamental_target_rws_bringdown_standard/claude-3-haiku-20240307/base/run_2025-07-25T04:19:07.618327+00:00_b017a3_predictions.json"
+}

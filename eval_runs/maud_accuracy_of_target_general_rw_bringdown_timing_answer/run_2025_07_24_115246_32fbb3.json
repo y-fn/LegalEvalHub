@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_115246_32fbb3",
+  "task_id": "maud_accuracy_of_target_general_rw_bringdown_timing_answer",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:52:46.565660Z",
+  "metrics": {
+    "accuracy": 0.7182320441988951,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4180064308681672,
+    "f1_micro": 0.7182320441988951,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "results/maud_accuracy_of_target_general_rw_bringdown_timing_answer/google_gemma-2-27b-it/base/run_2025_07_24_115246_32fbb3_predictions.json"
+}

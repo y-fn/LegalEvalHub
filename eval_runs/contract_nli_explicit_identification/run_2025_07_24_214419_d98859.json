@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_214419_d98859",
+  "task_id": "contract_nli_explicit_identification",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T21:44:19.550634Z",
+  "metrics": {
+    "accuracy": 0.8807339449541285,
+    "balanced_accuracy": 0.8106741573033708,
+    "f1_macro": 0.8047402507923385,
+    "f1_micro": 0.8807339449541285,
+    "f1": 0.6829268292682927,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 109
+  },
+  "predictions_url": "results/contract_nli_explicit_identification/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_24_214419_d98859_predictions.json"
+}

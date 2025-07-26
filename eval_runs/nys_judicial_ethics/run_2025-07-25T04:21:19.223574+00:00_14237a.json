@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:21:19.223574+00:00_14237a",
+  "task_id": "nys_judicial_ethics",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:39:23.346211Z",
+  "metrics": {
+    "accuracy": 0.6164383561643836,
+    "balanced_accuracy": 0.6290413533834587,
+    "f1_macro": 0.5836007130124777,
+    "f1_micro": 0.6164383561643836,
+    "f1": 0.4666666666666667,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 292
+  },
+  "predictions_url": "results/nys_judicial_ethics/claude-3-haiku-20240307/base/run_2025-07-25T04:21:19.223574+00:00_14237a_predictions.json"
+}

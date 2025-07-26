@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_115822_124f97",
+  "task_id": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:58:22.582555Z",
+  "metrics": {
+    "accuracy": 0.5833333333333334,
+    "balanced_accuracy": 0.6781250000000001,
+    "f1_macro": 0.501311366406856,
+    "f1_micro": 0.5833333333333334,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 180
+  },
+  "predictions_url": "results/maud_application_of_buyer_consent_requirement_(negative_interim_covenant)/google_gemma-2-27b-it/base/run_2025_07_24_115822_124f97_predictions.json"
+}

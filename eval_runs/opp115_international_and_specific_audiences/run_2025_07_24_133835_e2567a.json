@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_133835_e2567a",
+  "task_id": "opp115_international_and_specific_audiences",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T13:38:35.273878Z",
+  "metrics": {
+    "accuracy": 0.9173469387755102,
+    "balanced_accuracy": 0.917532986805278,
+    "f1_macro": 0.917202016440688,
+    "f1_micro": 0.9173469387755102,
+    "f1": 0.920666013712047,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 980
+  },
+  "predictions_url": "results/opp115_international_and_specific_audiences/google_gemma-2-27b-it/base/run_2025_07_24_133835_e2567a_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_120238_847403",
+  "task_id": "maud_cor_permitted_in_response_to_intervening_event",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:02:38.936710Z",
+  "metrics": {
+    "accuracy": 0.84,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.45652173913043476,
+    "f1_micro": 0.84,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 100
+  },
+  "predictions_url": "results/maud_cor_permitted_in_response_to_intervening_event/google_gemma-2-27b-it/base/run_2025_07_24_120238_847403_predictions.json"
+}

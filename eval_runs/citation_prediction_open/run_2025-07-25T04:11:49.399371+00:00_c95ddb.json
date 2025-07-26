@@ -1,0 +1,13 @@
+{
+  "submission_id": "run_2025-07-25T04:11:49.399371+00:00_c95ddb",
+  "task_id": "citation_prediction_open",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:47:53.908353Z",
+  "metrics": {
+    "accuracy": 0.018867924528301886,
+    "n_samples": 53
+  },
+  "predictions_url": "results/citation_prediction_open/claude-3-haiku-20240307/base/run_2025-07-25T04:11:49.399371+00:00_c95ddb_predictions.json"
+}

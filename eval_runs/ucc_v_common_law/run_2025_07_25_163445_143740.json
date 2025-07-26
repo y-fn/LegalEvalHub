@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_163445_143740",
+  "task_id": "ucc_v_common_law",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T16:34:45.814424Z",
+  "metrics": {
+    "accuracy": 0.9574468085106383,
+    "balanced_accuracy": 0.962962962962963,
+    "f1_macro": 0.9569597069597069,
+    "f1_micro": 0.9574468085106383,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_163445_143740_predictions.json"
+}

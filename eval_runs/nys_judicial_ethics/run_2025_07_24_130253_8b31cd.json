@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_130253_8b31cd",
+  "task_id": "nys_judicial_ethics",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T13:02:53.965522Z",
+  "metrics": {
+    "accuracy": 0.7465753424657534,
+    "balanced_accuracy": 0.7450187969924813,
+    "f1_macro": 0.7453808446455505,
+    "f1_micro": 0.7465753424657534,
+    "f1": 0.7628205128205128,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 292
+  },
+  "predictions_url": "results/nys_judicial_ethics/google_gemma-2-27b-it/base/run_2025_07_24_130253_8b31cd_predictions.json"
+}

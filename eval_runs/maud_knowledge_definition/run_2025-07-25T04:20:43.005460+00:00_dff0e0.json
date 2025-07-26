@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:20:43.005460+00:00_dff0e0",
+  "task_id": "maud_knowledge_definition",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:39:46.821824Z",
+  "metrics": {
+    "accuracy": 0.46107784431137727,
+    "balanced_accuracy": 0.45239124171708445,
+    "f1_macro": 0.4466126656848306,
+    "f1_micro": 0.46107784431137727,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 167
+  },
+  "predictions_url": "results/maud_knowledge_definition/claude-3-haiku-20240307/base/run_2025-07-25T04:20:43.005460+00:00_dff0e0_predictions.json"
+}

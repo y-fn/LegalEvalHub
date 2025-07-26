@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_212946_ef59f0",
+  "task_id": "abercrombie",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T21:29:46.309717Z",
+  "metrics": {
+    "accuracy": 0.8210526315789474,
+    "balanced_accuracy": 0.8210526315789475,
+    "f1_macro": 0.8166631835597353,
+    "f1_micro": 0.8210526315789474,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_24_212946_ef59f0_predictions.json"
+}

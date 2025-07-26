@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_104901_14c5ab",
+  "task_id": "learned_hands_health",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:49:01.595652Z",
+  "metrics": {
+    "accuracy": 0.5398230088495575,
+    "balanced_accuracy": 0.5398230088495575,
+    "f1_macro": 0.4277923848475995,
+    "f1_micro": 0.5398230088495575,
+    "f1": 0.6809815950920245,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 226
+  },
+  "predictions_url": "results/learned_hands_health/google_gemma-2-27b-it/base/run_2025_07_24_104901_14c5ab_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T17:30:03.140439+00:00_0f8260",
+  "task_id": "diversity_5",
+  "model_name": "claude-sonnet-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T16:10:35.270287Z",
+  "metrics": {
+    "accuracy": 0.9961089494163424,
+    "balanced_accuracy": 0.9962406015037594,
+    "f1_macro": 0.9961051754186557,
+    "f1_micro": 0.9961089494163424,
+    "f1": 0.9962264150943396,
+    "valid_predictions_ratio": 0.8566666666666667,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_5/claude-sonnet-4-20250514/base/run_2025-07-25T17:30:03.140439+00:00_0f8260_predictions.json"
+}

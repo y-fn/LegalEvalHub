@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_055032_7774cb",
+  "task_id": "cuad_notice_period_to_terminate_renewal",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T05:50:32.394690Z",
+  "metrics": {
+    "accuracy": 0.6891891891891891,
+    "balanced_accuracy": 0.6891891891891893,
+    "f1_macro": 0.6559531028906408,
+    "f1_micro": 0.6891891891891891,
+    "f1": 0.7628865979381443,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 222
+  },
+  "predictions_url": "results/cuad_notice_period_to_terminate_renewal/google_gemma-2-27b-it/base/run_2025_07_24_055032_7774cb_predictions.json"
+}

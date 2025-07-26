@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_25_072921_64f62f",
+  "task_id": "learned_hands_traffic",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:29:21.060472Z",
+  "metrics": {
+    "accuracy": 0.9730215827338129,
+    "balanced_accuracy": 0.9730215827338129,
+    "f1_macro": 0.9730207972774945,
+    "f1_micro": 0.9730215827338129,
+    "f1": 0.9731663685152058,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 556
+  },
+  "predictions_url": "results/learned_hands_traffic/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_072921_64f62f_predictions.json"
+}

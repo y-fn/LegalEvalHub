@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_102504_88bceb",
+  "task_id": "learned_hands_estates",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:25:04.284659Z",
+  "metrics": {
+    "accuracy": 0.601123595505618,
+    "balanced_accuracy": 0.601123595505618,
+    "f1_macro": 0.5305872302492293,
+    "f1_micro": 0.601123595505618,
+    "f1": 0.7125506072874493,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 178
+  },
+  "predictions_url": "results/learned_hands_estates/google_gemma-2-27b-it/base/run_2025_07_24_102504_88bceb_predictions.json"
+}

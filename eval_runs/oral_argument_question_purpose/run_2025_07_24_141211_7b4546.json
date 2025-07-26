@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_141211_7b4546",
+  "task_id": "oral_argument_question_purpose",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T14:12:11.665957Z",
+  "metrics": {
+    "accuracy": 0.3762057877813505,
+    "balanced_accuracy": 0.3018468936057936,
+    "f1_macro": 0.3126200653379921,
+    "f1_micro": 0.3762057877813505,
+    "valid_predictions_ratio": 0.9967948717948718,
+    "n_samples": 312
+  },
+  "predictions_url": "results/oral_argument_question_purpose/google_gemma-2-27b-it/base/run_2025_07_24_141211_7b4546_predictions.json"
+}

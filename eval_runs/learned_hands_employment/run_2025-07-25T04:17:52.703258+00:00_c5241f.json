@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:17:52.703258+00:00_c5241f",
+  "task_id": "learned_hands_employment",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:41:26.818381Z",
+  "metrics": {
+    "accuracy": 0.6253644314868805,
+    "balanced_accuracy": 0.6229003740224414,
+    "f1_macro": 0.5916922000893959,
+    "f1_micro": 0.6253644314868805,
+    "f1": 0.7089467723669309,
+    "valid_predictions_ratio": 0.9661971830985916,
+    "n_samples": 710
+  },
+  "predictions_url": "results/learned_hands_employment/claude-3-haiku-20240307/base/run_2025-07-25T04:17:52.703258+00:00_c5241f_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_25_071130_91e03a",
+  "task_id": "learned_hands_housing",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:11:31.315334Z",
+  "metrics": {
+    "accuracy": 0.9345794392523364,
+    "balanced_accuracy": 0.9345794392523364,
+    "f1_macro": 0.9345229493485478,
+    "f1_micro": 0.9345794392523364,
+    "f1": 0.9364461738002594,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 4494
+  },
+  "predictions_url": "results/learned_hands_housing/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_071130_91e03a_predictions.json"
+}

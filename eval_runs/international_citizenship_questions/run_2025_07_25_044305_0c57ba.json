@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_25_044305_0c57ba",
+  "task_id": "international_citizenship_questions",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T04:43:05.679376Z",
+  "metrics": {
+    "accuracy": 0.5516870836019773,
+    "balanced_accuracy": 0.6002611491243321,
+    "f1_macro": 0.529749155829659,
+    "f1_micro": 0.5516870836019773,
+    "f1": 0.6313184870979145,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 9306
+  },
+  "predictions_url": "results/international_citizenship_questions/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_044305_0c57ba_predictions.json"
+}

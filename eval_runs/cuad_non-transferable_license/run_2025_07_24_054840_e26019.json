@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_054840_e26019",
+  "task_id": "cuad_non-transferable_license",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T05:48:41.009198Z",
+  "metrics": {
+    "accuracy": 0.5387453874538746,
+    "balanced_accuracy": 0.5387453874538746,
+    "f1_macro": 0.4140895253908953,
+    "f1_micro": 0.5387453874538746,
+    "f1": 0.6843434343434344,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 542
+  },
+  "predictions_url": "results/cuad_non-transferable_license/google_gemma-2-27b-it/base/run_2025_07_24_054840_e26019_predictions.json"
+}

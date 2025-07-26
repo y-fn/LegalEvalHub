@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:25:32.240144+00:00_b7763b",
+  "task_id": "ucc_v_common_law",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:35:49.231306Z",
+  "metrics": {
+    "accuracy": 0.574468085106383,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.36486486486486486,
+    "f1_micro": 0.574468085106383,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/claude-3-haiku-20240307/base/run_2025-07-25T04:25:32.240144+00:00_b7763b_predictions.json"
+}

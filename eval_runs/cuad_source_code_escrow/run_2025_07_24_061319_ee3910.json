@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_061319_ee3910",
+  "task_id": "cuad_source_code_escrow",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T06:13:19.726717Z",
+  "metrics": {
+    "accuracy": 0.9661016949152542,
+    "balanced_accuracy": 0.9661016949152542,
+    "f1_macro": 0.9660626977279263,
+    "f1_micro": 0.9661016949152542,
+    "f1": 0.9649122807017544,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 118
+  },
+  "predictions_url": "results/cuad_source_code_escrow/google_gemma-2-27b-it/base/run_2025_07_24_061319_ee3910_predictions.json"
+}

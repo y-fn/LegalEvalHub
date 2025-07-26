@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_192142_e8266f",
+  "task_id": "textualism_tool_dictionaries",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T19:21:42.787712Z",
+  "metrics": {
+    "accuracy": 0.9532710280373832,
+    "balanced_accuracy": 0.9240362811791383,
+    "f1_macro": 0.8679990130767332,
+    "f1_micro": 0.9532710280373832,
+    "f1": 0.7619047619047619,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 107
+  },
+  "predictions_url": "results/textualism_tool_dictionaries/google_gemma-2-27b-it/base/run_2025_07_24_192142_e8266f_predictions.json"
+}

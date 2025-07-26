@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:21:52.805552+00:00_ec1d8c",
+  "task_id": "opp115_policy_change",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:38:45.412693Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 0.002320185614849188,
+    "n_samples": 431
+  },
+  "predictions_url": "results/opp115_policy_change/claude-3-haiku-20240307/base/run_2025-07-25T04:21:52.805552+00:00_ec1d8c_predictions.json"
+}

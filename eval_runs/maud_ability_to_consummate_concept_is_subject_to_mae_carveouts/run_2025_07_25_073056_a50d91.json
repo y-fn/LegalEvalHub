@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_073056_a50d91",
+  "task_id": "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:30:56.040972Z",
+  "metrics": {
+    "accuracy": 0.4782608695652174,
+    "balanced_accuracy": 0.6461038961038961,
+    "f1_macro": 0.4728353140916808,
+    "f1_micro": 0.4782608695652174,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 69
+  },
+  "predictions_url": "results/maud_ability_to_consummate_concept_is_subject_to_mae_carveouts/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_073056_a50d91_predictions.json"
+}

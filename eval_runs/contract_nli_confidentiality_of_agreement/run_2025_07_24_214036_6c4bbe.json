@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_214036_6c4bbe",
+  "task_id": "contract_nli_confidentiality_of_agreement",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T21:40:36.411866Z",
+  "metrics": {
+    "accuracy": 0.926829268292683,
+    "balanced_accuracy": 0.9268292682926829,
+    "f1_macro": 0.9267857142857143,
+    "f1_micro": 0.926829268292683,
+    "f1": 0.925,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 82
+  },
+  "predictions_url": "results/contract_nli_confidentiality_of_agreement/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_24_214036_6c4bbe_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:21:11.269127+00:00_c2ae43",
+  "task_id": "maud_tail_period_length",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:39:32.574287Z",
+  "metrics": {
+    "accuracy": 0.08379888268156424,
+    "balanced_accuracy": 0.1657719836400818,
+    "f1_macro": 0.062451849717767315,
+    "f1_micro": 0.08379888268156424,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 179
+  },
+  "predictions_url": "results/maud_tail_period_length/claude-3-haiku-20240307/base/run_2025-07-25T04:21:11.269127+00:00_c2ae43_predictions.json"
+}

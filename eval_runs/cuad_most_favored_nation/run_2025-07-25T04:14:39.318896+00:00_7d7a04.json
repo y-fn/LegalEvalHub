@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:14:39.318896+00:00_7d7a04",
+  "task_id": "cuad_most_favored_nation",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:44:53.131494Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 0.015625,
+    "n_samples": 64
+  },
+  "predictions_url": "results/cuad_most_favored_nation/claude-3-haiku-20240307/base/run_2025-07-25T04:14:39.318896+00:00_7d7a04_predictions.json"
+}

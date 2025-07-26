@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_120331_fbc424",
+  "task_id": "maud_cor_permitted_with_board_fiduciary_determination_only",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:03:31.528265Z",
+  "metrics": {
+    "accuracy": 0.13,
+    "balanced_accuracy": 0.4642857142857143,
+    "f1_macro": 0.11504424778761062,
+    "f1_micro": 0.13,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 100
+  },
+  "predictions_url": "results/maud_cor_permitted_with_board_fiduciary_determination_only/google_gemma-2-27b-it/base/run_2025_07_24_120331_fbc424_predictions.json"
+}

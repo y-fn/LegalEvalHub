@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_124724_32a1c9",
+  "task_id": "maud_pandemic_or_other_public_health_event__subject_to_disproportionate_impact_modifier",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:47:24.077127Z",
+  "metrics": {
+    "accuracy": 0.8061224489795918,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4463276836158192,
+    "f1_micro": 0.8061224489795918,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_pandemic_or_other_public_health_event__subject_to_disproportionate_impact_modifier/google_gemma-2-27b-it/base/run_2025_07_24_124724_32a1c9_predictions.json"
+}

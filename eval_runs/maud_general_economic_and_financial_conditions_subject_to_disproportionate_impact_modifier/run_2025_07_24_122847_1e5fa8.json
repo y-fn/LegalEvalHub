@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_122847_1e5fa8",
+  "task_id": "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:28:47.968204Z",
+  "metrics": {
+    "accuracy": 0.8571428571428571,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.46153846153846156,
+    "f1_micro": 0.8571428571428571,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier/google_gemma-2-27b-it/base/run_2025_07_24_122847_1e5fa8_predictions.json"
+}

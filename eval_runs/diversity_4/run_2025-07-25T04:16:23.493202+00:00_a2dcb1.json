@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:16:23.493202+00:00_a2dcb1",
+  "task_id": "diversity_4",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:42:55.140882Z",
+  "metrics": {
+    "accuracy": 0.9733333333333334,
+    "balanced_accuracy": 0.9736607142857143,
+    "f1_macro": 0.9732369864846782,
+    "f1_micro": 0.9733333333333334,
+    "f1": 0.9748427672955975,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_4/claude-3-haiku-20240307/base/run_2025-07-25T04:16:23.493202+00:00_a2dcb1_predictions.json"
+}

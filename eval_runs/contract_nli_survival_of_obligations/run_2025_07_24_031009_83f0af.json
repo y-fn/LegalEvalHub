@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_031009_83f0af",
+  "task_id": "contract_nli_survival_of_obligations",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T03:10:09.595600Z",
+  "metrics": {
+    "accuracy": 0.9548387096774194,
+    "balanced_accuracy": 0.9544544544544544,
+    "f1_macro": 0.9547180835524394,
+    "f1_micro": 0.9548387096774194,
+    "f1": 0.9523809523809523,
+    "valid_predictions_ratio": 0.9872611464968153,
+    "n_samples": 157
+  },
+  "predictions_url": "results/contract_nli_survival_of_obligations/google_gemma-2-27b-it/base/run_2025_07_24_031009_83f0af_predictions.json"
+}

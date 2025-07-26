@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:14:25.969189+00:00_2d0cc6",
+  "task_id": "cuad_license_grant",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:45:10.288772Z",
+  "metrics": {
+    "accuracy": 0.9464285714285714,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.48623853211009177,
+    "f1_micro": 0.9464285714285714,
+    "f1": 0.9724770642201835,
+    "valid_predictions_ratio": 0.04011461318051576,
+    "n_samples": 1396
+  },
+  "predictions_url": "results/cuad_license_grant/claude-3-haiku-20240307/base/run_2025-07-25T04:14:25.969189+00:00_2d0cc6_predictions.json"
+}

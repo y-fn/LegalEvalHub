@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025_07_24_183545_e7b192",
+  "task_id": "ssla_individual_defendants",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T18:35:45.301416Z",
+  "metrics": {
+    "f1": 0.0006207324643078833,
+    "precision": 0.0018450184501845018,
+    "recall": 0.00037313432835820896,
+    "accuracy": 0.0006207324643078833,
+    "n_samples": 1012
+  },
+  "predictions_url": "results/ssla_individual_defendants/google_gemma-2-27b-it/base/run_2025_07_24_183545_e7b192_predictions.json"
+}

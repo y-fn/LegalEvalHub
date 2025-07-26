@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T17:30:15.529053+00:00_9f0908",
+  "task_id": "personal_jurisdiction",
+  "model_name": "claude-sonnet-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T16:10:30.075624Z",
+  "metrics": {
+    "accuracy": 0.9387755102040817,
+    "balanced_accuracy": 0.9327586206896552,
+    "f1_macro": 0.9361147327249022,
+    "f1_micro": 0.9387755102040817,
+    "f1": 0.9230769230769231,
+    "valid_predictions_ratio": 0.98,
+    "n_samples": 50
+  },
+  "predictions_url": "results/personal_jurisdiction/claude-sonnet-4-20250514/base/run_2025-07-25T17:30:15.529053+00:00_9f0908_predictions.json"
+}

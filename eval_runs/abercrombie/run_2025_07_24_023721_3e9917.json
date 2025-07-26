@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_023721_3e9917",
+  "task_id": "abercrombie",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T02:37:21.948293Z",
+  "metrics": {
+    "accuracy": 0.631578947368421,
+    "balanced_accuracy": 0.631578947368421,
+    "f1_macro": 0.6356548856548857,
+    "f1_micro": 0.631578947368421,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/google_gemma-2-27b-it/base/run_2025_07_24_023721_3e9917_predictions.json"
+}

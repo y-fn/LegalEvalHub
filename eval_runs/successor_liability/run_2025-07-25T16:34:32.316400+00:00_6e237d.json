@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T16:34:32.316400+00:00_6e237d",
+  "task_id": "successor_liability",
+  "model_name": "claude-opus-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T13:15:12.585672Z",
+  "metrics": {
+    "f1": 0.4057971014492754,
+    "precision": 0.2661596958174905,
+    "recall": 0.8536585365853658,
+    "accuracy": 0.4057971014492754,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/claude-opus-4-20250514/base/run_2025-07-25T16:34:32.316400+00:00_6e237d_predictions.json"
+}

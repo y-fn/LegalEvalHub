@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_074049_11bfea",
+  "task_id": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:40:49.139385Z",
+  "metrics": {
+    "accuracy": 0.049723756906077346,
+    "balanced_accuracy": 0.09582166199813259,
+    "f1_macro": 0.038249057584817364,
+    "f1_micro": 0.049723756906077346,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "results/maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_074049_11bfea_predictions.json"
+}

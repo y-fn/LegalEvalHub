@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T04:17:04.010522+00:00_cf2544",
+  "task_id": "jcrew_blocker",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:42:08.352990Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/jcrew_blocker/claude-3-haiku-20240307/base/run_2025-07-25T04:17:04.010522+00:00_cf2544_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_213538_d71419",
+  "task_id": "canada_tax_court_outcomes",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T21:35:38.105829Z",
+  "metrics": {
+    "accuracy": 0.9711934156378601,
+    "balanced_accuracy": 0.8703984902307025,
+    "f1_macro": 0.9121947861050007,
+    "f1_micro": 0.9711934156378601,
+    "valid_predictions_ratio": 0.9959016393442623,
+    "n_samples": 244
+  },
+  "predictions_url": "results/canada_tax_court_outcomes/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_24_213538_d71419_predictions.json"
+}

@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T04:21:59.195430+00:00_e92d2b",
+  "task_id": "opp115_third_party_sharing_collection",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:38:40.184106Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/opp115_third_party_sharing_collection/claude-3-haiku-20240307/base/run_2025-07-25T04:21:59.195430+00:00_e92d2b_predictions.json"
+}

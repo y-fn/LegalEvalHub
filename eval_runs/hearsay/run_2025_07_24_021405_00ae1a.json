@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_021405_00ae1a",
+  "task_id": "hearsay",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "Neel Guha",
+  "submission_time": "2025-07-24T02:14:07.106926Z",
+  "metrics": {
+    "accuracy": 0.7127659574468085,
+    "balanced_accuracy": 0.7093879429360331,
+    "f1_macro": 0.7087779690189329,
+    "f1_micro": 0.7127659574468085,
+    "f1": 0.6746987951807228,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "https://storage.googleapis.com/legal-eval-runs/predictions/hearsay/google_gemma-2-27b-it/base/run_2025_07_24_021405_00ae1a_predictions.json"
+}

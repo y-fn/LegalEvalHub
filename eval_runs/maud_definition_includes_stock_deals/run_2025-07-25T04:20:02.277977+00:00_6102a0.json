@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:20:02.277977+00:00_6102a0",
+  "task_id": "maud_definition_includes_stock_deals",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:40:05.145015Z",
+  "metrics": {
+    "accuracy": 0.05405405405405406,
+    "balanced_accuracy": 0.3333333333333333,
+    "f1_macro": 0.034188034188034185,
+    "f1_micro": 0.05405405405405406,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 148
+  },
+  "predictions_url": "results/maud_definition_includes_stock_deals/claude-3-haiku-20240307/base/run_2025-07-25T04:20:02.277977+00:00_6102a0_predictions.json"
+}

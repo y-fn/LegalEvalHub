@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_101539_549e08",
+  "task_id": "learned_hands_domestic_violence",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:15:39.017656Z",
+  "metrics": {
+    "accuracy": 0.5229885057471264,
+    "balanced_accuracy": 0.5229885057471264,
+    "f1_macro": 0.3824774447342541,
+    "f1_micro": 0.5229885057471264,
+    "f1": 0.6770428015564203,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 174
+  },
+  "predictions_url": "results/learned_hands_domestic_violence/google_gemma-2-27b-it/base/run_2025_07_24_101539_549e08_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_033707_02ac46",
+  "task_id": "cuad_anti-assignment",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T03:37:07.308256Z",
+  "metrics": {
+    "accuracy": 0.8498293515358362,
+    "balanced_accuracy": 0.8498293515358362,
+    "f1_macro": 0.8472602333984953,
+    "f1_micro": 0.8498293515358362,
+    "f1": 0.8670694864048338,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 1172
+  },
+  "predictions_url": "results/cuad_anti-assignment/google_gemma-2-27b-it/base/run_2025_07_24_033707_02ac46_predictions.json"
+}

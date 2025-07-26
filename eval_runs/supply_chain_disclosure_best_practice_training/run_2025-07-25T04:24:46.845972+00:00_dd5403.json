@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:24:46.845972+00:00_dd5403",
+  "task_id": "supply_chain_disclosure_best_practice_training",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:36:37.950196Z",
+  "metrics": {
+    "accuracy": 0.8390501319261213,
+    "balanced_accuracy": 0.7177879329301814,
+    "f1_macro": 0.7526453752741669,
+    "f1_micro": 0.8390501319261213,
+    "f1": 0.8988391376451078,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_best_practice_training/claude-3-haiku-20240307/base/run_2025-07-25T04:24:46.845972+00:00_dd5403_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T16:33:59.422210+00:00_b5a0a1",
+  "task_id": "diversity_1",
+  "model_name": "claude-opus-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T13:15:51.525164Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_1/claude-opus-4-20250514/base/run_2025-07-25T16:33:59.422210+00:00_b5a0a1_predictions.json"
+}

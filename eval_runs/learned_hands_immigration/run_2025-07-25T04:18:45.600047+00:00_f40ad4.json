@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:18:45.600047+00:00_f40ad4",
+  "task_id": "learned_hands_immigration",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:40:51.133385Z",
+  "metrics": {
+    "accuracy": 0.6237623762376238,
+    "balanced_accuracy": 0.5581395348837209,
+    "f1_macro": 0.4807900432900433,
+    "f1_micro": 0.6237623762376238,
+    "f1": 0.7532467532467533,
+    "valid_predictions_ratio": 0.753731343283582,
+    "n_samples": 134
+  },
+  "predictions_url": "results/learned_hands_immigration/claude-3-haiku-20240307/base/run_2025-07-25T04:18:45.600047+00:00_f40ad4_predictions.json"
+}

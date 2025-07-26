@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_100521_a07f22",
+  "task_id": "learned_hands_courts",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T10:05:21.988953Z",
+  "metrics": {
+    "accuracy": 0.4739583333333333,
+    "balanced_accuracy": 0.4739583333333333,
+    "f1_macro": 0.3299934353729745,
+    "f1_micro": 0.4739583333333333,
+    "f1": 0.6405693950177936,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 192
+  },
+  "predictions_url": "results/learned_hands_courts/google_gemma-2-27b-it/base/run_2025_07_24_100521_a07f22_predictions.json"
+}

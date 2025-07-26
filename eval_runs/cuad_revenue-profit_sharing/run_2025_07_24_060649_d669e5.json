@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_060649_d669e5",
+  "task_id": "cuad_revenue-profit_sharing",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T06:06:49.611142Z",
+  "metrics": {
+    "accuracy": 0.9031007751937985,
+    "balanced_accuracy": 0.9031007751937985,
+    "f1_macro": 0.9023692075339689,
+    "f1_micro": 0.9031007751937985,
+    "f1": 0.9108204518430439,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 774
+  },
+  "predictions_url": "results/cuad_revenue-profit_sharing/google_gemma-2-27b-it/base/run_2025_07_24_060649_d669e5_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_061959_c02c6b",
+  "task_id": "cuad_unlimited-all-you-can-eat-license",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T06:19:59.706973Z",
+  "metrics": {
+    "accuracy": 0.5625,
+    "balanced_accuracy": 0.5625,
+    "f1_macro": 0.45893719806763283,
+    "f1_micro": 0.5625,
+    "f1": 0.6956521739130435,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 48
+  },
+  "predictions_url": "results/cuad_unlimited-all-you-can-eat-license/google_gemma-2-27b-it/base/run_2025_07_24_061959_c02c6b_predictions.json"
+}

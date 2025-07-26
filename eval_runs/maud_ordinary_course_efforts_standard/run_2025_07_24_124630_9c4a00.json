@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_124630_9c4a00",
+  "task_id": "maud_ordinary_course_efforts_standard",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T12:46:30.398471Z",
+  "metrics": {
+    "accuracy": 0.47513812154696133,
+    "balanced_accuracy": 0.6190476190476191,
+    "f1_macro": 0.47384817183144773,
+    "f1_micro": 0.47513812154696133,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "results/maud_ordinary_course_efforts_standard/google_gemma-2-27b-it/base/run_2025_07_24_124630_9c4a00_predictions.json"
+}

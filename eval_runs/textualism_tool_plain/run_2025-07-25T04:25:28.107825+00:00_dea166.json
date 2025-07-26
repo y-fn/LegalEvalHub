@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-07-25T04:25:28.107825+00:00_dea166",
+  "task_id": "textualism_tool_plain",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:35:53.699185Z",
+  "metrics": {
+    "accuracy": 0.7291666666666666,
+    "balanced_accuracy": 0.7464594807238395,
+    "f1_macro": 0.7290490664350847,
+    "f1_micro": 0.7291666666666666,
+    "f1": 0.7346938775510204,
+    "valid_predictions_ratio": 0.8727272727272727,
+    "n_samples": 165
+  },
+  "predictions_url": "results/textualism_tool_plain/claude-3-haiku-20240307/base/run_2025-07-25T04:25:28.107825+00:00_dea166_predictions.json"
+}

@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T04:14:30.302622+00:00_165671",
+  "task_id": "cuad_liquidated_damages",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:45:03.644151Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/cuad_liquidated_damages/claude-3-haiku-20240307/base/run_2025-07-25T04:14:30.302622+00:00_165671_predictions.json"
+}

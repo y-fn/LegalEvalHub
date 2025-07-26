@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_131354_96717d",
+  "task_id": "opp115_data_security",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T13:13:55.034846Z",
+  "metrics": {
+    "accuracy": 0.841079460269865,
+    "balanced_accuracy": 0.8410375715072433,
+    "f1_macro": 0.841036225627743,
+    "f1_micro": 0.841079460269865,
+    "f1": 0.8436578171091446,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 1334
+  },
+  "predictions_url": "results/opp115_data_security/google_gemma-2-27b-it/base/run_2025_07_24_131354_96717d_predictions.json"
+}

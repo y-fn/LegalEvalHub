@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_024439_0f1c12",
+  "task_id": "consumer_contracts_qa",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T02:44:39.173616Z",
+  "metrics": {
+    "accuracy": 0.9595959595959596,
+    "balanced_accuracy": 0.9607256983816101,
+    "f1_macro": 0.9592959013233971,
+    "f1_micro": 0.9595959595959596,
+    "f1": 0.9558011049723757,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 396
+  },
+  "predictions_url": "results/consumer_contracts_qa/google_gemma-2-27b-it/base/run_2025_07_24_024439_0f1c12_predictions.json"
+}

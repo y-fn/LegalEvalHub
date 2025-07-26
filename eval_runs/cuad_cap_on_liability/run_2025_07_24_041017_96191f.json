@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_041017_96191f",
+  "task_id": "cuad_cap_on_liability",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T04:10:17.110988Z",
+  "metrics": {
+    "accuracy": 0.514446227929374,
+    "balanced_accuracy": 0.514446227929374,
+    "f1_macro": 0.36465594766416265,
+    "f1_micro": 0.514446227929374,
+    "f1": 0.6731496488384657,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 1246
+  },
+  "predictions_url": "results/cuad_cap_on_liability/google_gemma-2-27b-it/base/run_2025_07_24_041017_96191f_predictions.json"
+}

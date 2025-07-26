@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:16:43.332714+00:00_ccd4ea",
+  "task_id": "insurance_policy_interpretation",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:42:35.366346Z",
+  "metrics": {
+    "accuracy": 0.3233082706766917,
+    "balanced_accuracy": 0.35224586288416077,
+    "f1_macro": 0.25120772946859904,
+    "f1_micro": 0.3233082706766917,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 133
+  },
+  "predictions_url": "results/insurance_policy_interpretation/claude-3-haiku-20240307/base/run_2025-07-25T04:16:43.332714+00:00_ccd4ea_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_24_115124_014bdd",
+  "task_id": "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T11:51:24.749055Z",
+  "metrics": {
+    "accuracy": 0.1270718232044199,
+    "balanced_accuracy": 0.2647058823529412,
+    "f1_macro": 0.06541218637992832,
+    "f1_micro": 0.1270718232044199,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "results/maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer/google_gemma-2-27b-it/base/run_2025_07_24_115124_014bdd_predictions.json"
+}

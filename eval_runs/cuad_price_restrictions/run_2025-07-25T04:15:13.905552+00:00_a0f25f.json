@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-07-25T04:15:13.905552+00:00_a0f25f",
+  "task_id": "cuad_price_restrictions",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:44:15.599997Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/cuad_price_restrictions/claude-3-haiku-20240307/base/run_2025-07-25T04:15:13.905552+00:00_a0f25f_predictions.json"
+}

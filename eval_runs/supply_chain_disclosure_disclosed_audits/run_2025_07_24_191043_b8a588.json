@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_24_191043_b8a588",
+  "task_id": "supply_chain_disclosure_disclosed_audits",
+  "model_name": "google/gemma-2-27b-it",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-24T19:10:43.354541Z",
+  "metrics": {
+    "accuracy": 0.8839050131926122,
+    "balanced_accuracy": 0.8590531561461794,
+    "f1_macro": 0.7507771401243424,
+    "f1_micro": 0.8839050131926122,
+    "f1": 0.9329268292682927,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_disclosed_audits/google_gemma-2-27b-it/base/run_2025_07_24_191043_b8a588_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-07-25T04:11:41.961158+00:00_bfadb8",
+  "task_id": "canada_tax_court_outcomes",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-07-25T09:48:02.757320Z",
+  "metrics": {
+    "accuracy": 0.930327868852459,
+    "balanced_accuracy": 0.6531882195853173,
+    "f1_macro": 0.6341179889566987,
+    "f1_micro": 0.930327868852459,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 244
+  },
+  "predictions_url": "results/canada_tax_court_outcomes/claude-3-haiku-20240307/base/run_2025-07-25T04:11:41.961158+00:00_bfadb8_predictions.json"
+}

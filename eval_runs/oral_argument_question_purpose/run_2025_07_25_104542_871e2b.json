@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_104542_871e2b",
+  "task_id": "oral_argument_question_purpose",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T10:45:42.115703Z",
+  "metrics": {
+    "accuracy": 0.4423076923076923,
+    "balanced_accuracy": 0.36873333647147233,
+    "f1_macro": 0.38183798411933123,
+    "f1_micro": 0.4423076923076923,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 312
+  },
+  "predictions_url": "results/oral_argument_question_purpose/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_104542_871e2b_predictions.json"
+}

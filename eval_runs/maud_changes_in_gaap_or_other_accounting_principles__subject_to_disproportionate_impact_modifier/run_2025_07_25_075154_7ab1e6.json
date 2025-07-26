@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_25_075154_7ab1e6",
+  "task_id": "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
+  "model_name": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-25T07:51:54.960129Z",
+  "metrics": {
+    "accuracy": 0.3979591836734694,
+    "balanced_accuracy": 0.5877828054298643,
+    "f1_macro": 0.37928073000536766,
+    "f1_micro": 0.3979591836734694,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier/meta-llama_Meta-Llama-3.1-70B-Instruct-Turbo/base/run_2025_07_25_075154_7ab1e6_predictions.json"
+}
