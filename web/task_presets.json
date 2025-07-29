@@ -169,7 +169,7 @@
     },
     "legalbench_reasoning": {
       "name": "LegalBench (Reasoning)",
-      "description": "Performance over all reasoning tasks in LegalBench.",
+      "description": "Performance over all rule-application tasks in LegalBench.",
       "tasks": [
         "abercrombie",
         "hearsay",

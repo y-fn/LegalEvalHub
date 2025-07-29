@@ -200,9 +200,9 @@ def calculate_aggregate_scores(task_ids):
         # Only include models that have been evaluated on ALL tasks in the preset
         print(model_name, data['task_count'], len(task_ids))
         if data['scores'] and data['task_count'] == len(task_ids):
-            avg_score = statistics.mean(data['scores'])
             avg_rank = statistics.mean(data['ranks'])
             avg_raw_metric = statistics.mean(data['raw_metrics'])
+            # Don't calculate wins yet - we'll do it after recalculating relative ranks
             
             # Get the most common submitter (in case there are multiple)
             submitters_list = list(data['submitters'])
@@ -211,7 +211,7 @@ def calculate_aggregate_scores(task_ids):
             leaderboard.append({
                 'model': model_name,
                 'submitter': submitter,
-                'avg_score': avg_score,
+                'wins': 0, # Placeholder - will be calculated later
                 'avg_rank': avg_rank,
                 'avg_raw_metric': avg_raw_metric,
                 'num_tasks': data['task_count'],
@@ -220,12 +220,58 @@ def calculate_aggregate_scores(task_ids):
                 'runs': data['runs']
             })
     
-    # Sort by average score (primary sort key)
-    leaderboard.sort(key=lambda x: x['avg_score'], reverse=True)
+    # Sort by average rank (lower is better)
+    leaderboard.sort(key=lambda x: x['avg_rank'])
     
     # Add final ranks
     for i, entry in enumerate(leaderboard):
         entry['rank'] = i + 1
+    
+    # Recalculate task-specific ranks relative to leaderboard models only
+    leaderboard_models = {entry['model'] for entry in leaderboard}
+    
+    # Group runs by task for relative ranking
+    task_runs = {}
+    for entry in leaderboard:
+        for run in entry['runs']:
+            task_id = run['task_id']
+            if task_id not in task_runs:
+                task_runs[task_id] = []
+            task_runs[task_id].append({
+                'model': entry['model'],
+                'score': run['score'],
+                'run': run
+            })
+    
+    # Recalculate ranks for each task among leaderboard models
+    for task_id, runs in task_runs.items():
+        # Get task info to determine ranking direction
+        task = next((t for t in get_tasks() if t['task_id'] == task_id), None)
+        if not task:
+            continue
+            
+        primary_metric = task['metrics'][0]['name']
+        direction = task['metrics'][0]['direction']
+        
+        # Sort runs by score for this task
+        runs.sort(key=lambda x: x['score'], reverse=(direction == 'maximize'))
+        
+        # Update ranks in the original leaderboard entries
+        for rank, run_data in enumerate(runs, 1):
+            model_name = run_data['model']
+            # Find the entry in leaderboard and update the specific run's rank
+            for entry in leaderboard:
+                if entry['model'] == model_name:
+                    for run in entry['runs']:
+                        if run['task_id'] == task_id:
+                            run['rank'] = rank
+                            break
+                    break
+    
+    # Now calculate wins based on the updated relative ranks
+    for entry in leaderboard:
+        wins = sum(1 for run in entry['runs'] if run['rank'] == 1)
+        entry['wins'] = wins
     
     return leaderboard
 

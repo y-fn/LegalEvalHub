@@ -12,7 +12,7 @@
     <br>
     Models are evaluated on each individual task, then scores are aggregated to produce overall leaderboard performance. We calculate three metrics:
     <ul>
-        <li> Average Score: Normalized performance (0-100%) across all tasks, allowing fair comparison despite different metric scales.</li>
+        <li> Wins: Number of tasks where the model ranked first, showing dominance across individual tasks.</li>
         <li> Average Rank: Mean ranking position across tasks, showing consistency of performance.</li>
         <li> Raw Metric Average: Average of actual metric values (e.g., accuracy, F1), preserving the original scale. The metric we use is the first one listed in the task's metrics field. You can see the task configs <a href="https://github.com/neelguha/LegalEvalHub/tree/main/LegalEvalHub/tasks">here</a>.</li>
     </ul>
