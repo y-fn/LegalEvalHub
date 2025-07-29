@@ -225,6 +225,38 @@
     font-size: 0.6em;
     opacity: 0.5;
 }
+
+/* Alternating row colors */
+.model-row:nth-of-type(4n+1) {
+    background-color: #f9f9f9;
+}
+
+.model-row:nth-of-type(4n+1) + .detail-row {
+    background-color: #f9f9f9;
+}
+
+.model-row:nth-of-type(4n+3) {
+    background-color: #ffffff;
+}
+
+.model-row:nth-of-type(4n+3) + .detail-row {
+    background-color: #ffffff;
+}
+
+/* Ensure hover effects still work over alternating colors */
+.model-row:hover {
+    background-color: #e8f4f8 !important;
+}
+
+/* Keep existing detail row styling but adjust for alternating colors */
+.detail-row {
+    background-color: inherit;
+}
+
+.detail-row .task-breakdown {
+    background-color: rgba(248, 249, 250, 0.8);
+    border-radius: 4px;
+}
 </style>
 
 <script>
@@ -232,6 +264,27 @@ document.addEventListener('DOMContentLoaded', function() {
     const modelRows = document.querySelectorAll('.model-row');
     const sortableHeaders = document.querySelectorAll('.sortable');
     const tbody = document.querySelector('table tbody');
+    
+    // Initialize alternating row colors
+    function initializeRowColors() {
+        const allModelRows = document.querySelectorAll('.model-row');
+        allModelRows.forEach(function(row, index) {
+            const detailRow = document.getElementById('details-' + row.getAttribute('data-model-index'));
+            
+            if (index % 2 === 0) {
+                // Even index - light gray background
+                row.style.backgroundColor = '#f9f9f9';
+                if (detailRow) detailRow.style.backgroundColor = '#f9f9f9';
+            } else {
+                // Odd index - white background  
+                row.style.backgroundColor = '#ffffff';
+                if (detailRow) detailRow.style.backgroundColor = '#ffffff';
+            }
+        });
+    }
+    
+    // Initialize colors on page load
+    initializeRowColors();
     
     // Expand/collapse functionality
     modelRows.forEach(function(row) {
@@ -314,6 +367,21 @@ document.addEventListener('DOMContentLoaded', function() {
             rowPairs.forEach(function(pair, index) {
                 // Update rank numbers
                 pair[0].querySelector('.rank-cell').textContent = index + 1;
+                
+                // Apply alternating row colors
+                const modelRow = pair[0];
+                const detailRow = pair[1];
+                
+                if (index % 2 === 0) {
+                    // Even index - light gray background
+                    modelRow.style.backgroundColor = '#f9f9f9';
+                    detailRow.style.backgroundColor = '#f9f9f9';
+                } else {
+                    // Odd index - white background
+                    modelRow.style.backgroundColor = '#ffffff';
+                    detailRow.style.backgroundColor = '#ffffff';
+                }
+                
                 tbody.appendChild(pair[0]);
                 tbody.appendChild(pair[1]);
             });
