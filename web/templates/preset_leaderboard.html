@@ -16,17 +16,21 @@
         <thead>
             <tr>
                 <th>Rank</th>
-                <th>Model</th>
-                <th>Wins</th>
-                <th>Average Rank</th>
-                <th>Raw Metric Avg</th>
+                <th class="sortable" data-sort="model">Model <span class="sort-arrow"></span></th>
+                <th class="sortable" data-sort="wins">Wins <span class="sort-arrow"></span></th>
+                <th class="sortable" data-sort="avg_rank">Average Rank <span class="sort-arrow"></span></th>
+                <th class="sortable" data-sort="raw_metric">Raw Metric Avg <span class="sort-arrow"></span></th>
                 <th>Details</th>
             </tr>
         </thead>
         <tbody>
             {% for entry in leaderboard %}
-            <tr class="model-row" data-model-index="{{ loop.index0 }}">
-                <td>{{ loop.index }}</td>
+            <tr class="model-row" data-model-index="{{ loop.index0 }}" 
+                data-model="{{ entry.model }}" 
+                data-wins="{{ entry.wins }}" 
+                data-avg-rank="{{ entry.avg_rank }}" 
+                data-raw-metric="{{ entry.avg_raw_metric }}">
+                <td class="rank-cell">{{ loop.index }}</td>
                 <td class="model-name">{{ entry.model }}</td>
                 <td><strong>{{ entry.wins }}</strong></td>
                 <td>{{ "%.2f"|format(entry.avg_rank) }}</td>
@@ -186,17 +190,57 @@
     text-align: center;
     font-weight: 600;
 }
+
+/* Sortable table styles */
+.sortable {
+    cursor: pointer;
+    user-select: none;
+    position: relative;
+    transition: background-color 0.2s;
+}
+
+.sortable:hover {
+    background-color: #e3f2fd;
+}
+
+.sort-arrow {
+    font-size: 0.7em;
+    margin-left: 0.5rem;
+    color: #999;
+    transition: color 0.2s;
+}
+
+.sortable.sort-asc .sort-arrow:after {
+    content: "▲";
+    color: #333;
+}
+
+.sortable.sort-desc .sort-arrow:after {
+    content: "▼";
+    color: #333;
+}
+
+.sortable:not(.sort-asc):not(.sort-desc) .sort-arrow:after {
+    content: "▲▼";
+    font-size: 0.6em;
+    opacity: 0.5;
+}
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     const modelRows = document.querySelectorAll('.model-row');
+    const sortableHeaders = document.querySelectorAll('.sortable');
+    const tbody = document.querySelector('table tbody');
     
+    // Expand/collapse functionality
     modelRows.forEach(function(row) {
-        row.addEventListener('click', function() {
+        row.addEventListener('click', function(e) {
+            // Don't expand if clicking on a sortable header
+            if (e.target.closest('.sortable')) return;
+            
             const modelIndex = this.getAttribute('data-model-index');
             const detailRow = document.getElementById('details-' + modelIndex);
-            const expandIcon = this.querySelector('.expand-icon');
             
             if (detailRow.style.display === 'none') {
                 detailRow.style.display = 'table-row';
@@ -205,6 +249,93 @@ document.addEventListener('DOMContentLoaded', function() {
                 detailRow.style.display = 'none';
                 this.classList.remove('expanded');
             }
+        });
+    });
+    
+    // Sorting functionality
+    sortableHeaders.forEach(function(header) {
+        header.addEventListener('click', function(e) {
+            e.stopPropagation();
+            const sortType = this.getAttribute('data-sort');
+            const isAsc = this.classList.contains('sort-asc');
+            
+            // Clear all sort classes
+            sortableHeaders.forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
+            
+            // Set new sort direction
+            if (isAsc) {
+                this.classList.add('sort-desc');
+            } else {
+                this.classList.add('sort-asc');
+            }
+            
+            // Get all row pairs (model row + detail row)
+            const rowPairs = [];
+            const allRows = Array.from(tbody.children);
+            
+            for (let i = 0; i < allRows.length; i += 2) {
+                if (allRows[i] && allRows[i + 1]) {
+                    rowPairs.push([allRows[i], allRows[i + 1]]);
+                }
+            }
+            
+            // Sort row pairs
+            rowPairs.sort(function(a, b) {
+                const rowA = a[0];
+                const rowB = b[0];
+                let valueA, valueB;
+                
+                switch(sortType) {
+                    case 'model':
+                        valueA = rowA.getAttribute('data-model').toLowerCase();
+                        valueB = rowB.getAttribute('data-model').toLowerCase();
+                        break;
+                    case 'wins':
+                        valueA = parseInt(rowA.getAttribute('data-wins'));
+                        valueB = parseInt(rowB.getAttribute('data-wins'));
+                        break;
+                    case 'avg_rank':
+                        valueA = parseFloat(rowA.getAttribute('data-avg-rank'));
+                        valueB = parseFloat(rowB.getAttribute('data-avg-rank'));
+                        break;
+                    case 'raw_metric':
+                        valueA = parseFloat(rowA.getAttribute('data-raw-metric'));
+                        valueB = parseFloat(rowB.getAttribute('data-raw-metric'));
+                        break;
+                }
+                
+                if (valueA < valueB) return isAsc ? 1 : -1;
+                if (valueA > valueB) return isAsc ? -1 : 1;
+                return 0;
+            });
+            
+            // Clear tbody and re-append sorted rows
+            tbody.innerHTML = '';
+            rowPairs.forEach(function(pair, index) {
+                // Update rank numbers
+                pair[0].querySelector('.rank-cell').textContent = index + 1;
+                tbody.appendChild(pair[0]);
+                tbody.appendChild(pair[1]);
+            });
+            
+            // Re-attach event listeners to new rows
+            const newModelRows = document.querySelectorAll('.model-row');
+            newModelRows.forEach(function(row) {
+                row.addEventListener('click', function(e) {
+                    if (e.target.closest('.sortable')) return;
+                    
+                    const modelIndex = this.getAttribute('data-model-index');
+                    const detailRow = document.getElementById('details-' + modelIndex);
+                    
+                    if (detailRow.style.display === 'none') {
+                        detailRow.style.display = 'table-row';
+                        this.classList.add('expanded');
+                    } else {
+                        detailRow.style.display = 'none';
+                        this.classList.remove('expanded');
+                    }
+                });
+            });
         });
     });
 });
