@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025_07_29_014111_c040f6",
+  "task_id": "successor_liability",
+  "model_name": "grok-3-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T01:41:11.677099Z",
+  "metrics": {
+    "f1": 0.08607863974495218,
+    "precision": 0.045,
+    "recall": 0.9878048780487805,
+    "accuracy": 0.08607863974495218,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/grok-3-mini/base/run_2025_07_29_014111_c040f6_predictions.json"
+}

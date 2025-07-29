@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_29_003412_82353e",
+  "task_id": "contract_nli_permissible_post-agreement_possession",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T00:34:12.969433Z",
+  "metrics": {
+    "accuracy": 0.963963963963964,
+    "balanced_accuracy": 0.9404044750430293,
+    "f1_macro": 0.951058201058201,
+    "f1_micro": 0.963963963963964,
+    "f1": 0.9259259259259259,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 111
+  },
+  "predictions_url": "results/contract_nli_permissible_post-agreement_possession/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_29_003412_82353e_predictions.json"
+}

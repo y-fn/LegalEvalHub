@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_29_012904_168289",
+  "task_id": "personal_jurisdiction",
+  "model_name": "grok-3-mini",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T01:29:04.494924Z",
+  "metrics": {
+    "accuracy": 0.98,
+    "balanced_accuracy": 0.9761904761904762,
+    "f1_macro": 0.9793303017775941,
+    "f1_micro": 0.98,
+    "f1": 0.975609756097561,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 50
+  },
+  "predictions_url": "results/personal_jurisdiction/grok-3-mini/base/run_2025_07_29_012904_168289_predictions.json"
+}

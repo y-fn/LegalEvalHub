@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_28_205430_42ce1c",
+  "task_id": "maud_pandemic_or_other_public_health_event__subject_to_disproportionate_impact_modifier",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-28T20:54:30.167806Z",
+  "metrics": {
+    "accuracy": 0.8061224489795918,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4463276836158192,
+    "f1_micro": 0.8061224489795918,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_pandemic_or_other_public_health_event__subject_to_disproportionate_impact_modifier/claude-3-haiku-20240307/base/run_2025_07_28_205430_42ce1c_predictions.json"
+}

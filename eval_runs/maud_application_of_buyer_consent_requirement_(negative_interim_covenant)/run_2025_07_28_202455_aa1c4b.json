@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_28_202455_aa1c4b",
+  "task_id": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-28T20:24:55.566501Z",
+  "metrics": {
+    "accuracy": 0.6055555555555555,
+    "balanced_accuracy": 0.40625,
+    "f1_macro": 0.41351934284796477,
+    "f1_micro": 0.6055555555555555,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 180
+  },
+  "predictions_url": "results/maud_application_of_buyer_consent_requirement_(negative_interim_covenant)/claude-3-haiku-20240307/base/run_2025_07_28_202455_aa1c4b_predictions.json"
+}

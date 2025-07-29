@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_28_203232_5e8004",
+  "task_id": "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
+  "model_name": "claude-3-haiku-20240307",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-28T20:32:32.578659Z",
+  "metrics": {
+    "accuracy": 0.8673469387755102,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.4644808743169399,
+    "f1_micro": 0.8673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 98
+  },
+  "predictions_url": "results/maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier/claude-3-haiku-20240307/base/run_2025_07_28_203232_5e8004_predictions.json"
+}
