@@ -256,15 +256,20 @@ def calculate_aggregate_scores(task_ids):
         # Sort runs by score for this task
         runs.sort(key=lambda x: x['score'], reverse=(direction == 'maximize'))
         
-        # Update ranks in the original leaderboard entries
-        for rank, run_data in enumerate(runs, 1):
+        # Assign ranks with proper tie handling
+        current_rank = 1
+        for i, run_data in enumerate(runs):
+            # Check if this score is different from the previous one
+            if i > 0 and runs[i]['score'] != runs[i-1]['score']:
+                current_rank = i + 1  # Update rank to current position
+            
             model_name = run_data['model']
             # Find the entry in leaderboard and update the specific run's rank
             for entry in leaderboard:
                 if entry['model'] == model_name:
                     for run in entry['runs']:
                         if run['task_id'] == task_id:
-                            run['rank'] = rank
+                            run['rank'] = current_rank
                             break
                     break
     
