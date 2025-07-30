@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_29_095636_48d495",
+  "task_id": "abercrombie",
+  "model_name": "grok-4-0709",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T09:56:36.508313Z",
+  "metrics": {
+    "accuracy": 0.8421052631578947,
+    "balanced_accuracy": 0.8421052631578949,
+    "f1_macro": 0.8422490526469988,
+    "f1_micro": 0.8421052631578947,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/grok-4-0709/base/run_2025_07_29_095636_48d495_predictions.json"
+}

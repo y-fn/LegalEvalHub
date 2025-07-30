@@ -1,0 +1,13 @@
+{
+  "submission_id": "run_2025_07_30_091857_945ec1",
+  "task_id": "definition_extraction",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T09:18:57.412138Z",
+  "metrics": {
+    "accuracy": 0.8442503639010189,
+    "n_samples": 687
+  },
+  "predictions_url": "results/definition_extraction/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_30_091857_945ec1_predictions.json"
+}

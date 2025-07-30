@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_30_103513_dd5b8e",
+  "task_id": "diversity_2",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T10:35:13.830530Z",
+  "metrics": {
+    "accuracy": 0.99,
+    "balanced_accuracy": 0.9802631578947368,
+    "f1_macro": 0.9866069435557077,
+    "f1_micro": 0.99,
+    "f1": 0.9798657718120806,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_2/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_30_103513_dd5b8e_predictions.json"
+}

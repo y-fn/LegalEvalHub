@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_30_065003_4fb824",
+  "task_id": "hearsay",
+  "model_name": "grok-4-0709",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T06:50:03.062907Z",
+  "metrics": {
+    "accuracy": 0.851063829787234,
+    "balanced_accuracy": 0.8375517717441325,
+    "f1_macro": 0.8440018966334756,
+    "f1_micro": 0.851063829787234,
+    "f1": 0.8108108108108109,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/grok-4-0709/base/run_2025_07_30_065003_4fb824_predictions.json"
+}

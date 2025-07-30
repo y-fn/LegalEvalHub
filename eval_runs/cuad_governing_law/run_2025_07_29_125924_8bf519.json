@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_29_125924_8bf519",
+  "task_id": "cuad_governing_law",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T12:59:24.414990Z",
+  "metrics": {
+    "accuracy": 0.9897260273972602,
+    "balanced_accuracy": 0.9897260273972603,
+    "f1_macro": 0.989724942818603,
+    "f1_micro": 0.9897260273972602,
+    "f1": 0.9896193771626297,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 876
+  },
+  "predictions_url": "results/cuad_governing_law/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_29_125924_8bf519_predictions.json"
+}

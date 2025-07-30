@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_30_054626_cab60e",
+  "task_id": "diversity_6",
+  "model_name": "grok-4-0709",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T05:46:26.164532Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_6/grok-4-0709/base/run_2025_07_30_054626_cab60e_predictions.json"
+}

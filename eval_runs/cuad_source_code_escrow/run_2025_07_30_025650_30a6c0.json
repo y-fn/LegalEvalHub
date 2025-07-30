@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_30_025650_30a6c0",
+  "task_id": "cuad_source_code_escrow",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T02:56:50.265169Z",
+  "metrics": {
+    "accuracy": 0.8728813559322034,
+    "balanced_accuracy": 0.8728813559322034,
+    "f1_macro": 0.8707934885758084,
+    "f1_micro": 0.8728813559322034,
+    "f1": 0.8543689320388349,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 118
+  },
+  "predictions_url": "results/cuad_source_code_escrow/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_30_025650_30a6c0_predictions.json"
+}

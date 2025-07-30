@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_30_045844_5460e5",
+  "task_id": "cuad_volume_restriction",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T04:58:44.857710Z",
+  "metrics": {
+    "accuracy": 0.9099378881987578,
+    "balanced_accuracy": 0.9099378881987578,
+    "f1_macro": 0.909867474880071,
+    "f1_micro": 0.9099378881987578,
+    "f1": 0.9123867069486404,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 322
+  },
+  "predictions_url": "results/cuad_volume_restriction/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_30_045844_5460e5_predictions.json"
+}

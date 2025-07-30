@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_29_183528_679372",
+  "task_id": "cuad_liquidated_damages",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-29T18:35:28.660362Z",
+  "metrics": {
+    "accuracy": 0.9409090909090909,
+    "balanced_accuracy": 0.9409090909090909,
+    "f1_macro": 0.9407609933925724,
+    "f1_micro": 0.9409090909090909,
+    "f1": 0.937799043062201,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 220
+  },
+  "predictions_url": "results/cuad_liquidated_damages/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_29_183528_679372_predictions.json"
+}

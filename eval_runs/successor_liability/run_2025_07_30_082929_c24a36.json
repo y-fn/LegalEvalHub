@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025_07_30_082929_c24a36",
+  "task_id": "successor_liability",
+  "model_name": "grok-4-0709",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T08:29:29.728708Z",
+  "metrics": {
+    "f1": 0.5575757575757576,
+    "precision": 0.5542168674698795,
+    "recall": 0.5609756097560976,
+    "accuracy": 0.5575757575757576,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/grok-4-0709/base/run_2025_07_30_082929_c24a36_predictions.json"
+}
