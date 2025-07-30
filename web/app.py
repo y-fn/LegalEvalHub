@@ -200,9 +200,8 @@ def calculate_aggregate_scores(task_ids):
         # Only include models that have been evaluated on ALL tasks in the preset
         print(model_name, data['task_count'], len(task_ids))
         if data['scores'] and data['task_count'] == len(task_ids):
-            avg_rank = statistics.mean(data['ranks'])
             avg_raw_metric = statistics.mean(data['raw_metrics'])
-            # Don't calculate wins yet - we'll do it after recalculating relative ranks
+            # Don't calculate wins or avg_rank yet - we'll do it after recalculating relative ranks
             
             # Get the most common submitter (in case there are multiple)
             submitters_list = list(data['submitters'])
@@ -212,7 +211,7 @@ def calculate_aggregate_scores(task_ids):
                 'model': model_name,
                 'submitter': submitter,
                 'wins': 0, # Placeholder - will be calculated later
-                'avg_rank': avg_rank,
+                'avg_rank': 0, # Placeholder - will be calculated later
                 'avg_raw_metric': avg_raw_metric,
                 'num_tasks': data['task_count'],
                 'total_tasks': len(task_ids),
@@ -220,12 +219,7 @@ def calculate_aggregate_scores(task_ids):
                 'runs': data['runs']
             })
     
-    # Sort by average rank (lower is better)
-    leaderboard.sort(key=lambda x: x['avg_rank'])
-    
-    # Add final ranks
-    for i, entry in enumerate(leaderboard):
-        entry['rank'] = i + 1
+    # Don't sort yet - we need to calculate avg_rank first after relative rank recalculation
     
     # Recalculate task-specific ranks relative to leaderboard models only
     leaderboard_models = {entry['model'] for entry in leaderboard}
@@ -273,10 +267,22 @@ def calculate_aggregate_scores(task_ids):
                             break
                     break
     
-    # Now calculate wins based on the updated relative ranks
+    # Now calculate wins and average rank based on the updated relative ranks
     for entry in leaderboard:
+        # Calculate wins (number of rank=1 positions)
         wins = sum(1 for run in entry['runs'] if run['rank'] == 1)
         entry['wins'] = wins
+        
+        # Calculate average rank using the new relative ranks
+        relative_ranks = [run['rank'] for run in entry['runs']]
+        entry['avg_rank'] = statistics.mean(relative_ranks)
+    
+    # Now sort by average rank (lower is better)
+    leaderboard.sort(key=lambda x: x['avg_rank'])
+    
+    # Update final ranks after sorting
+    for i, entry in enumerate(leaderboard):
+        entry['rank'] = i + 1
     
     return leaderboard
 
