@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T16:31:11.642271+00:00_2d8201",
+  "task_id": "maud_cor_standard_(superior_offer)",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:43:46.757769Z",
+  "metrics": {
+    "accuracy": 0.57,
+    "balanced_accuracy": 0.2585263835263836,
+    "f1_macro": 0.26293348861283644,
+    "f1_micro": 0.57,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 100
+  },
+  "predictions_url": "results/maud_cor_standard_(superior_offer)/claude-3-5-haiku-20241022/base/run_2025-08-01T16:31:11.642271+00:00_2d8201_predictions.json"
+}

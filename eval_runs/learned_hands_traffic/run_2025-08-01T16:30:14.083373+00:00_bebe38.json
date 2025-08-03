@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:30:14.083373+00:00_bebe38",
+  "task_id": "learned_hands_traffic",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:44:23.770817Z",
+  "metrics": {
+    "accuracy": 0.9136690647482014,
+    "balanced_accuracy": 0.9136690647482014,
+    "f1_macro": 0.9136690647482014,
+    "f1_micro": 0.9136690647482014,
+    "f1": 0.9136690647482014,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 556
+  },
+  "predictions_url": "results/learned_hands_traffic/claude-3-5-haiku-20241022/base/run_2025-08-01T16:30:14.083373+00:00_bebe38_predictions.json"
+}

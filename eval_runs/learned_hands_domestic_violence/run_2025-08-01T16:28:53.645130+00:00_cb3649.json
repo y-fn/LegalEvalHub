@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:28:53.645130+00:00_cb3649",
+  "task_id": "learned_hands_domestic_violence",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:45:24.853756Z",
+  "metrics": {
+    "accuracy": 0.764367816091954,
+    "balanced_accuracy": 0.764367816091954,
+    "f1_macro": 0.7594010320056659,
+    "f1_micro": 0.764367816091954,
+    "f1": 0.7248322147651006,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 174
+  },
+  "predictions_url": "results/learned_hands_domestic_violence/claude-3-5-haiku-20241022/base/run_2025-08-01T16:28:53.645130+00:00_cb3649_predictions.json"
+}

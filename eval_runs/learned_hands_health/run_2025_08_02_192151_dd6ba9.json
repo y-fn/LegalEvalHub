@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_02_192151_dd6ba9",
+  "task_id": "learned_hands_health",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-02T19:21:51.466629Z",
+  "metrics": {
+    "accuracy": 0.8849557522123894,
+    "balanced_accuracy": 0.8849557522123894,
+    "f1_macro": 0.8843762298307754,
+    "f1_micro": 0.8849557522123894,
+    "f1": 0.8925619834710744,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 226
+  },
+  "predictions_url": "results/learned_hands_health/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_02_192151_dd6ba9_predictions.json"
+}

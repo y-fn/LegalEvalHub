@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T18:31:44.460331+00:00_13f6dc",
+  "task_id": "scalr",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:12:01.589317Z",
+  "metrics": {
+    "accuracy": 0.7272727272727273,
+    "balanced_accuracy": 0.7303504264654168,
+    "f1_macro": 0.7279353697469172,
+    "f1_micro": 0.7272727272727273,
+    "valid_predictions_ratio": 0.9824868651488616,
+    "n_samples": 571
+  },
+  "predictions_url": "results/scalr/claude-3-5-haiku-20241022/base/run_2025-08-01T18:31:44.460331+00:00_13f6dc_predictions.json"
+}

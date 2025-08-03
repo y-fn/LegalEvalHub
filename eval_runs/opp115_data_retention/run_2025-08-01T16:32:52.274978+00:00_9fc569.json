@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-08-01T16:32:52.274978+00:00_9fc569",
+  "task_id": "opp115_data_retention",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:42:29.172058Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0,
+    "f1": 0.0
+  },
+  "predictions_url": "results/opp115_data_retention/claude-3-5-haiku-20241022/base/run_2025-08-01T16:32:52.274978+00:00_9fc569_predictions.json"
+}

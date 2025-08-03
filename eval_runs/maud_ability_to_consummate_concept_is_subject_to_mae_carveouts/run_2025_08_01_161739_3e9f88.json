@@ -1,0 +1,15 @@
+{
+  "submission_id": "run_2025_08_01_161739_3e9f88",
+  "task_id": "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-01T16:17:39.622346Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0
+  },
+  "predictions_url": "results/maud_ability_to_consummate_concept_is_subject_to_mae_carveouts/claude-3-5-haiku-20241022/base/run_2025_08_01_161739_3e9f88_predictions.json"
+}

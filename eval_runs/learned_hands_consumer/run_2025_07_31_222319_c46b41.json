@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_31_222319_c46b41",
+  "task_id": "learned_hands_consumer",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-31T22:23:19.284359Z",
+  "metrics": {
+    "accuracy": 0.5944625407166124,
+    "balanced_accuracy": 0.5944625407166124,
+    "f1_macro": 0.5161636396434031,
+    "f1_micro": 0.5944625407166124,
+    "f1": 0.710801393728223,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 614
+  },
+  "predictions_url": "results/learned_hands_consumer/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_31_222319_c46b41_predictions.json"
+}

@@ -1,0 +1,13 @@
+{
+  "submission_id": "run_2025-08-01T16:27:10.346250+00:00_65b48b",
+  "task_id": "definition_extraction",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:47:19.599563Z",
+  "metrics": {
+    "accuracy": 0.8879184861717613,
+    "n_samples": 687
+  },
+  "predictions_url": "results/definition_extraction/claude-3-5-haiku-20241022/base/run_2025-08-01T16:27:10.346250+00:00_65b48b_predictions.json"
+}

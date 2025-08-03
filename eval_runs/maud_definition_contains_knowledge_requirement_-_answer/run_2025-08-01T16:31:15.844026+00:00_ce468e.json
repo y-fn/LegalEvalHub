@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T16:31:15.844026+00:00_ce468e",
+  "task_id": "maud_definition_contains_knowledge_requirement_-_answer",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:43:42.431134Z",
+  "metrics": {
+    "accuracy": 0.4421768707482993,
+    "balanced_accuracy": 0.23601398601398602,
+    "f1_macro": 0.22000000000000003,
+    "f1_micro": 0.4421768707482993,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 147
+  },
+  "predictions_url": "results/maud_definition_contains_knowledge_requirement_-_answer/claude-3-5-haiku-20241022/base/run_2025-08-01T16:31:15.844026+00:00_ce468e_predictions.json"
+}

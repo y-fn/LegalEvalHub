@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:24:51.233911+00:00_70a904",
+  "task_id": "cuad_governing_law",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:49:51.403996Z",
+  "metrics": {
+    "accuracy": 0.9897260273972602,
+    "balanced_accuracy": 0.9897260273972603,
+    "f1_macro": 0.9897260140087962,
+    "f1_micro": 0.9897260273972602,
+    "f1": 0.9897142857142858,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 876
+  },
+  "predictions_url": "results/cuad_governing_law/claude-3-5-haiku-20241022/base/run_2025-08-01T16:24:51.233911+00:00_70a904_predictions.json"
+}

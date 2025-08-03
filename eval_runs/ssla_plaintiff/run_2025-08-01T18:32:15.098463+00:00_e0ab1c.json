@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025-08-01T18:32:15.098463+00:00_e0ab1c",
+  "task_id": "ssla_plaintiff",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:11:43.899549Z",
+  "metrics": {
+    "f1": 0.0004806536890170633,
+    "precision": 0.000321853878339234,
+    "recall": 0.0009487666034155598,
+    "accuracy": 0.0004806536890170633,
+    "n_samples": 1033
+  },
+  "predictions_url": "results/ssla_plaintiff/claude-3-5-haiku-20241022/base/run_2025-08-01T18:32:15.098463+00:00_e0ab1c_predictions.json"
+}

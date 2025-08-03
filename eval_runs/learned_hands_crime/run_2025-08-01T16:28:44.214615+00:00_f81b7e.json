@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:28:44.214615+00:00_f81b7e",
+  "task_id": "learned_hands_crime",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:45:35.869472Z",
+  "metrics": {
+    "accuracy": 0.8241279069767442,
+    "balanced_accuracy": 0.8241279069767442,
+    "f1_macro": 0.8216558872109738,
+    "f1_micro": 0.8241279069767442,
+    "f1": 0.8426527958387516,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 688
+  },
+  "predictions_url": "results/learned_hands_crime/claude-3-5-haiku-20241022/base/run_2025-08-01T16:28:44.214615+00:00_f81b7e_predictions.json"
+}

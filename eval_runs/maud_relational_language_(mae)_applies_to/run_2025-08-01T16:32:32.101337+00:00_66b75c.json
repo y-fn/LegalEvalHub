@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T16:32:32.101337+00:00_66b75c",
+  "task_id": "maud_relational_language_(mae)_applies_to",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:42:51.449878Z",
+  "metrics": {
+    "accuracy": 0.28888888888888886,
+    "balanced_accuracy": 0.43685300207039335,
+    "f1_macro": 0.28748144482929244,
+    "f1_micro": 0.28888888888888886,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 90
+  },
+  "predictions_url": "results/maud_relational_language_(mae)_applies_to/claude-3-5-haiku-20241022/base/run_2025-08-01T16:32:32.101337+00:00_66b75c_predictions.json"
+}

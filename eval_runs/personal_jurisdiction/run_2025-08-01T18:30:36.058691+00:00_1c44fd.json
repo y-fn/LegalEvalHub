@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:30:36.058691+00:00_1c44fd",
+  "task_id": "personal_jurisdiction",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:13:05.971477Z",
+  "metrics": {
+    "accuracy": 0.8,
+    "balanced_accuracy": 0.7750410509031198,
+    "f1_macro": 0.7829861111111112,
+    "f1_micro": 0.8,
+    "f1": 0.7222222222222222,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 50
+  },
+  "predictions_url": "results/personal_jurisdiction/claude-3-5-haiku-20241022/base/run_2025-08-01T18:30:36.058691+00:00_1c44fd_predictions.json"
+}

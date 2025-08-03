@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:29:09.299058+00:00_c522e7",
+  "task_id": "learned_hands_estates",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:45:08.295872Z",
+  "metrics": {
+    "accuracy": 0.8089887640449438,
+    "balanced_accuracy": 0.8089887640449438,
+    "f1_macro": 0.8077997967479675,
+    "f1_micro": 0.8089887640449438,
+    "f1": 0.7926829268292683,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 178
+  },
+  "predictions_url": "results/learned_hands_estates/claude-3-5-haiku-20241022/base/run_2025-08-01T16:29:09.299058+00:00_c522e7_predictions.json"
+}

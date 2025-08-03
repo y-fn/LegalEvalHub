@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:33:11.563418+00:00_b5bd3e",
+  "task_id": "telemarketing_sales_rule",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:10:39.238160Z",
+  "metrics": {
+    "accuracy": 0.723404255319149,
+    "balanced_accuracy": 0.6663533834586466,
+    "f1_macro": 0.6622443338861249,
+    "f1_micro": 0.723404255319149,
+    "f1": 0.8059701492537313,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 47
+  },
+  "predictions_url": "results/telemarketing_sales_rule/claude-3-5-haiku-20241022/base/run_2025-08-01T18:33:11.563418+00:00_b5bd3e_predictions.json"
+}

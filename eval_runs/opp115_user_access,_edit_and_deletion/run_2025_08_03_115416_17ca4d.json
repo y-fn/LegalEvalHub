@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_03_115416_17ca4d",
+  "task_id": "opp115_user_access,_edit_and_deletion",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T11:54:16.819039Z",
+  "metrics": {
+    "accuracy": 0.6320346320346321,
+    "balanced_accuracy": 0.630472263868066,
+    "f1_macro": 0.5759637188208617,
+    "f1_micro": 0.6320346320346321,
+    "f1": 0.7301587301587301,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 462
+  },
+  "predictions_url": "results/opp115_user_access,_edit_and_deletion/claude-3-5-haiku-20241022/base/run_2025_08_03_115416_17ca4d_predictions.json"
+}

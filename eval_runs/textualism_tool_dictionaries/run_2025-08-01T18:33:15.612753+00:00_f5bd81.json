@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:33:15.612753+00:00_f5bd81",
+  "task_id": "textualism_tool_dictionaries",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:10:30.928065Z",
+  "metrics": {
+    "accuracy": 0.9813084112149533,
+    "balanced_accuracy": 0.9897959183673469,
+    "f1_macro": 0.9448453608247422,
+    "f1_micro": 0.9813084112149533,
+    "f1": 0.9,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 107
+  },
+  "predictions_url": "results/textualism_tool_dictionaries/claude-3-5-haiku-20241022/base/run_2025-08-01T18:33:15.612753+00:00_f5bd81_predictions.json"
+}

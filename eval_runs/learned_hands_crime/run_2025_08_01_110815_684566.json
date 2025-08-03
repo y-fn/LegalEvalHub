@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_01_110815_684566",
+  "task_id": "learned_hands_crime",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-01T11:08:15.106693Z",
+  "metrics": {
+    "accuracy": 0.6366279069767442,
+    "balanced_accuracy": 0.6366279069767442,
+    "f1_macro": 0.5917979874691475,
+    "f1_micro": 0.6366279069767442,
+    "f1": 0.7270742358078602,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 688
+  },
+  "predictions_url": "results/learned_hands_crime/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_01_110815_684566_predictions.json"
+}

@@ -1,0 +1,14 @@
+{
+  "submission_id": "run_2025-08-01T18:31:39.436184+00:00_7f9d04",
+  "task_id": "sara_numeric",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:12:05.777221Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "accuracy_within_10_percent": 0.0,
+    "n_samples": 96
+  },
+  "predictions_url": "results/sara_numeric/claude-3-5-haiku-20241022/base/run_2025-08-01T18:31:39.436184+00:00_7f9d04_predictions.json"
+}

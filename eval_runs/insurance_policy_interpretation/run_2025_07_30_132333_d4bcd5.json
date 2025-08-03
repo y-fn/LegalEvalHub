@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_07_30_132333_d4bcd5",
+  "task_id": "insurance_policy_interpretation",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-30T13:23:33.673689Z",
+  "metrics": {
+    "accuracy": 0.42105263157894735,
+    "balanced_accuracy": 0.4444444444444444,
+    "f1_macro": 0.31957537154989385,
+    "f1_micro": 0.42105263157894735,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 133
+  },
+  "predictions_url": "results/insurance_policy_interpretation/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_30_132333_d4bcd5_predictions.json"
+}

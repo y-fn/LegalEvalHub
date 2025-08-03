@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:28:11.754020+00:00_6b2541",
+  "task_id": "international_citizenship_questions",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:46:29.330427Z",
+  "metrics": {
+    "accuracy": 0.6047711154094133,
+    "balanced_accuracy": 0.6330722694404386,
+    "f1_macro": 0.6021314313708132,
+    "f1_micro": 0.6047711154094133,
+    "f1": 0.6345389507154213,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 9306
+  },
+  "predictions_url": "results/international_citizenship_questions/claude-3-5-haiku-20241022/base/run_2025-08-01T16:28:11.754020+00:00_6b2541_predictions.json"
+}

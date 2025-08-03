@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:32:53.037606+00:00_fed901",
+  "task_id": "supply_chain_disclosure_disclosed_audits",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:11:00.451081Z",
+  "metrics": {
+    "accuracy": 0.7579787234042553,
+    "balanced_accuracy": 0.8409300377042312,
+    "f1_macro": 0.6337204945672537,
+    "f1_micro": 0.7579787234042553,
+    "f1": 0.8470588235294118,
+    "valid_predictions_ratio": 0.9920844327176781,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_disclosed_audits/claude-3-5-haiku-20241022/base/run_2025-08-01T18:32:53.037606+00:00_fed901_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:32:43.346760+00:00_707c56",
+  "task_id": "supply_chain_disclosure_best_practice_verification",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:11:11.481308Z",
+  "metrics": {
+    "accuracy": 0.6992084432717678,
+    "balanced_accuracy": 0.6732422648339838,
+    "f1_macro": 0.6709869022235759,
+    "f1_micro": 0.6992084432717678,
+    "f1": 0.7673469387755102,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_best_practice_verification/claude-3-5-haiku-20241022/base/run_2025-08-01T18:32:43.346760+00:00_707c56_predictions.json"
+}

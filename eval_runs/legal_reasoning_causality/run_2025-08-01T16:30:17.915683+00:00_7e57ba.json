@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:30:17.915683+00:00_7e57ba",
+  "task_id": "legal_reasoning_causality",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:44:18.524782Z",
+  "metrics": {
+    "accuracy": 0.85,
+    "balanced_accuracy": 0.8465473145780051,
+    "f1_macro": 0.8465473145780051,
+    "f1_micro": 0.85,
+    "f1": 0.8695652173913043,
+    "valid_predictions_ratio": 0.7272727272727273,
+    "n_samples": 55
+  },
+  "predictions_url": "results/legal_reasoning_causality/claude-3-5-haiku-20241022/base/run_2025-08-01T16:30:17.915683+00:00_7e57ba_predictions.json"
+}

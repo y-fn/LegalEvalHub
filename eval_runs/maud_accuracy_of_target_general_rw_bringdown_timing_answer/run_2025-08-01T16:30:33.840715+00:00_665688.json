@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T16:30:33.840715+00:00_665688",
+  "task_id": "maud_accuracy_of_target_general_rw_bringdown_timing_answer",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:44:09.421037Z",
+  "metrics": {
+    "accuracy": 0.9834254143646409,
+    "balanced_accuracy": 0.9765460030165913,
+    "f1_macro": 0.9794013884147035,
+    "f1_micro": 0.9834254143646409,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 181
+  },
+  "predictions_url": "results/maud_accuracy_of_target_general_rw_bringdown_timing_answer/claude-3-5-haiku-20241022/base/run_2025-08-01T16:30:33.840715+00:00_665688_predictions.json"
+}

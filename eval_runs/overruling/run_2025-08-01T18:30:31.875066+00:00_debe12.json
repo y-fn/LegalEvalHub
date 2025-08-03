@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:30:31.875066+00:00_debe12",
+  "task_id": "overruling",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:13:15.873053Z",
+  "metrics": {
+    "accuracy": 0.9553049289891395,
+    "balanced_accuracy": 0.9559502334465195,
+    "f1_macro": 0.9552758919007632,
+    "f1_micro": 0.9553049289891395,
+    "f1": 0.9541363051864552,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 2394
+  },
+  "predictions_url": "results/overruling/claude-3-5-haiku-20241022/base/run_2025-08-01T18:30:31.875066+00:00_debe12_predictions.json"
+}

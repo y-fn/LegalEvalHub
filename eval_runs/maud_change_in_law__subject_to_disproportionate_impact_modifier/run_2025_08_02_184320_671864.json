@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_02_184320_671864",
+  "task_id": "maud_change_in_law__subject_to_disproportionate_impact_modifier",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-02T18:43:20.696221Z",
+  "metrics": {
+    "accuracy": 0.8787878787878788,
+    "balanced_accuracy": 0.5,
+    "f1_macro": 0.46774193548387094,
+    "f1_micro": 0.8787878787878788,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 99
+  },
+  "predictions_url": "results/maud_change_in_law__subject_to_disproportionate_impact_modifier/claude-3-5-haiku-20241022/base/run_2025_08_02_184320_671864_predictions.json"
+}

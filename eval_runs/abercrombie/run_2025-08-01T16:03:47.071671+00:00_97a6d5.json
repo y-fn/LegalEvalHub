@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T16:03:47.071671+00:00_97a6d5",
+  "task_id": "abercrombie",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T12:21:02.822017Z",
+  "metrics": {
+    "accuracy": 0.7263157894736842,
+    "balanced_accuracy": 0.7263157894736841,
+    "f1_macro": 0.6949245992103135,
+    "f1_micro": 0.7263157894736842,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/claude-3-5-haiku-20241022/base/run_2025-08-01T16:03:47.071671+00:00_97a6d5_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_121333_e349f3",
+  "task_id": "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T12:13:33.108679Z",
+  "metrics": {
+    "accuracy": 0.5944444444444444,
+    "balanced_accuracy": 0.771875,
+    "f1_macro": 0.5292178710902511,
+    "f1_micro": 0.5944444444444444,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 180
+  },
+  "predictions_url": "results/maud_application_of_buyer_consent_requirement_(negative_interim_covenant)/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_121333_e349f3_predictions.json"
+}

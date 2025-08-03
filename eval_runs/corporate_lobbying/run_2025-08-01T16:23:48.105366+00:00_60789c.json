@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:23:48.105366+00:00_60789c",
+  "task_id": "corporate_lobbying",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:51:01.033983Z",
+  "metrics": {
+    "accuracy": 0.7285714285714285,
+    "balanced_accuracy": 0.723288355822089,
+    "f1_macro": 0.7000906584935964,
+    "f1_micro": 0.7285714285714285,
+    "f1": 0.6076696165191741,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 490
+  },
+  "predictions_url": "results/corporate_lobbying/claude-3-5-haiku-20241022/base/run_2025-08-01T16:23:48.105366+00:00_60789c_predictions.json"
+}

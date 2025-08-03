@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:22:39.922648+00:00_d34344",
+  "task_id": "consumer_contracts_qa",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:52:18.040672Z",
+  "metrics": {
+    "accuracy": 0.9419191919191919,
+    "balanced_accuracy": 0.9400319554685084,
+    "f1_macro": 0.9411593697307983,
+    "f1_micro": 0.9419191919191919,
+    "f1": 0.9344729344729344,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 396
+  },
+  "predictions_url": "results/consumer_contracts_qa/claude-3-5-haiku-20241022/base/run_2025-08-01T16:22:39.922648+00:00_d34344_predictions.json"
+}

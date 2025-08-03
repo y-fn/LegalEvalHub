@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T18:32:28.672559+00:00_9188b5",
+  "task_id": "supply_chain_disclosure_best_practice_audits",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:11:27.237479Z",
+  "metrics": {
+    "accuracy": 0.8469656992084432,
+    "balanced_accuracy": 0.7631383322559793,
+    "f1_macro": 0.7933867208060756,
+    "f1_micro": 0.8469656992084432,
+    "f1": 0.8986013986013986,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_best_practice_audits/claude-3-5-haiku-20241022/base/run_2025-08-01T18:32:28.672559+00:00_9188b5_predictions.json"
+}

@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-01T18:30:23.136073+00:00_b94086",
+  "task_id": "oral_argument_question_purpose",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T16:13:21.180680Z",
+  "metrics": {
+    "accuracy": 0.3858520900321543,
+    "balanced_accuracy": 0.2809225470443527,
+    "f1_macro": 0.29482662734903453,
+    "f1_micro": 0.3858520900321543,
+    "valid_predictions_ratio": 0.9967948717948718,
+    "n_samples": 312
+  },
+  "predictions_url": "results/oral_argument_question_purpose/claude-3-5-haiku-20241022/base/run_2025-08-01T18:30:23.136073+00:00_b94086_predictions.json"
+}

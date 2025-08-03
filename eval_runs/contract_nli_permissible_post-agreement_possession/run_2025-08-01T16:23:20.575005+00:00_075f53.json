@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:23:20.575005+00:00_075f53",
+  "task_id": "contract_nli_permissible_post-agreement_possession",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:51:29.760257Z",
+  "metrics": {
+    "accuracy": 0.6363636363636364,
+    "balanced_accuracy": 0.7238095238095238,
+    "f1_macro": 0.6361757105943153,
+    "f1_micro": 0.6363636363636364,
+    "f1": 0.627906976744186,
+    "valid_predictions_ratio": 0.7927927927927928,
+    "n_samples": 111
+  },
+  "predictions_url": "results/contract_nli_permissible_post-agreement_possession/claude-3-5-haiku-20241022/base/run_2025-08-01T16:23:20.575005+00:00_075f53_predictions.json"
+}

@@ -1,0 +1,15 @@
+{
+  "submission_id": "run_2025-08-01T16:32:40.301696+00:00_e2242d",
+  "task_id": "maud_tail_period_length",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:42:42.025195Z",
+  "metrics": {
+    "accuracy": 0.0,
+    "balanced_accuracy": 0.0,
+    "f1_macro": 0.0,
+    "f1_micro": 0.0
+  },
+  "predictions_url": "results/maud_tail_period_length/claude-3-5-haiku-20241022/base/run_2025-08-01T16:32:40.301696+00:00_e2242d_predictions.json"
+}

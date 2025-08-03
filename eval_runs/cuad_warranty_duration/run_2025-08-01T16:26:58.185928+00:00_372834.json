@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:26:58.185928+00:00_372834",
+  "task_id": "cuad_warranty_duration",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:47:32.875629Z",
+  "metrics": {
+    "accuracy": 0.521875,
+    "balanced_accuracy": 0.521875,
+    "f1_macro": 0.4106813996316758,
+    "f1_micro": 0.521875,
+    "f1": 0.6666666666666666,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 320
+  },
+  "predictions_url": "results/cuad_warranty_duration/claude-3-5-haiku-20241022/base/run_2025-08-01T16:26:58.185928+00:00_372834_predictions.json"
+}

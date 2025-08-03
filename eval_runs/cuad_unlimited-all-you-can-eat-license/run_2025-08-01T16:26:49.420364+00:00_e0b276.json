@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:26:49.420364+00:00_e0b276",
+  "task_id": "cuad_unlimited-all-you-can-eat-license",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:47:43.816631Z",
+  "metrics": {
+    "accuracy": 0.7916666666666666,
+    "balanced_accuracy": 0.7916666666666667,
+    "f1_macro": 0.7857142857142857,
+    "f1_micro": 0.7916666666666666,
+    "f1": 0.8214285714285714,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 48
+  },
+  "predictions_url": "results/cuad_unlimited-all-you-can-eat-license/claude-3-5-haiku-20241022/base/run_2025-08-01T16:26:49.420364+00:00_e0b276_predictions.json"
+}

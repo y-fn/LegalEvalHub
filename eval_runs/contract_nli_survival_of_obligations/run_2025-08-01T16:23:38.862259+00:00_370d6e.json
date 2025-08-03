@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:23:38.862259+00:00_370d6e",
+  "task_id": "contract_nli_survival_of_obligations",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:51:10.449878Z",
+  "metrics": {
+    "accuracy": 0.8653846153846154,
+    "balanced_accuracy": 0.8699736321687541,
+    "f1_macro": 0.8651130234281714,
+    "f1_micro": 0.8653846153846154,
+    "f1": 0.8711656441717791,
+    "valid_predictions_ratio": 0.9936305732484076,
+    "n_samples": 157
+  },
+  "predictions_url": "results/contract_nli_survival_of_obligations/claude-3-5-haiku-20241022/base/run_2025-08-01T16:23:38.862259+00:00_370d6e_predictions.json"
+}

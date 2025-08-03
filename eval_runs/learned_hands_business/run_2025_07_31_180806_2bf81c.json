@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_07_31_180806_2bf81c",
+  "task_id": "learned_hands_business",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-07-31T18:08:06.751628Z",
+  "metrics": {
+    "accuracy": 0.6379310344827587,
+    "balanced_accuracy": 0.6379310344827587,
+    "f1_macro": 0.6039024390243902,
+    "f1_micro": 0.6379310344827587,
+    "f1": 0.4878048780487805,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 174
+  },
+  "predictions_url": "results/learned_hands_business/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_07_31_180806_2bf81c_predictions.json"
+}

@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-01T16:27:46.786983+00:00_92ba9e",
+  "task_id": "hearsay",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-01T13:46:38.354944Z",
+  "metrics": {
+    "accuracy": 0.7446808510638298,
+    "balanced_accuracy": 0.7680625862862402,
+    "f1_macro": 0.7428180574555403,
+    "f1_micro": 0.7446808510638298,
+    "f1": 0.7647058823529411,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/claude-3-5-haiku-20241022/base/run_2025-08-01T16:27:46.786983+00:00_92ba9e_predictions.json"
+}
