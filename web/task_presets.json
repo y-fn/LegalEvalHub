@@ -267,6 +267,20 @@
           "maud_tail_period_length",
           "maud_type_of_consideration"
       ]
+    },
+    "housing_qa_knowledge_only": {
+      "name": "HousingQA (Knowledge)",
+      "description": "Performance on HousingQA using in-weights knowledge.",
+      "tasks": [
+        "housing_qa_knowledge_only"
+      ]
+    },
+    "housing_qa_statute_comprehension": {
+      "name": "HousingQA (Statute Comprehension)",
+      "description": "Performance on HousingQA using statute comprehension.",
+      "tasks": [
+        "housing_qa_statute_comprehension"
+      ]
     }
   }
 }

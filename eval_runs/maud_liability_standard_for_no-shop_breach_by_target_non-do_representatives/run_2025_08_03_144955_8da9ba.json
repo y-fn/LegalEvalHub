@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_144955_8da9ba",
+  "task_id": "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T14:49:55.989540Z",
+  "metrics": {
+    "accuracy": 0.5448717948717948,
+    "balanced_accuracy": 0.5448717948717948,
+    "f1_macro": 0.5074487481656068,
+    "f1_micro": 0.5448717948717948,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 156
+  },
+  "predictions_url": "results/maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_144955_8da9ba_predictions.json"
+}

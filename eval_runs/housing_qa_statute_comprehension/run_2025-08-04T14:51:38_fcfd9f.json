@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-04T14:51:38_fcfd9f",
+  "task_id": "housing_qa_statute_comprehension",
+  "model_name": "gpt-4o-mini-2024-07-18",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T16:02:29.050289Z",
+  "metrics": {
+    "accuracy": 0.7198307310666862,
+    "balanced_accuracy": 0.7421607417719681,
+    "f1_macro": 0.7139205934488317,
+    "f1_micro": 0.7198307310666862,
+    "f1": 0.6728016359918201,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_statute_comprehension/gpt-4o-mini-2024-07-18/base/run_2025-08-04T14:51:38_fcfd9f_predictions.json"
+}

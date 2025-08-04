@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_03_180407_409494",
+  "task_id": "overruling",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T18:04:07.369538Z",
+  "metrics": {
+    "accuracy": 0.946510656080234,
+    "balanced_accuracy": 0.9473411718016367,
+    "f1_macro": 0.9464430838869049,
+    "f1_micro": 0.946510656080234,
+    "f1": 0.9445407279029463,
+    "valid_predictions_ratio": 0.9995822890559732,
+    "n_samples": 2394
+  },
+  "predictions_url": "results/overruling/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_180407_409494_predictions.json"
+}

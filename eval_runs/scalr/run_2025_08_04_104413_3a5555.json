@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_04_104413_3a5555",
+  "task_id": "scalr",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-04T10:44:14.017533Z",
+  "metrics": {
+    "accuracy": 0.7627416520210897,
+    "balanced_accuracy": 0.7646117424242425,
+    "f1_macro": 0.7615822274996498,
+    "f1_micro": 0.7627416520210897,
+    "valid_predictions_ratio": 0.9964973730297724,
+    "n_samples": 571
+  },
+  "predictions_url": "results/scalr/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_04_104413_3a5555_predictions.json"
+}

@@ -1,7 +1,7 @@
 {
-  "last_updated": "2025-08-03T12:16:43.339282",
-  "total_tasks": 161,
-  "total_runs": 1161,
+  "last_updated": "2025-08-04T17:22:21.183395",
+  "total_tasks": 163,
+  "total_runs": 1231,
   "tasks": [
     "cuad_unlimited-all-you-can-eat-license",
     "cuad_governing_law",
@@ -49,6 +49,7 @@
     "opp115_do_not_track",
     "cuad_audit_rights",
     "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
+    "housing_qa_statute_comprehension",
     "learned_hands_consumer",
     "contract_nli_limited_use",
     "supply_chain_disclosure_disclosed_verification",
@@ -74,6 +75,7 @@
     "maud_cor_standard_(superior_offer)",
     "opp115_first_party_collection_use",
     "maud_buyer_consent_requirement_(ordinary_course)",
+    "housing_qa_knowledge_only",
     "cuad_source_code_escrow",
     "supply_chain_disclosure_best_practice_training",
     "maud_definition_includes_asset_deals",

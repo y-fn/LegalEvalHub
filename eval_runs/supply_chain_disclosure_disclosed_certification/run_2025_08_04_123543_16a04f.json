@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_04_123543_16a04f",
+  "task_id": "supply_chain_disclosure_disclosed_certification",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-04T12:35:43.658219Z",
+  "metrics": {
+    "accuracy": 0.8174603174603174,
+    "balanced_accuracy": 0.7326530612244898,
+    "f1_macro": 0.6410355220963679,
+    "f1_micro": 0.8174603174603174,
+    "f1": 0.8926905132192846,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 378
+  },
+  "predictions_url": "results/supply_chain_disclosure_disclosed_certification/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_04_123543_16a04f_predictions.json"
+}

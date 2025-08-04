@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_124804_16dbf9",
+  "task_id": "maud_fiduciary_exception__board_determination_standard",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T12:48:04.452637Z",
+  "metrics": {
+    "accuracy": 0.1005586592178771,
+    "balanced_accuracy": 0.09049628146453088,
+    "f1_macro": 0.122334455667789,
+    "f1_micro": 0.1005586592178771,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 179
+  },
+  "predictions_url": "results/maud_fiduciary_exception__board_determination_standard/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_124804_16dbf9_predictions.json"
+}

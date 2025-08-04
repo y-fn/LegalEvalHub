@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_04_120637_6a5973",
+  "task_id": "supply_chain_disclosure_best_practice_accountability",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-04T12:06:37.748902Z",
+  "metrics": {
+    "accuracy": 0.8891820580474934,
+    "balanced_accuracy": 0.6793101386896222,
+    "f1_macro": 0.7128373502669938,
+    "f1_micro": 0.8891820580474934,
+    "f1": 0.9378698224852071,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 379
+  },
+  "predictions_url": "results/supply_chain_disclosure_best_practice_accountability/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_04_120637_6a5973_predictions.json"
+}

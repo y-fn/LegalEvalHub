@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-04T17:01:58.994465+00:00_187e92",
+  "task_id": "housing_qa_knowledge_only",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T14:05:00.680301Z",
+  "metrics": {
+    "accuracy": 0.5835648486620851,
+    "balanced_accuracy": 0.6113874939737791,
+    "f1_macro": 0.5803238562125301,
+    "f1_micro": 0.5835648486620851,
+    "f1": 0.5434434113497916,
+    "valid_predictions_ratio": 0.9979570990806946,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_knowledge_only/claude-3-5-haiku-20241022/base/run_2025-08-04T17:01:58.994465+00:00_187e92_predictions.json"
+}

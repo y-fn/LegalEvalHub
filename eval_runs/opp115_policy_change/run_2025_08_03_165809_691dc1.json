@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_03_165809_691dc1",
+  "task_id": "opp115_policy_change",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T16:58:09.147089Z",
+  "metrics": {
+    "accuracy": 0.8167053364269141,
+    "balanced_accuracy": 0.8163113695090439,
+    "f1_macro": 0.8111379205147405,
+    "f1_micro": 0.8167053364269141,
+    "f1": 0.7787114845938375,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 431
+  },
+  "predictions_url": "results/opp115_policy_change/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_165809_691dc1_predictions.json"
+}

@@ -1,0 +1,54 @@
+{
+    "task_id": "housing_qa_statute_comprehension",
+    "name": "housing_qa_statute_comprehension",
+    "family": "HousingQA",
+    "description": "Answer questions about eviction law according to state law in 2021, given the relevant statute text.",
+    "dataset_url": "https://huggingface.co/datasets/reglab/housing_qa",
+    "num_samples": 6853,
+    "tags": [
+      "eviction law",
+      "interpretation"
+    ],
+    "document_type": "legal question",
+    "min_input_length": 125,
+    "max_input_length": 7141,
+    "metrics": [
+      {
+        "name": "accuracy",
+        "direction": "maximize"
+      },
+      {
+        "name": "balanced_accuracy",
+        "direction": "maximize"
+      },
+      {
+        "name": "f1_macro",
+        "direction": "maximize"
+      },
+      {
+        "name": "f1_micro",
+        "direction": "maximize"
+      },
+      {
+        "name": "valid_predictions_ratio",
+        "direction": "maximize"
+      }
+    ],
+    "contributed_by_name": "Neel Guha",
+    "contributed_by_email": "nguha@cs.stanford.edu",
+    "paper_url": "https://reglab.github.io/legal-rag-benchmarks/",
+    "paper_title": "A Reasoning-Focused Legal Retrieval Benchmark",
+    "paper_authors": [
+      "Lucia Zheng",
+      "Neel Guha",
+      "Javokhir Arifov",
+      "Sarah Zhang",
+      "Michal Skreta",
+      "Christopher D. Manning",
+      "Peter Henderson",
+      "Daniel E. Ho"
+    ],
+    "source": "Neel Guha",
+    "license": "[CC By 4.0](https://creativecommons.org/licenses/by/4.0/)",
+    "task_type": "Binary classification"
+  }

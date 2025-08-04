@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-04T20:04:22.821007+00:00_22a791",
+  "task_id": "housing_qa_statute_comprehension",
+  "model_name": "claude-3-5-haiku-20241022",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T17:15:26.953328Z",
+  "metrics": {
+    "accuracy": 0.727179336659818,
+    "balanced_accuracy": 0.7305938193894647,
+    "f1_macro": 0.7154223485421615,
+    "f1_micro": 0.727179336659818,
+    "f1": 0.6575796647633082,
+    "valid_predictions_ratio": 0.994309061724792,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_statute_comprehension/claude-3-5-haiku-20241022/base/run_2025-08-04T20:04:22.821007+00:00_22a791_predictions.json"
+}

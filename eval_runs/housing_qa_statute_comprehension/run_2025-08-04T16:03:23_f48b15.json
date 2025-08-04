@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-04T16:03:23_f48b15",
+  "task_id": "housing_qa_statute_comprehension",
+  "model_name": "o4-mini",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T17:15:45.816874Z",
+  "metrics": {
+    "accuracy": 0.7624817518248175,
+    "balanced_accuracy": 0.7657652762751335,
+    "f1_macro": 0.7509005783535632,
+    "f1_micro": 0.7624817518248175,
+    "f1": 0.6971896519635213,
+    "valid_predictions_ratio": 0.9995622355172917,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_statute_comprehension/o4-mini/base/run_2025-08-04T16:03:23_f48b15_predictions.json"
+}

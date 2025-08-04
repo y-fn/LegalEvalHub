@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_122950_73ae5b",
+  "task_id": "maud_definition_contains_knowledge_requirement_-_answer",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T12:29:50.572479Z",
+  "metrics": {
+    "accuracy": 0.5238095238095238,
+    "balanced_accuracy": 0.25,
+    "f1_macro": 0.171875,
+    "f1_micro": 0.5238095238095238,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 147
+  },
+  "predictions_url": "results/maud_definition_contains_knowledge_requirement_-_answer/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_122950_73ae5b_predictions.json"
+}

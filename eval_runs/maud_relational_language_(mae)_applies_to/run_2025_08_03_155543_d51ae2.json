@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_155543_d51ae2",
+  "task_id": "maud_relational_language_(mae)_applies_to",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T15:55:43.777229Z",
+  "metrics": {
+    "accuracy": 0.7,
+    "balanced_accuracy": 0.4730848861283644,
+    "f1_macro": 0.4450787851107559,
+    "f1_micro": 0.7,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 90
+  },
+  "predictions_url": "results/maud_relational_language_(mae)_applies_to/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_155543_d51ae2_predictions.json"
+}

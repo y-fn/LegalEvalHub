@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025_08_03_124218_8417d3",
+  "task_id": "maud_definition_includes_stock_deals",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-03T12:42:18.363135Z",
+  "metrics": {
+    "accuracy": 0.060810810810810814,
+    "balanced_accuracy": 0.3376068376068376,
+    "f1_macro": 0.0430888404744614,
+    "f1_micro": 0.060810810810810814,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 148
+  },
+  "predictions_url": "results/maud_definition_includes_stock_deals/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_03_124218_8417d3_predictions.json"
+}

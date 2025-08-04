@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_04_125109_fcf104",
+  "task_id": "telemarketing_sales_rule",
+  "model_name": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-04T12:51:09.953506Z",
+  "metrics": {
+    "accuracy": 0.8936170212765957,
+    "balanced_accuracy": 0.893796992481203,
+    "f1_macro": 0.8904428904428905,
+    "f1_micro": 0.8936170212765957,
+    "f1": 0.9090909090909091,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 47
+  },
+  "predictions_url": "results/telemarketing_sales_rule/meta-llama_Meta-Llama-3.1-405B-Instruct-Turbo/base/run_2025_08_04_125109_fcf104_predictions.json"
+}

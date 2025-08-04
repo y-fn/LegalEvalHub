@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-04T13:03:57_12414b",
+  "task_id": "housing_qa_knowledge_only",
+  "model_name": "gpt-4o-mini-2024-07-18",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T14:32:58.198224Z",
+  "metrics": {
+    "accuracy": 0.5435575660294761,
+    "balanced_accuracy": 0.5973067577376321,
+    "f1_macro": 0.543544260239716,
+    "f1_micro": 0.5435575660294761,
+    "f1": 0.5460087082728592,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_knowledge_only/gpt-4o-mini-2024-07-18/base/run_2025-08-04T13:03:57_12414b_predictions.json"
+}
