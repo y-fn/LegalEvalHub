@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-05T01:58:11.272508+00:00_aaff10",
+  "task_id": "housing_qa_statute_comprehension",
+  "model_name": "claude-opus-4-20250514",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-04T22:44:15.437858Z",
+  "metrics": {
+    "accuracy": 0.7882679118634175,
+    "balanced_accuracy": 0.7994288498439586,
+    "f1_macro": 0.7795872452833885,
+    "f1_micro": 0.7882679118634175,
+    "f1": 0.7358456217003458,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 6853
+  },
+  "predictions_url": "results/housing_qa_statute_comprehension/claude-opus-4-20250514/base/run_2025-08-05T01:58:11.272508+00:00_aaff10_predictions.json"
+}
