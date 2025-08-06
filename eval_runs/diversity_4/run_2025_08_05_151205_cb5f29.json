@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025_08_05_151205_cb5f29",
+  "task_id": "diversity_4",
+  "model_name": "openai/gpt-oss-120b",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-05T15:12:05.414654Z",
+  "metrics": {
+    "accuracy": 0.9966666666666667,
+    "balanced_accuracy": 0.9964285714285714,
+    "f1_macro": 0.9966502529059056,
+    "f1_micro": 0.9966666666666667,
+    "f1": 0.9968847352024922,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_4/openai_gpt-oss-120b/base/run_2025_08_05_151205_cb5f29_predictions.json"
+}

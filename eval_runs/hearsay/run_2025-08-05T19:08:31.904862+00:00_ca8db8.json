@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-05T19:08:31.904862+00:00_ca8db8",
+  "task_id": "hearsay",
+  "model_name": "claude-opus-4-1-20250805",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-05T15:29:41.008935Z",
+  "metrics": {
+    "accuracy": 0.9148936170212766,
+    "balanced_accuracy": 0.9190059825126553,
+    "f1_macro": 0.9142726858185134,
+    "f1_micro": 0.9148936170212766,
+    "f1": 0.9069767441860465,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/claude-opus-4-1-20250805/base/run_2025-08-05T19:08:31.904862+00:00_ca8db8_predictions.json"
+}

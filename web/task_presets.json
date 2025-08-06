@@ -2,7 +2,8 @@
   "presets": {
     "legalbench_full": {
       "name": "LegalBench (Full)",
-      "description": "Performance over all tasks in LegalBench.",
+      "short_description": "161 LegalBench tasks.",
+      "description": "LegalBench is a comprehensive benchmark for evaluating legal reasoning in LLMs. This leaderboard aggregates performance across all 161 tasks in LegalBench, which span a diverse range of legal domains, task types, and difficulty levels. You can read more about LegalBench <a href='https://arxiv.org/abs/2308.11462'>here</a>.",
       "tasks": [
         "abercrombie",
         "canada_tax_court_outcomes",
@@ -169,7 +170,8 @@
     },
     "legalbench_reasoning": {
       "name": "LegalBench (Reasoning)",
-      "description": "Performance over all rule-application tasks in LegalBench.",
+      "short_description": "Subset of LegalBench focused on more complex reasoning.",
+      "description": "This leaderboard focuses on a subset of LegalBench's more complex and reasoning-heavy tasks. Within LegalBench, these are referred to as 'rule-application' tasks, because they require models to apply some multi-step rule to a fact pattern. You can read more about LegalBench <a href='https://arxiv.org/abs/2308.11462'>here</a>. We have found that performance on these tasks generally correlates with underlying model reasoning capabilities.",
       "tasks": [
         "abercrombie",
         "hearsay",
@@ -184,100 +186,18 @@
         "ucc_v_common_law"
       ]
     },
-    "cuad_tasks": {
-      "name": "CUAD Tasks",
-      "description": "Performance over all tasks in CUAD (taken from LegalBench).",
-      "tasks": [
-        "cuad_affiliate_license-licensee",
-          "cuad_affiliate_license-licensor",
-          "cuad_anti-assignment",
-          "cuad_audit_rights",
-          "cuad_cap_on_liability",
-          "cuad_change_of_control",
-          "cuad_competitive_restriction_exception",
-          "cuad_covenant_not_to_sue",
-          "cuad_effective_date",
-          "cuad_exclusivity",
-          "cuad_expiration_date",
-          "cuad_governing_law",
-          "cuad_insurance",
-          "cuad_ip_ownership_assignment",
-          "cuad_irrevocable_or_perpetual_license",
-          "cuad_joint_ip_ownership",
-          "cuad_license_grant",
-          "cuad_liquidated_damages",
-          "cuad_minimum_commitment",
-          "cuad_most_favored_nation",
-          "cuad_no-solicit_of_customers",
-          "cuad_no-solicit_of_employees",
-          "cuad_non-compete",
-          "cuad_non-disparagement",
-          "cuad_non-transferable_license",
-          "cuad_notice_period_to_terminate_renewal",
-          "cuad_post-termination_services",
-          "cuad_price_restrictions",
-          "cuad_renewal_term",
-          "cuad_revenue-profit_sharing",
-          "cuad_rofr-rofo-rofn",
-          "cuad_source_code_escrow",
-          "cuad_termination_for_convenience",
-          "cuad_third_party_beneficiary",
-          "cuad_uncapped_liability",
-          "cuad_unlimited-all-you-can-eat-license",
-          "cuad_volume_restriction",
-          "cuad_warranty_duration"
-      ]
-    },
-    "maud_tasks": {
-      "name": "MAUD Tasks",
-      "description": "Performance over all tasks in MAUD (taken from LegalBench).",
-      "tasks": [
-        "maud_ability_to_consummate_concept_is_subject_to_mae_carveouts",
-          "maud_accuracy_of_fundamental_target_rws_bringdown_standard",
-          "maud_accuracy_of_target_capitalization_rw_(outstanding_shares)_bringdown_standard_answer",
-          "maud_accuracy_of_target_general_rw_bringdown_timing_answer",
-          "maud_additional_matching_rights_period_for_modifications_(cor)",
-          "maud_application_of_buyer_consent_requirement_(negative_interim_covenant)",
-          "maud_buyer_consent_requirement_(ordinary_course)",
-          "maud_change_in_law__subject_to_disproportionate_impact_modifier",
-          "maud_changes_in_gaap_or_other_accounting_principles__subject_to_disproportionate_impact_modifier",
-          "maud_cor_permitted_in_response_to_intervening_event",
-          "maud_cor_permitted_with_board_fiduciary_determination_only",
-          "maud_cor_standard_(intervening_event)",
-          "maud_cor_standard_(superior_offer)",
-          "maud_definition_contains_knowledge_requirement_-_answer",
-          "maud_definition_includes_asset_deals",
-          "maud_definition_includes_stock_deals",
-          "maud_fiduciary_exception__board_determination_standard",
-          "maud_fiduciary_exception_board_determination_trigger_(no_shop)",
-          "maud_financial_point_of_view_is_the_sole_consideration",
-          "maud_fls_(mae)_standard",
-          "maud_general_economic_and_financial_conditions_subject_to_disproportionate_impact_modifier",
-          "maud_includes_consistent_with_past_practice",
-          "maud_initial_matching_rights_period_(cor)",
-          "maud_initial_matching_rights_period_(ftr)",
-          "maud_intervening_event_-_required_to_occur_after_signing_-_answer",
-          "maud_knowledge_definition",
-          "maud_liability_standard_for_no-shop_breach_by_target_non-do_representatives",
-          "maud_ordinary_course_efforts_standard",
-          "maud_pandemic_or_other_public_health_event__subject_to_disproportionate_impact_modifier",
-          "maud_pandemic_or_other_public_health_event_specific_reference_to_pandemic-related_governmental_responses_or_measures",
-          "maud_relational_language_(mae)_applies_to",
-          "maud_specific_performance",
-          "maud_tail_period_length",
-          "maud_type_of_consideration"
-      ]
-    },
     "housing_qa_knowledge_only": {
       "name": "HousingQA (Knowledge)",
-      "description": "Performance on HousingQA using in-weights knowledge.",
+      "short_description": "Tests model knowledge of housing law.",
+      "description": "This task evaluates model knowledge of housing law (specifically focused on eviction) from the year 2021. Models are prompted with yes/no questions about housing law across different states, and expected to answer using only knowledge stored in their weights. To learn more about HousingQA, see <a href='https://reglab.github.io/legal-rag-benchmarks/'>here</a>.",
       "tasks": [
         "housing_qa_knowledge_only"
       ]
     },
     "housing_qa_statute_comprehension": {
       "name": "HousingQA (Statute Comprehension)",
-      "description": "Performance on HousingQA using statute comprehension.",
+      "short_description": "Tests model ability to read and interpret housing law statutes.",
+      "description": "This task evaluates model ability to read and interpret housing law statutes. Models are given a set of statutes from a state, and prompted with a yes/no question answerable from the statutes. This task thus evaluates how well models can understand statutes. To learn more about HousingQA, see <a href='https://reglab.github.io/legal-rag-benchmarks/'>here</a>.",
       "tasks": [
         "housing_qa_statute_comprehension"
       ]

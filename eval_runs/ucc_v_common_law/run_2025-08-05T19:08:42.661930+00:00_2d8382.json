@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-05T19:08:42.661930+00:00_2d8382",
+  "task_id": "ucc_v_common_law",
+  "model_name": "claude-opus-4-1-20250805",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-05T15:29:28.122750Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/claude-opus-4-1-20250805/base/run_2025-08-05T19:08:42.661930+00:00_2d8382_predictions.json"
+}

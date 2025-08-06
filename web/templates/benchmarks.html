@@ -25,7 +25,7 @@
         {% for preset_id, preset_data in presets.items() %}
         <div class="benchmark-card">
             <h3><a href="{{ url_for('preset_leaderboard', preset_id=preset_id) }}">{{ preset_data.name }}</a></h3>
-            <p>{{ preset_data.description }}</p>
+            <p>{{ preset_data.short_description or preset_data.description }}</p>
             <div class="benchmark-meta">
                 <span class="task-count">{{ preset_data.tasks|length }} tasks</span>
                 <a href="{{ url_for('preset_leaderboard', preset_id=preset_id) }}" class="view-link">View Leaderboard →</a>

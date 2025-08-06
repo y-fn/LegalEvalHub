@@ -1,0 +1,16 @@
+{
+  "submission_id": "run_2025_08_05_163540_83a10e",
+  "task_id": "successor_liability",
+  "model_name": "openai/gpt-oss-120b",
+  "prompt_id": "base",
+  "submitter": "unknown",
+  "submission_time": "2025-08-05T16:35:40.276290Z",
+  "metrics": {
+    "f1": 0.3219814241486068,
+    "precision": 0.2157676348547718,
+    "recall": 0.6341463414634146,
+    "accuracy": 0.3219814241486068,
+    "n_samples": 47
+  },
+  "predictions_url": "results/successor_liability/openai_gpt-oss-120b/base/run_2025_08_05_163540_83a10e_predictions.json"
+}

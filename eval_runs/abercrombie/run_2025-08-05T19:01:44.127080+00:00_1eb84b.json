@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-05T19:01:44.127080+00:00_1eb84b",
+  "task_id": "abercrombie",
+  "model_name": "claude-opus-4-1-20250805",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-05T15:07:44.700664Z",
+  "metrics": {
+    "accuracy": 0.8736842105263158,
+    "balanced_accuracy": 0.8736842105263157,
+    "f1_macro": 0.8697286037096319,
+    "f1_micro": 0.8736842105263158,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 95
+  },
+  "predictions_url": "results/abercrombie/claude-opus-4-1-20250805/base/run_2025-08-05T19:01:44.127080+00:00_1eb84b_predictions.json"
+}

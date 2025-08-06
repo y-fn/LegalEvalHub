@@ -374,15 +374,30 @@ def preset_leaderboard(preset_id):
     selected_task_ids = preset_data['tasks']
     selected_tasks = [task for task in tasks if task['task_id'] in selected_task_ids]
     
-    # Calculate leaderboard
-    leaderboard = calculate_aggregate_scores(selected_task_ids)
-    
-    return render_template('preset_leaderboard.html',
-                         preset_id=preset_id,
-                         preset_data=preset_data,
-                         selected_tasks=selected_tasks,
-                         leaderboard=leaderboard,
-                         all_presets=presets)
+    # Check if it's a single-task preset
+    if len(selected_task_ids) == 1:
+        # For single-task presets, get the task-specific leaderboard
+        task_id = selected_task_ids[0]
+        task = get_task_by_id(task_id)
+        eval_runs = get_eval_runs(task_id)
+        single_task_leaderboard = calculate_leaderboard(task, eval_runs) if task else []
+        
+        return render_template('preset_leaderboard.html',
+                             preset_id=preset_id,
+                             preset_data=preset_data,
+                             selected_tasks=selected_tasks,
+                             single_task_leaderboard=single_task_leaderboard,
+                             all_presets=presets)
+    else:
+        # Calculate aggregate leaderboard for multi-task presets
+        leaderboard = calculate_aggregate_scores(selected_task_ids)
+        
+        return render_template('preset_leaderboard.html',
+                             preset_id=preset_id,
+                             preset_data=preset_data,
+                             selected_tasks=selected_tasks,
+                             leaderboard=leaderboard,
+                             all_presets=presets)
 
 @app.route('/api/tasks')
 def api_tasks():
