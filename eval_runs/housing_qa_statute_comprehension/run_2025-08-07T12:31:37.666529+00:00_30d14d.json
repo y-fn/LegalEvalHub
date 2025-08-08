@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-07T12:31:37.666529+00:00_30d14d",
+  "task_id": "housing_qa_statute_comprehension",
+  "model_name": "openai/gpt-oss-120b",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-07T23:40:43.502472Z",
+  "metrics": {
+    "accuracy": 0.5423605024832019,
+    "balanced_accuracy": 0.5370458227478683,
+    "f1_macro": 0.5275781177125404,
+    "f1_micro": 0.5423605024832019,
+    "f1": 0.4440106477373558,
+    "valid_predictions_ratio": 0.999124343257443,
+    "n_samples": 6852
+  },
+  "predictions_url": "results/housing_qa_statute_comprehension/openai_gpt-oss-120b/base/run_2025-08-07T12:31:37.666529+00:00_30d14d_predictions.json"
+}

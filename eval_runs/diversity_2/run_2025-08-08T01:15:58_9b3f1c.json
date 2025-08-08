@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-08T01:15:58_9b3f1c",
+  "task_id": "diversity_2",
+  "model_name": "gpt-5-2025-08-07",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-08T01:53:04.495508Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "f1": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 300
+  },
+  "predictions_url": "results/diversity_2/gpt-5-2025-08-07/base/run_2025-08-08T01:15:58_9b3f1c_predictions.json"
+}

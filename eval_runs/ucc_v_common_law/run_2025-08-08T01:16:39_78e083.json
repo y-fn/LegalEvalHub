@@ -1,0 +1,17 @@
+{
+  "submission_id": "run_2025-08-08T01:16:39_78e083",
+  "task_id": "ucc_v_common_law",
+  "model_name": "gpt-5-2025-08-07",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-08T01:52:26.152057Z",
+  "metrics": {
+    "accuracy": 1.0,
+    "balanced_accuracy": 1.0,
+    "f1_macro": 1.0,
+    "f1_micro": 1.0,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/ucc_v_common_law/gpt-5-2025-08-07/base/run_2025-08-08T01:16:39_78e083_predictions.json"
+}

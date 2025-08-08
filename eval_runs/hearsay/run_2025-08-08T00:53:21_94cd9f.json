@@ -1,0 +1,18 @@
+{
+  "submission_id": "run_2025-08-08T00:53:21_94cd9f",
+  "task_id": "hearsay",
+  "model_name": "gpt-5-2025-08-07",
+  "prompt_id": "base",
+  "submitter": "Unknown",
+  "submission_time": "2025-08-08T01:15:20.750162Z",
+  "metrics": {
+    "accuracy": 0.7872340425531915,
+    "balanced_accuracy": 0.7616198803497469,
+    "f1_macro": 0.7665176353700944,
+    "f1_micro": 0.7872340425531915,
+    "f1": 0.696969696969697,
+    "valid_predictions_ratio": 1.0,
+    "n_samples": 94
+  },
+  "predictions_url": "results/hearsay/gpt-5-2025-08-07/base/run_2025-08-08T00:53:21_94cd9f_predictions.json"
+}
